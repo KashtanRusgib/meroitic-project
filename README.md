@@ -8,11 +8,13 @@ This repository contains code, database schema, and datasets for deciphering Mer
 - **db/**: PostgreSQL schema and sample data.
 - **kushites/**: Meroitic research files (LFS).
 - **REMimagesMeroitic/**: Inscription images (LFS).
+- **scripts/**: Additional scripts.
+- **mcp_servers/**: Server code.
 - **docs/**: Documentation.
 - **logs/**: Summaries of large logs.
 
 ## Setup Instructions
-1. Clone: `git clone https://github.com/yourusername/meroitic-project.git`
+1. Clone: `git clone https://github.com/mreggx/meroitic-project.git`
 2. Install Git LFS: `git lfs install`
 3. Pull LFS files: `git lfs pull`
 4. Install dependencies: `pip install -r requirements.txt`

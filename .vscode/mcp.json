@@ -1,0 +1,9 @@
+{
+  "servers": [
+    {
+      "name": "meroitic-decipher-server",
+      "path": "/home/mreggx/Desktop/Projects/meroitic_project/mcp_servers/meroitic-decipher-server/meroitic-decipher-server/build/index.js",
+      "description": "MCP server for Meroitic script decipherment tools and resources"
+    }
+  ]
+}
