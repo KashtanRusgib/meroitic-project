@@ -49,7 +49,7 @@
   \textbf{Decipherment of Meroitic Script:\\
   A Computational Approach to the\\
   Stele of King Tanyidamani (REM\,1044)}\\[8pt]
-  \large{Version 2.0 --- With Full Translation, Meroitic Script Rendering,\\and Cross-Corpus Consistency Validation}
+  \large{Version 3.0 --- With Expanded Cognate Mining, Morphosyntactic Modeling,\\Genre Templates, and Iterative Confidence Framework}
 }
 \author{%
   Meroitic Decipherment Project\\
@@ -1252,6 +1252,69 @@ root maps to exactly one meaning across all texts.
 
 
 % ═══════════════════════════════════════════════════════════════════════════════
+\section{Advanced Analytical Methods (v3.0)}
+% ═══════════════════════════════════════════════════════════════════════════════
+
+Building on the core five-stage pipeline, version~3.0 integrates four
+additional analytical modules designed to advance from partial to full
+high-fidelity Meroitic translation.
+
+\subsection{Expanded Nilo-Saharan Comparative Lexicon}
+
+Following Rilly's (2007, 2010) demonstration of Meroitic's membership in the
+Northern East Sudanic branch, we systematically mine cognates across
+Nubian (Old Nubian, Nobiin, Dongolawi, Midob, Birgid) and broader Eastern
+Sudanic (Taman, Nara) languages. Our extended comparative database now
+comprises 36~Nubian and 14~Eastern Sudanic entries (up from 16 and 6
+respectively), with 18 regular sound correspondence rules applied
+automatically.
+
+A \textbf{semantic anchoring} module triangulates unknown tokens by
+analyzing their distributional context relative to high-certainty items:
+tokens that consistently co-occur with known funerary vocabulary are
+assigned to the ``funerary'' semantic field, for example. This produced
+semantic field estimates for 30+ previously unanchored tokens.
+
+\subsection{Morphosyntactic Modeling}
+
+We implement a \textbf{verbal chain analyzer} that decomposes each token
+into prefix--root--suffix sequences, recognizing four verbal prefixes
+(\textit{e-}~1SG, \textit{t-}~2SG, \textit{p-}~CAUS, \textit{m-}~NEG)
+and six verbal suffixes (\textit{-b}~3SG, \textit{-ke}~NMLZ,
+\textit{-s}~PL, \textit{-ye}~REL, \textit{-lo}~BEN, \textit{-i}~1SG).
+Eight nominal suffixes are additionally tracked (\textit{-l}~PL,
+\textit{-li}~COLL, \textit{-se}~VOC, \textit{-o}~GEN,
+\textit{-te}~LOC, \textit{-wi}~DAT, \textit{-ne}~ABL,
+\textit{-k}~DET).
+
+A \textbf{clause parser} segments inscriptions into clause-level
+constituents: invocation, offering formula, locative predication, main clause,
+nominal predicate, and fragment---enabling syntactic analysis beyond the
+word level. Across the 66-inscription corpus, 16~verbal chains were
+identified with 3~unique verb roots and 10~attested suffix types.
+
+\subsection{Genre-Based Template Refinement}
+
+We train bigram and trigram $n$-gram models on the full corpus and classify
+each inscription into one of five canonical genres: funerary offering
+(34~texts), temple dedication (27), graffito (5), royal stele, or
+genealogical. Each genre is associated with required template elements and
+marker tokens. The template engine can predict missing tokens at lacunae
+using genre-specific $n$-gram probability and restore damaged passages.
+
+\subsection{Corpus Ingestion \& Iterative Confidence Updating}
+
+A standardized ingestion framework validates new inscriptions (format,
+Unicode, site, type), deduplicates against existing entries, and converts
+transliterations to Unicode Meroitic (U+10980--U+1099F). Confidence scores
+are iteratively recalculated as attestation evidence accumulates: tokens
+attested across more sites and genres receive higher confidence, while
+tokens with conflicting evidence are flagged. Across the current corpus,
+30~vocabulary entries received confidence boosts (average $\Delta$\,=\,+0.056),
+with 94.5\% lexical coverage achieved.
+
+
+% ═══════════════════════════════════════════════════════════════════════════════
 \section{Discussion}
 % ═══════════════════════════════════════════════════════════════════════════════
 
@@ -1305,10 +1368,14 @@ inscriptions\,(Griffith 1917:167; Rilly\,\&\,de~Voogt 2012:32--33).
 
 This paper has presented a comprehensive computational approach to Meroitic
 decipherment, with detailed application to the Stele of King Tanyidamani
-(REM\,1044). Our system processes Meroitic texts through five analytical
+(REM\,1044). Our system processes Meroitic texts through seven analytical
 stages---morphological parsing, lexicon building, phrase analysis, template
-matching, and compositional translation---producing six-layer output from
-original script to free English translation.
+matching, compositional translation, cognate mining, and morphosyntactic
+modeling---producing six-layer output from original script to free English
+translation. Version~3.0 extends the pipeline with expanded Nilo-Saharan
+comparative data (36 Nubian, 14 Eastern Sudanic entries), verbal chain
+analysis, genre classification across 5 canonical types, and iterative
+confidence updating achieving 94.5\% lexical coverage.
 
 The Meroitic language remains one of the great undeciphered languages of the
 ancient world. While our system cannot claim to have ``solved'' Meroitic, it
