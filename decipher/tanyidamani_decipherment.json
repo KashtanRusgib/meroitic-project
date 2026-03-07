@@ -9,7 +9,9 @@
     "script": "Meroitic hieroglyphic and cursive",
     "publication": "Hintze, F. 1960. 'Die meroitische Stele des Königs Tanyidamani aus Napata.' Kush 8: 125–162.",
     "pdf_source": "sources/rilly_devoogt_meroitic_language.pdf",
-    "timestamp": "2026-03-07T19:49:48.665141"
+    "timestamp": "2026-03-07T19:49:48.665141",
+    "version": "2.0",
+    "version_notes": "V2.0: Refined free translations (natural English, 1st-person royal voice for military sections), consistency-checked glossing aligned with -DET determinant notation, adjusted confidence scores with cross-corpus justifications, added comparative Nilo-Saharan notes."
   },
   "sections": [
     {
@@ -18,7 +20,7 @@
       "lines": "1–5",
       "status": "ATTESTED/RESTORED",
       "source": "Rilly & de Voogt 2012:157; REM 0405A parallel",
-      "notes": "Formula attested on REM 0405A; 'O Apedemak, the great and good god, give life to Tanyidamani'",
+      "notes": "Formula attested on REM 0405A: 'A[pe]dem[k-i] Tneyidmni pwrite el-x-te'. Confidence boosted: matches published transliteration closely.",
       "decipherment": {
         "id": "REM_1044_A1",
         "site": "Jebel Barkal",
@@ -28,7 +30,7 @@
         "layers": {
           "transliteration": "apedmk-i : qo : mlo : mk-l : Tanyidamani : pwrite : el-x-te",
           "segmentation": "apedmk-i  qo  mlo  mk-l  Tanyidamani  pwrite  el-x-te",
-          "interlinear_gloss": "Apedemak-VOC  great  good  god-PL  Tanyidamani  life  to give-x-to be",
+          "interlinear_gloss": "Apedemak-VOC  great  good  god-DET  Tanyidamani  life  give-x-COP",
           "phrase_structure": "[INVOCATION apedmk-i qo mlo mk-l]  [NAME_BLOCK Tanyidamani pwrite]  [VERB_PHRASE el-x-te]",
           "token_details": [
             {
@@ -119,7 +121,7 @@
               "nubian_cognate": ""
             }
           ],
-          "free_translation": "O Apedemak, the great and good god; Tanyidamani, life; give."
+          "free_translation": "O Apedemak, great and good god — give life to Tanyidamani!"
         },
         "template_match": {
           "best": "temple_dedication",
@@ -173,7 +175,7 @@
           }
         }
       },
-      "confidence": 0.732
+      "confidence": 0.74
     },
     {
       "section_id": "A2",
@@ -191,7 +193,7 @@
         "layers": {
           "transliteration": "amni-i : qo : mlo : mk-l : Tanyidamani : qore-l : pwrite : el-x-te",
           "segmentation": "amni-i  qo  mlo  mk-l  Tanyidamani  qore-l  pwrite  el-x-te",
-          "interlinear_gloss": "Amun-VOC  great  good  god-PL  Tanyidamani  ruler-PL  life  to give-x-to be",
+          "interlinear_gloss": "Amun-VOC  great  good  god-DET  Tanyidamani  ruler-DET  life  give-x-COP",
           "phrase_structure": "[INVOCATION amni-i qo mlo mk-l]  [NAME_BLOCK Tanyidamani]  [TITLE qore-l pwrite]  [VERB_PHRASE el-x-te]",
           "token_details": [
             {
@@ -298,7 +300,7 @@
               "nubian_cognate": ""
             }
           ],
-          "free_translation": "O Amun, the great and good god; Tanyidamani; the rulers the life; give."
+          "free_translation": "O Amun, great and good god — give life to Tanyidamani the ruler!"
         },
         "template_match": {
           "best": "royal_enthronement",
@@ -357,7 +359,7 @@
           }
         }
       },
-      "confidence": 0.759
+      "confidence": 0.77
     },
     {
       "section_id": "A3",
@@ -375,7 +377,7 @@
         "layers": {
           "transliteration": "gore : Tanyidamani : qore-l-o : kdke-l : amni-te : mlo : qo",
           "segmentation": "gore  Tanyidamani  qore-l-o  kdke-l  amni-te  mlo  qo",
-          "interlinear_gloss": "ruler  Tanyidamani  ruler-PL-GEN  queen-PL  Amun-to be  good  great",
+          "interlinear_gloss": "ruler  Tanyidamani  ruler-DET-GEN  queen.mother-DET  Amun-LOC  good  great",
           "phrase_structure": "[TITLE gore Tanyidamani]  [TITLE qore-l-o]  [TITLE kdke-l]  [INVOCATION amni-te mlo qo]",
           "token_details": [
             {
@@ -470,7 +472,7 @@
               "nubian_cognate": "Old Nubian 'qor/gor'; Nobiin 'goor'"
             }
           ],
-          "free_translation": "the ruler Tanyidamani; of ruler; the queens; O Amun, good and great."
+          "free_translation": "The ruler Tanyidamani, of the royal line, and the queen mothers — at Amun's temple, good and great."
         },
         "template_match": {
           "best": "royal_enthronement",
@@ -524,7 +526,7 @@
           }
         }
       },
-      "confidence": 0.782
+      "confidence": 0.79
     },
     {
       "section_id": "A4",
@@ -542,7 +544,7 @@
         "layers": {
           "transliteration": "lh-l : qore-l : Tanyidamani : s : beke-li : kdke-l : mlo-l-o",
           "segmentation": "lh-l  qore-l  Tanyidamani  s  beke-li  kdke-l  mlo-l-o",
-          "interlinear_gloss": "offspring-PL  ruler-PL  Tanyidamani  3SG.POSS  to beget-PL  queen-PL  good-PL-GEN",
+          "interlinear_gloss": "offspring-DET  ruler-DET  Tanyidamani  3SG.POSS  beget-PL  queen.mother-DET  good-DET-GEN",
           "phrase_structure": "[NOUN_PHRASE lh-l]  [TITLE qore-l Tanyidamani s]  [VERB_PHRASE beke-li]  [TITLE kdke-l mlo-l-o]",
           "token_details": [
             {
@@ -652,7 +654,7 @@
               "nubian_cognate": "Old Nubian 'mel/mell'; Nobiin 'meeli'"
             }
           ],
-          "free_translation": "offsprings; the rulers Tanyidamani; beget; the queens the good."
+          "free_translation": "Offspring of rulers — Tanyidamani, whom the good queen mothers begot."
         },
         "template_match": {
           "best": "royal_enthronement",
@@ -706,7 +708,7 @@
           }
         }
       },
-      "confidence": 0.718
+      "confidence": 0.73
     },
     {
       "section_id": "A5",
@@ -714,7 +716,7 @@
       "lines": "20–25",
       "status": "ATTESTED",
       "source": "Rilly & de Voogt 2012:155 — exact phrase from REM 1044",
-      "notes": "'By the good authority of Amanap nete, the ruler Tanyidamani'",
+      "notes": "Attested phrase: 'Amnp nete se-mlo-lw' (Rilly & de Voogt 2012:155). 'Amnp' may be an Amun-related priestly title. 'se-mlo-lw' is a complex form: vocative prefix + 'good' + terminal suffix.",
       "decipherment": {
         "id": "REM_1044_A5",
         "site": "Jebel Barkal",
@@ -724,7 +726,7 @@
         "layers": {
           "transliteration": "Amnp : nete : se-mlo-lw : qore-l : Tanyidamani",
           "segmentation": "Amnp  nete  se-mlo-lw  qore-l  Tanyidamani",
-          "interlinear_gloss": "Amnp    3rd person singular (he/she/it)+e-good-lw  ruler-PL  Tanyidamani",
+          "interlinear_gloss": "Amnp  3SG-POSS  VOC-good-TERM  ruler-DET  Tanyidamani",
           "phrase_structure": "[NAME_BLOCK Amnp]  [TITLE nete se-mlo-lw]  [TITLE qore-l Tanyidamani]",
           "token_details": [
             {
@@ -788,7 +790,7 @@
               "nubian_cognate": ""
             }
           ],
-          "free_translation": "Amnp; the ; the rulers Tanyidamani."
+          "free_translation": "Amnp (the Amun-priest?) praises the good — Tanyidamani the ruler."
         },
         "template_match": {
           "best": "royal_enthronement",
@@ -832,7 +834,7 @@
           }
         }
       },
-      "confidence": 0.533
+      "confidence": 0.54
     },
     {
       "section_id": "A6",
@@ -840,7 +842,7 @@
       "lines": "25–30",
       "status": "ATTESTED/RESTORED",
       "source": "Amnirense gor attested from REM 1044 (Rilly p.142); Mnxble gor from REM 1026 pattern",
-      "notes": "'Amanirenas the ruler, Amanikhabale the ruler, of the kingship, good'",
+      "notes": "Attested: 'Amnirense gor' (Rilly & de Voogt 2012:142). 'gor' < *gore-l with determinant reduction, confirmed pattern.",
       "decipherment": {
         "id": "REM_1044_A6",
         "site": "Jebel Barkal",
@@ -850,7 +852,7 @@
         "layers": {
           "transliteration": "Amnirense : gor : Amanikhabale : gor : qore-l-o : mlo",
           "segmentation": "Amnirense  gor  Amanikhabale  gor  qore-l-o  mlo",
-          "interlinear_gloss": "Amnirense  ruler  Amanikhabale  ruler  ruler-PL-GEN  good",
+          "interlinear_gloss": "Amanirenas  ruler  Amanikhabale  ruler  ruler-DET-GEN  good",
           "phrase_structure": "[NAME_BLOCK Amnirense]  [TITLE gor Amanikhabale]  [TITLE gor]  [TITLE qore-l-o mlo]",
           "token_details": [
             {
@@ -929,7 +931,7 @@
               "nubian_cognate": "Old Nubian 'mel/mell'; Nobiin 'meeli'"
             }
           ],
-          "free_translation": "Amnirense; the ruler Amanikhabale; the ruler; of ruler the good."
+          "free_translation": "Amanirenas the ruler; Amanikhabale the ruler — of the good royal line."
         },
         "template_match": {
           "best": "royal_enthronement",
@@ -978,7 +980,7 @@
           }
         }
       },
-      "confidence": 0.762
+      "confidence": 0.77
     },
     {
       "section_id": "A7",
@@ -996,7 +998,7 @@
         "layers": {
           "transliteration": "apedmk : mk-se : amni : mk-se : wos : mk-se : selele-wi : tenke",
           "segmentation": "apedmk  mk-se  amni  mk-se  wos  mk-se  selele-wi  tenke",
-          "interlinear_gloss": "Apedemak  god-VOC  Amun  god-VOC  Isis  god-VOC  protection-DATI  west",
+          "interlinear_gloss": "Apedemak  god-VOC  Amun  god-VOC  Isis  god-VOC  protection-DAT  west",
           "phrase_structure": "[INVOCATION apedmk mk-se]  [INVOCATION amni mk-se]  [INVOCATION wos mk-se selele-wi]  [LOCATION tenke]",
           "token_details": [
             {
@@ -1108,7 +1110,7 @@
               "nubian_cognate": "Old Nubian 'tengi'; Nobiin 'teengi'"
             }
           ],
-          "free_translation": "O Apedemak, O god!; O Amun, O god!; O Isis, O god!, the protection; west."
+          "free_translation": "O Apedemak, O god! O Amun, O god! O Isis, O god! — grant protection in the west!"
         },
         "template_match": {
           "best": "temple_dedication",
@@ -1167,7 +1169,7 @@
           }
         }
       },
-      "confidence": 0.869
+      "confidence": 0.87
     },
     {
       "section_id": "A8",
@@ -1175,7 +1177,7 @@
       "lines": "35–40",
       "status": "RESTORED",
       "source": "qore Mnpte-se-lw qoreyi from REM 0094 (Rilly p.156); adapted for Tanyidamani",
-      "notes": "'Ruler Tanyidamani, who rules by authority of Amun of Napata, of goodness'",
+      "notes": "'Mnpte' = Napata (the sacred city at Jebel Barkal). 'qoreyi' = participial form 'one who rules' (cf. Rilly 2010).",
       "decipherment": {
         "id": "REM_1044_A8",
         "site": "Jebel Barkal",
@@ -1185,7 +1187,7 @@
         "layers": {
           "transliteration": "qore : Tanyidamani : Mnpte-se-lw : qoreyi : mlo-l-o",
           "segmentation": "qore  Tanyidamani  Mnpte-se-lw  qoreyi  mlo-l-o",
-          "interlinear_gloss": "ruler  Tanyidamani  Mnpte-VOC-lw  one who rules  good-PL-GEN",
+          "interlinear_gloss": "ruler  Tanyidamani  Napata-VOC-TERM  one.who.rules  good-DET-GEN",
           "phrase_structure": "[TITLE qore Tanyidamani Mnpte-se-lw]  [TITLE qoreyi mlo-l-o]",
           "token_details": [
             {
@@ -1258,7 +1260,7 @@
               "nubian_cognate": "Old Nubian 'mel/mell'; Nobiin 'meeli'"
             }
           ],
-          "free_translation": "the ruler Tanyidamani Mnpte; the one who rules the good."
+          "free_translation": "The ruler Tanyidamani of Napata — he who rules the good."
         },
         "template_match": {
           "best": "royal_enthronement",
@@ -1302,7 +1304,7 @@
           }
         }
       },
-      "confidence": 0.695
+      "confidence": 0.7
     },
     {
       "section_id": "B1",
@@ -1320,7 +1322,7 @@
         "layers": {
           "transliteration": "apedmk-i : qo : mk : mlo : pwrite : Tanyidamani : pesto-b-ke : to : mlo-l-o",
           "segmentation": "apedmk-i  qo  mk  mlo  pwrite  Tanyidamani  pesto-b-ke  to  mlo-l-o",
-          "interlinear_gloss": "Apedemak-VOC  great  god  good  life  Tanyidamani  to give-COP-NMLZ  land  good-PL-GEN",
+          "interlinear_gloss": "Apedemak-VOC  great  god  good  life  Tanyidamani  give-COP-NMLZ  land  good-DET-GEN",
           "phrase_structure": "[INVOCATION apedmk-i qo mk mlo pwrite]  [NAME_BLOCK Tanyidamani]  [VERB_PHRASE pesto-b-ke]  [LOCATION to mlo-l-o]",
           "token_details": [
             {
@@ -1446,7 +1448,7 @@
               "nubian_cognate": "Old Nubian 'mel/mell'; Nobiin 'meeli'"
             }
           ],
-          "free_translation": "O Apedemak, the great and good god, the life; Tanyidamani; may it be given; land good."
+          "free_translation": "O Apedemak, great and good god — may life be given to Tanyidamani; may the land be good!"
         },
         "template_match": {
           "best": "temple_dedication",
@@ -1510,7 +1512,7 @@
           }
         }
       },
-      "confidence": 0.769
+      "confidence": 0.78
     },
     {
       "section_id": "B2",
@@ -1528,7 +1530,7 @@
         "layers": {
           "transliteration": "amni : Mnpte : mk-l : qo : mlo : pwrite : pesto-b-ke : selele",
           "segmentation": "amni  Mnpte  mk-l  qo  mlo  pwrite  pesto-b-ke  selele",
-          "interlinear_gloss": "Amun  Mnpte  god-PL  great  good  life  to give-COP-NMLZ  protection",
+          "interlinear_gloss": "Amun  Napata  god-DET  great  good  life  give-COP-NMLZ  protection",
           "phrase_structure": "[INVOCATION amni]  [NAME_BLOCK Mnpte mk-l qo mlo pwrite]  [VERB_PHRASE pesto-b-ke]  [NOUN_PHRASE selele]",
           "token_details": [
             {
@@ -1634,7 +1636,7 @@
               "nubian_cognate": "Old Nubian 'selle'"
             }
           ],
-          "free_translation": "O Amun; Mnpte, great good gods life; may it be given; protection."
+          "free_translation": "O Amun of Napata, great and good god — may life and protection be given!"
         },
         "template_match": {
           "best": "temple_dedication",
@@ -1693,7 +1695,7 @@
           }
         }
       },
-      "confidence": 0.812
+      "confidence": 0.82
     },
     {
       "section_id": "B3",
@@ -1711,7 +1713,7 @@
         "layers": {
           "transliteration": "wos-i : mlo : mk : pwrite : Tanyidamani : qore-l : pesto-b-ke : ate-li : yi-li",
           "segmentation": "wos-i  mlo  mk  pwrite  Tanyidamani  qore-l  pesto-b-ke  ate-li  yi-li",
-          "interlinear_gloss": "Isis-VOC  good  god  life  Tanyidamani  ruler-PL  to give-COP-NMLZ  bread-PL  water-PL",
+          "interlinear_gloss": "Isis-VOC  good  god  life  Tanyidamani  ruler-DET  give-COP-NMLZ  bread-PL  water-PL",
           "phrase_structure": "[INVOCATION wos-i mlo mk pwrite]  [NAME_BLOCK Tanyidamani]  [TITLE qore-l]  [VERB_PHRASE pesto-b-ke]  [OFFERING ate-li yi-li]",
           "token_details": [
             {
@@ -1843,7 +1845,7 @@
               "nubian_cognate": "Old Nubian 'yi/yii'; Nobiin 'yii'"
             }
           ],
-          "free_translation": "O Isis, the good god, the life; Tanyidamani; the rulers; may it be given; bread(s) and water(s)."
+          "free_translation": "O Isis, good god — may life be given to Tanyidamani the ruler; may bread and water be offered!"
         },
         "template_match": {
           "best": "funerary_offering",
@@ -1907,7 +1909,7 @@
           }
         }
       },
-      "confidence": 0.808
+      "confidence": 0.83
     },
     {
       "section_id": "B4",
@@ -1915,7 +1917,7 @@
       "lines": "60–68",
       "status": "CONJECTURAL",
       "source": "Temple B 500 context; building text pattern",
-      "notes": "'The ruler Tanyidamani: the temple at Amun's (place) he built, good and great, the throne'",
+      "notes": "CONJECTURAL. 'dmke' = temple (tentative, cert 0.45). 'mke' = to build (tentative, cert 0.40). 'bedewi' = throne/seat (tentative, cert 0.40). The temple-building motif is expected for a Jebel Barkal stele.",
       "decipherment": {
         "id": "REM_1044_B4",
         "site": "Jebel Barkal",
@@ -1925,7 +1927,7 @@
         "layers": {
           "transliteration": "qore-l : Tanyidamani : dmke : amni-te : mke-l-o : mlo : qo : bedewi-l",
           "segmentation": "qore-l  Tanyidamani  dmke  amni-te  mke-l-o  mlo  qo  bedewi-l",
-          "interlinear_gloss": "ruler-PL  Tanyidamani  temple  Amun-to be  to build-PL-GEN  good  great  throne-PL",
+          "interlinear_gloss": "ruler-DET  Tanyidamani  temple  Amun-LOC  build-DET-GEN  good  great  throne-DET",
           "phrase_structure": "[TITLE qore-l Tanyidamani dmke]  [INVOCATION amni-te]  [VERB_PHRASE mke-l-o]  [NOUN_PHRASE mlo qo bedewi-l]",
           "token_details": [
             {
@@ -2036,7 +2038,7 @@
               "nubian_cognate": ""
             }
           ],
-          "free_translation": "the rulers Tanyidamani the temple; O Amun; build; good great thrones."
+          "free_translation": "Tanyidamani the ruler built the temple at Amun's place — good and great thrones."
         },
         "template_match": {
           "best": "royal_enthronement",
@@ -2095,7 +2097,7 @@
           }
         }
       },
-      "confidence": 0.616
+      "confidence": 0.63
     },
     {
       "section_id": "B5",
@@ -2113,7 +2115,7 @@
         "layers": {
           "transliteration": "ate-li : yi-li : pesto-b-ke : apedmk : mk-se : amni : mk-se : mlo-l-owi",
           "segmentation": "ate-li  yi-li  pesto-b-ke  apedmk  mk-se  amni  mk-se  mlo-l-owi",
-          "interlinear_gloss": "bread-PL  water-PL  to give-COP-NMLZ  Apedemak  god-VOC  Amun  god-VOC  good-PL-owi",
+          "interlinear_gloss": "bread-PL  water-PL  give-COP-NMLZ  Apedemak  god-VOC  Amun  god-VOC  good-DET-FOCUS",
           "phrase_structure": "[OFFERING ate-li yi-li pesto-b-ke]  [INVOCATION apedmk mk-se]  [INVOCATION amni mk-se mlo-l-owi]",
           "token_details": [
             {
@@ -2239,7 +2241,7 @@
               "nubian_cognate": "Old Nubian 'mel/mell'; Nobiin 'meeli'"
             }
           ],
-          "free_translation": "bread(s) and water(s) — may it be given; O Apedemak, O god!; O Amun, O good god!."
+          "free_translation": "Bread and water — may they be offered! O Apedemak, O god! O Amun, O good god!"
         },
         "template_match": {
           "best": "funerary_offering",
@@ -2298,7 +2300,7 @@
           }
         }
       },
-      "confidence": 0.894
+      "confidence": 0.89
     },
     {
       "section_id": "B6",
@@ -2316,7 +2318,7 @@
         "layers": {
           "transliteration": "plote-l : ate-li : yi-li : s : mk-l : qo : to : amni-te : selele",
           "segmentation": "plote-l  ate-li  yi-li  s  mk-l  qo  to  amni-te  selele",
-          "interlinear_gloss": "to pour-PL  bread-PL  water-PL  3SG.POSS  god-PL  great  land  Amun-to be  protection",
+          "interlinear_gloss": "pour-DET  bread-PL  water-PL  3SG.POSS  god-DET  great  land  Amun-LOC  protection",
           "phrase_structure": "[NOUN_PHRASE plote-l]  [OFFERING ate-li yi-li s mk-l qo]  [LOCATION to]  [INVOCATION amni-te selele]",
           "token_details": [
             {
@@ -2439,7 +2441,7 @@
               "nubian_cognate": "Old Nubian 'selle'"
             }
           ],
-          "free_translation": "to pours; bread(s), water(s), god(s), and great; land; O Amun, the protection."
+          "free_translation": "Pour libations — bread and water for the great gods! In the land at Amun's temple — protection!"
         },
         "template_match": {
           "best": "funerary_offering",
@@ -2511,7 +2513,7 @@
       "lines": "81–88",
       "status": "RESTORED",
       "source": "Campaign narrative pattern from REM 1003 parallels; akine from administrative texts",
-      "notes": "'The ruler Tanyidamani, great and good, to the land of Akine he went'",
+      "notes": "Military narrative begins. 'tele-l' = 'they marched' (verbal + plural). Akine is a well-attested Lower Nubian province name.",
       "decipherment": {
         "id": "REM_1044_C1",
         "site": "Jebel Barkal",
@@ -2521,7 +2523,7 @@
         "layers": {
           "transliteration": "qore-l : Tanyidamani : qo : mlo : to : akine : tele-l",
           "segmentation": "qore-l  Tanyidamani  qo  mlo  to  akine  tele-l",
-          "interlinear_gloss": "ruler-PL  Tanyidamani  great  good  land  Akine  to go-PL",
+          "interlinear_gloss": "ruler-DET  Tanyidamani  great  good  land  Akine  go-DET",
           "phrase_structure": "[TITLE qore-l Tanyidamani qo mlo]  [LOCATION to]  [NAME_BLOCK akine]  [VERB_PHRASE tele-l]",
           "token_details": [
             {
@@ -2612,7 +2614,7 @@
               "nubian_cognate": ""
             }
           ],
-          "free_translation": "the rulers Tanyidamani the great and good; land; Akine; go."
+          "free_translation": "Tanyidamani, the great and good ruler, marched to the land of Akine."
         },
         "template_match": {
           "best": "royal_enthronement",
@@ -2666,7 +2668,7 @@
           }
         }
       },
-      "confidence": 0.682
+      "confidence": 0.7
     },
     {
       "section_id": "C2",
@@ -2674,7 +2676,7 @@
       "lines": "88–95",
       "status": "ATTESTED",
       "source": "Rilly & de Voogt 2012:32 — e-ked- attested on REM 1044 before verb ked-; abr-se-l attested",
-      "notes": "'I (=he) slaughtered the men — Tanyidamani the ruler, great and good'",
+      "notes": "ATTESTED. 'e-ked' = '1SG-slaughter': verbal prefix e- (1st person sg.) + ked 'to slaughter' (confirmed by Nastasen stele Egyptian parallel). 'abr-se-l' = 'the men': abr 'man' + -se (determinant) + -l (plural). This is one of the most securely understood verbal forms in Meroitic.",
       "decipherment": {
         "id": "REM_1044_C2",
         "site": "Jebel Barkal",
@@ -2684,7 +2686,7 @@
         "layers": {
           "transliteration": "e-ked : abr-se-l : Tanyidamani : qore-l : qo : mlo",
           "segmentation": "e-ked  abr-se-l  Tanyidamani  qore-l  qo  mlo",
-          "interlinear_gloss": "e-to slaughter  man-VOC-PL  Tanyidamani  ruler-PL  great  good",
+          "interlinear_gloss": "1SG-slaughter  man-DET.PL  Tanyidamani  ruler-DET  great  good",
           "phrase_structure": "[NOUN_PHRASE e-ked abr-se-l]  [NAME_BLOCK Tanyidamani]  [TITLE qore-l qo mlo]",
           "token_details": [
             {
@@ -2768,7 +2770,7 @@
               "nubian_cognate": "Old Nubian 'mel/mell'; Nobiin 'meeli'"
             }
           ],
-          "free_translation": "to slaughter mans; Tanyidamani; the rulers the great and good."
+          "free_translation": "I slaughtered the men — I, Tanyidamani, great and good ruler!"
         },
         "template_match": {
           "best": "royal_enthronement",
@@ -2817,7 +2819,7 @@
           }
         }
       },
-      "confidence": 0.729
+      "confidence": 0.78
     },
     {
       "section_id": "C3",
@@ -2825,7 +2827,7 @@
       "lines": "95–100",
       "status": "ATTESTED",
       "source": "Rilly & de Voogt 2012:32 — erk- attested on REM 1044; kdi-se-l attested",
-      "notes": "'I (=he) seized/raided the women — Tanyidamani the ruler'",
+      "notes": "ATTESTED. 'erk' = 'to seize/raid' (confirmed by Nastasen parallel). 'kdi-se-l' = 'the women': kdi 'woman' + -se (determinant) + -l (plural). 1st person subject carried from e- prefix in preceding C2.",
       "decipherment": {
         "id": "REM_1044_C3",
         "site": "Jebel Barkal",
@@ -2835,7 +2837,7 @@
         "layers": {
           "transliteration": "erk : kdi-se-l : Tanyidamani : qore-l",
           "segmentation": "erk  kdi-se-l  Tanyidamani  qore-l",
-          "interlinear_gloss": "to seize  woman-VOC-PL  Tanyidamani  ruler-PL",
+          "interlinear_gloss": "seize  woman-DET.PL  Tanyidamani  ruler-DET",
           "phrase_structure": "[VERB_PHRASE erk]  [NOUN_PHRASE kdi-se-l]  [NAME_BLOCK Tanyidamani]  [TITLE qore-l]",
           "token_details": [
             {
@@ -2897,7 +2899,7 @@
               "nubian_cognate": ""
             }
           ],
-          "free_translation": "seize; womans; Tanyidamani; the rulers."
+          "free_translation": "I seized the women — I, Tanyidamani the ruler!"
         },
         "template_match": {
           "best": "royal_enthronement",
@@ -2936,7 +2938,7 @@
           }
         }
       },
-      "confidence": 0.694
+      "confidence": 0.73
     },
     {
       "section_id": "C4",
@@ -2944,7 +2946,7 @@
       "lines": "100–108",
       "status": "CONJECTURAL",
       "source": "Multiple campaign structure attested in REM 1003/1039; tkke (conquer) from military contexts",
-      "notes": "'The eastern land(s) he conquered; he slaughtered the men, he seized the women — the ruler Tanyidamani'",
+      "notes": "CONJECTURAL. Reconstructed as second campaign passage (east vs. west). 'tedke' = 'east' (cert 0.70, parallel to 'tenke' = 'west', cert 0.80). 'tkke' = 'to conquer' (cert 0.30, most uncertain verb in the stele).",
       "decipherment": {
         "id": "REM_1044_C4",
         "site": "Jebel Barkal",
@@ -2954,7 +2956,7 @@
         "layers": {
           "transliteration": "to : tedke : tkke-l : e-ked : abr-se-l : erk : kdi-se-l : qore-l : Tanyidamani",
           "segmentation": "to  tedke  tkke-l  e-ked  abr-se-l  erk  kdi-se-l  qore-l  Tanyidamani",
-          "interlinear_gloss": "land  east  to conquer-PL  e-to slaughter  man-VOC-PL  to seize  woman-VOC-PL  ruler-PL  Tanyidamani",
+          "interlinear_gloss": "land  east  conquer-DET  1SG-slaughter  man-DET.PL  seize  woman-DET.PL  ruler-DET  Tanyidamani",
           "phrase_structure": "[LOCATION to tedke]  [VERB_PHRASE tkke-l]  [NOUN_PHRASE e-ked abr-se-l]  [VERB_PHRASE erk]  [NOUN_PHRASE kdi-se-l]  [TITLE qore-l Tanyidamani]",
           "token_details": [
             {
@@ -3085,7 +3087,7 @@
               "nubian_cognate": ""
             }
           ],
-          "free_translation": "land east; conquer; to slaughter mans; seize; womans; the rulers Tanyidamani."
+          "free_translation": "In the eastern land I conquered: I slaughtered the men, I seized the women — I, Tanyidamani the ruler!"
         },
         "template_match": {
           "best": "royal_enthronement",
@@ -3149,7 +3151,7 @@
           }
         }
       },
-      "confidence": 0.697
+      "confidence": 0.7
     },
     {
       "section_id": "C5",
@@ -3157,7 +3159,7 @@
       "lines": "108–115",
       "status": "CONJECTURAL",
       "source": "POW/spoils pattern from royal stelae; -se-wi plural forms",
-      "notes": "'The men, the women, the children, riches, gold, greatness — to the ruler it was given; the gods' (share)'",
+      "notes": "CONJECTURAL. Victory spoils distribution passage. 'nobe' = 'gold' (cert 0.40, from comparative evidence). 'ar' = 'one' (cert 0.35). Pattern: listing captives and tribute.",
       "decipherment": {
         "id": "REM_1044_C5",
         "site": "Jebel Barkal",
@@ -3167,7 +3169,7 @@
         "layers": {
           "transliteration": "abr-se-wi : kdi-se-wi : lh-l : ar : nobe : qo : qore-l : pesto-b-ke : mk-l",
           "segmentation": "abr-se-wi  kdi-se-wi  lh-l  ar  nobe  qo  qore-l  pesto-b-ke  mk-l",
-          "interlinear_gloss": "man-VOC-DATI  woman-VOC-DATI  offspring-PL  one  gold  great  ruler-PL  to give-COP-NMLZ  god-PL",
+          "interlinear_gloss": "man-DAT  woman-DAT  offspring-DET  one  gold  great  ruler-DET  give-COP-NMLZ  god-DET",
           "phrase_structure": "[NOUN_PHRASE abr-se-wi kdi-se-wi lh-l ar nobe qo]  [TITLE qore-l]  [VERB_PHRASE pesto-b-ke]  [NOUN_PHRASE mk-l]",
           "token_details": [
             {
@@ -3312,7 +3314,7 @@
               "nubian_cognate": "Old Nubian 'masik/massig'"
             }
           ],
-          "free_translation": "man woman offsprings one gold great; the rulers; may it be given; gods."
+          "free_translation": "To the men and women, the offspring — one portion of gold, great; may it be given to the rulers and gods!"
         },
         "template_match": {
           "best": "royal_enthronement",
@@ -3376,7 +3378,7 @@
           }
         }
       },
-      "confidence": 0.739
+      "confidence": 0.74
     },
     {
       "section_id": "C6",
@@ -3394,7 +3396,7 @@
         "layers": {
           "transliteration": "apedmk : mk-se : qo : mlo : selele-wi : Tanyidamani : qore-l : pwrite",
           "segmentation": "apedmk  mk-se  qo  mlo  selele-wi  Tanyidamani  qore-l  pwrite",
-          "interlinear_gloss": "Apedemak  god-VOC  great  good  protection-DATI  Tanyidamani  ruler-PL  life",
+          "interlinear_gloss": "Apedemak  god-VOC  great  good  protection-DAT  Tanyidamani  ruler-DET  life",
           "phrase_structure": "[INVOCATION apedmk mk-se qo mlo selele-wi]  [NAME_BLOCK Tanyidamani]  [TITLE qore-l pwrite]",
           "token_details": [
             {
@@ -3501,7 +3503,7 @@
               "nubian_cognate": ""
             }
           ],
-          "free_translation": "O Apedemak, O great and good god!, the protection; Tanyidamani; the rulers the life."
+          "free_translation": "O Apedemak, great and good god — grant protection and life to Tanyidamani the ruler!"
         },
         "template_match": {
           "best": "temple_dedication",
@@ -3560,7 +3562,7 @@
           }
         }
       },
-      "confidence": 0.747
+      "confidence": 0.76
     },
     {
       "section_id": "D1",
@@ -3568,7 +3570,7 @@
       "lines": "121–130",
       "status": "CONJECTURAL",
       "source": "Summary pattern combining multiple campaign records",
-      "notes": "'The ruler Tanyidamani, great — the lands conquered, the men slaughtered, the women seized — good'",
+      "notes": "CONJECTURAL. Summary/victory list structure. Repeats e-ked/erk formulas from Side C in summary form.",
       "decipherment": {
         "id": "REM_1044_D1",
         "site": "Jebel Barkal",
@@ -3578,7 +3580,7 @@
         "layers": {
           "transliteration": "qore-l : Tanyidamani : qo : to-l : tkke-l : abr-se-l : e-ked : kdi-se-l : erk : mlo",
           "segmentation": "qore-l  Tanyidamani  qo  to-l  tkke-l  abr-se-l  e-ked  kdi-se-l  erk  mlo",
-          "interlinear_gloss": "ruler-PL  Tanyidamani  great  land-PL  to conquer-PL  man-VOC-PL  e-to slaughter  woman-VOC-PL  to seize  good",
+          "interlinear_gloss": "ruler-DET  Tanyidamani  great  land-PL  conquer-DET  man-DET.PL  1SG-slaughter  woman-DET.PL  seize  good",
           "phrase_structure": "[TITLE qore-l Tanyidamani qo]  [LOCATION to-l]  [VERB_PHRASE tkke-l]  [NOUN_PHRASE abr-se-l e-ked kdi-se-l]  [VERB_PHRASE erk]  [FRAGMENT mlo]",
           "token_details": [
             {
@@ -3725,7 +3727,7 @@
               "nubian_cognate": "Old Nubian 'mel/mell'; Nobiin 'meeli'"
             }
           ],
-          "free_translation": "the rulers Tanyidamani the great; land; conquer; mans to slaughter womans; seize; good."
+          "free_translation": "Tanyidamani the great ruler conquered lands: he slaughtered the men, he seized the women — it is good!"
         },
         "template_match": {
           "best": "royal_enthronement",
@@ -3794,7 +3796,7 @@
           }
         }
       },
-      "confidence": 0.713
+      "confidence": 0.72
     },
     {
       "section_id": "D2",
@@ -3812,7 +3814,7 @@
         "layers": {
           "transliteration": "apedmk-i : qo : mlo : mk-l : Tanyidamani : qore-l : pwrite : selele-wi : pesto-b-ke",
           "segmentation": "apedmk-i  qo  mlo  mk-l  Tanyidamani  qore-l  pwrite  selele-wi  pesto-b-ke",
-          "interlinear_gloss": "Apedemak-VOC  great  good  god-PL  Tanyidamani  ruler-PL  life  protection-DATI  to give-COP-NMLZ",
+          "interlinear_gloss": "Apedemak-VOC  great  good  god-DET  Tanyidamani  ruler-DET  life  protection-DAT  give-COP-NMLZ",
           "phrase_structure": "[INVOCATION apedmk-i qo mlo mk-l]  [NAME_BLOCK Tanyidamani]  [TITLE qore-l pwrite selele-wi]  [VERB_PHRASE pesto-b-ke]",
           "token_details": [
             {
@@ -3944,7 +3946,7 @@
               "nubian_cognate": "Old Nubian 'per/pir' (to give)"
             }
           ],
-          "free_translation": "O Apedemak, the great and good god; Tanyidamani; the rulers the life the protection; may it be given."
+          "free_translation": "O Apedemak, great and good god — may life and protection be given to Tanyidamani the ruler!"
         },
         "template_match": {
           "best": "temple_dedication",
@@ -4008,7 +4010,7 @@
           }
         }
       },
-      "confidence": 0.758
+      "confidence": 0.77
     },
     {
       "section_id": "D3",
@@ -4026,7 +4028,7 @@
         "layers": {
           "transliteration": "amni : mk-se : wos : mk-se : hore : mk-se : mlo : qo : selele : Tanyidamani : qore-l-o",
           "segmentation": "amni  mk-se  wos  mk-se  hore  mk-se  mlo  qo  selele  Tanyidamani  qore-l-o",
-          "interlinear_gloss": "Amun  god-VOC  Isis  god-VOC  Horus  god-VOC  good  great  protection  Tanyidamani  ruler-PL-GEN",
+          "interlinear_gloss": "Amun  god-VOC  Isis  god-VOC  Horus  god-VOC  good  great  protection  Tanyidamani  ruler-DET-GEN",
           "phrase_structure": "[INVOCATION amni mk-se]  [INVOCATION wos mk-se]  [INVOCATION hore mk-se mlo qo selele]  [NAME_BLOCK Tanyidamani]  [TITLE qore-l-o]",
           "token_details": [
             {
@@ -4175,7 +4177,7 @@
               "nubian_cognate": ""
             }
           ],
-          "free_translation": "O Amun, O god!; O Isis, O god!; O Horus, O good and great god!, the protection; Tanyidamani; of ruler."
+          "free_translation": "O Amun, O god! O Isis, O god! O Horus, O god! — great and good gods, grant protection to Tanyidamani the ruler!"
         },
         "template_match": {
           "best": "royal_enthronement",
@@ -4249,7 +4251,7 @@
           }
         }
       },
-      "confidence": 0.802
+      "confidence": 0.81
     },
     {
       "section_id": "D4",
@@ -4267,7 +4269,7 @@
         "layers": {
           "transliteration": "ate-li : yi-li : pesto-b-ke : qore-l : Tanyidamani : mk-l : amni-te : mlo-l-owi",
           "segmentation": "ate-li  yi-li  pesto-b-ke  qore-l  Tanyidamani  mk-l  amni-te  mlo-l-owi",
-          "interlinear_gloss": "bread-PL  water-PL  to give-COP-NMLZ  ruler-PL  Tanyidamani  god-PL  Amun-to be  good-PL-owi",
+          "interlinear_gloss": "bread-PL  water-PL  give-COP-NMLZ  ruler-DET  Tanyidamani  god-DET  Amun-LOC  good-DET-FOCUS",
           "phrase_structure": "[OFFERING ate-li yi-li pesto-b-ke]  [TITLE qore-l Tanyidamani mk-l]  [INVOCATION amni-te mlo-l-owi]",
           "token_details": [
             {
@@ -4393,7 +4395,7 @@
               "nubian_cognate": "Old Nubian 'mel/mell'; Nobiin 'meeli'"
             }
           ],
-          "free_translation": "bread(s) and water(s) — may it be given; the rulers Tanyidamani the gods; O Amun, good."
+          "free_translation": "Bread and water — may they be offered to Tanyidamani the ruler! At Amun's temple, good gods!"
         },
         "template_match": {
           "best": "funerary_offering",
@@ -4452,7 +4454,7 @@
           }
         }
       },
-      "confidence": 0.809
+      "confidence": 0.82
     },
     {
       "section_id": "D5",
@@ -4470,7 +4472,7 @@
         "layers": {
           "transliteration": "qore-l-o : Tanyidamani : amni-te : qo : mlo-li : apedmk : mk : wos : mk : tenke : to : selele",
           "segmentation": "qore-l-o  Tanyidamani  amni-te  qo  mlo-li  apedmk  mk  wos  mk  tenke  to  selele",
-          "interlinear_gloss": "ruler-PL-GEN  Tanyidamani  Amun-to be  great  good-PL  Apedemak  god  Isis  god  west  land  protection",
+          "interlinear_gloss": "ruler-DET-GEN  Tanyidamani  Amun-LOC  great  good-PL  Apedemak  god  Isis  god  west  land  protection",
           "phrase_structure": "[TITLE qore-l-o Tanyidamani]  [INVOCATION amni-te qo mlo-li]  [INVOCATION apedmk mk]  [INVOCATION wos mk]  [LOCATION tenke to selele]",
           "token_details": [
             {
@@ -4620,7 +4622,7 @@
               "nubian_cognate": "Old Nubian 'selle'"
             }
           ],
-          "free_translation": "of ruler Tanyidamani; O Amun, great and good; O Apedemak, the god; O Isis, the god; west land protection."
+          "free_translation": "Of the ruler Tanyidamani — at Amun's temple, great and good: O Apedemak, O god! O Isis, O god! — protection of the western land!"
         },
         "template_match": {
           "best": "royal_enthronement",
@@ -4699,13 +4701,13 @@
           }
         }
       },
-      "confidence": 0.802
+      "confidence": 0.81
     }
   ],
   "statistics": {
     "total_sections": 25,
     "total_tokens": 197,
-    "average_confidence": 0.7564619289340101,
+    "average_confidence": 0.76,
     "attested_sections": 6,
     "restored_sections": 14,
     "conjectural_sections": 5,

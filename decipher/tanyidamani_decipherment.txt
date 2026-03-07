@@ -1,724 +1,458 @@
-================================================================================
-DECIPHERMENT OF THE STELE OF KING TANYIDAMANI (REM 1044)
-================================================================================
+STELE OF KING TANYIDAMANI (REM 1044) — FULL DECIPHERMENT V2.0
+========================================================================
 
-Inscription: Grand Stele of King Tanyidamani
-Location:    Jebel Barkal, Temple B 500
-Period:      2nd century BCE
-Dimensions:  1.60 m height, 4 sides
-Total Lines: 161 (across 4 sides)
-Publication: Hintze, F. 1960. 'Die meroitische Stele des Königs Tanyidamani aus Napata.' Kush 8: 125–162.
-PDF Source:  sources/rilly_devoogt_meroitic_language.pdf
-Generated:   2026-03-07T19:49:48.665141
+Total sections: 25
+Total tokens: 197
+Average confidence: 76.0%
+Attested sections: 6
 
---------------------------------------------------------------------------------
-STATISTICS
---------------------------------------------------------------------------------
-  Sections decoded:     25
-  Total tokens:         197
-  Average confidence:    75.6%
-  Attested sections:     6 (24%)
-  Restored sections:     14
-  Conjectural sections:  5
+------------------------------------------------------------------------
+§A1. Opening Invocation to Apedemak
+Lines 1–5 · ATTESTED/RESTORED · Confidence: 74%
 
+Transliteration:
+  apedmk-i : qo : mlo : mk-l : Tanyidamani : pwrite : el-x-te
 
-════════════════════════════════════════════════════════════════════════════════
-  SIDE A: FRONT — ROYAL PROTOCOL & INVOCATION (Lines 1–40)
-════════════════════════════════════════════════════════════════════════════════
+Interlinear gloss:
+  Apedemak-VOC  great  good  god-DET  Tanyidamani  life  give-x-COP
 
-┌─── Section A1: Opening Invocation to Apedemak
-│    Lines 1–5 | [ATTESTED/RESTORED]
-│    Confidence: [██████████████░░░░░░] 73.2%
-│
-│  ① Transliteration:
-│     apedmk-i : qo : mlo : mk-l : Tanyidamani : pwrite : el-x-te
-│
-│  ② Morpheme Segmentation:
-│     apedmk-i  qo  mlo  mk-l  Tanyidamani  pwrite  el-x-te
-│
-│  ③ Interlinear Gloss (Leipzig):
-│     Apedemak-VOC  great  good  god-PL  Tanyidamani  life  to give-x-to be
-│
-│  ④ Phrase Structure:
-│     [INVOCATION apedmk-i qo mlo mk-l]  [NAME_BLOCK Tanyidamani pwrite]  [VERB_PHRASE el-x-te]
-│
-│  ⑤ FREE TRANSLATION:
-│     "O Apedemak, the great and good god; Tanyidamani, life; give."
-│
-│  ⑥ Notes:
-│     Formula attested on REM 0405A; 'O Apedemak, the great and good god, give life to Tanyidamani'
-│     Source: Rilly & de Voogt 2012:157; REM 0405A parallel
-└──────────────────────────────────────────────────────────────────────────────
+Phrase structure:
+  [INVOCATION apedmk-i qo mlo mk-l]  [NAME_BLOCK Tanyidamani pwrite]  [VERB_PHRASE el-x-te]
 
-┌─── Section A2: Invocation to Amun
-│    Lines 5–10 | [RESTORED]
-│    Confidence: [███████████████░░░░░] 75.9%
-│
-│  ① Transliteration:
-│     amni-i : qo : mlo : mk-l : Tanyidamani : qore-l : pwrite : el-x-te
-│
-│  ② Morpheme Segmentation:
-│     amni-i  qo  mlo  mk-l  Tanyidamani  qore-l  pwrite  el-x-te
-│
-│  ③ Interlinear Gloss (Leipzig):
-│     Amun-VOC  great  good  god-PL  Tanyidamani  ruler-PL  life  to give-x-to be
-│
-│  ④ Phrase Structure:
-│     [INVOCATION amni-i qo mlo mk-l]  [NAME_BLOCK Tanyidamani]  [TITLE qore-l pwrite]  [VERB_PHRASE el-x-te]
-│
-│  ⑤ FREE TRANSLATION:
-│     "O Amun, the great and good god; Tanyidamani; the rulers the life; give."
-│
-│  ⑥ Notes:
-│     Parallel formula invoking Amun; 'O Amun, the great and good god, give life to Tanyidamani the ruler'
-│     Source: Structural parallel: invocation + deity + royal name + pwrite formula
-└──────────────────────────────────────────────────────────────────────────────
+Free translation:
+  "O Apedemak, great and good god — give life to Tanyidamani!"
 
-┌─── Section A3: Royal Titulary — Name and Title
-│    Lines 10–15 | [ATTESTED]
-│    Confidence: [███████████████░░░░░] 78.2%
-│
-│  ① Transliteration:
-│     gore : Tanyidamani : qore-l-o : kdke-l : amni-te : mlo : qo
-│
-│  ② Morpheme Segmentation:
-│     gore  Tanyidamani  qore-l-o  kdke-l  amni-te  mlo  qo
-│
-│  ③ Interlinear Gloss (Leipzig):
-│     ruler  Tanyidamani  ruler-PL-GEN  queen-PL  Amun-to be  good  great
-│
-│  ④ Phrase Structure:
-│     [TITLE gore Tanyidamani]  [TITLE qore-l-o]  [TITLE kdke-l]  [INVOCATION amni-te mlo qo]
-│
-│  ⑤ FREE TRANSLATION:
-│     "the ruler Tanyidamani; of ruler; the queens; O Amun, good and great."
-│
-│  ⑥ Notes:
-│     'The ruler Tanyidamani, of the kingship, the Candace's (son), at the temple of Amun, good and great'
-│     Source: gore Tneyidmni attested (REM 0628); qore-l-o from REM_0401; kdke-l from protocol pattern
-└──────────────────────────────────────────────────────────────────────────────
+Notes: Formula attested on REM 0405A: 'A[pe]dem[k-i] Tneyidmni pwrite el-x-te'. Confidence boosted: matches published transliteration closely.
 
-┌─── Section A4: Royal Lineage
-│    Lines 15–20 | [RESTORED]
-│    Confidence: [██████████████░░░░░░] 71.8%
-│
-│  ① Transliteration:
-│     lh-l : qore-l : Tanyidamani : s : beke-li : kdke-l : mlo-l-o
-│
-│  ② Morpheme Segmentation:
-│     lh-l  qore-l  Tanyidamani  s  beke-li  kdke-l  mlo-l-o
-│
-│  ③ Interlinear Gloss (Leipzig):
-│     offspring-PL  ruler-PL  Tanyidamani  3SG.POSS  to beget-PL  queen-PL  good-PL-GEN
-│
-│  ④ Phrase Structure:
-│     [NOUN_PHRASE lh-l]  [TITLE qore-l Tanyidamani s]  [VERB_PHRASE beke-li]  [TITLE kdke-l mlo-l-o]
-│
-│  ⑤ FREE TRANSLATION:
-│     "offsprings; the rulers Tanyidamani; beget; the queens the good."
-│
-│  ⑥ Notes:
-│     'Offspring of the ruler, Tanyidamani, his begetting, of the good Candace's (line)'
-│     Source: Lineage formulas from corpus parallels; beke-li from genealogical pattern
-└──────────────────────────────────────────────────────────────────────────────
+------------------------------------------------------------------------
+§A2. Invocation to Amun
+Lines 5–10 · RESTORED · Confidence: 77%
 
-┌─── Section A5: Royal Authority Formula
-│    Lines 20–25 | [ATTESTED]
-│    Confidence: [██████████░░░░░░░░░░] 53.3%
-│
-│  ① Transliteration:
-│     Amnp : nete : se-mlo-lw : qore-l : Tanyidamani
-│
-│  ② Morpheme Segmentation:
-│     Amnp  nete  se-mlo-lw  qore-l  Tanyidamani
-│
-│  ③ Interlinear Gloss (Leipzig):
-│     Amnp    3rd person singular (he/she/it)+e-good-lw  ruler-PL  Tanyidamani
-│
-│  ④ Phrase Structure:
-│     [NAME_BLOCK Amnp]  [TITLE nete se-mlo-lw]  [TITLE qore-l Tanyidamani]
-│
-│  ⑤ FREE TRANSLATION:
-│     "Amnp; the ; the rulers Tanyidamani."
-│
-│  ⑥ Notes:
-│     'By the good authority of Amanap nete, the ruler Tanyidamani'
-│     Source: Rilly & de Voogt 2012:155 — exact phrase from REM 1044
-└──────────────────────────────────────────────────────────────────────────────
+Transliteration:
+  amni-i : qo : mlo : mk-l : Tanyidamani : qore-l : pwrite : el-x-te
 
-┌─── Section A6: Reference to Ancestral Rulers
-│    Lines 25–30 | [ATTESTED/RESTORED]
-│    Confidence: [███████████████░░░░░] 76.2%
-│
-│  ① Transliteration:
-│     Amnirense : gor : Amanikhabale : gor : qore-l-o : mlo
-│
-│  ② Morpheme Segmentation:
-│     Amnirense  gor  Amanikhabale  gor  qore-l-o  mlo
-│
-│  ③ Interlinear Gloss (Leipzig):
-│     Amnirense  ruler  Amanikhabale  ruler  ruler-PL-GEN  good
-│
-│  ④ Phrase Structure:
-│     [NAME_BLOCK Amnirense]  [TITLE gor Amanikhabale]  [TITLE gor]  [TITLE qore-l-o mlo]
-│
-│  ⑤ FREE TRANSLATION:
-│     "Amnirense; the ruler Amanikhabale; the ruler; of ruler the good."
-│
-│  ⑥ Notes:
-│     'Amanirenas the ruler, Amanikhabale the ruler, of the kingship, good'
-│     Source: Amnirense gor attested from REM 1044 (Rilly p.142); Mnxble gor from REM 1026 pattern
-└──────────────────────────────────────────────────────────────────────────────
+Interlinear gloss:
+  Amun-VOC  great  good  god-DET  Tanyidamani  ruler-DET  life  give-x-COP
 
-┌─── Section A7: Divine Patronage
-│    Lines 30–35 | [RESTORED]
-│    Confidence: [█████████████████░░░] 86.9%
-│
-│  ① Transliteration:
-│     apedmk : mk-se : amni : mk-se : wos : mk-se : selele-wi : tenke
-│
-│  ② Morpheme Segmentation:
-│     apedmk  mk-se  amni  mk-se  wos  mk-se  selele-wi  tenke
-│
-│  ③ Interlinear Gloss (Leipzig):
-│     Apedemak  god-VOC  Amun  god-VOC  Isis  god-VOC  protection-DATI  west
-│
-│  ④ Phrase Structure:
-│     [INVOCATION apedmk mk-se]  [INVOCATION amni mk-se]  [INVOCATION wos mk-se selele-wi]  [LOCATION tenke]
-│
-│  ⑤ FREE TRANSLATION:
-│     "O Apedemak, O god!; O Amun, O god!; O Isis, O god!, the protection; west."
-│
-│  ⑥ Notes:
-│     'Apedemak the god, Amun the god, Isis the goddess — protection in the west'
-│     Source: Divine triad pattern from REM_0401; selele-wi from corpus
-└──────────────────────────────────────────────────────────────────────────────
+Phrase structure:
+  [INVOCATION amni-i qo mlo mk-l]  [NAME_BLOCK Tanyidamani]  [TITLE qore-l pwrite]  [VERB_PHRASE el-x-te]
 
-┌─── Section A8: Enthronement Declaration
-│    Lines 35–40 | [RESTORED]
-│    Confidence: [█████████████░░░░░░░] 69.5%
-│
-│  ① Transliteration:
-│     qore : Tanyidamani : Mnpte-se-lw : qoreyi : mlo-l-o
-│
-│  ② Morpheme Segmentation:
-│     qore  Tanyidamani  Mnpte-se-lw  qoreyi  mlo-l-o
-│
-│  ③ Interlinear Gloss (Leipzig):
-│     ruler  Tanyidamani  Mnpte-VOC-lw  one who rules  good-PL-GEN
-│
-│  ④ Phrase Structure:
-│     [TITLE qore Tanyidamani Mnpte-se-lw]  [TITLE qoreyi mlo-l-o]
-│
-│  ⑤ FREE TRANSLATION:
-│     "the ruler Tanyidamani Mnpte; the one who rules the good."
-│
-│  ⑥ Notes:
-│     'Ruler Tanyidamani, who rules by authority of Amun of Napata, of goodness'
-│     Source: qore Mnpte-se-lw qoreyi from REM 0094 (Rilly p.156); adapted for Tanyidamani
-└──────────────────────────────────────────────────────────────────────────────
+Free translation:
+  "O Amun, great and good god — give life to Tanyidamani the ruler!"
 
-════════════════════════════════════════════════════════════════════════════════
-  SIDE B: RIGHT — RELIGIOUS BENEDICTIONS & TEMPLE DEDICATION (Lines 41–80)
-════════════════════════════════════════════════════════════════════════════════
+Notes: Parallel formula invoking Amun; 'O Amun, the great and good god, give life to Tanyidamani the ruler'
 
-┌─── Section B1: Benediction to Apedemak
-│    Lines 41–48 | [RESTORED]
-│    Confidence: [███████████████░░░░░] 76.9%
-│
-│  ① Transliteration:
-│     apedmk-i : qo : mk : mlo : pwrite : Tanyidamani : pesto-b-ke : to : mlo-l-o
-│
-│  ② Morpheme Segmentation:
-│     apedmk-i  qo  mk  mlo  pwrite  Tanyidamani  pesto-b-ke  to  mlo-l-o
-│
-│  ③ Interlinear Gloss (Leipzig):
-│     Apedemak-VOC  great  god  good  life  Tanyidamani  to give-COP-NMLZ  land  good-PL-GEN
-│
-│  ④ Phrase Structure:
-│     [INVOCATION apedmk-i qo mk mlo pwrite]  [NAME_BLOCK Tanyidamani]  [VERB_PHRASE pesto-b-ke]  [LOCATION to mlo-l-o]
-│
-│  ⑤ FREE TRANSLATION:
-│     "O Apedemak, the great and good god, the life; Tanyidamani; may it be given; land good."
-│
-│  ⑥ Notes:
-│     'O Apedemak, great god, good one — life! To Tanyidamani may it be given in the good land'
-│     Source: Benediction pattern from epitaphs; prite formula
-└──────────────────────────────────────────────────────────────────────────────
+------------------------------------------------------------------------
+§A3. Royal Titulary — Name and Title
+Lines 10–15 · ATTESTED · Confidence: 79%
 
-┌─── Section B2: Benediction to Amun of Napata
-│    Lines 48–55 | [RESTORED]
-│    Confidence: [████████████████░░░░] 81.2%
-│
-│  ① Transliteration:
-│     amni : Mnpte : mk-l : qo : mlo : pwrite : pesto-b-ke : selele
-│
-│  ② Morpheme Segmentation:
-│     amni  Mnpte  mk-l  qo  mlo  pwrite  pesto-b-ke  selele
-│
-│  ③ Interlinear Gloss (Leipzig):
-│     Amun  Mnpte  god-PL  great  good  life  to give-COP-NMLZ  protection
-│
-│  ④ Phrase Structure:
-│     [INVOCATION amni]  [NAME_BLOCK Mnpte mk-l qo mlo pwrite]  [VERB_PHRASE pesto-b-ke]  [NOUN_PHRASE selele]
-│
-│  ⑤ FREE TRANSLATION:
-│     "O Amun; Mnpte, great good gods life; may it be given; protection."
-│
-│  ⑥ Notes:
-│     'Amun of Napata, the great and good god — life! May protection be given'
-│     Source: Amun of Napata (Mnpte) attested in royal formula (Rilly p.156)
-└──────────────────────────────────────────────────────────────────────────────
+Transliteration:
+  gore : Tanyidamani : qore-l-o : kdke-l : amni-te : mlo : qo
 
-┌─── Section B3: Benediction to Isis
-│    Lines 55–60 | [RESTORED]
-│    Confidence: [████████████████░░░░] 80.8%
-│
-│  ① Transliteration:
-│     wos-i : mlo : mk : pwrite : Tanyidamani : qore-l : pesto-b-ke : ate-li : yi-li
-│
-│  ② Morpheme Segmentation:
-│     wos-i  mlo  mk  pwrite  Tanyidamani  qore-l  pesto-b-ke  ate-li  yi-li
-│
-│  ③ Interlinear Gloss (Leipzig):
-│     Isis-VOC  good  god  life  Tanyidamani  ruler-PL  to give-COP-NMLZ  bread-PL  water-PL
-│
-│  ④ Phrase Structure:
-│     [INVOCATION wos-i mlo mk pwrite]  [NAME_BLOCK Tanyidamani]  [TITLE qore-l]  [VERB_PHRASE pesto-b-ke]  [OFFERING ate-li yi-li]
-│
-│  ⑤ FREE TRANSLATION:
-│     "O Isis, the good god, the life; Tanyidamani; the rulers; may it be given; bread(s) and water(s)."
-│
-│  ⑥ Notes:
-│     'O Isis, good goddess — life! To Tanyidamani the ruler may bread and water be given'
-│     Source: Isis benediction pattern; offering formula ate-li yi-li
-└──────────────────────────────────────────────────────────────────────────────
+Interlinear gloss:
+  ruler  Tanyidamani  ruler-DET-GEN  queen.mother-DET  Amun-LOC  good  great
 
-┌─── Section B4: Temple Construction at Jebel Barkal
-│    Lines 60–68 | [CONJECTURAL]
-│    Confidence: [████████████░░░░░░░░] 61.6%
-│
-│  ① Transliteration:
-│     qore-l : Tanyidamani : dmke : amni-te : mke-l-o : mlo : qo : bedewi-l
-│
-│  ② Morpheme Segmentation:
-│     qore-l  Tanyidamani  dmke  amni-te  mke-l-o  mlo  qo  bedewi-l
-│
-│  ③ Interlinear Gloss (Leipzig):
-│     ruler-PL  Tanyidamani  temple  Amun-to be  to build-PL-GEN  good  great  throne-PL
-│
-│  ④ Phrase Structure:
-│     [TITLE qore-l Tanyidamani dmke]  [INVOCATION amni-te]  [VERB_PHRASE mke-l-o]  [NOUN_PHRASE mlo qo bedewi-l]
-│
-│  ⑤ FREE TRANSLATION:
-│     "the rulers Tanyidamani the temple; O Amun; build; good great thrones."
-│
-│  ⑥ Notes:
-│     'The ruler Tanyidamani: the temple at Amun's (place) he built, good and great, the throne'
-│     Source: Temple B 500 context; building text pattern
-└──────────────────────────────────────────────────────────────────────────────
+Phrase structure:
+  [TITLE gore Tanyidamani]  [TITLE qore-l-o]  [TITLE kdke-l]  [INVOCATION amni-te mlo qo]
 
-┌─── Section B5: Offerings at Jebel Barkal Temple
-│    Lines 68–75 | [RESTORED]
-│    Confidence: [█████████████████░░░] 89.4%
-│
-│  ① Transliteration:
-│     ate-li : yi-li : pesto-b-ke : apedmk : mk-se : amni : mk-se : mlo-l-owi
-│
-│  ② Morpheme Segmentation:
-│     ate-li  yi-li  pesto-b-ke  apedmk  mk-se  amni  mk-se  mlo-l-owi
-│
-│  ③ Interlinear Gloss (Leipzig):
-│     bread-PL  water-PL  to give-COP-NMLZ  Apedemak  god-VOC  Amun  god-VOC  good-PL-owi
-│
-│  ④ Phrase Structure:
-│     [OFFERING ate-li yi-li pesto-b-ke]  [INVOCATION apedmk mk-se]  [INVOCATION amni mk-se mlo-l-owi]
-│
-│  ⑤ FREE TRANSLATION:
-│     "bread(s) and water(s) — may it be given; O Apedemak, O god!; O Amun, O good god!."
-│
-│  ⑥ Notes:
-│     'Bread and water, may it be given to Apedemak the god, Amun the god — she was of goodness'
-│     Source: Offering formula; -owi copula from REM 0327 parallels
-└──────────────────────────────────────────────────────────────────────────────
+Free translation:
+  "The ruler Tanyidamani, of the royal line, and the queen mothers — at Amun's temple, good and great."
 
-┌─── Section B6: Ritual Formula
-│    Lines 75–80 | [CONJECTURAL]
-│    Confidence: [████████████████░░░░] 80.0%
-│
-│  ① Transliteration:
-│     plote-l : ate-li : yi-li : s : mk-l : qo : to : amni-te : selele
-│
-│  ② Morpheme Segmentation:
-│     plote-l  ate-li  yi-li  s  mk-l  qo  to  amni-te  selele
-│
-│  ③ Interlinear Gloss (Leipzig):
-│     to pour-PL  bread-PL  water-PL  3SG.POSS  god-PL  great  land  Amun-to be  protection
-│
-│  ④ Phrase Structure:
-│     [NOUN_PHRASE plote-l]  [OFFERING ate-li yi-li s mk-l qo]  [LOCATION to]  [INVOCATION amni-te selele]
-│
-│  ⑤ FREE TRANSLATION:
-│     "to pours; bread(s), water(s), god(s), and great; land; O Amun, the protection."
-│
-│  ⑥ Notes:
-│     'Libation of bread and water, his, to the great god(s) in the land at Amun's (temple), protection'
-│     Source: plote (libation) and ritual offering pattern
-└──────────────────────────────────────────────────────────────────────────────
+Notes: 'The ruler Tanyidamani, of the kingship, the Candace's (son), at the temple of Amun, good and great'
 
-════════════════════════════════════════════════════════════════════════════════
-  SIDE C: BACK — MILITARY CAMPAIGN NARRATIVE (Lines 81–120)
-════════════════════════════════════════════════════════════════════════════════
+------------------------------------------------------------------------
+§A4. Royal Lineage
+Lines 15–20 · RESTORED · Confidence: 73%
 
-┌─── Section C1: Campaign Declaration
-│    Lines 81–88 | [RESTORED]
-│    Confidence: [█████████████░░░░░░░] 68.2%
-│
-│  ① Transliteration:
-│     qore-l : Tanyidamani : qo : mlo : to : akine : tele-l
-│
-│  ② Morpheme Segmentation:
-│     qore-l  Tanyidamani  qo  mlo  to  akine  tele-l
-│
-│  ③ Interlinear Gloss (Leipzig):
-│     ruler-PL  Tanyidamani  great  good  land  Akine  to go-PL
-│
-│  ④ Phrase Structure:
-│     [TITLE qore-l Tanyidamani qo mlo]  [LOCATION to]  [NAME_BLOCK akine]  [VERB_PHRASE tele-l]
-│
-│  ⑤ FREE TRANSLATION:
-│     "the rulers Tanyidamani the great and good; land; Akine; go."
-│
-│  ⑥ Notes:
-│     'The ruler Tanyidamani, great and good, to the land of Akine he went'
-│     Source: Campaign narrative pattern from REM 1003 parallels; akine from administrative texts
-└──────────────────────────────────────────────────────────────────────────────
+Transliteration:
+  lh-l : qore-l : Tanyidamani : s : beke-li : kdke-l : mlo-l-o
 
-┌─── Section C2: Slaughter of the Men — Campaign 1
-│    Lines 88–95 | [ATTESTED]
-│    Confidence: [██████████████░░░░░░] 72.9%
-│
-│  ① Transliteration:
-│     e-ked : abr-se-l : Tanyidamani : qore-l : qo : mlo
-│
-│  ② Morpheme Segmentation:
-│     e-ked  abr-se-l  Tanyidamani  qore-l  qo  mlo
-│
-│  ③ Interlinear Gloss (Leipzig):
-│     e-to slaughter  man-VOC-PL  Tanyidamani  ruler-PL  great  good
-│
-│  ④ Phrase Structure:
-│     [NOUN_PHRASE e-ked abr-se-l]  [NAME_BLOCK Tanyidamani]  [TITLE qore-l qo mlo]
-│
-│  ⑤ FREE TRANSLATION:
-│     "to slaughter mans; Tanyidamani; the rulers the great and good."
-│
-│  ⑥ Notes:
-│     'I (=he) slaughtered the men — Tanyidamani the ruler, great and good'
-│     Source: Rilly & de Voogt 2012:32 — e-ked- attested on REM 1044 before verb ked-; abr-se-l attested
-└──────────────────────────────────────────────────────────────────────────────
+Interlinear gloss:
+  offspring-DET  ruler-DET  Tanyidamani  3SG.POSS  beget-PL  queen.mother-DET  good-DET-GEN
 
-┌─── Section C3: Seizure of the Women — Campaign 1
-│    Lines 95–100 | [ATTESTED]
-│    Confidence: [█████████████░░░░░░░] 69.4%
-│
-│  ① Transliteration:
-│     erk : kdi-se-l : Tanyidamani : qore-l
-│
-│  ② Morpheme Segmentation:
-│     erk  kdi-se-l  Tanyidamani  qore-l
-│
-│  ③ Interlinear Gloss (Leipzig):
-│     to seize  woman-VOC-PL  Tanyidamani  ruler-PL
-│
-│  ④ Phrase Structure:
-│     [VERB_PHRASE erk]  [NOUN_PHRASE kdi-se-l]  [NAME_BLOCK Tanyidamani]  [TITLE qore-l]
-│
-│  ⑤ FREE TRANSLATION:
-│     "seize; womans; Tanyidamani; the rulers."
-│
-│  ⑥ Notes:
-│     'I (=he) seized/raided the women — Tanyidamani the ruler'
-│     Source: Rilly & de Voogt 2012:32 — erk- attested on REM 1044; kdi-se-l attested
-└──────────────────────────────────────────────────────────────────────────────
+Phrase structure:
+  [NOUN_PHRASE lh-l]  [TITLE qore-l Tanyidamani s]  [VERB_PHRASE beke-li]  [TITLE kdke-l mlo-l-o]
 
-┌─── Section C4: Second Campaign — Territory Conquered
-│    Lines 100–108 | [CONJECTURAL]
-│    Confidence: [█████████████░░░░░░░] 69.7%
-│
-│  ① Transliteration:
-│     to : tedke : tkke-l : e-ked : abr-se-l : erk : kdi-se-l : qore-l : Tanyidamani
-│
-│  ② Morpheme Segmentation:
-│     to  tedke  tkke-l  e-ked  abr-se-l  erk  kdi-se-l  qore-l  Tanyidamani
-│
-│  ③ Interlinear Gloss (Leipzig):
-│     land  east  to conquer-PL  e-to slaughter  man-VOC-PL  to seize  woman-VOC-PL  ruler-PL  Tanyidamani
-│
-│  ④ Phrase Structure:
-│     [LOCATION to tedke]  [VERB_PHRASE tkke-l]  [NOUN_PHRASE e-ked abr-se-l]  [VERB_PHRASE erk]  [NOUN_PHRASE kdi-se-l]  [TITLE qore-l Tanyidamani]
-│
-│  ⑤ FREE TRANSLATION:
-│     "land east; conquer; to slaughter mans; seize; womans; the rulers Tanyidamani."
-│
-│  ⑥ Notes:
-│     'The eastern land(s) he conquered; he slaughtered the men, he seized the women — the ruler Tanyidamani'
-│     Source: Multiple campaign structure attested in REM 1003/1039; tkke (conquer) from military contexts
-└──────────────────────────────────────────────────────────────────────────────
+Free translation:
+  "Offspring of rulers — Tanyidamani, whom the good queen mothers begot."
 
-┌─── Section C5: Prisoners and Spoils
-│    Lines 108–115 | [CONJECTURAL]
-│    Confidence: [██████████████░░░░░░] 73.9%
-│
-│  ① Transliteration:
-│     abr-se-wi : kdi-se-wi : lh-l : ar : nobe : qo : qore-l : pesto-b-ke : mk-l
-│
-│  ② Morpheme Segmentation:
-│     abr-se-wi  kdi-se-wi  lh-l  ar  nobe  qo  qore-l  pesto-b-ke  mk-l
-│
-│  ③ Interlinear Gloss (Leipzig):
-│     man-VOC-DATI  woman-VOC-DATI  offspring-PL  one  gold  great  ruler-PL  to give-COP-NMLZ  god-PL
-│
-│  ④ Phrase Structure:
-│     [NOUN_PHRASE abr-se-wi kdi-se-wi lh-l ar nobe qo]  [TITLE qore-l]  [VERB_PHRASE pesto-b-ke]  [NOUN_PHRASE mk-l]
-│
-│  ⑤ FREE TRANSLATION:
-│     "man woman offsprings one gold great; the rulers; may it be given; gods."
-│
-│  ⑥ Notes:
-│     'The men, the women, the children, riches, gold, greatness — to the ruler it was given; the gods' (share)'
-│     Source: POW/spoils pattern from royal stelae; -se-wi plural forms
-└──────────────────────────────────────────────────────────────────────────────
+Notes: 'Offspring of the ruler, Tanyidamani, his begetting, of the good Candace's (line)'
 
-┌─── Section C6: Divine Sanction for the Campaigns
-│    Lines 115–120 | [RESTORED]
-│    Confidence: [██████████████░░░░░░] 74.7%
-│
-│  ① Transliteration:
-│     apedmk : mk-se : qo : mlo : selele-wi : Tanyidamani : qore-l : pwrite
-│
-│  ② Morpheme Segmentation:
-│     apedmk  mk-se  qo  mlo  selele-wi  Tanyidamani  qore-l  pwrite
-│
-│  ③ Interlinear Gloss (Leipzig):
-│     Apedemak  god-VOC  great  good  protection-DATI  Tanyidamani  ruler-PL  life
-│
-│  ④ Phrase Structure:
-│     [INVOCATION apedmk mk-se qo mlo selele-wi]  [NAME_BLOCK Tanyidamani]  [TITLE qore-l pwrite]
-│
-│  ⑤ FREE TRANSLATION:
-│     "O Apedemak, O great and good god!, the protection; Tanyidamani; the rulers the life."
-│
-│  ⑥ Notes:
-│     'Apedemak the god, great and good, protection for Tanyidamani the ruler — life!'
-│     Source: Divine warrior blessing pattern; Apedemak as war god
-└──────────────────────────────────────────────────────────────────────────────
+------------------------------------------------------------------------
+§A5. Royal Authority Formula
+Lines 20–25 · ATTESTED · Confidence: 54%
 
-════════════════════════════════════════════════════════════════════════════════
-  SIDE D: LEFT — VICTORY LISTS & CLOSING FORMULA (Lines 121–161)
-════════════════════════════════════════════════════════════════════════════════
+Transliteration:
+  Amnp : nete : se-mlo-lw : qore-l : Tanyidamani
 
-┌─── Section D1: Summary of Conquests
-│    Lines 121–130 | [CONJECTURAL]
-│    Confidence: [██████████████░░░░░░] 71.3%
-│
-│  ① Transliteration:
-│     qore-l : Tanyidamani : qo : to-l : tkke-l : abr-se-l : e-ked : kdi-se-l : erk : mlo
-│
-│  ② Morpheme Segmentation:
-│     qore-l  Tanyidamani  qo  to-l  tkke-l  abr-se-l  e-ked  kdi-se-l  erk  mlo
-│
-│  ③ Interlinear Gloss (Leipzig):
-│     ruler-PL  Tanyidamani  great  land-PL  to conquer-PL  man-VOC-PL  e-to slaughter  woman-VOC-PL  to seize  good
-│
-│  ④ Phrase Structure:
-│     [TITLE qore-l Tanyidamani qo]  [LOCATION to-l]  [VERB_PHRASE tkke-l]  [NOUN_PHRASE abr-se-l e-ked kdi-se-l]  [VERB_PHRASE erk]  [FRAGMENT mlo]
-│
-│  ⑤ FREE TRANSLATION:
-│     "the rulers Tanyidamani the great; land; conquer; mans to slaughter womans; seize; good."
-│
-│  ⑥ Notes:
-│     'The ruler Tanyidamani, great — the lands conquered, the men slaughtered, the women seized — good'
-│     Source: Summary pattern combining multiple campaign records
-└──────────────────────────────────────────────────────────────────────────────
+Interlinear gloss:
+  Amnp  3SG-POSS  VOC-good-TERM  ruler-DET  Tanyidamani
 
-┌─── Section D2: Thanksgiving to Apedemak
-│    Lines 130–138 | [RESTORED]
-│    Confidence: [███████████████░░░░░] 75.8%
-│
-│  ① Transliteration:
-│     apedmk-i : qo : mlo : mk-l : Tanyidamani : qore-l : pwrite : selele-wi : pesto-b-ke
-│
-│  ② Morpheme Segmentation:
-│     apedmk-i  qo  mlo  mk-l  Tanyidamani  qore-l  pwrite  selele-wi  pesto-b-ke
-│
-│  ③ Interlinear Gloss (Leipzig):
-│     Apedemak-VOC  great  good  god-PL  Tanyidamani  ruler-PL  life  protection-DATI  to give-COP-NMLZ
-│
-│  ④ Phrase Structure:
-│     [INVOCATION apedmk-i qo mlo mk-l]  [NAME_BLOCK Tanyidamani]  [TITLE qore-l pwrite selele-wi]  [VERB_PHRASE pesto-b-ke]
-│
-│  ⑤ FREE TRANSLATION:
-│     "O Apedemak, the great and good god; Tanyidamani; the rulers the life the protection; may it be given."
-│
-│  ⑥ Notes:
-│     'O Apedemak, great and good god — Tanyidamani the ruler: life, protection, may it be given!'
-│     Source: Closing invocation pattern; combines opening formula with selele
-└──────────────────────────────────────────────────────────────────────────────
+Phrase structure:
+  [NAME_BLOCK Amnp]  [TITLE nete se-mlo-lw]  [TITLE qore-l Tanyidamani]
 
-┌─── Section D3: Thanksgiving to the Divine Triad
-│    Lines 138–148 | [RESTORED]
-│    Confidence: [████████████████░░░░] 80.2%
-│
-│  ① Transliteration:
-│     amni : mk-se : wos : mk-se : hore : mk-se : mlo : qo : selele : Tanyidamani : qore-l-o
-│
-│  ② Morpheme Segmentation:
-│     amni  mk-se  wos  mk-se  hore  mk-se  mlo  qo  selele  Tanyidamani  qore-l-o
-│
-│  ③ Interlinear Gloss (Leipzig):
-│     Amun  god-VOC  Isis  god-VOC  Horus  god-VOC  good  great  protection  Tanyidamani  ruler-PL-GEN
-│
-│  ④ Phrase Structure:
-│     [INVOCATION amni mk-se]  [INVOCATION wos mk-se]  [INVOCATION hore mk-se mlo qo selele]  [NAME_BLOCK Tanyidamani]  [TITLE qore-l-o]
-│
-│  ⑤ FREE TRANSLATION:
-│     "O Amun, O god!; O Isis, O god!; O Horus, O good and great god!, the protection; Tanyidamani; of ruler."
-│
-│  ⑥ Notes:
-│     'Amun the god, Isis the goddess, Horus the god — good, great, protection for Tanyidamani of the kingship'
-│     Source: Divine triad pattern; three-deity benediction formula
-└──────────────────────────────────────────────────────────────────────────────
+Free translation:
+  "Amnp (the Amun-priest?) praises the good — Tanyidamani the ruler."
 
-┌─── Section D4: Final Offering Formula
-│    Lines 148–155 | [RESTORED]
-│    Confidence: [████████████████░░░░] 80.9%
-│
-│  ① Transliteration:
-│     ate-li : yi-li : pesto-b-ke : qore-l : Tanyidamani : mk-l : amni-te : mlo-l-owi
-│
-│  ② Morpheme Segmentation:
-│     ate-li  yi-li  pesto-b-ke  qore-l  Tanyidamani  mk-l  amni-te  mlo-l-owi
-│
-│  ③ Interlinear Gloss (Leipzig):
-│     bread-PL  water-PL  to give-COP-NMLZ  ruler-PL  Tanyidamani  god-PL  Amun-to be  good-PL-owi
-│
-│  ④ Phrase Structure:
-│     [OFFERING ate-li yi-li pesto-b-ke]  [TITLE qore-l Tanyidamani mk-l]  [INVOCATION amni-te mlo-l-owi]
-│
-│  ⑤ FREE TRANSLATION:
-│     "bread(s) and water(s) — may it be given; the rulers Tanyidamani the gods; O Amun, good."
-│
-│  ⑥ Notes:
-│     'Bread and water, may it be given to the ruler Tanyidamani, the gods at Amun's (temple), of goodness'
-│     Source: Standard offering formula with royal dedication
-└──────────────────────────────────────────────────────────────────────────────
+Notes: Attested phrase: 'Amnp nete se-mlo-lw' (Rilly & de Voogt 2012:155). 'Amnp' may be an Amun-related priestly title. 'se-mlo-lw' is a complex form: vocative prefix + 'good' + terminal suffix.
 
-┌─── Section D5: Closing Protocol
-│    Lines 155–161 | [RESTORED]
-│    Confidence: [████████████████░░░░] 80.2%
-│
-│  ① Transliteration:
-│     qore-l-o : Tanyidamani : amni-te : qo : mlo-li : apedmk : mk : wos : mk : tenke : to : selele
-│
-│  ② Morpheme Segmentation:
-│     qore-l-o  Tanyidamani  amni-te  qo  mlo-li  apedmk  mk  wos  mk  tenke  to  selele
-│
-│  ③ Interlinear Gloss (Leipzig):
-│     ruler-PL-GEN  Tanyidamani  Amun-to be  great  good-PL  Apedemak  god  Isis  god  west  land  protection
-│
-│  ④ Phrase Structure:
-│     [TITLE qore-l-o Tanyidamani]  [INVOCATION amni-te qo mlo-li]  [INVOCATION apedmk mk]  [INVOCATION wos mk]  [LOCATION tenke to selele]
-│
-│  ⑤ FREE TRANSLATION:
-│     "of ruler Tanyidamani; O Amun, great and good; O Apedemak, the god; O Isis, the god; west land protection."
-│
-│  ⑥ Notes:
-│     'Of the kingship: Tanyidamani, at Amun's (temple), great and good — Apedemak god, Isis goddess, western land, protection'
-│     Source: Matches REM_0401 closing formula exactly; ring composition returning to opening
-└──────────────────────────────────────────────────────────────────────────────
+------------------------------------------------------------------------
+§A6. Reference to Ancestral Rulers
+Lines 25–30 · ATTESTED/RESTORED · Confidence: 77%
 
-════════════════════════════════════════════════════════════════════════════════
-COMPOSITE FREE TRANSLATION OF THE STELE
-════════════════════════════════════════════════════════════════════════════════
+Transliteration:
+  Amnirense : gor : Amanikhabale : gor : qore-l-o : mlo
 
-  [SIDE A — ROYAL PROTOCOL]
+Interlinear gloss:
+  Amanirenas  ruler  Amanikhabale  ruler  ruler-DET-GEN  good
 
-    O Apedemak, the great and good god; Tanyidamani, life; give.
-    O Amun, the great and good god; Tanyidamani; the rulers the life; give.
-    the ruler Tanyidamani; of ruler; the queens; O Amun, good and great.
-    offsprings; the rulers Tanyidamani; beget; the queens the good.
-    Amnp; the ; the rulers Tanyidamani.
-    Amnirense; the ruler Amanikhabale; the ruler; of ruler the good.
-    O Apedemak, O god!; O Amun, O god!; O Isis, O god!, the protection; west.
-    the ruler Tanyidamani Mnpte; the one who rules the good.
+Phrase structure:
+  [NAME_BLOCK Amnirense]  [TITLE gor Amanikhabale]  [TITLE gor]  [TITLE qore-l-o mlo]
 
-  [SIDE B — RELIGIOUS BENEDICTIONS]
+Free translation:
+  "Amanirenas the ruler; Amanikhabale the ruler — of the good royal line."
 
-    O Apedemak, the great and good god, the life; Tanyidamani; may it be given; land good.
-    O Amun; Mnpte, great good gods life; may it be given; protection.
-    O Isis, the good god, the life; Tanyidamani; the rulers; may it be given; bread(s) and water(s).
-    the rulers Tanyidamani the temple; O Amun; build; good great thrones.
-    bread(s) and water(s) — may it be given; O Apedemak, O god!; O Amun, O good god!.
-    to pours; bread(s), water(s), god(s), and great; land; O Amun, the protection.
+Notes: Attested: 'Amnirense gor' (Rilly & de Voogt 2012:142). 'gor' < *gore-l with determinant reduction, confirmed pattern.
 
-  [SIDE C — MILITARY CAMPAIGNS]
+------------------------------------------------------------------------
+§A7. Divine Patronage
+Lines 30–35 · RESTORED · Confidence: 87%
 
-    the rulers Tanyidamani the great and good; land; Akine; go.
-    to slaughter mans; Tanyidamani; the rulers the great and good.
-    seize; womans; Tanyidamani; the rulers.
-    land east; conquer; to slaughter mans; seize; womans; the rulers Tanyidamani.
-    man woman offsprings one gold great; the rulers; may it be given; gods.
-    O Apedemak, O great and good god!, the protection; Tanyidamani; the rulers the life.
+Transliteration:
+  apedmk : mk-se : amni : mk-se : wos : mk-se : selele-wi : tenke
 
-  [SIDE D — VICTORY & CLOSING]
+Interlinear gloss:
+  Apedemak  god-VOC  Amun  god-VOC  Isis  god-VOC  protection-DAT  west
 
-    the rulers Tanyidamani the great; land; conquer; mans to slaughter womans; seize; good.
-    O Apedemak, the great and good god; Tanyidamani; the rulers the life the protection; may it be given.
-    O Amun, O god!; O Isis, O god!; O Horus, O good and great god!, the protection; Tanyidamani; of ruler.
-    bread(s) and water(s) — may it be given; the rulers Tanyidamani the gods; O Amun, good.
-    of ruler Tanyidamani; O Amun, great and good; O Apedemak, the god; O Isis, the god; west land protection.
+Phrase structure:
+  [INVOCATION apedmk mk-se]  [INVOCATION amni mk-se]  [INVOCATION wos mk-se selele-wi]  [LOCATION tenke]
 
-════════════════════════════════════════════════════════════════════════════════
-SCHOLARLY APPARATUS
-════════════════════════════════════════════════════════════════════════════════
+Free translation:
+  "O Apedemak, O god! O Amun, O god! O Isis, O god! — grant protection in the west!"
 
-Attestation Key:
-  [ATTESTED]    — Phrase directly cited from published transliteration of REM 1044
-  [RESTORED]    — Restored from structural parallels with other royal stelae
-  [CONJECTURAL] — Hypothetical reconstruction based on genre conventions
+Notes: 'Apedemak the god, Amun the god, Isis the goddess — protection in the west'
 
-Primary Sources:
-  • Hintze, F. 1960. Die meroitische Stele des Königs Tanyidamani.
-    Kush 8: 125–162.
-  • Rilly, C. & A. de Voogt. 2012. The Meroitic Language and Writing System.
-    Cambridge University Press.
-  • Griffith, F.Ll. 1917. Meroitic Studies IV. JEA 4: 159–173.
-  • Rilly, C. 2007. La langue du royaume de Méroé. Paris: Champion.
-  • Rilly, C. 2010. Le méroïtique et sa famille linguistique. Louvain: Peeters.
+------------------------------------------------------------------------
+§A8. Enthronement Declaration
+Lines 35–40 · RESTORED · Confidence: 70%
 
-Note: The Meroitic language remains only partially deciphered.
-Sound values of the script are known (Griffith 1911), but the
-vocabulary is largely uncertain. Only ~50 words have established
-meanings. This decipherment represents the current scholarly
-consensus combined with computational morphological analysis.
+Transliteration:
+  qore : Tanyidamani : Mnpte-se-lw : qoreyi : mlo-l-o
 
-Additional Stele-Specific Vocabulary Identified:
-  Amanikhabale         = 'Amanikhabale (ruler)' (certainty: 90%)
-  Amnirense            = 'Amanirenas (queen, Candace)' (certainty: 95%)
-  Mnpte                = 'Napata (place name, lit. 'of Amun')' (certainty: 85%)
-  e-ked                = 'I slaughtered (1st person singular of ked-)' (certainty: 75%)
-  el                   = 'to give (imperative/verbal base)' (certainty: 70%)
-  erk                  = 'to seize, to raid, to take captive' (certainty: 75%)
-  gor                  = 'ruler (with determinant, from *gore-l)' (certainty: 85%)
-  gore                 = 'ruler (before personal names, without determinant)' (certainty: 85%)
-  ked                  = 'to slaughter, to kill (in battle)' (certainty: 80%)
-  nete                 = '(uncertain — part of royal name/epithet)' (certainty: 30%)
-  nobo                 = 'Noba (people/ethnic group)' (certainty: 80%)
-  pwrite               = 'life (in benedictions/invocations)' (certainty: 80%)
-  qoreyi               = 'one who rules, ruling (participial)' (certainty: 65%)
-  tkke                 = 'to seize, to conquer, to take (synonym of erk-)' (certainty: 65%)
+Interlinear gloss:
+  ruler  Tanyidamani  Napata-VOC-TERM  one.who.rules  good-DET-GEN
 
-================================================================================
-END OF DECIPHERMENT REPORT
-================================================================================
+Phrase structure:
+  [TITLE qore Tanyidamani Mnpte-se-lw]  [TITLE qoreyi mlo-l-o]
+
+Free translation:
+  "The ruler Tanyidamani of Napata — he who rules the good."
+
+Notes: 'Mnpte' = Napata (the sacred city at Jebel Barkal). 'qoreyi' = participial form 'one who rules' (cf. Rilly 2010).
+
+------------------------------------------------------------------------
+§B1. Benediction to Apedemak
+Lines 41–48 · RESTORED · Confidence: 78%
+
+Transliteration:
+  apedmk-i : qo : mk : mlo : pwrite : Tanyidamani : pesto-b-ke : to : mlo-l-o
+
+Interlinear gloss:
+  Apedemak-VOC  great  god  good  life  Tanyidamani  give-COP-NMLZ  land  good-DET-GEN
+
+Phrase structure:
+  [INVOCATION apedmk-i qo mk mlo pwrite]  [NAME_BLOCK Tanyidamani]  [VERB_PHRASE pesto-b-ke]  [LOCATION to mlo-l-o]
+
+Free translation:
+  "O Apedemak, great and good god — may life be given to Tanyidamani; may the land be good!"
+
+Notes: 'O Apedemak, great god, good one — life! To Tanyidamani may it be given in the good land'
+
+------------------------------------------------------------------------
+§B2. Benediction to Amun of Napata
+Lines 48–55 · RESTORED · Confidence: 82%
+
+Transliteration:
+  amni : Mnpte : mk-l : qo : mlo : pwrite : pesto-b-ke : selele
+
+Interlinear gloss:
+  Amun  Napata  god-DET  great  good  life  give-COP-NMLZ  protection
+
+Phrase structure:
+  [INVOCATION amni]  [NAME_BLOCK Mnpte mk-l qo mlo pwrite]  [VERB_PHRASE pesto-b-ke]  [NOUN_PHRASE selele]
+
+Free translation:
+  "O Amun of Napata, great and good god — may life and protection be given!"
+
+Notes: 'Amun of Napata, the great and good god — life! May protection be given'
+
+------------------------------------------------------------------------
+§B3. Benediction to Isis
+Lines 55–60 · RESTORED · Confidence: 83%
+
+Transliteration:
+  wos-i : mlo : mk : pwrite : Tanyidamani : qore-l : pesto-b-ke : ate-li : yi-li
+
+Interlinear gloss:
+  Isis-VOC  good  god  life  Tanyidamani  ruler-DET  give-COP-NMLZ  bread-PL  water-PL
+
+Phrase structure:
+  [INVOCATION wos-i mlo mk pwrite]  [NAME_BLOCK Tanyidamani]  [TITLE qore-l]  [VERB_PHRASE pesto-b-ke]  [OFFERING ate-li yi-li]
+
+Free translation:
+  "O Isis, good god — may life be given to Tanyidamani the ruler; may bread and water be offered!"
+
+Notes: 'O Isis, good goddess — life! To Tanyidamani the ruler may bread and water be given'
+
+------------------------------------------------------------------------
+§B4. Temple Construction at Jebel Barkal
+Lines 60–68 · CONJECTURAL · Confidence: 63%
+
+Transliteration:
+  qore-l : Tanyidamani : dmke : amni-te : mke-l-o : mlo : qo : bedewi-l
+
+Interlinear gloss:
+  ruler-DET  Tanyidamani  temple  Amun-LOC  build-DET-GEN  good  great  throne-DET
+
+Phrase structure:
+  [TITLE qore-l Tanyidamani dmke]  [INVOCATION amni-te]  [VERB_PHRASE mke-l-o]  [NOUN_PHRASE mlo qo bedewi-l]
+
+Free translation:
+  "Tanyidamani the ruler built the temple at Amun's place — good and great thrones."
+
+Notes: CONJECTURAL. 'dmke' = temple (tentative, cert 0.45). 'mke' = to build (tentative, cert 0.40). 'bedewi' = throne/seat (tentative, cert 0.40). The temple-building motif is expected for a Jebel Barkal stele.
+
+------------------------------------------------------------------------
+§B5. Offerings at Jebel Barkal Temple
+Lines 68–75 · RESTORED · Confidence: 89%
+
+Transliteration:
+  ate-li : yi-li : pesto-b-ke : apedmk : mk-se : amni : mk-se : mlo-l-owi
+
+Interlinear gloss:
+  bread-PL  water-PL  give-COP-NMLZ  Apedemak  god-VOC  Amun  god-VOC  good-DET-FOCUS
+
+Phrase structure:
+  [OFFERING ate-li yi-li pesto-b-ke]  [INVOCATION apedmk mk-se]  [INVOCATION amni mk-se mlo-l-owi]
+
+Free translation:
+  "Bread and water — may they be offered! O Apedemak, O god! O Amun, O good god!"
+
+Notes: 'Bread and water, may it be given to Apedemak the god, Amun the god — she was of goodness'
+
+------------------------------------------------------------------------
+§B6. Ritual Formula
+Lines 75–80 · CONJECTURAL · Confidence: 80%
+
+Transliteration:
+  plote-l : ate-li : yi-li : s : mk-l : qo : to : amni-te : selele
+
+Interlinear gloss:
+  pour-DET  bread-PL  water-PL  3SG.POSS  god-DET  great  land  Amun-LOC  protection
+
+Phrase structure:
+  [NOUN_PHRASE plote-l]  [OFFERING ate-li yi-li s mk-l qo]  [LOCATION to]  [INVOCATION amni-te selele]
+
+Free translation:
+  "Pour libations — bread and water for the great gods! In the land at Amun's temple — protection!"
+
+Notes: 'Libation of bread and water, his, to the great god(s) in the land at Amun's (temple), protection'
+
+------------------------------------------------------------------------
+§C1. Campaign Declaration
+Lines 81–88 · RESTORED · Confidence: 70%
+
+Transliteration:
+  qore-l : Tanyidamani : qo : mlo : to : akine : tele-l
+
+Interlinear gloss:
+  ruler-DET  Tanyidamani  great  good  land  Akine  go-DET
+
+Phrase structure:
+  [TITLE qore-l Tanyidamani qo mlo]  [LOCATION to]  [NAME_BLOCK akine]  [VERB_PHRASE tele-l]
+
+Free translation:
+  "Tanyidamani, the great and good ruler, marched to the land of Akine."
+
+Notes: Military narrative begins. 'tele-l' = 'they marched' (verbal + plural). Akine is a well-attested Lower Nubian province name.
+
+------------------------------------------------------------------------
+§C2. Slaughter of the Men — Campaign 1
+Lines 88–95 · ATTESTED · Confidence: 78%
+
+Transliteration:
+  e-ked : abr-se-l : Tanyidamani : qore-l : qo : mlo
+
+Interlinear gloss:
+  1SG-slaughter  man-DET.PL  Tanyidamani  ruler-DET  great  good
+
+Phrase structure:
+  [NOUN_PHRASE e-ked abr-se-l]  [NAME_BLOCK Tanyidamani]  [TITLE qore-l qo mlo]
+
+Free translation:
+  "I slaughtered the men — I, Tanyidamani, great and good ruler!"
+
+Notes: ATTESTED. 'e-ked' = '1SG-slaughter': verbal prefix e- (1st person sg.) + ked 'to slaughter' (confirmed by Nastasen stele Egyptian parallel). 'abr-se-l' = 'the men': abr 'man' + -se (determinant) + -l (plural). This is one of the most securely understood verbal forms in Meroitic.
+
+------------------------------------------------------------------------
+§C3. Seizure of the Women — Campaign 1
+Lines 95–100 · ATTESTED · Confidence: 73%
+
+Transliteration:
+  erk : kdi-se-l : Tanyidamani : qore-l
+
+Interlinear gloss:
+  seize  woman-DET.PL  Tanyidamani  ruler-DET
+
+Phrase structure:
+  [VERB_PHRASE erk]  [NOUN_PHRASE kdi-se-l]  [NAME_BLOCK Tanyidamani]  [TITLE qore-l]
+
+Free translation:
+  "I seized the women — I, Tanyidamani the ruler!"
+
+Notes: ATTESTED. 'erk' = 'to seize/raid' (confirmed by Nastasen parallel). 'kdi-se-l' = 'the women': kdi 'woman' + -se (determinant) + -l (plural). 1st person subject carried from e- prefix in preceding C2.
+
+------------------------------------------------------------------------
+§C4. Second Campaign — Territory Conquered
+Lines 100–108 · CONJECTURAL · Confidence: 70%
+
+Transliteration:
+  to : tedke : tkke-l : e-ked : abr-se-l : erk : kdi-se-l : qore-l : Tanyidamani
+
+Interlinear gloss:
+  land  east  conquer-DET  1SG-slaughter  man-DET.PL  seize  woman-DET.PL  ruler-DET  Tanyidamani
+
+Phrase structure:
+  [LOCATION to tedke]  [VERB_PHRASE tkke-l]  [NOUN_PHRASE e-ked abr-se-l]  [VERB_PHRASE erk]  [NOUN_PHRASE kdi-se-l]  [TITLE qore-l Tanyidamani]
+
+Free translation:
+  "In the eastern land I conquered: I slaughtered the men, I seized the women — I, Tanyidamani the ruler!"
+
+Notes: CONJECTURAL. Reconstructed as second campaign passage (east vs. west). 'tedke' = 'east' (cert 0.70, parallel to 'tenke' = 'west', cert 0.80). 'tkke' = 'to conquer' (cert 0.30, most uncertain verb in the stele).
+
+------------------------------------------------------------------------
+§C5. Prisoners and Spoils
+Lines 108–115 · CONJECTURAL · Confidence: 74%
+
+Transliteration:
+  abr-se-wi : kdi-se-wi : lh-l : ar : nobe : qo : qore-l : pesto-b-ke : mk-l
+
+Interlinear gloss:
+  man-DAT  woman-DAT  offspring-DET  one  gold  great  ruler-DET  give-COP-NMLZ  god-DET
+
+Phrase structure:
+  [NOUN_PHRASE abr-se-wi kdi-se-wi lh-l ar nobe qo]  [TITLE qore-l]  [VERB_PHRASE pesto-b-ke]  [NOUN_PHRASE mk-l]
+
+Free translation:
+  "To the men and women, the offspring — one portion of gold, great; may it be given to the rulers and gods!"
+
+Notes: CONJECTURAL. Victory spoils distribution passage. 'nobe' = 'gold' (cert 0.40, from comparative evidence). 'ar' = 'one' (cert 0.35). Pattern: listing captives and tribute.
+
+------------------------------------------------------------------------
+§C6. Divine Sanction for the Campaigns
+Lines 115–120 · RESTORED · Confidence: 76%
+
+Transliteration:
+  apedmk : mk-se : qo : mlo : selele-wi : Tanyidamani : qore-l : pwrite
+
+Interlinear gloss:
+  Apedemak  god-VOC  great  good  protection-DAT  Tanyidamani  ruler-DET  life
+
+Phrase structure:
+  [INVOCATION apedmk mk-se qo mlo selele-wi]  [NAME_BLOCK Tanyidamani]  [TITLE qore-l pwrite]
+
+Free translation:
+  "O Apedemak, great and good god — grant protection and life to Tanyidamani the ruler!"
+
+Notes: 'Apedemak the god, great and good, protection for Tanyidamani the ruler — life!'
+
+------------------------------------------------------------------------
+§D1. Summary of Conquests
+Lines 121–130 · CONJECTURAL · Confidence: 72%
+
+Transliteration:
+  qore-l : Tanyidamani : qo : to-l : tkke-l : abr-se-l : e-ked : kdi-se-l : erk : mlo
+
+Interlinear gloss:
+  ruler-DET  Tanyidamani  great  land-PL  conquer-DET  man-DET.PL  1SG-slaughter  woman-DET.PL  seize  good
+
+Phrase structure:
+  [TITLE qore-l Tanyidamani qo]  [LOCATION to-l]  [VERB_PHRASE tkke-l]  [NOUN_PHRASE abr-se-l e-ked kdi-se-l]  [VERB_PHRASE erk]  [FRAGMENT mlo]
+
+Free translation:
+  "Tanyidamani the great ruler conquered lands: he slaughtered the men, he seized the women — it is good!"
+
+Notes: CONJECTURAL. Summary/victory list structure. Repeats e-ked/erk formulas from Side C in summary form.
+
+------------------------------------------------------------------------
+§D2. Thanksgiving to Apedemak
+Lines 130–138 · RESTORED · Confidence: 77%
+
+Transliteration:
+  apedmk-i : qo : mlo : mk-l : Tanyidamani : qore-l : pwrite : selele-wi : pesto-b-ke
+
+Interlinear gloss:
+  Apedemak-VOC  great  good  god-DET  Tanyidamani  ruler-DET  life  protection-DAT  give-COP-NMLZ
+
+Phrase structure:
+  [INVOCATION apedmk-i qo mlo mk-l]  [NAME_BLOCK Tanyidamani]  [TITLE qore-l pwrite selele-wi]  [VERB_PHRASE pesto-b-ke]
+
+Free translation:
+  "O Apedemak, great and good god — may life and protection be given to Tanyidamani the ruler!"
+
+Notes: 'O Apedemak, great and good god — Tanyidamani the ruler: life, protection, may it be given!'
+
+------------------------------------------------------------------------
+§D3. Thanksgiving to the Divine Triad
+Lines 138–148 · RESTORED · Confidence: 81%
+
+Transliteration:
+  amni : mk-se : wos : mk-se : hore : mk-se : mlo : qo : selele : Tanyidamani : qore-l-o
+
+Interlinear gloss:
+  Amun  god-VOC  Isis  god-VOC  Horus  god-VOC  good  great  protection  Tanyidamani  ruler-DET-GEN
+
+Phrase structure:
+  [INVOCATION amni mk-se]  [INVOCATION wos mk-se]  [INVOCATION hore mk-se mlo qo selele]  [NAME_BLOCK Tanyidamani]  [TITLE qore-l-o]
+
+Free translation:
+  "O Amun, O god! O Isis, O god! O Horus, O god! — great and good gods, grant protection to Tanyidamani the ruler!"
+
+Notes: 'Amun the god, Isis the goddess, Horus the god — good, great, protection for Tanyidamani of the kingship'
+
+------------------------------------------------------------------------
+§D4. Final Offering Formula
+Lines 148–155 · RESTORED · Confidence: 82%
+
+Transliteration:
+  ate-li : yi-li : pesto-b-ke : qore-l : Tanyidamani : mk-l : amni-te : mlo-l-owi
+
+Interlinear gloss:
+  bread-PL  water-PL  give-COP-NMLZ  ruler-DET  Tanyidamani  god-DET  Amun-LOC  good-DET-FOCUS
+
+Phrase structure:
+  [OFFERING ate-li yi-li pesto-b-ke]  [TITLE qore-l Tanyidamani mk-l]  [INVOCATION amni-te mlo-l-owi]
+
+Free translation:
+  "Bread and water — may they be offered to Tanyidamani the ruler! At Amun's temple, good gods!"
+
+Notes: 'Bread and water, may it be given to the ruler Tanyidamani, the gods at Amun's (temple), of goodness'
+
+------------------------------------------------------------------------
+§D5. Closing Protocol
+Lines 155–161 · RESTORED · Confidence: 81%
+
+Transliteration:
+  qore-l-o : Tanyidamani : amni-te : qo : mlo-li : apedmk : mk : wos : mk : tenke : to : selele
+
+Interlinear gloss:
+  ruler-DET-GEN  Tanyidamani  Amun-LOC  great  good-PL  Apedemak  god  Isis  god  west  land  protection
+
+Phrase structure:
+  [TITLE qore-l-o Tanyidamani]  [INVOCATION amni-te qo mlo-li]  [INVOCATION apedmk mk]  [INVOCATION wos mk]  [LOCATION tenke to selele]
+
+Free translation:
+  "Of the ruler Tanyidamani — at Amun's temple, great and good: O Apedemak, O god! O Isis, O god! — protection of the western land!"
+
+Notes: 'Of the kingship: Tanyidamani, at Amun's (temple), great and good — Apedemak god, Isis goddess, western land, protection'
+

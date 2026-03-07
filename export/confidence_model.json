@@ -1,0 +1,62 @@
+{
+  "name": "Meroitic Decipherment Confidence Model",
+  "version": "2.0",
+  "description": "Each token in the corpus receives a confidence score (0.0–1.0) based on the certainty of its root word as established in published scholarship. Scores are NOT claims of translation correctness but reflect how well-grounded each reading is in the existing evidence base.",
+  "tiers": {
+    "CERTAIN (≥0.80)": {
+      "description": "Established by bilingual texts, Greek transcriptions, or unambiguous contextual evidence. Published by Griffith, Rilly, Hintze, or Hofmann with broad scholarly consensus.",
+      "examples": [
+        "mk (god)",
+        "qore (ruler)",
+        "amni (Amun)",
+        "wos (Isis)",
+        "ate (bread)",
+        "yi (water)",
+        "pesto (to give/offer)"
+      ],
+      "count": 30
+    },
+    "PROBABLE (0.60–0.79)": {
+      "description": "Supported by strong contextual evidence and/or comparative Nilo-Saharan linguistics, but not confirmed by bilingual texts. Accepted by most specialists.",
+      "examples": [
+        "mlo (good)",
+        "qo (great)",
+        "lh (offspring)",
+        "selele (protection)",
+        "beke (to beget)"
+      ],
+      "count": 27
+    },
+    "TENTATIVE (0.35–0.59)": {
+      "description": "Proposed based on comparative evidence, contextual inference, or structural analogy. Not yet broadly accepted. These readings should be treated as working hypotheses.",
+      "examples": [
+        "dmke (temple)",
+        "mke (to build)",
+        "tkke (to conquer)",
+        "bedewi (throne)",
+        "nobe (gold)"
+      ],
+      "count": 8
+    },
+    "UNKNOWN (<0.35)": {
+      "description": "Proper names, unidentified roots, or forms with no established meaning. Transliteration is reliable but semantic content is unknown.",
+      "examples": [
+        "Personal names (Tanyidamani, Amanikhabale, etc.)"
+      ],
+      "count": 32
+    }
+  },
+  "scoring_factors": [
+    "Lexical certainty of the root (from published scholarship)",
+    "Number of morphemes successfully parsed",
+    "Contextual fit within phrase and genre template",
+    "Cross-corpus attestation frequency",
+    "Availability of Nubian/East Sudanic comparative evidence"
+  ],
+  "limitations": [
+    "Scores reflect scholarly consensus, not absolute truth",
+    "Royal narrative vocabulary has fewer anchors than funerary/offering terms",
+    "Complex verb morphology remains poorly understood",
+    "No score exceeds 0.95 because all readings are inherently provisional"
+  ]
+}

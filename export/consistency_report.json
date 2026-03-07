@@ -1,0 +1,1707 @@
+{
+  "summary": {
+    "unique_roots": 97,
+    "total_tokens_analyzed": 835,
+    "corpus_inscriptions": 66,
+    "stele_sections": 25,
+    "meaning_conflicts": 0,
+    "category_conflicts": 0,
+    "certain_roots": 30,
+    "probable_roots": 27,
+    "tentative_roots": 8,
+    "unknown_roots": 32
+  },
+  "consistency_issues": [],
+  "lexicon": [
+    {
+      "root": "mk",
+      "count": 105,
+      "avg_certainty": 0.9,
+      "n_inscriptions": 80,
+      "meanings": [
+        "god, deity"
+      ],
+      "categories": [
+        "religion"
+      ],
+      "pos_tags": [
+        "NOUN"
+      ],
+      "nubian_cognates": [
+        "Old Nubian 'masik/massig'"
+      ]
+    },
+    {
+      "root": "mlo",
+      "count": 80,
+      "avg_certainty": 0.8,
+      "n_inscriptions": 78,
+      "meanings": [
+        "good, beautiful, fine"
+      ],
+      "categories": [
+        "adjective"
+      ],
+      "pos_tags": [
+        "ADJ",
+        "PRON"
+      ],
+      "nubian_cognates": [
+        "Old Nubian 'mel/mell'; Nobiin 'meeli'"
+      ]
+    },
+    {
+      "root": "pesto",
+      "count": 64,
+      "avg_certainty": 0.85,
+      "n_inscriptions": 64,
+      "meanings": [
+        "to give, to offer, to bestow"
+      ],
+      "categories": [
+        "verb"
+      ],
+      "pos_tags": [
+        "VERB"
+      ],
+      "nubian_cognates": [
+        "Old Nubian 'per/pir' (to give)"
+      ]
+    },
+    {
+      "root": "wos",
+      "count": 45,
+      "avg_certainty": 0.95,
+      "n_inscriptions": 45,
+      "meanings": [
+        "Isis (deity)"
+      ],
+      "categories": [
+        "deity_name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "qo",
+      "count": 44,
+      "avg_certainty": 0.75,
+      "n_inscriptions": 44,
+      "meanings": [
+        "great, big, mighty"
+      ],
+      "categories": [
+        "adjective"
+      ],
+      "pos_tags": [
+        "ADJ"
+      ],
+      "nubian_cognates": [
+        "Old Nubian 'qor/gor'; Nobiin 'goor'"
+      ]
+    },
+    {
+      "root": "selele",
+      "count": 40,
+      "avg_certainty": 0.6,
+      "n_inscriptions": 40,
+      "meanings": [
+        "protection, salvation, grace"
+      ],
+      "categories": [
+        "religion"
+      ],
+      "pos_tags": [
+        "NOUN"
+      ],
+      "nubian_cognates": [
+        "Old Nubian 'selle'"
+      ]
+    },
+    {
+      "root": "qore",
+      "count": 38,
+      "avg_certainty": 0.95,
+      "n_inscriptions": 38,
+      "meanings": [
+        "ruler, king"
+      ],
+      "categories": [
+        "title"
+      ],
+      "pos_tags": [
+        "NOUN.TITLE"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "ate",
+      "count": 37,
+      "avg_certainty": 0.9,
+      "n_inscriptions": 37,
+      "meanings": [
+        "bread, food offering"
+      ],
+      "categories": [
+        "funerary"
+      ],
+      "pos_tags": [
+        "NOUN"
+      ],
+      "nubian_cognates": [
+        "Old Nubian 'atte'; Nobiin 'atti'"
+      ]
+    },
+    {
+      "root": "yi",
+      "count": 37,
+      "avg_certainty": 0.9,
+      "n_inscriptions": 37,
+      "meanings": [
+        "water, drink offering"
+      ],
+      "categories": [
+        "funerary"
+      ],
+      "pos_tags": [
+        "NOUN"
+      ],
+      "nubian_cognates": [
+        "Old Nubian 'yi/yii'; Nobiin 'yii'"
+      ]
+    },
+    {
+      "root": "to",
+      "count": 30,
+      "avg_certainty": 0.85,
+      "n_inscriptions": 27,
+      "meanings": [
+        "land, territory, country"
+      ],
+      "categories": [
+        "geography"
+      ],
+      "pos_tags": [
+        "NOUN"
+      ],
+      "nubian_cognates": [
+        "Old Nubian 'tou/to'; Nobiin 'tó'"
+      ]
+    },
+    {
+      "root": "amni",
+      "count": 30,
+      "avg_certainty": 0.95,
+      "n_inscriptions": 30,
+      "meanings": [
+        "Amun (deity)"
+      ],
+      "categories": [
+        "deity_name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "apedmk",
+      "count": 28,
+      "avg_certainty": 0.95,
+      "n_inscriptions": 28,
+      "meanings": [
+        "Apedemak (lion-headed war god)"
+      ],
+      "categories": [
+        "deity_name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "lh",
+      "count": 27,
+      "avg_certainty": 0.75,
+      "n_inscriptions": 27,
+      "meanings": [
+        "offspring, son, child"
+      ],
+      "categories": [
+        "kinship"
+      ],
+      "pos_tags": [
+        "NOUN"
+      ],
+      "nubian_cognates": [
+        "Old Nubian 'leh/lihi'"
+      ]
+    },
+    {
+      "root": "abr",
+      "count": 27,
+      "avg_certainty": 0.85,
+      "n_inscriptions": 27,
+      "meanings": [
+        "man, male person"
+      ],
+      "categories": [
+        "person"
+      ],
+      "pos_tags": [
+        "NOUN"
+      ],
+      "nubian_cognates": [
+        "Old Nubian 'auer'; Nobiin 'uur'"
+      ]
+    },
+    {
+      "root": "Tanyidamani",
+      "count": 22,
+      "avg_certainty": 0.225,
+      "n_inscriptions": 22,
+      "meanings": [
+        "[name: Tanyidamani]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "kdi",
+      "count": 17,
+      "avg_certainty": 0.85,
+      "n_inscriptions": 17,
+      "meanings": [
+        "woman, female person"
+      ],
+      "categories": [
+        "person"
+      ],
+      "pos_tags": [
+        "NOUN"
+      ],
+      "nubian_cognates": [
+        "Old Nubian 'kide/gide'; Nobiin 'kede'"
+      ]
+    },
+    {
+      "root": "tenke",
+      "count": 14,
+      "avg_certainty": 0.8,
+      "n_inscriptions": 14,
+      "meanings": [
+        "west, western"
+      ],
+      "categories": [
+        "geography"
+      ],
+      "pos_tags": [
+        "NOUN"
+      ],
+      "nubian_cognates": [
+        "Old Nubian 'tengi'; Nobiin 'teengi'"
+      ]
+    },
+    {
+      "root": "beke",
+      "count": 14,
+      "avg_certainty": 0.65,
+      "n_inscriptions": 14,
+      "meanings": [
+        "to beget, to give birth, to produce"
+      ],
+      "categories": [
+        "verb"
+      ],
+      "pos_tags": [
+        "VERB"
+      ],
+      "nubian_cognates": [
+        "Old Nubian 'bek/big'"
+      ]
+    },
+    {
+      "root": "kdke",
+      "count": 10,
+      "avg_certainty": 0.95,
+      "n_inscriptions": 10,
+      "meanings": [
+        "queen, queen mother (Candace)"
+      ],
+      "categories": [
+        "title"
+      ],
+      "pos_tags": [
+        "NOUN.TITLE"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "pwrite",
+      "count": 7,
+      "avg_certainty": 0.8,
+      "n_inscriptions": 7,
+      "meanings": [
+        "life (in benedictions/invocations)"
+      ],
+      "categories": [
+        "religion"
+      ],
+      "pos_tags": [
+        "NOUN"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "sr",
+      "count": 6,
+      "avg_certainty": 0.7,
+      "n_inscriptions": 6,
+      "meanings": [
+        "sister, female relative"
+      ],
+      "categories": [
+        "kinship"
+      ],
+      "pos_tags": [
+        "NOUN"
+      ],
+      "nubian_cognates": [
+        "Old Nubian 'sur'; Nobiin 'suur'"
+      ]
+    },
+    {
+      "root": "akine",
+      "count": 6,
+      "avg_certainty": 0.85,
+      "n_inscriptions": 6,
+      "meanings": [
+        "Akine (Lower Nubian province)"
+      ],
+      "categories": [
+        "place_name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "s",
+      "count": 4,
+      "avg_certainty": 0.7,
+      "n_inscriptions": 4,
+      "meanings": [
+        "3rd person singular (he/she/it)"
+      ],
+      "categories": [
+        "pronoun"
+      ],
+      "pos_tags": [
+        "PRON"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Amanitore",
+      "count": 3,
+      "avg_certainty": 0.95,
+      "n_inscriptions": 3,
+      "meanings": [
+        "[name: Amanitore]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "pelmos",
+      "count": 3,
+      "avg_certainty": 0.8,
+      "n_inscriptions": 3,
+      "meanings": [
+        "strategos, military commander"
+      ],
+      "categories": [
+        "title"
+      ],
+      "pos_tags": [
+        "NOUN.TITLE"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Natakamani",
+      "count": 3,
+      "avg_certainty": 0.95,
+      "n_inscriptions": 3,
+      "meanings": [
+        "[name: Natakamani]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "mnp",
+      "count": 3,
+      "avg_certainty": 0.85,
+      "n_inscriptions": 3,
+      "meanings": [
+        "Mandulis (deity)"
+      ],
+      "categories": [
+        "deity_name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "sebke",
+      "count": 3,
+      "avg_certainty": 0.8,
+      "n_inscriptions": 3,
+      "meanings": [
+        "Sebiumeker (creator deity)"
+      ],
+      "categories": [
+        "deity_name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "ked",
+      "count": 3,
+      "avg_certainty": 0.8,
+      "n_inscriptions": 3,
+      "meanings": [
+        "to slaughter, to kill (in battle)"
+      ],
+      "categories": [
+        "verb"
+      ],
+      "pos_tags": [
+        "UNKNOWN"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "erk",
+      "count": 3,
+      "avg_certainty": 0.75,
+      "n_inscriptions": 3,
+      "meanings": [
+        "to seize, to raid, to take captive"
+      ],
+      "categories": [
+        "verb"
+      ],
+      "pos_tags": [
+        "VERB"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "beleqe",
+      "count": 2,
+      "avg_certainty": 0.7,
+      "n_inscriptions": 2,
+      "meanings": [
+        "chief, headman"
+      ],
+      "categories": [
+        "title"
+      ],
+      "pos_tags": [
+        "NOUN.TITLE"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "pqr",
+      "count": 2,
+      "avg_certainty": 0.85,
+      "n_inscriptions": 2,
+      "meanings": [
+        "deputy, viceroy, second-in-command"
+      ],
+      "categories": [
+        "title"
+      ],
+      "pos_tags": [
+        "NOUN.TITLE"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Akinimnoteri",
+      "count": 2,
+      "avg_certainty": 0.175,
+      "n_inscriptions": 2,
+      "meanings": [
+        "[name: Akinimnoteri]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "arike",
+      "count": 2,
+      "avg_certainty": 0.7,
+      "n_inscriptions": 2,
+      "meanings": [
+        "prince, royal offspring"
+      ],
+      "categories": [
+        "title"
+      ],
+      "pos_tags": [
+        "NOUN.TITLE"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "peseto",
+      "count": 2,
+      "avg_certainty": 0.8,
+      "n_inscriptions": 2,
+      "meanings": [
+        "viceroy (of a province)"
+      ],
+      "categories": [
+        "title"
+      ],
+      "pos_tags": [
+        "NOUN.TITLE"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Amanishakheto",
+      "count": 2,
+      "avg_certainty": 0.185,
+      "n_inscriptions": 2,
+      "meanings": [
+        "[name: Amanishakheto]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Amanikhabale",
+      "count": 2,
+      "avg_certainty": 0.173,
+      "n_inscriptions": 2,
+      "meanings": [
+        "[name: Amanikhabale]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Adikhalamani",
+      "count": 2,
+      "avg_certainty": 0.21,
+      "n_inscriptions": 2,
+      "meanings": [
+        "[name: Adikhalamani]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "mke",
+      "count": 2,
+      "avg_certainty": 0.4,
+      "n_inscriptions": 2,
+      "meanings": [
+        "to build, to construct (tentative)"
+      ],
+      "categories": [
+        "verb"
+      ],
+      "pos_tags": [
+        "VERB"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "mhe",
+      "count": 2,
+      "avg_certainty": 0.7,
+      "n_inscriptions": 2,
+      "meanings": [
+        "Mash, sun god (solar deity)"
+      ],
+      "categories": [
+        "deity_name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "plote",
+      "count": 2,
+      "avg_certainty": 0.65,
+      "n_inscriptions": 2,
+      "meanings": [
+        "to pour, libation"
+      ],
+      "categories": [
+        "religion"
+      ],
+      "pos_tags": [
+        "NOUN"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "el",
+      "count": 2,
+      "avg_certainty": 0.7,
+      "n_inscriptions": 2,
+      "meanings": [
+        "to give (imperative/verbal base)"
+      ],
+      "categories": [
+        "verb"
+      ],
+      "pos_tags": [
+        "VERB"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "gor",
+      "count": 2,
+      "avg_certainty": 0.85,
+      "n_inscriptions": 1,
+      "meanings": [
+        "ruler (with determinant, from *gore-l)"
+      ],
+      "categories": [
+        "title"
+      ],
+      "pos_tags": [
+        "NOUN.TITLE"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Mnpte",
+      "count": 2,
+      "avg_certainty": 0.85,
+      "n_inscriptions": 2,
+      "meanings": [
+        "[name: Mnpte]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "tkke",
+      "count": 2,
+      "avg_certainty": 0.3,
+      "n_inscriptions": 2,
+      "meanings": [
+        "to conquer, to defeat (tentative)"
+      ],
+      "categories": [
+        "verb"
+      ],
+      "pos_tags": [
+        "VERB"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Amnitenmomide",
+      "count": 1,
+      "avg_certainty": 0.182,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Amnitenmomide]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Teritedqe",
+      "count": 1,
+      "avg_certainty": 0.212,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Teritedqe]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Pksemni",
+      "count": 1,
+      "avg_certainty": 0.212,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Pksemni]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Wletomni",
+      "count": 1,
+      "avg_certainty": 0.7,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Wletomni]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Mtewidemni",
+      "count": 1,
+      "avg_certainty": 0.212,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Mtewidemni]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Yeritelde",
+      "count": 1,
+      "avg_certainty": 0.212,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Yeritelde]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Mnitnekemni",
+      "count": 1,
+      "avg_certainty": 0.175,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Mnitnekemni]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Yesbokemni",
+      "count": 1,
+      "avg_certainty": 0.212,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Yesbokemni]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Aritene",
+      "count": 1,
+      "avg_certainty": 0.7,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Aritene]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Krmntene",
+      "count": 1,
+      "avg_certainty": 0.175,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Krmntene]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Teritnide",
+      "count": 1,
+      "avg_certainty": 0.212,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Teritnide]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Abtselomni",
+      "count": 1,
+      "avg_certainty": 0.7,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Abtselomni]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Mlewitenoye",
+      "count": 1,
+      "avg_certainty": 0.7,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Mlewitenoye]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Periteleye",
+      "count": 1,
+      "avg_certainty": 0.228,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Periteleye]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Mlewitenose",
+      "count": 1,
+      "avg_certainty": 0.7,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Mlewitenose]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Tsemnoye",
+      "count": 1,
+      "avg_certainty": 0.212,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Tsemnoye]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Tkhetemni",
+      "count": 1,
+      "avg_certainty": 0.7,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Tkhetemni]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Tdkemeyose",
+      "count": 1,
+      "avg_certainty": 0.228,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Tdkemeyose]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Pelmnote",
+      "count": 1,
+      "avg_certainty": 0.7,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Pelmnote]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Beletense",
+      "count": 1,
+      "avg_certainty": 0.7,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Beletense]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Krmtone",
+      "count": 1,
+      "avg_certainty": 0.179,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Krmtone]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Atritenose",
+      "count": 1,
+      "avg_certainty": 0.228,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Atritenose]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Menteyose",
+      "count": 1,
+      "avg_certainty": 0.243,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Menteyose]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Tbktewide",
+      "count": 1,
+      "avg_certainty": 0.189,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Tbktewide]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "wete",
+      "count": 1,
+      "avg_certainty": 0.5,
+      "n_inscriptions": 1,
+      "meanings": [
+        "priest/officiant"
+      ],
+      "categories": [
+        "title"
+      ],
+      "pos_tags": [
+        "NOUN.TITLE"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Amnteklde",
+      "count": 1,
+      "avg_certainty": 0.7,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Amnteklde]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "widke",
+      "count": 1,
+      "avg_certainty": 0.55,
+      "n_inscriptions": 1,
+      "meanings": [
+        "priestess"
+      ],
+      "categories": [
+        "title"
+      ],
+      "pos_tags": [
+        "NOUN.TITLE"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Npatemeye",
+      "count": 1,
+      "avg_certainty": 0.243,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Npatemeye]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Tmlenekemni",
+      "count": 1,
+      "avg_certainty": 0.175,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Tmlenekemni]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Amanitekha",
+      "count": 1,
+      "avg_certainty": 0.192,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Amanitekha]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Arnekhamani",
+      "count": 1,
+      "avg_certainty": 0.195,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Arnekhamani]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Shanakdakhete",
+      "count": 1,
+      "avg_certainty": 0.173,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Shanakdakhete]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Yesebokemni",
+      "count": 1,
+      "avg_certainty": 0.192,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Yesebokemni]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "aresnp",
+      "count": 1,
+      "avg_certainty": 0.8,
+      "n_inscriptions": 1,
+      "meanings": [
+        "Arensnuphis (deity)"
+      ],
+      "categories": [
+        "deity_name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Peksemelde",
+      "count": 1,
+      "avg_certainty": 0.171,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Peksemelde]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "mlqe",
+      "count": 1,
+      "avg_certainty": 0.6,
+      "n_inscriptions": 1,
+      "meanings": [
+        "high official"
+      ],
+      "categories": [
+        "title"
+      ],
+      "pos_tags": [
+        "NOUN.TITLE"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Mntemnoye",
+      "count": 1,
+      "avg_certainty": 0.7,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Mntemnoye]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Aritnekemni",
+      "count": 1,
+      "avg_certainty": 0.7,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Aritnekemni]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Harsiotef",
+      "count": 1,
+      "avg_certainty": 0.22,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Harsiotef]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Nastasen",
+      "count": 1,
+      "avg_certainty": 0.191,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Nastasen]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "gore",
+      "count": 1,
+      "avg_certainty": 0.85,
+      "n_inscriptions": 1,
+      "meanings": [
+        "ruler (before personal names, without determinant)"
+      ],
+      "categories": [
+        "title"
+      ],
+      "pos_tags": [
+        "NOUN.TITLE"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Amnp",
+      "count": 1,
+      "avg_certainty": 0.7,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Amnp]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "nete",
+      "count": 1,
+      "avg_certainty": 0.3,
+      "n_inscriptions": 1,
+      "meanings": [
+        "(uncertain — part of royal name/epithet)"
+      ],
+      "categories": [
+        "title"
+      ],
+      "pos_tags": [
+        "NOUN.TITLE"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "Amnirense",
+      "count": 1,
+      "avg_certainty": 0.95,
+      "n_inscriptions": 1,
+      "meanings": [
+        "[name: Amnirense]"
+      ],
+      "categories": [
+        "name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "qoreyi",
+      "count": 1,
+      "avg_certainty": 0.65,
+      "n_inscriptions": 1,
+      "meanings": [
+        "one who rules, ruling (participial)"
+      ],
+      "categories": [
+        "title"
+      ],
+      "pos_tags": [
+        "NOUN.TITLE"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "dmke",
+      "count": 1,
+      "avg_certainty": 0.45,
+      "n_inscriptions": 1,
+      "meanings": [
+        "temple (tentative)"
+      ],
+      "categories": [
+        "architecture"
+      ],
+      "pos_tags": [
+        "NOUN"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "bedewi",
+      "count": 1,
+      "avg_certainty": 0.4,
+      "n_inscriptions": 1,
+      "meanings": [
+        "throne, seat of power (tentative)"
+      ],
+      "categories": [
+        "architecture"
+      ],
+      "pos_tags": [
+        "NOUN"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "tele",
+      "count": 1,
+      "avg_certainty": 0.35,
+      "n_inscriptions": 1,
+      "meanings": [
+        "to go, to travel (tentative)"
+      ],
+      "categories": [
+        "verb"
+      ],
+      "pos_tags": [
+        "VERB"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "tedke",
+      "count": 1,
+      "avg_certainty": 0.7,
+      "n_inscriptions": 1,
+      "meanings": [
+        "east, eastern"
+      ],
+      "categories": [
+        "geography"
+      ],
+      "pos_tags": [
+        "NOUN"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "ar",
+      "count": 1,
+      "avg_certainty": 0.35,
+      "n_inscriptions": 1,
+      "meanings": [
+        "one"
+      ],
+      "categories": [
+        "number"
+      ],
+      "pos_tags": [
+        "NUM"
+      ],
+      "nubian_cognates": []
+    },
+    {
+      "root": "nobe",
+      "count": 1,
+      "avg_certainty": 0.4,
+      "n_inscriptions": 1,
+      "meanings": [
+        "gold (tentative)"
+      ],
+      "categories": [
+        "material"
+      ],
+      "pos_tags": [
+        "NOUN"
+      ],
+      "nubian_cognates": [
+        "Nobiin 'nob' (gold); cf. 'Nubia'"
+      ]
+    },
+    {
+      "root": "hore",
+      "count": 1,
+      "avg_certainty": 0.9,
+      "n_inscriptions": 1,
+      "meanings": [
+        "Horus (deity)"
+      ],
+      "categories": [
+        "deity_name"
+      ],
+      "pos_tags": [
+        "NOUN.PROPER"
+      ],
+      "nubian_cognates": []
+    }
+  ],
+  "confidence_tiers": {
+    "certain": [
+      "mk",
+      "mlo",
+      "pesto",
+      "wos",
+      "qore",
+      "ate",
+      "yi",
+      "to",
+      "amni",
+      "apedmk",
+      "abr",
+      "kdi",
+      "tenke",
+      "kdke",
+      "pwrite",
+      "akine",
+      "Amanitore",
+      "pelmos",
+      "Natakamani",
+      "mnp",
+      "sebke",
+      "ked",
+      "pqr",
+      "peseto",
+      "gor",
+      "Mnpte",
+      "aresnp",
+      "gore",
+      "Amnirense",
+      "hore"
+    ],
+    "probable": [
+      "qo",
+      "selele",
+      "lh",
+      "beke",
+      "sr",
+      "s",
+      "erk",
+      "beleqe",
+      "arike",
+      "mhe",
+      "plote",
+      "el",
+      "Wletomni",
+      "Aritene",
+      "Abtselomni",
+      "Mlewitenoye",
+      "Mlewitenose",
+      "Tkhetemni",
+      "Pelmnote",
+      "Beletense",
+      "Amnteklde",
+      "mlqe",
+      "Mntemnoye",
+      "Aritnekemni",
+      "Amnp",
+      "qoreyi",
+      "tedke"
+    ],
+    "tentative": [
+      "mke",
+      "wete",
+      "widke",
+      "dmke",
+      "bedewi",
+      "tele",
+      "ar",
+      "nobe"
+    ],
+    "unknown": [
+      "Tanyidamani",
+      "Akinimnoteri",
+      "Amanishakheto",
+      "Amanikhabale",
+      "Adikhalamani",
+      "tkke",
+      "Amnitenmomide",
+      "Teritedqe",
+      "Pksemni",
+      "Mtewidemni",
+      "Yeritelde",
+      "Mnitnekemni",
+      "Yesbokemni",
+      "Krmntene",
+      "Teritnide",
+      "Periteleye",
+      "Tsemnoye",
+      "Tdkemeyose",
+      "Krmtone",
+      "Atritenose",
+      "Menteyose",
+      "Tbktewide",
+      "Npatemeye",
+      "Tmlenekemni",
+      "Amanitekha",
+      "Arnekhamani",
+      "Shanakdakhete",
+      "Yesebokemni",
+      "Peksemelde",
+      "Harsiotef",
+      "Nastasen",
+      "nete"
+    ]
+  }
+}

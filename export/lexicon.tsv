@@ -1,0 +1,98 @@
+root	count	avg_certainty	n_inscriptions	meanings	categories	pos_tags	nubian_cognates	confidence_tier
+mk	105	0.9	80	god, deity	religion	NOUN	Old Nubian 'masik/massig'	CERTAIN
+mlo	80	0.8	78	good, beautiful, fine	adjective	ADJ; PRON	Old Nubian 'mel/mell'; Nobiin 'meeli'	CERTAIN
+pesto	64	0.85	64	to give, to offer, to bestow	verb	VERB	Old Nubian 'per/pir' (to give)	CERTAIN
+wos	45	0.95	45	Isis (deity)	deity_name	NOUN.PROPER		CERTAIN
+qo	44	0.75	44	great, big, mighty	adjective	ADJ	Old Nubian 'qor/gor'; Nobiin 'goor'	PROBABLE
+selele	40	0.6	40	protection, salvation, grace	religion	NOUN	Old Nubian 'selle'	PROBABLE
+qore	38	0.95	38	ruler, king	title	NOUN.TITLE		CERTAIN
+ate	37	0.9	37	bread, food offering	funerary	NOUN	Old Nubian 'atte'; Nobiin 'atti'	CERTAIN
+yi	37	0.9	37	water, drink offering	funerary	NOUN	Old Nubian 'yi/yii'; Nobiin 'yii'	CERTAIN
+to	30	0.85	27	land, territory, country	geography	NOUN	Old Nubian 'tou/to'; Nobiin 'tó'	CERTAIN
+amni	30	0.95	30	Amun (deity)	deity_name	NOUN.PROPER		CERTAIN
+apedmk	28	0.95	28	Apedemak (lion-headed war god)	deity_name	NOUN.PROPER		CERTAIN
+lh	27	0.75	27	offspring, son, child	kinship	NOUN	Old Nubian 'leh/lihi'	PROBABLE
+abr	27	0.85	27	man, male person	person	NOUN	Old Nubian 'auer'; Nobiin 'uur'	CERTAIN
+Tanyidamani	22	0.225	22	[name: Tanyidamani]	name	NOUN.PROPER		UNKNOWN
+kdi	17	0.85	17	woman, female person	person	NOUN	Old Nubian 'kide/gide'; Nobiin 'kede'	CERTAIN
+tenke	14	0.8	14	west, western	geography	NOUN	Old Nubian 'tengi'; Nobiin 'teengi'	CERTAIN
+beke	14	0.65	14	to beget, to give birth, to produce	verb	VERB	Old Nubian 'bek/big'	PROBABLE
+kdke	10	0.95	10	queen, queen mother (Candace)	title	NOUN.TITLE		CERTAIN
+pwrite	7	0.8	7	life (in benedictions/invocations)	religion	NOUN		CERTAIN
+sr	6	0.7	6	sister, female relative	kinship	NOUN	Old Nubian 'sur'; Nobiin 'suur'	PROBABLE
+akine	6	0.85	6	Akine (Lower Nubian province)	place_name	NOUN.PROPER		CERTAIN
+s	4	0.7	4	3rd person singular (he/she/it)	pronoun	PRON		PROBABLE
+Amanitore	3	0.95	3	[name: Amanitore]	name	NOUN.PROPER		CERTAIN
+pelmos	3	0.8	3	strategos, military commander	title	NOUN.TITLE		CERTAIN
+Natakamani	3	0.95	3	[name: Natakamani]	name	NOUN.PROPER		CERTAIN
+mnp	3	0.85	3	Mandulis (deity)	deity_name	NOUN.PROPER		CERTAIN
+sebke	3	0.8	3	Sebiumeker (creator deity)	deity_name	NOUN.PROPER		CERTAIN
+ked	3	0.8	3	to slaughter, to kill (in battle)	verb	UNKNOWN		CERTAIN
+erk	3	0.75	3	to seize, to raid, to take captive	verb	VERB		PROBABLE
+beleqe	2	0.7	2	chief, headman	title	NOUN.TITLE		PROBABLE
+pqr	2	0.85	2	deputy, viceroy, second-in-command	title	NOUN.TITLE		CERTAIN
+Akinimnoteri	2	0.175	2	[name: Akinimnoteri]	name	NOUN.PROPER		UNKNOWN
+arike	2	0.7	2	prince, royal offspring	title	NOUN.TITLE		PROBABLE
+peseto	2	0.8	2	viceroy (of a province)	title	NOUN.TITLE		CERTAIN
+Amanishakheto	2	0.185	2	[name: Amanishakheto]	name	NOUN.PROPER		UNKNOWN
+Amanikhabale	2	0.173	2	[name: Amanikhabale]	name	NOUN.PROPER		UNKNOWN
+Adikhalamani	2	0.21	2	[name: Adikhalamani]	name	NOUN.PROPER		UNKNOWN
+mke	2	0.4	2	to build, to construct (tentative)	verb	VERB		TENTATIVE
+mhe	2	0.7	2	Mash, sun god (solar deity)	deity_name	NOUN.PROPER		PROBABLE
+plote	2	0.65	2	to pour, libation	religion	NOUN		PROBABLE
+el	2	0.7	2	to give (imperative/verbal base)	verb	VERB		PROBABLE
+gor	2	0.85	1	ruler (with determinant, from *gore-l)	title	NOUN.TITLE		CERTAIN
+Mnpte	2	0.85	2	[name: Mnpte]	name	NOUN.PROPER		CERTAIN
+tkke	2	0.3	2	to conquer, to defeat (tentative)	verb	VERB		UNKNOWN
+Amnitenmomide	1	0.182	1	[name: Amnitenmomide]	name	NOUN.PROPER		UNKNOWN
+Teritedqe	1	0.212	1	[name: Teritedqe]	name	NOUN.PROPER		UNKNOWN
+Pksemni	1	0.212	1	[name: Pksemni]	name	NOUN.PROPER		UNKNOWN
+Wletomni	1	0.7	1	[name: Wletomni]	name	NOUN.PROPER		PROBABLE
+Mtewidemni	1	0.212	1	[name: Mtewidemni]	name	NOUN.PROPER		UNKNOWN
+Yeritelde	1	0.212	1	[name: Yeritelde]	name	NOUN.PROPER		UNKNOWN
+Mnitnekemni	1	0.175	1	[name: Mnitnekemni]	name	NOUN.PROPER		UNKNOWN
+Yesbokemni	1	0.212	1	[name: Yesbokemni]	name	NOUN.PROPER		UNKNOWN
+Aritene	1	0.7	1	[name: Aritene]	name	NOUN.PROPER		PROBABLE
+Krmntene	1	0.175	1	[name: Krmntene]	name	NOUN.PROPER		UNKNOWN
+Teritnide	1	0.212	1	[name: Teritnide]	name	NOUN.PROPER		UNKNOWN
+Abtselomni	1	0.7	1	[name: Abtselomni]	name	NOUN.PROPER		PROBABLE
+Mlewitenoye	1	0.7	1	[name: Mlewitenoye]	name	NOUN.PROPER		PROBABLE
+Periteleye	1	0.228	1	[name: Periteleye]	name	NOUN.PROPER		UNKNOWN
+Mlewitenose	1	0.7	1	[name: Mlewitenose]	name	NOUN.PROPER		PROBABLE
+Tsemnoye	1	0.212	1	[name: Tsemnoye]	name	NOUN.PROPER		UNKNOWN
+Tkhetemni	1	0.7	1	[name: Tkhetemni]	name	NOUN.PROPER		PROBABLE
+Tdkemeyose	1	0.228	1	[name: Tdkemeyose]	name	NOUN.PROPER		UNKNOWN
+Pelmnote	1	0.7	1	[name: Pelmnote]	name	NOUN.PROPER		PROBABLE
+Beletense	1	0.7	1	[name: Beletense]	name	NOUN.PROPER		PROBABLE
+Krmtone	1	0.179	1	[name: Krmtone]	name	NOUN.PROPER		UNKNOWN
+Atritenose	1	0.228	1	[name: Atritenose]	name	NOUN.PROPER		UNKNOWN
+Menteyose	1	0.243	1	[name: Menteyose]	name	NOUN.PROPER		UNKNOWN
+Tbktewide	1	0.189	1	[name: Tbktewide]	name	NOUN.PROPER		UNKNOWN
+wete	1	0.5	1	priest/officiant	title	NOUN.TITLE		TENTATIVE
+Amnteklde	1	0.7	1	[name: Amnteklde]	name	NOUN.PROPER		PROBABLE
+widke	1	0.55	1	priestess	title	NOUN.TITLE		TENTATIVE
+Npatemeye	1	0.243	1	[name: Npatemeye]	name	NOUN.PROPER		UNKNOWN
+Tmlenekemni	1	0.175	1	[name: Tmlenekemni]	name	NOUN.PROPER		UNKNOWN
+Amanitekha	1	0.192	1	[name: Amanitekha]	name	NOUN.PROPER		UNKNOWN
+Arnekhamani	1	0.195	1	[name: Arnekhamani]	name	NOUN.PROPER		UNKNOWN
+Shanakdakhete	1	0.173	1	[name: Shanakdakhete]	name	NOUN.PROPER		UNKNOWN
+Yesebokemni	1	0.192	1	[name: Yesebokemni]	name	NOUN.PROPER		UNKNOWN
+aresnp	1	0.8	1	Arensnuphis (deity)	deity_name	NOUN.PROPER		CERTAIN
+Peksemelde	1	0.171	1	[name: Peksemelde]	name	NOUN.PROPER		UNKNOWN
+mlqe	1	0.6	1	high official	title	NOUN.TITLE		PROBABLE
+Mntemnoye	1	0.7	1	[name: Mntemnoye]	name	NOUN.PROPER		PROBABLE
+Aritnekemni	1	0.7	1	[name: Aritnekemni]	name	NOUN.PROPER		PROBABLE
+Harsiotef	1	0.22	1	[name: Harsiotef]	name	NOUN.PROPER		UNKNOWN
+Nastasen	1	0.191	1	[name: Nastasen]	name	NOUN.PROPER		UNKNOWN
+gore	1	0.85	1	ruler (before personal names, without determinant)	title	NOUN.TITLE		CERTAIN
+Amnp	1	0.7	1	[name: Amnp]	name	NOUN.PROPER		PROBABLE
+nete	1	0.3	1	(uncertain — part of royal name/epithet)	title	NOUN.TITLE		UNKNOWN
+Amnirense	1	0.95	1	[name: Amnirense]	name	NOUN.PROPER		CERTAIN
+qoreyi	1	0.65	1	one who rules, ruling (participial)	title	NOUN.TITLE		PROBABLE
+dmke	1	0.45	1	temple (tentative)	architecture	NOUN		TENTATIVE
+bedewi	1	0.4	1	throne, seat of power (tentative)	architecture	NOUN		TENTATIVE
+tele	1	0.35	1	to go, to travel (tentative)	verb	VERB		TENTATIVE
+tedke	1	0.7	1	east, eastern	geography	NOUN		PROBABLE
+ar	1	0.35	1	one	number	NUM		TENTATIVE
+nobe	1	0.4	1	gold (tentative)	material	NOUN	Nobiin 'nob' (gold); cf. 'Nubia'	TENTATIVE
+hore	1	0.9	1	Horus (deity)	deity_name	NOUN.PROPER		CERTAIN
