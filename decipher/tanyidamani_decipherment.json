@@ -1,0 +1,4714 @@
+{
+  "metadata": {
+    "inscription_id": "REM_1044",
+    "name": "Grand Stele of King Tanyidamani",
+    "site": "Jebel Barkal, Temple B 500",
+    "period": "2nd century BCE",
+    "dimensions": "1.60 m height, 4 sides",
+    "total_lines": 161,
+    "script": "Meroitic hieroglyphic and cursive",
+    "publication": "Hintze, F. 1960. 'Die meroitische Stele des Königs Tanyidamani aus Napata.' Kush 8: 125–162.",
+    "pdf_source": "sources/rilly_devoogt_meroitic_language.pdf",
+    "timestamp": "2026-03-07T19:49:48.665141"
+  },
+  "sections": [
+    {
+      "section_id": "A1",
+      "title": "Opening Invocation to Apedemak",
+      "lines": "1–5",
+      "status": "ATTESTED/RESTORED",
+      "source": "Rilly & de Voogt 2012:157; REM 0405A parallel",
+      "notes": "Formula attested on REM 0405A; 'O Apedemak, the great and good god, give life to Tanyidamani'",
+      "decipherment": {
+        "id": "REM_1044_A1",
+        "site": "Jebel Barkal",
+        "type": "royal",
+        "period": "2nd century BCE",
+        "medium": "",
+        "layers": {
+          "transliteration": "apedmk-i : qo : mlo : mk-l : Tanyidamani : pwrite : el-x-te",
+          "segmentation": "apedmk-i  qo  mlo  mk-l  Tanyidamani  pwrite  el-x-te",
+          "interlinear_gloss": "Apedemak-VOC  great  good  god-PL  Tanyidamani  life  to give-x-to be",
+          "phrase_structure": "[INVOCATION apedmk-i qo mlo mk-l]  [NAME_BLOCK Tanyidamani pwrite]  [VERB_PHRASE el-x-te]",
+          "token_details": [
+            {
+              "token": "apedmk-i",
+              "pos": "NOUN.PROPER",
+              "root": "apedmk",
+              "meaning": "Apedemak (lion-headed war god)",
+              "category": "deity_name",
+              "certainty": 0.95,
+              "suffixes": [
+                {
+                  "form": "i",
+                  "function": "1st person or vocative intensifier"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "qo",
+              "pos": "ADJ",
+              "root": "qo",
+              "meaning": "great, big, mighty",
+              "category": "adjective",
+              "certainty": 0.75,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'qor/gor'; Nobiin 'goor'"
+            },
+            {
+              "token": "mlo",
+              "pos": "ADJ",
+              "root": "mlo",
+              "meaning": "good, beautiful, fine",
+              "category": "adjective",
+              "certainty": 0.8,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'mel/mell'; Nobiin 'meeli'"
+            },
+            {
+              "token": "mk-l",
+              "pos": "NOUN",
+              "root": "mk",
+              "meaning": "god, deity",
+              "category": "religion",
+              "certainty": 0.9,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'masik/massig'"
+            },
+            {
+              "token": "Tanyidamani",
+              "pos": "NOUN.PROPER",
+              "root": "Tanyidamani",
+              "meaning": "[name: Tanyidamani]",
+              "category": "name",
+              "certainty": 0.22512103282209373,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "pwrite",
+              "pos": "NOUN",
+              "root": "pwrite",
+              "meaning": "life (in benedictions/invocations)",
+              "category": "religion",
+              "certainty": 0.8,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "el-x-te",
+              "pos": "VERB",
+              "root": "el",
+              "meaning": "to give (imperative/verbal base)",
+              "category": "verb",
+              "certainty": 0.7,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            }
+          ],
+          "free_translation": "O Apedemak, the great and good god; Tanyidamani, life; give."
+        },
+        "template_match": {
+          "best": "temple_dedication",
+          "score": 6.5
+        },
+        "confidence": {
+          "average": 0.732,
+          "per_token": [
+            {
+              "token": "apedmk-i",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "qo",
+              "certainty": 0.75,
+              "label": "probable"
+            },
+            {
+              "token": "mlo",
+              "certainty": 0.8,
+              "label": "certain"
+            },
+            {
+              "token": "mk-l",
+              "certainty": 0.9,
+              "label": "certain"
+            },
+            {
+              "token": "Tanyidamani",
+              "certainty": 0.22512103282209373,
+              "label": "unknown"
+            },
+            {
+              "token": "pwrite",
+              "certainty": 0.8,
+              "label": "certain"
+            },
+            {
+              "token": "el-x-te",
+              "certainty": 0.7,
+              "label": "probable"
+            }
+          ],
+          "summary": {
+            "certain": 4,
+            "probable": 2,
+            "tentative": 0,
+            "unknown": 1,
+            "total": 7
+          }
+        }
+      },
+      "confidence": 0.732
+    },
+    {
+      "section_id": "A2",
+      "title": "Invocation to Amun",
+      "lines": "5–10",
+      "status": "RESTORED",
+      "source": "Structural parallel: invocation + deity + royal name + pwrite formula",
+      "notes": "Parallel formula invoking Amun; 'O Amun, the great and good god, give life to Tanyidamani the ruler'",
+      "decipherment": {
+        "id": "REM_1044_A2",
+        "site": "Jebel Barkal",
+        "type": "royal",
+        "period": "2nd century BCE",
+        "medium": "",
+        "layers": {
+          "transliteration": "amni-i : qo : mlo : mk-l : Tanyidamani : qore-l : pwrite : el-x-te",
+          "segmentation": "amni-i  qo  mlo  mk-l  Tanyidamani  qore-l  pwrite  el-x-te",
+          "interlinear_gloss": "Amun-VOC  great  good  god-PL  Tanyidamani  ruler-PL  life  to give-x-to be",
+          "phrase_structure": "[INVOCATION amni-i qo mlo mk-l]  [NAME_BLOCK Tanyidamani]  [TITLE qore-l pwrite]  [VERB_PHRASE el-x-te]",
+          "token_details": [
+            {
+              "token": "amni-i",
+              "pos": "NOUN.PROPER",
+              "root": "amni",
+              "meaning": "Amun (deity)",
+              "category": "deity_name",
+              "certainty": 0.95,
+              "suffixes": [
+                {
+                  "form": "i",
+                  "function": "1st person or vocative intensifier"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "qo",
+              "pos": "ADJ",
+              "root": "qo",
+              "meaning": "great, big, mighty",
+              "category": "adjective",
+              "certainty": 0.75,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'qor/gor'; Nobiin 'goor'"
+            },
+            {
+              "token": "mlo",
+              "pos": "ADJ",
+              "root": "mlo",
+              "meaning": "good, beautiful, fine",
+              "category": "adjective",
+              "certainty": 0.8,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'mel/mell'; Nobiin 'meeli'"
+            },
+            {
+              "token": "mk-l",
+              "pos": "NOUN",
+              "root": "mk",
+              "meaning": "god, deity",
+              "category": "religion",
+              "certainty": 0.9,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'masik/massig'"
+            },
+            {
+              "token": "Tanyidamani",
+              "pos": "NOUN.PROPER",
+              "root": "Tanyidamani",
+              "meaning": "[name: Tanyidamani]",
+              "category": "name",
+              "certainty": 0.22512103282209373,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "qore-l",
+              "pos": "NOUN.TITLE",
+              "root": "qore",
+              "meaning": "ruler, king",
+              "category": "title",
+              "certainty": 0.95,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "pwrite",
+              "pos": "NOUN",
+              "root": "pwrite",
+              "meaning": "life (in benedictions/invocations)",
+              "category": "religion",
+              "certainty": 0.8,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "el-x-te",
+              "pos": "VERB",
+              "root": "el",
+              "meaning": "to give (imperative/verbal base)",
+              "category": "verb",
+              "certainty": 0.7,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            }
+          ],
+          "free_translation": "O Amun, the great and good god; Tanyidamani; the rulers the life; give."
+        },
+        "template_match": {
+          "best": "royal_enthronement",
+          "score": 6.5
+        },
+        "confidence": {
+          "average": 0.759,
+          "per_token": [
+            {
+              "token": "amni-i",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "qo",
+              "certainty": 0.75,
+              "label": "probable"
+            },
+            {
+              "token": "mlo",
+              "certainty": 0.8,
+              "label": "certain"
+            },
+            {
+              "token": "mk-l",
+              "certainty": 0.9,
+              "label": "certain"
+            },
+            {
+              "token": "Tanyidamani",
+              "certainty": 0.22512103282209373,
+              "label": "unknown"
+            },
+            {
+              "token": "qore-l",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "pwrite",
+              "certainty": 0.8,
+              "label": "certain"
+            },
+            {
+              "token": "el-x-te",
+              "certainty": 0.7,
+              "label": "probable"
+            }
+          ],
+          "summary": {
+            "certain": 5,
+            "probable": 2,
+            "tentative": 0,
+            "unknown": 1,
+            "total": 8
+          }
+        }
+      },
+      "confidence": 0.759
+    },
+    {
+      "section_id": "A3",
+      "title": "Royal Titulary — Name and Title",
+      "lines": "10–15",
+      "status": "ATTESTED",
+      "source": "gore Tneyidmni attested (REM 0628); qore-l-o from REM_0401; kdke-l from protocol pattern",
+      "notes": "'The ruler Tanyidamani, of the kingship, the Candace's (son), at the temple of Amun, good and great'",
+      "decipherment": {
+        "id": "REM_1044_A3",
+        "site": "Jebel Barkal",
+        "type": "royal",
+        "period": "2nd century BCE",
+        "medium": "",
+        "layers": {
+          "transliteration": "gore : Tanyidamani : qore-l-o : kdke-l : amni-te : mlo : qo",
+          "segmentation": "gore  Tanyidamani  qore-l-o  kdke-l  amni-te  mlo  qo",
+          "interlinear_gloss": "ruler  Tanyidamani  ruler-PL-GEN  queen-PL  Amun-to be  good  great",
+          "phrase_structure": "[TITLE gore Tanyidamani]  [TITLE qore-l-o]  [TITLE kdke-l]  [INVOCATION amni-te mlo qo]",
+          "token_details": [
+            {
+              "token": "gore",
+              "pos": "NOUN.TITLE",
+              "root": "gore",
+              "meaning": "ruler (before personal names, without determinant)",
+              "category": "title",
+              "certainty": 0.85,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "Tanyidamani",
+              "pos": "NOUN.PROPER",
+              "root": "Tanyidamani",
+              "meaning": "[name: Tanyidamani]",
+              "category": "name",
+              "certainty": 0.22512103282209373,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "qore-l-o",
+              "pos": "NOUN.TITLE",
+              "root": "qore",
+              "meaning": "ruler, king",
+              "category": "title",
+              "certainty": 0.95,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                },
+                {
+                  "form": "o",
+                  "function": "genitive / possessive marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "kdke-l",
+              "pos": "NOUN.TITLE",
+              "root": "kdke",
+              "meaning": "queen, queen mother (Candace)",
+              "category": "title",
+              "certainty": 0.95,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "amni-te",
+              "pos": "NOUN.PROPER",
+              "root": "amni",
+              "meaning": "Amun (deity)",
+              "category": "deity_name",
+              "certainty": 0.95,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "mlo",
+              "pos": "ADJ",
+              "root": "mlo",
+              "meaning": "good, beautiful, fine",
+              "category": "adjective",
+              "certainty": 0.8,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'mel/mell'; Nobiin 'meeli'"
+            },
+            {
+              "token": "qo",
+              "pos": "ADJ",
+              "root": "qo",
+              "meaning": "great, big, mighty",
+              "category": "adjective",
+              "certainty": 0.75,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'qor/gor'; Nobiin 'goor'"
+            }
+          ],
+          "free_translation": "the ruler Tanyidamani; of ruler; the queens; O Amun, good and great."
+        },
+        "template_match": {
+          "best": "royal_enthronement",
+          "score": 6.5
+        },
+        "confidence": {
+          "average": 0.782,
+          "per_token": [
+            {
+              "token": "gore",
+              "certainty": 0.85,
+              "label": "certain"
+            },
+            {
+              "token": "Tanyidamani",
+              "certainty": 0.22512103282209373,
+              "label": "unknown"
+            },
+            {
+              "token": "qore-l-o",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "kdke-l",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "amni-te",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "mlo",
+              "certainty": 0.8,
+              "label": "certain"
+            },
+            {
+              "token": "qo",
+              "certainty": 0.75,
+              "label": "probable"
+            }
+          ],
+          "summary": {
+            "certain": 5,
+            "probable": 1,
+            "tentative": 0,
+            "unknown": 1,
+            "total": 7
+          }
+        }
+      },
+      "confidence": 0.782
+    },
+    {
+      "section_id": "A4",
+      "title": "Royal Lineage",
+      "lines": "15–20",
+      "status": "RESTORED",
+      "source": "Lineage formulas from corpus parallels; beke-li from genealogical pattern",
+      "notes": "'Offspring of the ruler, Tanyidamani, his begetting, of the good Candace's (line)'",
+      "decipherment": {
+        "id": "REM_1044_A4",
+        "site": "Jebel Barkal",
+        "type": "royal",
+        "period": "2nd century BCE",
+        "medium": "",
+        "layers": {
+          "transliteration": "lh-l : qore-l : Tanyidamani : s : beke-li : kdke-l : mlo-l-o",
+          "segmentation": "lh-l  qore-l  Tanyidamani  s  beke-li  kdke-l  mlo-l-o",
+          "interlinear_gloss": "offspring-PL  ruler-PL  Tanyidamani  3SG.POSS  to beget-PL  queen-PL  good-PL-GEN",
+          "phrase_structure": "[NOUN_PHRASE lh-l]  [TITLE qore-l Tanyidamani s]  [VERB_PHRASE beke-li]  [TITLE kdke-l mlo-l-o]",
+          "token_details": [
+            {
+              "token": "lh-l",
+              "pos": "NOUN",
+              "root": "lh",
+              "meaning": "offspring, son, child",
+              "category": "kinship",
+              "certainty": 0.75,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'leh/lihi'"
+            },
+            {
+              "token": "qore-l",
+              "pos": "NOUN.TITLE",
+              "root": "qore",
+              "meaning": "ruler, king",
+              "category": "title",
+              "certainty": 0.95,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "Tanyidamani",
+              "pos": "NOUN.PROPER",
+              "root": "Tanyidamani",
+              "meaning": "[name: Tanyidamani]",
+              "category": "name",
+              "certainty": 0.22512103282209373,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "s",
+              "pos": "PRON",
+              "root": "s",
+              "meaning": "3rd person singular (he/she/it)",
+              "category": "pronoun",
+              "certainty": 0.7,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "beke-li",
+              "pos": "VERB",
+              "root": "beke",
+              "meaning": "to beget, to give birth, to produce",
+              "category": "verb",
+              "certainty": 0.65,
+              "suffixes": [
+                {
+                  "form": "li",
+                  "function": "plural marker (variant, possibly ergative plural)"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'bek/big'"
+            },
+            {
+              "token": "kdke-l",
+              "pos": "NOUN.TITLE",
+              "root": "kdke",
+              "meaning": "queen, queen mother (Candace)",
+              "category": "title",
+              "certainty": 0.95,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "mlo-l-o",
+              "pos": "ADJ",
+              "root": "mlo",
+              "meaning": "good, beautiful, fine",
+              "category": "adjective",
+              "certainty": 0.8,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                },
+                {
+                  "form": "o",
+                  "function": "genitive / possessive marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'mel/mell'; Nobiin 'meeli'"
+            }
+          ],
+          "free_translation": "offsprings; the rulers Tanyidamani; beget; the queens the good."
+        },
+        "template_match": {
+          "best": "royal_enthronement",
+          "score": 5.5
+        },
+        "confidence": {
+          "average": 0.718,
+          "per_token": [
+            {
+              "token": "lh-l",
+              "certainty": 0.75,
+              "label": "probable"
+            },
+            {
+              "token": "qore-l",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "Tanyidamani",
+              "certainty": 0.22512103282209373,
+              "label": "unknown"
+            },
+            {
+              "token": "s",
+              "certainty": 0.7,
+              "label": "probable"
+            },
+            {
+              "token": "beke-li",
+              "certainty": 0.65,
+              "label": "probable"
+            },
+            {
+              "token": "kdke-l",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "mlo-l-o",
+              "certainty": 0.8,
+              "label": "certain"
+            }
+          ],
+          "summary": {
+            "certain": 3,
+            "probable": 3,
+            "tentative": 0,
+            "unknown": 1,
+            "total": 7
+          }
+        }
+      },
+      "confidence": 0.718
+    },
+    {
+      "section_id": "A5",
+      "title": "Royal Authority Formula",
+      "lines": "20–25",
+      "status": "ATTESTED",
+      "source": "Rilly & de Voogt 2012:155 — exact phrase from REM 1044",
+      "notes": "'By the good authority of Amanap nete, the ruler Tanyidamani'",
+      "decipherment": {
+        "id": "REM_1044_A5",
+        "site": "Jebel Barkal",
+        "type": "royal",
+        "period": "2nd century BCE",
+        "medium": "",
+        "layers": {
+          "transliteration": "Amnp : nete : se-mlo-lw : qore-l : Tanyidamani",
+          "segmentation": "Amnp  nete  se-mlo-lw  qore-l  Tanyidamani",
+          "interlinear_gloss": "Amnp    3rd person singular (he/she/it)+e-good-lw  ruler-PL  Tanyidamani",
+          "phrase_structure": "[NAME_BLOCK Amnp]  [TITLE nete se-mlo-lw]  [TITLE qore-l Tanyidamani]",
+          "token_details": [
+            {
+              "token": "Amnp",
+              "pos": "NOUN.PROPER",
+              "root": "Amnp",
+              "meaning": "[name: Amnp]",
+              "category": "name",
+              "certainty": 0.7,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "nete",
+              "pos": "NOUN.TITLE",
+              "root": "nete",
+              "meaning": "(uncertain — part of royal name/epithet)",
+              "category": "title",
+              "certainty": 0.3,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "se-mlo-lw",
+              "pos": "PRON",
+              "root": "mlo",
+              "meaning": "good, beautiful, fine",
+              "category": "adjective",
+              "certainty": 0.8,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'mel/mell'; Nobiin 'meeli'"
+            },
+            {
+              "token": "qore-l",
+              "pos": "NOUN.TITLE",
+              "root": "qore",
+              "meaning": "ruler, king",
+              "category": "title",
+              "certainty": 0.95,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "Tanyidamani",
+              "pos": "NOUN.PROPER",
+              "root": "Tanyidamani",
+              "meaning": "[name: Tanyidamani]",
+              "category": "name",
+              "certainty": 0.22512103282209373,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            }
+          ],
+          "free_translation": "Amnp; the ; the rulers Tanyidamani."
+        },
+        "template_match": {
+          "best": "royal_enthronement",
+          "score": 4.5
+        },
+        "confidence": {
+          "average": 0.533,
+          "per_token": [
+            {
+              "token": "Amnp",
+              "certainty": 0.7,
+              "label": "probable"
+            },
+            {
+              "token": "nete",
+              "certainty": 0.3,
+              "label": "tentative"
+            },
+            {
+              "token": "se-mlo-lw",
+              "certainty": 0.48999999999999994,
+              "label": "tentative"
+            },
+            {
+              "token": "qore-l",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "Tanyidamani",
+              "certainty": 0.22512103282209373,
+              "label": "unknown"
+            }
+          ],
+          "summary": {
+            "certain": 1,
+            "probable": 1,
+            "tentative": 2,
+            "unknown": 1,
+            "total": 5
+          }
+        }
+      },
+      "confidence": 0.533
+    },
+    {
+      "section_id": "A6",
+      "title": "Reference to Ancestral Rulers",
+      "lines": "25–30",
+      "status": "ATTESTED/RESTORED",
+      "source": "Amnirense gor attested from REM 1044 (Rilly p.142); Mnxble gor from REM 1026 pattern",
+      "notes": "'Amanirenas the ruler, Amanikhabale the ruler, of the kingship, good'",
+      "decipherment": {
+        "id": "REM_1044_A6",
+        "site": "Jebel Barkal",
+        "type": "royal",
+        "period": "2nd century BCE",
+        "medium": "",
+        "layers": {
+          "transliteration": "Amnirense : gor : Amanikhabale : gor : qore-l-o : mlo",
+          "segmentation": "Amnirense  gor  Amanikhabale  gor  qore-l-o  mlo",
+          "interlinear_gloss": "Amnirense  ruler  Amanikhabale  ruler  ruler-PL-GEN  good",
+          "phrase_structure": "[NAME_BLOCK Amnirense]  [TITLE gor Amanikhabale]  [TITLE gor]  [TITLE qore-l-o mlo]",
+          "token_details": [
+            {
+              "token": "Amnirense",
+              "pos": "NOUN.PROPER",
+              "root": "Amnirense",
+              "meaning": "[name: Amnirense]",
+              "category": "name",
+              "certainty": 0.95,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "gor",
+              "pos": "NOUN.TITLE",
+              "root": "gor",
+              "meaning": "ruler (with determinant, from *gore-l)",
+              "category": "title",
+              "certainty": 0.85,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "Amanikhabale",
+              "pos": "NOUN.PROPER",
+              "root": "Amanikhabale",
+              "meaning": "[name: Amanikhabale]",
+              "category": "name",
+              "certainty": 0.17284978790940955,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "gor",
+              "pos": "NOUN.TITLE",
+              "root": "gor",
+              "meaning": "ruler (with determinant, from *gore-l)",
+              "category": "title",
+              "certainty": 0.85,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "qore-l-o",
+              "pos": "NOUN.TITLE",
+              "root": "qore",
+              "meaning": "ruler, king",
+              "category": "title",
+              "certainty": 0.95,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                },
+                {
+                  "form": "o",
+                  "function": "genitive / possessive marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "mlo",
+              "pos": "ADJ",
+              "root": "mlo",
+              "meaning": "good, beautiful, fine",
+              "category": "adjective",
+              "certainty": 0.8,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'mel/mell'; Nobiin 'meeli'"
+            }
+          ],
+          "free_translation": "Amnirense; the ruler Amanikhabale; the ruler; of ruler the good."
+        },
+        "template_match": {
+          "best": "royal_enthronement",
+          "score": 4.5
+        },
+        "confidence": {
+          "average": 0.762,
+          "per_token": [
+            {
+              "token": "Amnirense",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "gor",
+              "certainty": 0.85,
+              "label": "certain"
+            },
+            {
+              "token": "Amanikhabale",
+              "certainty": 0.17284978790940955,
+              "label": "unknown"
+            },
+            {
+              "token": "gor",
+              "certainty": 0.85,
+              "label": "certain"
+            },
+            {
+              "token": "qore-l-o",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "mlo",
+              "certainty": 0.8,
+              "label": "certain"
+            }
+          ],
+          "summary": {
+            "certain": 5,
+            "probable": 0,
+            "tentative": 0,
+            "unknown": 1,
+            "total": 6
+          }
+        }
+      },
+      "confidence": 0.762
+    },
+    {
+      "section_id": "A7",
+      "title": "Divine Patronage",
+      "lines": "30–35",
+      "status": "RESTORED",
+      "source": "Divine triad pattern from REM_0401; selele-wi from corpus",
+      "notes": "'Apedemak the god, Amun the god, Isis the goddess — protection in the west'",
+      "decipherment": {
+        "id": "REM_1044_A7",
+        "site": "Jebel Barkal",
+        "type": "royal",
+        "period": "2nd century BCE",
+        "medium": "",
+        "layers": {
+          "transliteration": "apedmk : mk-se : amni : mk-se : wos : mk-se : selele-wi : tenke",
+          "segmentation": "apedmk  mk-se  amni  mk-se  wos  mk-se  selele-wi  tenke",
+          "interlinear_gloss": "Apedemak  god-VOC  Amun  god-VOC  Isis  god-VOC  protection-DATI  west",
+          "phrase_structure": "[INVOCATION apedmk mk-se]  [INVOCATION amni mk-se]  [INVOCATION wos mk-se selele-wi]  [LOCATION tenke]",
+          "token_details": [
+            {
+              "token": "apedmk",
+              "pos": "NOUN.PROPER",
+              "root": "apedmk",
+              "meaning": "Apedemak (lion-headed war god)",
+              "category": "deity_name",
+              "certainty": 0.95,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "mk-se",
+              "pos": "NOUN",
+              "root": "mk",
+              "meaning": "god, deity",
+              "category": "religion",
+              "certainty": 0.9,
+              "suffixes": [
+                {
+                  "form": "se",
+                  "function": "vocative / invocative (O ...!)"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'masik/massig'"
+            },
+            {
+              "token": "amni",
+              "pos": "NOUN.PROPER",
+              "root": "amni",
+              "meaning": "Amun (deity)",
+              "category": "deity_name",
+              "certainty": 0.95,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "mk-se",
+              "pos": "NOUN",
+              "root": "mk",
+              "meaning": "god, deity",
+              "category": "religion",
+              "certainty": 0.9,
+              "suffixes": [
+                {
+                  "form": "se",
+                  "function": "vocative / invocative (O ...!)"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'masik/massig'"
+            },
+            {
+              "token": "wos",
+              "pos": "NOUN.PROPER",
+              "root": "wos",
+              "meaning": "Isis (deity)",
+              "category": "deity_name",
+              "certainty": 0.95,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "mk-se",
+              "pos": "NOUN",
+              "root": "mk",
+              "meaning": "god, deity",
+              "category": "religion",
+              "certainty": 0.9,
+              "suffixes": [
+                {
+                  "form": "se",
+                  "function": "vocative / invocative (O ...!)"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'masik/massig'"
+            },
+            {
+              "token": "selele-wi",
+              "pos": "NOUN",
+              "root": "selele",
+              "meaning": "protection, salvation, grace",
+              "category": "religion",
+              "certainty": 0.6,
+              "suffixes": [
+                {
+                  "form": "wi",
+                  "function": "dative / benefactive (for, to)"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'selle'"
+            },
+            {
+              "token": "tenke",
+              "pos": "NOUN",
+              "root": "tenke",
+              "meaning": "west, western",
+              "category": "geography",
+              "certainty": 0.8,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'tengi'; Nobiin 'teengi'"
+            }
+          ],
+          "free_translation": "O Apedemak, O god!; O Amun, O god!; O Isis, O god!, the protection; west."
+        },
+        "template_match": {
+          "best": "temple_dedication",
+          "score": 8.5
+        },
+        "confidence": {
+          "average": 0.869,
+          "per_token": [
+            {
+              "token": "apedmk",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "mk-se",
+              "certainty": 0.9,
+              "label": "certain"
+            },
+            {
+              "token": "amni",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "mk-se",
+              "certainty": 0.9,
+              "label": "certain"
+            },
+            {
+              "token": "wos",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "mk-se",
+              "certainty": 0.9,
+              "label": "certain"
+            },
+            {
+              "token": "selele-wi",
+              "certainty": 0.6,
+              "label": "probable"
+            },
+            {
+              "token": "tenke",
+              "certainty": 0.8,
+              "label": "certain"
+            }
+          ],
+          "summary": {
+            "certain": 7,
+            "probable": 1,
+            "tentative": 0,
+            "unknown": 0,
+            "total": 8
+          }
+        }
+      },
+      "confidence": 0.869
+    },
+    {
+      "section_id": "A8",
+      "title": "Enthronement Declaration",
+      "lines": "35–40",
+      "status": "RESTORED",
+      "source": "qore Mnpte-se-lw qoreyi from REM 0094 (Rilly p.156); adapted for Tanyidamani",
+      "notes": "'Ruler Tanyidamani, who rules by authority of Amun of Napata, of goodness'",
+      "decipherment": {
+        "id": "REM_1044_A8",
+        "site": "Jebel Barkal",
+        "type": "royal",
+        "period": "2nd century BCE",
+        "medium": "",
+        "layers": {
+          "transliteration": "qore : Tanyidamani : Mnpte-se-lw : qoreyi : mlo-l-o",
+          "segmentation": "qore  Tanyidamani  Mnpte-se-lw  qoreyi  mlo-l-o",
+          "interlinear_gloss": "ruler  Tanyidamani  Mnpte-VOC-lw  one who rules  good-PL-GEN",
+          "phrase_structure": "[TITLE qore Tanyidamani Mnpte-se-lw]  [TITLE qoreyi mlo-l-o]",
+          "token_details": [
+            {
+              "token": "qore",
+              "pos": "NOUN.TITLE",
+              "root": "qore",
+              "meaning": "ruler, king",
+              "category": "title",
+              "certainty": 0.95,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "Tanyidamani",
+              "pos": "NOUN.PROPER",
+              "root": "Tanyidamani",
+              "meaning": "[name: Tanyidamani]",
+              "category": "name",
+              "certainty": 0.22512103282209373,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "Mnpte-se-lw",
+              "pos": "NOUN.PROPER",
+              "root": "Mnpte",
+              "meaning": "[name: Mnpte]",
+              "category": "name",
+              "certainty": 0.85,
+              "suffixes": [
+                {
+                  "form": "se",
+                  "function": "vocative / invocative (O ...!)"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "qoreyi",
+              "pos": "NOUN.TITLE",
+              "root": "qoreyi",
+              "meaning": "one who rules, ruling (participial)",
+              "category": "title",
+              "certainty": 0.65,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "mlo-l-o",
+              "pos": "ADJ",
+              "root": "mlo",
+              "meaning": "good, beautiful, fine",
+              "category": "adjective",
+              "certainty": 0.8,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                },
+                {
+                  "form": "o",
+                  "function": "genitive / possessive marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'mel/mell'; Nobiin 'meeli'"
+            }
+          ],
+          "free_translation": "the ruler Tanyidamani Mnpte; the one who rules the good."
+        },
+        "template_match": {
+          "best": "royal_enthronement",
+          "score": 4.5
+        },
+        "confidence": {
+          "average": 0.695,
+          "per_token": [
+            {
+              "token": "qore",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "Tanyidamani",
+              "certainty": 0.22512103282209373,
+              "label": "unknown"
+            },
+            {
+              "token": "Mnpte-se-lw",
+              "certainty": 0.85,
+              "label": "certain"
+            },
+            {
+              "token": "qoreyi",
+              "certainty": 0.65,
+              "label": "probable"
+            },
+            {
+              "token": "mlo-l-o",
+              "certainty": 0.8,
+              "label": "certain"
+            }
+          ],
+          "summary": {
+            "certain": 3,
+            "probable": 1,
+            "tentative": 0,
+            "unknown": 1,
+            "total": 5
+          }
+        }
+      },
+      "confidence": 0.695
+    },
+    {
+      "section_id": "B1",
+      "title": "Benediction to Apedemak",
+      "lines": "41–48",
+      "status": "RESTORED",
+      "source": "Benediction pattern from epitaphs; prite formula",
+      "notes": "'O Apedemak, great god, good one — life! To Tanyidamani may it be given in the good land'",
+      "decipherment": {
+        "id": "REM_1044_B1",
+        "site": "Jebel Barkal",
+        "type": "royal",
+        "period": "2nd century BCE",
+        "medium": "",
+        "layers": {
+          "transliteration": "apedmk-i : qo : mk : mlo : pwrite : Tanyidamani : pesto-b-ke : to : mlo-l-o",
+          "segmentation": "apedmk-i  qo  mk  mlo  pwrite  Tanyidamani  pesto-b-ke  to  mlo-l-o",
+          "interlinear_gloss": "Apedemak-VOC  great  god  good  life  Tanyidamani  to give-COP-NMLZ  land  good-PL-GEN",
+          "phrase_structure": "[INVOCATION apedmk-i qo mk mlo pwrite]  [NAME_BLOCK Tanyidamani]  [VERB_PHRASE pesto-b-ke]  [LOCATION to mlo-l-o]",
+          "token_details": [
+            {
+              "token": "apedmk-i",
+              "pos": "NOUN.PROPER",
+              "root": "apedmk",
+              "meaning": "Apedemak (lion-headed war god)",
+              "category": "deity_name",
+              "certainty": 0.95,
+              "suffixes": [
+                {
+                  "form": "i",
+                  "function": "1st person or vocative intensifier"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "qo",
+              "pos": "ADJ",
+              "root": "qo",
+              "meaning": "great, big, mighty",
+              "category": "adjective",
+              "certainty": 0.75,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'qor/gor'; Nobiin 'goor'"
+            },
+            {
+              "token": "mk",
+              "pos": "NOUN",
+              "root": "mk",
+              "meaning": "god, deity",
+              "category": "religion",
+              "certainty": 0.9,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'masik/massig'"
+            },
+            {
+              "token": "mlo",
+              "pos": "ADJ",
+              "root": "mlo",
+              "meaning": "good, beautiful, fine",
+              "category": "adjective",
+              "certainty": 0.8,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'mel/mell'; Nobiin 'meeli'"
+            },
+            {
+              "token": "pwrite",
+              "pos": "NOUN",
+              "root": "pwrite",
+              "meaning": "life (in benedictions/invocations)",
+              "category": "religion",
+              "certainty": 0.8,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "Tanyidamani",
+              "pos": "NOUN.PROPER",
+              "root": "Tanyidamani",
+              "meaning": "[name: Tanyidamani]",
+              "category": "name",
+              "certainty": 0.22512103282209373,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "pesto-b-ke",
+              "pos": "VERB",
+              "root": "pesto",
+              "meaning": "to give, to offer, to bestow",
+              "category": "verb",
+              "certainty": 0.85,
+              "suffixes": [
+                {
+                  "form": "b",
+                  "function": "3rd person singular verb / agentive / copula"
+                },
+                {
+                  "form": "ke",
+                  "function": "nominalizer / result marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'per/pir' (to give)"
+            },
+            {
+              "token": "to",
+              "pos": "NOUN",
+              "root": "to",
+              "meaning": "land, territory, country",
+              "category": "geography",
+              "certainty": 0.85,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'tou/to'; Nobiin 'tó'"
+            },
+            {
+              "token": "mlo-l-o",
+              "pos": "ADJ",
+              "root": "mlo",
+              "meaning": "good, beautiful, fine",
+              "category": "adjective",
+              "certainty": 0.8,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                },
+                {
+                  "form": "o",
+                  "function": "genitive / possessive marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'mel/mell'; Nobiin 'meeli'"
+            }
+          ],
+          "free_translation": "O Apedemak, the great and good god, the life; Tanyidamani; may it be given; land good."
+        },
+        "template_match": {
+          "best": "temple_dedication",
+          "score": 6.5
+        },
+        "confidence": {
+          "average": 0.769,
+          "per_token": [
+            {
+              "token": "apedmk-i",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "qo",
+              "certainty": 0.75,
+              "label": "probable"
+            },
+            {
+              "token": "mk",
+              "certainty": 0.9,
+              "label": "certain"
+            },
+            {
+              "token": "mlo",
+              "certainty": 0.8,
+              "label": "certain"
+            },
+            {
+              "token": "pwrite",
+              "certainty": 0.8,
+              "label": "certain"
+            },
+            {
+              "token": "Tanyidamani",
+              "certainty": 0.22512103282209373,
+              "label": "unknown"
+            },
+            {
+              "token": "pesto-b-ke",
+              "certainty": 0.85,
+              "label": "certain"
+            },
+            {
+              "token": "to",
+              "certainty": 0.85,
+              "label": "certain"
+            },
+            {
+              "token": "mlo-l-o",
+              "certainty": 0.8,
+              "label": "certain"
+            }
+          ],
+          "summary": {
+            "certain": 7,
+            "probable": 1,
+            "tentative": 0,
+            "unknown": 1,
+            "total": 9
+          }
+        }
+      },
+      "confidence": 0.769
+    },
+    {
+      "section_id": "B2",
+      "title": "Benediction to Amun of Napata",
+      "lines": "48–55",
+      "status": "RESTORED",
+      "source": "Amun of Napata (Mnpte) attested in royal formula (Rilly p.156)",
+      "notes": "'Amun of Napata, the great and good god — life! May protection be given'",
+      "decipherment": {
+        "id": "REM_1044_B2",
+        "site": "Jebel Barkal",
+        "type": "royal",
+        "period": "2nd century BCE",
+        "medium": "",
+        "layers": {
+          "transliteration": "amni : Mnpte : mk-l : qo : mlo : pwrite : pesto-b-ke : selele",
+          "segmentation": "amni  Mnpte  mk-l  qo  mlo  pwrite  pesto-b-ke  selele",
+          "interlinear_gloss": "Amun  Mnpte  god-PL  great  good  life  to give-COP-NMLZ  protection",
+          "phrase_structure": "[INVOCATION amni]  [NAME_BLOCK Mnpte mk-l qo mlo pwrite]  [VERB_PHRASE pesto-b-ke]  [NOUN_PHRASE selele]",
+          "token_details": [
+            {
+              "token": "amni",
+              "pos": "NOUN.PROPER",
+              "root": "amni",
+              "meaning": "Amun (deity)",
+              "category": "deity_name",
+              "certainty": 0.95,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "Mnpte",
+              "pos": "NOUN.PROPER",
+              "root": "Mnpte",
+              "meaning": "[name: Mnpte]",
+              "category": "name",
+              "certainty": 0.85,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "mk-l",
+              "pos": "NOUN",
+              "root": "mk",
+              "meaning": "god, deity",
+              "category": "religion",
+              "certainty": 0.9,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'masik/massig'"
+            },
+            {
+              "token": "qo",
+              "pos": "ADJ",
+              "root": "qo",
+              "meaning": "great, big, mighty",
+              "category": "adjective",
+              "certainty": 0.75,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'qor/gor'; Nobiin 'goor'"
+            },
+            {
+              "token": "mlo",
+              "pos": "ADJ",
+              "root": "mlo",
+              "meaning": "good, beautiful, fine",
+              "category": "adjective",
+              "certainty": 0.8,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'mel/mell'; Nobiin 'meeli'"
+            },
+            {
+              "token": "pwrite",
+              "pos": "NOUN",
+              "root": "pwrite",
+              "meaning": "life (in benedictions/invocations)",
+              "category": "religion",
+              "certainty": 0.8,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "pesto-b-ke",
+              "pos": "VERB",
+              "root": "pesto",
+              "meaning": "to give, to offer, to bestow",
+              "category": "verb",
+              "certainty": 0.85,
+              "suffixes": [
+                {
+                  "form": "b",
+                  "function": "3rd person singular verb / agentive / copula"
+                },
+                {
+                  "form": "ke",
+                  "function": "nominalizer / result marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'per/pir' (to give)"
+            },
+            {
+              "token": "selele",
+              "pos": "NOUN",
+              "root": "selele",
+              "meaning": "protection, salvation, grace",
+              "category": "religion",
+              "certainty": 0.6,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'selle'"
+            }
+          ],
+          "free_translation": "O Amun; Mnpte, great good gods life; may it be given; protection."
+        },
+        "template_match": {
+          "best": "temple_dedication",
+          "score": 5.5
+        },
+        "confidence": {
+          "average": 0.812,
+          "per_token": [
+            {
+              "token": "amni",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "Mnpte",
+              "certainty": 0.85,
+              "label": "certain"
+            },
+            {
+              "token": "mk-l",
+              "certainty": 0.9,
+              "label": "certain"
+            },
+            {
+              "token": "qo",
+              "certainty": 0.75,
+              "label": "probable"
+            },
+            {
+              "token": "mlo",
+              "certainty": 0.8,
+              "label": "certain"
+            },
+            {
+              "token": "pwrite",
+              "certainty": 0.8,
+              "label": "certain"
+            },
+            {
+              "token": "pesto-b-ke",
+              "certainty": 0.85,
+              "label": "certain"
+            },
+            {
+              "token": "selele",
+              "certainty": 0.6,
+              "label": "probable"
+            }
+          ],
+          "summary": {
+            "certain": 6,
+            "probable": 2,
+            "tentative": 0,
+            "unknown": 0,
+            "total": 8
+          }
+        }
+      },
+      "confidence": 0.812
+    },
+    {
+      "section_id": "B3",
+      "title": "Benediction to Isis",
+      "lines": "55–60",
+      "status": "RESTORED",
+      "source": "Isis benediction pattern; offering formula ate-li yi-li",
+      "notes": "'O Isis, good goddess — life! To Tanyidamani the ruler may bread and water be given'",
+      "decipherment": {
+        "id": "REM_1044_B3",
+        "site": "Jebel Barkal",
+        "type": "royal",
+        "period": "2nd century BCE",
+        "medium": "",
+        "layers": {
+          "transliteration": "wos-i : mlo : mk : pwrite : Tanyidamani : qore-l : pesto-b-ke : ate-li : yi-li",
+          "segmentation": "wos-i  mlo  mk  pwrite  Tanyidamani  qore-l  pesto-b-ke  ate-li  yi-li",
+          "interlinear_gloss": "Isis-VOC  good  god  life  Tanyidamani  ruler-PL  to give-COP-NMLZ  bread-PL  water-PL",
+          "phrase_structure": "[INVOCATION wos-i mlo mk pwrite]  [NAME_BLOCK Tanyidamani]  [TITLE qore-l]  [VERB_PHRASE pesto-b-ke]  [OFFERING ate-li yi-li]",
+          "token_details": [
+            {
+              "token": "wos-i",
+              "pos": "NOUN.PROPER",
+              "root": "wos",
+              "meaning": "Isis (deity)",
+              "category": "deity_name",
+              "certainty": 0.95,
+              "suffixes": [
+                {
+                  "form": "i",
+                  "function": "1st person or vocative intensifier"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "mlo",
+              "pos": "ADJ",
+              "root": "mlo",
+              "meaning": "good, beautiful, fine",
+              "category": "adjective",
+              "certainty": 0.8,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'mel/mell'; Nobiin 'meeli'"
+            },
+            {
+              "token": "mk",
+              "pos": "NOUN",
+              "root": "mk",
+              "meaning": "god, deity",
+              "category": "religion",
+              "certainty": 0.9,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'masik/massig'"
+            },
+            {
+              "token": "pwrite",
+              "pos": "NOUN",
+              "root": "pwrite",
+              "meaning": "life (in benedictions/invocations)",
+              "category": "religion",
+              "certainty": 0.8,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "Tanyidamani",
+              "pos": "NOUN.PROPER",
+              "root": "Tanyidamani",
+              "meaning": "[name: Tanyidamani]",
+              "category": "name",
+              "certainty": 0.22512103282209373,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "qore-l",
+              "pos": "NOUN.TITLE",
+              "root": "qore",
+              "meaning": "ruler, king",
+              "category": "title",
+              "certainty": 0.95,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "pesto-b-ke",
+              "pos": "VERB",
+              "root": "pesto",
+              "meaning": "to give, to offer, to bestow",
+              "category": "verb",
+              "certainty": 0.85,
+              "suffixes": [
+                {
+                  "form": "b",
+                  "function": "3rd person singular verb / agentive / copula"
+                },
+                {
+                  "form": "ke",
+                  "function": "nominalizer / result marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'per/pir' (to give)"
+            },
+            {
+              "token": "ate-li",
+              "pos": "NOUN",
+              "root": "ate",
+              "meaning": "bread, food offering",
+              "category": "funerary",
+              "certainty": 0.9,
+              "suffixes": [
+                {
+                  "form": "li",
+                  "function": "plural marker (variant, possibly ergative plural)"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'atte'; Nobiin 'atti'"
+            },
+            {
+              "token": "yi-li",
+              "pos": "NOUN",
+              "root": "yi",
+              "meaning": "water, drink offering",
+              "category": "funerary",
+              "certainty": 0.9,
+              "suffixes": [
+                {
+                  "form": "li",
+                  "function": "plural marker (variant, possibly ergative plural)"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'yi/yii'; Nobiin 'yii'"
+            }
+          ],
+          "free_translation": "O Isis, the good god, the life; Tanyidamani; the rulers; may it be given; bread(s) and water(s)."
+        },
+        "template_match": {
+          "best": "funerary_offering",
+          "score": 9.5
+        },
+        "confidence": {
+          "average": 0.808,
+          "per_token": [
+            {
+              "token": "wos-i",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "mlo",
+              "certainty": 0.8,
+              "label": "certain"
+            },
+            {
+              "token": "mk",
+              "certainty": 0.9,
+              "label": "certain"
+            },
+            {
+              "token": "pwrite",
+              "certainty": 0.8,
+              "label": "certain"
+            },
+            {
+              "token": "Tanyidamani",
+              "certainty": 0.22512103282209373,
+              "label": "unknown"
+            },
+            {
+              "token": "qore-l",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "pesto-b-ke",
+              "certainty": 0.85,
+              "label": "certain"
+            },
+            {
+              "token": "ate-li",
+              "certainty": 0.9,
+              "label": "certain"
+            },
+            {
+              "token": "yi-li",
+              "certainty": 0.9,
+              "label": "certain"
+            }
+          ],
+          "summary": {
+            "certain": 8,
+            "probable": 0,
+            "tentative": 0,
+            "unknown": 1,
+            "total": 9
+          }
+        }
+      },
+      "confidence": 0.808
+    },
+    {
+      "section_id": "B4",
+      "title": "Temple Construction at Jebel Barkal",
+      "lines": "60–68",
+      "status": "CONJECTURAL",
+      "source": "Temple B 500 context; building text pattern",
+      "notes": "'The ruler Tanyidamani: the temple at Amun's (place) he built, good and great, the throne'",
+      "decipherment": {
+        "id": "REM_1044_B4",
+        "site": "Jebel Barkal",
+        "type": "royal",
+        "period": "2nd century BCE",
+        "medium": "",
+        "layers": {
+          "transliteration": "qore-l : Tanyidamani : dmke : amni-te : mke-l-o : mlo : qo : bedewi-l",
+          "segmentation": "qore-l  Tanyidamani  dmke  amni-te  mke-l-o  mlo  qo  bedewi-l",
+          "interlinear_gloss": "ruler-PL  Tanyidamani  temple  Amun-to be  to build-PL-GEN  good  great  throne-PL",
+          "phrase_structure": "[TITLE qore-l Tanyidamani dmke]  [INVOCATION amni-te]  [VERB_PHRASE mke-l-o]  [NOUN_PHRASE mlo qo bedewi-l]",
+          "token_details": [
+            {
+              "token": "qore-l",
+              "pos": "NOUN.TITLE",
+              "root": "qore",
+              "meaning": "ruler, king",
+              "category": "title",
+              "certainty": 0.95,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "Tanyidamani",
+              "pos": "NOUN.PROPER",
+              "root": "Tanyidamani",
+              "meaning": "[name: Tanyidamani]",
+              "category": "name",
+              "certainty": 0.22512103282209373,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "dmke",
+              "pos": "NOUN",
+              "root": "dmke",
+              "meaning": "temple (tentative)",
+              "category": "architecture",
+              "certainty": 0.45,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "amni-te",
+              "pos": "NOUN.PROPER",
+              "root": "amni",
+              "meaning": "Amun (deity)",
+              "category": "deity_name",
+              "certainty": 0.95,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "mke-l-o",
+              "pos": "VERB",
+              "root": "mke",
+              "meaning": "to build, to construct (tentative)",
+              "category": "verb",
+              "certainty": 0.4,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                },
+                {
+                  "form": "o",
+                  "function": "genitive / possessive marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "mlo",
+              "pos": "ADJ",
+              "root": "mlo",
+              "meaning": "good, beautiful, fine",
+              "category": "adjective",
+              "certainty": 0.8,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'mel/mell'; Nobiin 'meeli'"
+            },
+            {
+              "token": "qo",
+              "pos": "ADJ",
+              "root": "qo",
+              "meaning": "great, big, mighty",
+              "category": "adjective",
+              "certainty": 0.75,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'qor/gor'; Nobiin 'goor'"
+            },
+            {
+              "token": "bedewi-l",
+              "pos": "NOUN",
+              "root": "bedewi",
+              "meaning": "throne, seat of power (tentative)",
+              "category": "architecture",
+              "certainty": 0.4,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            }
+          ],
+          "free_translation": "the rulers Tanyidamani the temple; O Amun; build; good great thrones."
+        },
+        "template_match": {
+          "best": "royal_enthronement",
+          "score": 6.5
+        },
+        "confidence": {
+          "average": 0.616,
+          "per_token": [
+            {
+              "token": "qore-l",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "Tanyidamani",
+              "certainty": 0.22512103282209373,
+              "label": "unknown"
+            },
+            {
+              "token": "dmke",
+              "certainty": 0.45,
+              "label": "tentative"
+            },
+            {
+              "token": "amni-te",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "mke-l-o",
+              "certainty": 0.4,
+              "label": "tentative"
+            },
+            {
+              "token": "mlo",
+              "certainty": 0.8,
+              "label": "certain"
+            },
+            {
+              "token": "qo",
+              "certainty": 0.75,
+              "label": "probable"
+            },
+            {
+              "token": "bedewi-l",
+              "certainty": 0.4,
+              "label": "tentative"
+            }
+          ],
+          "summary": {
+            "certain": 3,
+            "probable": 1,
+            "tentative": 3,
+            "unknown": 1,
+            "total": 8
+          }
+        }
+      },
+      "confidence": 0.616
+    },
+    {
+      "section_id": "B5",
+      "title": "Offerings at Jebel Barkal Temple",
+      "lines": "68–75",
+      "status": "RESTORED",
+      "source": "Offering formula; -owi copula from REM 0327 parallels",
+      "notes": "'Bread and water, may it be given to Apedemak the god, Amun the god — she was of goodness'",
+      "decipherment": {
+        "id": "REM_1044_B5",
+        "site": "Jebel Barkal",
+        "type": "royal",
+        "period": "2nd century BCE",
+        "medium": "",
+        "layers": {
+          "transliteration": "ate-li : yi-li : pesto-b-ke : apedmk : mk-se : amni : mk-se : mlo-l-owi",
+          "segmentation": "ate-li  yi-li  pesto-b-ke  apedmk  mk-se  amni  mk-se  mlo-l-owi",
+          "interlinear_gloss": "bread-PL  water-PL  to give-COP-NMLZ  Apedemak  god-VOC  Amun  god-VOC  good-PL-owi",
+          "phrase_structure": "[OFFERING ate-li yi-li pesto-b-ke]  [INVOCATION apedmk mk-se]  [INVOCATION amni mk-se mlo-l-owi]",
+          "token_details": [
+            {
+              "token": "ate-li",
+              "pos": "NOUN",
+              "root": "ate",
+              "meaning": "bread, food offering",
+              "category": "funerary",
+              "certainty": 0.9,
+              "suffixes": [
+                {
+                  "form": "li",
+                  "function": "plural marker (variant, possibly ergative plural)"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'atte'; Nobiin 'atti'"
+            },
+            {
+              "token": "yi-li",
+              "pos": "NOUN",
+              "root": "yi",
+              "meaning": "water, drink offering",
+              "category": "funerary",
+              "certainty": 0.9,
+              "suffixes": [
+                {
+                  "form": "li",
+                  "function": "plural marker (variant, possibly ergative plural)"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'yi/yii'; Nobiin 'yii'"
+            },
+            {
+              "token": "pesto-b-ke",
+              "pos": "VERB",
+              "root": "pesto",
+              "meaning": "to give, to offer, to bestow",
+              "category": "verb",
+              "certainty": 0.85,
+              "suffixes": [
+                {
+                  "form": "b",
+                  "function": "3rd person singular verb / agentive / copula"
+                },
+                {
+                  "form": "ke",
+                  "function": "nominalizer / result marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'per/pir' (to give)"
+            },
+            {
+              "token": "apedmk",
+              "pos": "NOUN.PROPER",
+              "root": "apedmk",
+              "meaning": "Apedemak (lion-headed war god)",
+              "category": "deity_name",
+              "certainty": 0.95,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "mk-se",
+              "pos": "NOUN",
+              "root": "mk",
+              "meaning": "god, deity",
+              "category": "religion",
+              "certainty": 0.9,
+              "suffixes": [
+                {
+                  "form": "se",
+                  "function": "vocative / invocative (O ...!)"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'masik/massig'"
+            },
+            {
+              "token": "amni",
+              "pos": "NOUN.PROPER",
+              "root": "amni",
+              "meaning": "Amun (deity)",
+              "category": "deity_name",
+              "certainty": 0.95,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "mk-se",
+              "pos": "NOUN",
+              "root": "mk",
+              "meaning": "god, deity",
+              "category": "religion",
+              "certainty": 0.9,
+              "suffixes": [
+                {
+                  "form": "se",
+                  "function": "vocative / invocative (O ...!)"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'masik/massig'"
+            },
+            {
+              "token": "mlo-l-owi",
+              "pos": "ADJ",
+              "root": "mlo",
+              "meaning": "good, beautiful, fine",
+              "category": "adjective",
+              "certainty": 0.8,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'mel/mell'; Nobiin 'meeli'"
+            }
+          ],
+          "free_translation": "bread(s) and water(s) — may it be given; O Apedemak, O god!; O Amun, O good god!."
+        },
+        "template_match": {
+          "best": "funerary_offering",
+          "score": 9.5
+        },
+        "confidence": {
+          "average": 0.894,
+          "per_token": [
+            {
+              "token": "ate-li",
+              "certainty": 0.9,
+              "label": "certain"
+            },
+            {
+              "token": "yi-li",
+              "certainty": 0.9,
+              "label": "certain"
+            },
+            {
+              "token": "pesto-b-ke",
+              "certainty": 0.85,
+              "label": "certain"
+            },
+            {
+              "token": "apedmk",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "mk-se",
+              "certainty": 0.9,
+              "label": "certain"
+            },
+            {
+              "token": "amni",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "mk-se",
+              "certainty": 0.9,
+              "label": "certain"
+            },
+            {
+              "token": "mlo-l-owi",
+              "certainty": 0.8,
+              "label": "certain"
+            }
+          ],
+          "summary": {
+            "certain": 8,
+            "probable": 0,
+            "tentative": 0,
+            "unknown": 0,
+            "total": 8
+          }
+        }
+      },
+      "confidence": 0.894
+    },
+    {
+      "section_id": "B6",
+      "title": "Ritual Formula",
+      "lines": "75–80",
+      "status": "CONJECTURAL",
+      "source": "plote (libation) and ritual offering pattern",
+      "notes": "'Libation of bread and water, his, to the great god(s) in the land at Amun's (temple), protection'",
+      "decipherment": {
+        "id": "REM_1044_B6",
+        "site": "Jebel Barkal",
+        "type": "royal",
+        "period": "2nd century BCE",
+        "medium": "",
+        "layers": {
+          "transliteration": "plote-l : ate-li : yi-li : s : mk-l : qo : to : amni-te : selele",
+          "segmentation": "plote-l  ate-li  yi-li  s  mk-l  qo  to  amni-te  selele",
+          "interlinear_gloss": "to pour-PL  bread-PL  water-PL  3SG.POSS  god-PL  great  land  Amun-to be  protection",
+          "phrase_structure": "[NOUN_PHRASE plote-l]  [OFFERING ate-li yi-li s mk-l qo]  [LOCATION to]  [INVOCATION amni-te selele]",
+          "token_details": [
+            {
+              "token": "plote-l",
+              "pos": "NOUN",
+              "root": "plote",
+              "meaning": "to pour, libation",
+              "category": "religion",
+              "certainty": 0.65,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "ate-li",
+              "pos": "NOUN",
+              "root": "ate",
+              "meaning": "bread, food offering",
+              "category": "funerary",
+              "certainty": 0.9,
+              "suffixes": [
+                {
+                  "form": "li",
+                  "function": "plural marker (variant, possibly ergative plural)"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'atte'; Nobiin 'atti'"
+            },
+            {
+              "token": "yi-li",
+              "pos": "NOUN",
+              "root": "yi",
+              "meaning": "water, drink offering",
+              "category": "funerary",
+              "certainty": 0.9,
+              "suffixes": [
+                {
+                  "form": "li",
+                  "function": "plural marker (variant, possibly ergative plural)"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'yi/yii'; Nobiin 'yii'"
+            },
+            {
+              "token": "s",
+              "pos": "PRON",
+              "root": "s",
+              "meaning": "3rd person singular (he/she/it)",
+              "category": "pronoun",
+              "certainty": 0.7,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "mk-l",
+              "pos": "NOUN",
+              "root": "mk",
+              "meaning": "god, deity",
+              "category": "religion",
+              "certainty": 0.9,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'masik/massig'"
+            },
+            {
+              "token": "qo",
+              "pos": "ADJ",
+              "root": "qo",
+              "meaning": "great, big, mighty",
+              "category": "adjective",
+              "certainty": 0.75,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'qor/gor'; Nobiin 'goor'"
+            },
+            {
+              "token": "to",
+              "pos": "NOUN",
+              "root": "to",
+              "meaning": "land, territory, country",
+              "category": "geography",
+              "certainty": 0.85,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'tou/to'; Nobiin 'tó'"
+            },
+            {
+              "token": "amni-te",
+              "pos": "NOUN.PROPER",
+              "root": "amni",
+              "meaning": "Amun (deity)",
+              "category": "deity_name",
+              "certainty": 0.95,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "selele",
+              "pos": "NOUN",
+              "root": "selele",
+              "meaning": "protection, salvation, grace",
+              "category": "religion",
+              "certainty": 0.6,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'selle'"
+            }
+          ],
+          "free_translation": "to pours; bread(s), water(s), god(s), and great; land; O Amun, the protection."
+        },
+        "template_match": {
+          "best": "funerary_offering",
+          "score": 8.0
+        },
+        "confidence": {
+          "average": 0.8,
+          "per_token": [
+            {
+              "token": "plote-l",
+              "certainty": 0.65,
+              "label": "probable"
+            },
+            {
+              "token": "ate-li",
+              "certainty": 0.9,
+              "label": "certain"
+            },
+            {
+              "token": "yi-li",
+              "certainty": 0.9,
+              "label": "certain"
+            },
+            {
+              "token": "s",
+              "certainty": 0.7,
+              "label": "probable"
+            },
+            {
+              "token": "mk-l",
+              "certainty": 0.9,
+              "label": "certain"
+            },
+            {
+              "token": "qo",
+              "certainty": 0.75,
+              "label": "probable"
+            },
+            {
+              "token": "to",
+              "certainty": 0.85,
+              "label": "certain"
+            },
+            {
+              "token": "amni-te",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "selele",
+              "certainty": 0.6,
+              "label": "probable"
+            }
+          ],
+          "summary": {
+            "certain": 5,
+            "probable": 4,
+            "tentative": 0,
+            "unknown": 0,
+            "total": 9
+          }
+        }
+      },
+      "confidence": 0.8
+    },
+    {
+      "section_id": "C1",
+      "title": "Campaign Declaration",
+      "lines": "81–88",
+      "status": "RESTORED",
+      "source": "Campaign narrative pattern from REM 1003 parallels; akine from administrative texts",
+      "notes": "'The ruler Tanyidamani, great and good, to the land of Akine he went'",
+      "decipherment": {
+        "id": "REM_1044_C1",
+        "site": "Jebel Barkal",
+        "type": "royal",
+        "period": "2nd century BCE",
+        "medium": "",
+        "layers": {
+          "transliteration": "qore-l : Tanyidamani : qo : mlo : to : akine : tele-l",
+          "segmentation": "qore-l  Tanyidamani  qo  mlo  to  akine  tele-l",
+          "interlinear_gloss": "ruler-PL  Tanyidamani  great  good  land  Akine  to go-PL",
+          "phrase_structure": "[TITLE qore-l Tanyidamani qo mlo]  [LOCATION to]  [NAME_BLOCK akine]  [VERB_PHRASE tele-l]",
+          "token_details": [
+            {
+              "token": "qore-l",
+              "pos": "NOUN.TITLE",
+              "root": "qore",
+              "meaning": "ruler, king",
+              "category": "title",
+              "certainty": 0.95,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "Tanyidamani",
+              "pos": "NOUN.PROPER",
+              "root": "Tanyidamani",
+              "meaning": "[name: Tanyidamani]",
+              "category": "name",
+              "certainty": 0.22512103282209373,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "qo",
+              "pos": "ADJ",
+              "root": "qo",
+              "meaning": "great, big, mighty",
+              "category": "adjective",
+              "certainty": 0.75,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'qor/gor'; Nobiin 'goor'"
+            },
+            {
+              "token": "mlo",
+              "pos": "ADJ",
+              "root": "mlo",
+              "meaning": "good, beautiful, fine",
+              "category": "adjective",
+              "certainty": 0.8,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'mel/mell'; Nobiin 'meeli'"
+            },
+            {
+              "token": "to",
+              "pos": "NOUN",
+              "root": "to",
+              "meaning": "land, territory, country",
+              "category": "geography",
+              "certainty": 0.85,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'tou/to'; Nobiin 'tó'"
+            },
+            {
+              "token": "akine",
+              "pos": "NOUN.PROPER",
+              "root": "akine",
+              "meaning": "Akine (Lower Nubian province)",
+              "category": "place_name",
+              "certainty": 0.85,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "tele-l",
+              "pos": "VERB",
+              "root": "tele",
+              "meaning": "to go, to travel (tentative)",
+              "category": "verb",
+              "certainty": 0.35,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            }
+          ],
+          "free_translation": "the rulers Tanyidamani the great and good; land; Akine; go."
+        },
+        "template_match": {
+          "best": "royal_enthronement",
+          "score": 6.5
+        },
+        "confidence": {
+          "average": 0.682,
+          "per_token": [
+            {
+              "token": "qore-l",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "Tanyidamani",
+              "certainty": 0.22512103282209373,
+              "label": "unknown"
+            },
+            {
+              "token": "qo",
+              "certainty": 0.75,
+              "label": "probable"
+            },
+            {
+              "token": "mlo",
+              "certainty": 0.8,
+              "label": "certain"
+            },
+            {
+              "token": "to",
+              "certainty": 0.85,
+              "label": "certain"
+            },
+            {
+              "token": "akine",
+              "certainty": 0.85,
+              "label": "certain"
+            },
+            {
+              "token": "tele-l",
+              "certainty": 0.35,
+              "label": "tentative"
+            }
+          ],
+          "summary": {
+            "certain": 4,
+            "probable": 1,
+            "tentative": 1,
+            "unknown": 1,
+            "total": 7
+          }
+        }
+      },
+      "confidence": 0.682
+    },
+    {
+      "section_id": "C2",
+      "title": "Slaughter of the Men — Campaign 1",
+      "lines": "88–95",
+      "status": "ATTESTED",
+      "source": "Rilly & de Voogt 2012:32 — e-ked- attested on REM 1044 before verb ked-; abr-se-l attested",
+      "notes": "'I (=he) slaughtered the men — Tanyidamani the ruler, great and good'",
+      "decipherment": {
+        "id": "REM_1044_C2",
+        "site": "Jebel Barkal",
+        "type": "royal",
+        "period": "2nd century BCE",
+        "medium": "",
+        "layers": {
+          "transliteration": "e-ked : abr-se-l : Tanyidamani : qore-l : qo : mlo",
+          "segmentation": "e-ked  abr-se-l  Tanyidamani  qore-l  qo  mlo",
+          "interlinear_gloss": "e-to slaughter  man-VOC-PL  Tanyidamani  ruler-PL  great  good",
+          "phrase_structure": "[NOUN_PHRASE e-ked abr-se-l]  [NAME_BLOCK Tanyidamani]  [TITLE qore-l qo mlo]",
+          "token_details": [
+            {
+              "token": "e-ked",
+              "pos": "UNKNOWN",
+              "root": "ked",
+              "meaning": "to slaughter, to kill (in battle)",
+              "category": "verb",
+              "certainty": 0.8,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "abr-se-l",
+              "pos": "NOUN",
+              "root": "abr",
+              "meaning": "man, male person",
+              "category": "person",
+              "certainty": 0.85,
+              "suffixes": [
+                {
+                  "form": "se",
+                  "function": "vocative / invocative (O ...!)"
+                },
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'auer'; Nobiin 'uur'"
+            },
+            {
+              "token": "Tanyidamani",
+              "pos": "NOUN.PROPER",
+              "root": "Tanyidamani",
+              "meaning": "[name: Tanyidamani]",
+              "category": "name",
+              "certainty": 0.22512103282209373,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "qore-l",
+              "pos": "NOUN.TITLE",
+              "root": "qore",
+              "meaning": "ruler, king",
+              "category": "title",
+              "certainty": 0.95,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "qo",
+              "pos": "ADJ",
+              "root": "qo",
+              "meaning": "great, big, mighty",
+              "category": "adjective",
+              "certainty": 0.75,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'qor/gor'; Nobiin 'goor'"
+            },
+            {
+              "token": "mlo",
+              "pos": "ADJ",
+              "root": "mlo",
+              "meaning": "good, beautiful, fine",
+              "category": "adjective",
+              "certainty": 0.8,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'mel/mell'; Nobiin 'meeli'"
+            }
+          ],
+          "free_translation": "to slaughter mans; Tanyidamani; the rulers the great and good."
+        },
+        "template_match": {
+          "best": "royal_enthronement",
+          "score": 4.5
+        },
+        "confidence": {
+          "average": 0.729,
+          "per_token": [
+            {
+              "token": "e-ked",
+              "certainty": 0.8,
+              "label": "certain"
+            },
+            {
+              "token": "abr-se-l",
+              "certainty": 0.85,
+              "label": "certain"
+            },
+            {
+              "token": "Tanyidamani",
+              "certainty": 0.22512103282209373,
+              "label": "unknown"
+            },
+            {
+              "token": "qore-l",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "qo",
+              "certainty": 0.75,
+              "label": "probable"
+            },
+            {
+              "token": "mlo",
+              "certainty": 0.8,
+              "label": "certain"
+            }
+          ],
+          "summary": {
+            "certain": 4,
+            "probable": 1,
+            "tentative": 0,
+            "unknown": 1,
+            "total": 6
+          }
+        }
+      },
+      "confidence": 0.729
+    },
+    {
+      "section_id": "C3",
+      "title": "Seizure of the Women — Campaign 1",
+      "lines": "95–100",
+      "status": "ATTESTED",
+      "source": "Rilly & de Voogt 2012:32 — erk- attested on REM 1044; kdi-se-l attested",
+      "notes": "'I (=he) seized/raided the women — Tanyidamani the ruler'",
+      "decipherment": {
+        "id": "REM_1044_C3",
+        "site": "Jebel Barkal",
+        "type": "royal",
+        "period": "2nd century BCE",
+        "medium": "",
+        "layers": {
+          "transliteration": "erk : kdi-se-l : Tanyidamani : qore-l",
+          "segmentation": "erk  kdi-se-l  Tanyidamani  qore-l",
+          "interlinear_gloss": "to seize  woman-VOC-PL  Tanyidamani  ruler-PL",
+          "phrase_structure": "[VERB_PHRASE erk]  [NOUN_PHRASE kdi-se-l]  [NAME_BLOCK Tanyidamani]  [TITLE qore-l]",
+          "token_details": [
+            {
+              "token": "erk",
+              "pos": "VERB",
+              "root": "erk",
+              "meaning": "to seize, to raid, to take captive",
+              "category": "verb",
+              "certainty": 0.75,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "kdi-se-l",
+              "pos": "NOUN",
+              "root": "kdi",
+              "meaning": "woman, female person",
+              "category": "person",
+              "certainty": 0.85,
+              "suffixes": [
+                {
+                  "form": "se",
+                  "function": "vocative / invocative (O ...!)"
+                },
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'kide/gide'; Nobiin 'kede'"
+            },
+            {
+              "token": "Tanyidamani",
+              "pos": "NOUN.PROPER",
+              "root": "Tanyidamani",
+              "meaning": "[name: Tanyidamani]",
+              "category": "name",
+              "certainty": 0.22512103282209373,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "qore-l",
+              "pos": "NOUN.TITLE",
+              "root": "qore",
+              "meaning": "ruler, king",
+              "category": "title",
+              "certainty": 0.95,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            }
+          ],
+          "free_translation": "seize; womans; Tanyidamani; the rulers."
+        },
+        "template_match": {
+          "best": "royal_enthronement",
+          "score": 4.0
+        },
+        "confidence": {
+          "average": 0.694,
+          "per_token": [
+            {
+              "token": "erk",
+              "certainty": 0.75,
+              "label": "probable"
+            },
+            {
+              "token": "kdi-se-l",
+              "certainty": 0.85,
+              "label": "certain"
+            },
+            {
+              "token": "Tanyidamani",
+              "certainty": 0.22512103282209373,
+              "label": "unknown"
+            },
+            {
+              "token": "qore-l",
+              "certainty": 0.95,
+              "label": "certain"
+            }
+          ],
+          "summary": {
+            "certain": 2,
+            "probable": 1,
+            "tentative": 0,
+            "unknown": 1,
+            "total": 4
+          }
+        }
+      },
+      "confidence": 0.694
+    },
+    {
+      "section_id": "C4",
+      "title": "Second Campaign — Territory Conquered",
+      "lines": "100–108",
+      "status": "CONJECTURAL",
+      "source": "Multiple campaign structure attested in REM 1003/1039; tkke (conquer) from military contexts",
+      "notes": "'The eastern land(s) he conquered; he slaughtered the men, he seized the women — the ruler Tanyidamani'",
+      "decipherment": {
+        "id": "REM_1044_C4",
+        "site": "Jebel Barkal",
+        "type": "royal",
+        "period": "2nd century BCE",
+        "medium": "",
+        "layers": {
+          "transliteration": "to : tedke : tkke-l : e-ked : abr-se-l : erk : kdi-se-l : qore-l : Tanyidamani",
+          "segmentation": "to  tedke  tkke-l  e-ked  abr-se-l  erk  kdi-se-l  qore-l  Tanyidamani",
+          "interlinear_gloss": "land  east  to conquer-PL  e-to slaughter  man-VOC-PL  to seize  woman-VOC-PL  ruler-PL  Tanyidamani",
+          "phrase_structure": "[LOCATION to tedke]  [VERB_PHRASE tkke-l]  [NOUN_PHRASE e-ked abr-se-l]  [VERB_PHRASE erk]  [NOUN_PHRASE kdi-se-l]  [TITLE qore-l Tanyidamani]",
+          "token_details": [
+            {
+              "token": "to",
+              "pos": "NOUN",
+              "root": "to",
+              "meaning": "land, territory, country",
+              "category": "geography",
+              "certainty": 0.85,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'tou/to'; Nobiin 'tó'"
+            },
+            {
+              "token": "tedke",
+              "pos": "NOUN",
+              "root": "tedke",
+              "meaning": "east, eastern",
+              "category": "geography",
+              "certainty": 0.7,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "tkke-l",
+              "pos": "VERB",
+              "root": "tkke",
+              "meaning": "to conquer, to defeat (tentative)",
+              "category": "verb",
+              "certainty": 0.3,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "e-ked",
+              "pos": "UNKNOWN",
+              "root": "ked",
+              "meaning": "to slaughter, to kill (in battle)",
+              "category": "verb",
+              "certainty": 0.8,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "abr-se-l",
+              "pos": "NOUN",
+              "root": "abr",
+              "meaning": "man, male person",
+              "category": "person",
+              "certainty": 0.85,
+              "suffixes": [
+                {
+                  "form": "se",
+                  "function": "vocative / invocative (O ...!)"
+                },
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'auer'; Nobiin 'uur'"
+            },
+            {
+              "token": "erk",
+              "pos": "VERB",
+              "root": "erk",
+              "meaning": "to seize, to raid, to take captive",
+              "category": "verb",
+              "certainty": 0.75,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "kdi-se-l",
+              "pos": "NOUN",
+              "root": "kdi",
+              "meaning": "woman, female person",
+              "category": "person",
+              "certainty": 0.85,
+              "suffixes": [
+                {
+                  "form": "se",
+                  "function": "vocative / invocative (O ...!)"
+                },
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'kide/gide'; Nobiin 'kede'"
+            },
+            {
+              "token": "qore-l",
+              "pos": "NOUN.TITLE",
+              "root": "qore",
+              "meaning": "ruler, king",
+              "category": "title",
+              "certainty": 0.95,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "Tanyidamani",
+              "pos": "NOUN.PROPER",
+              "root": "Tanyidamani",
+              "meaning": "[name: Tanyidamani]",
+              "category": "name",
+              "certainty": 0.22512103282209373,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            }
+          ],
+          "free_translation": "land east; conquer; to slaughter mans; seize; womans; the rulers Tanyidamani."
+        },
+        "template_match": {
+          "best": "royal_enthronement",
+          "score": 6.0
+        },
+        "confidence": {
+          "average": 0.697,
+          "per_token": [
+            {
+              "token": "to",
+              "certainty": 0.85,
+              "label": "certain"
+            },
+            {
+              "token": "tedke",
+              "certainty": 0.7,
+              "label": "probable"
+            },
+            {
+              "token": "tkke-l",
+              "certainty": 0.3,
+              "label": "tentative"
+            },
+            {
+              "token": "e-ked",
+              "certainty": 0.8,
+              "label": "certain"
+            },
+            {
+              "token": "abr-se-l",
+              "certainty": 0.85,
+              "label": "certain"
+            },
+            {
+              "token": "erk",
+              "certainty": 0.75,
+              "label": "probable"
+            },
+            {
+              "token": "kdi-se-l",
+              "certainty": 0.85,
+              "label": "certain"
+            },
+            {
+              "token": "qore-l",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "Tanyidamani",
+              "certainty": 0.22512103282209373,
+              "label": "unknown"
+            }
+          ],
+          "summary": {
+            "certain": 5,
+            "probable": 2,
+            "tentative": 1,
+            "unknown": 1,
+            "total": 9
+          }
+        }
+      },
+      "confidence": 0.697
+    },
+    {
+      "section_id": "C5",
+      "title": "Prisoners and Spoils",
+      "lines": "108–115",
+      "status": "CONJECTURAL",
+      "source": "POW/spoils pattern from royal stelae; -se-wi plural forms",
+      "notes": "'The men, the women, the children, riches, gold, greatness — to the ruler it was given; the gods' (share)'",
+      "decipherment": {
+        "id": "REM_1044_C5",
+        "site": "Jebel Barkal",
+        "type": "royal",
+        "period": "2nd century BCE",
+        "medium": "",
+        "layers": {
+          "transliteration": "abr-se-wi : kdi-se-wi : lh-l : ar : nobe : qo : qore-l : pesto-b-ke : mk-l",
+          "segmentation": "abr-se-wi  kdi-se-wi  lh-l  ar  nobe  qo  qore-l  pesto-b-ke  mk-l",
+          "interlinear_gloss": "man-VOC-DATI  woman-VOC-DATI  offspring-PL  one  gold  great  ruler-PL  to give-COP-NMLZ  god-PL",
+          "phrase_structure": "[NOUN_PHRASE abr-se-wi kdi-se-wi lh-l ar nobe qo]  [TITLE qore-l]  [VERB_PHRASE pesto-b-ke]  [NOUN_PHRASE mk-l]",
+          "token_details": [
+            {
+              "token": "abr-se-wi",
+              "pos": "NOUN",
+              "root": "abr",
+              "meaning": "man, male person",
+              "category": "person",
+              "certainty": 0.85,
+              "suffixes": [
+                {
+                  "form": "se",
+                  "function": "vocative / invocative (O ...!)"
+                },
+                {
+                  "form": "wi",
+                  "function": "dative / benefactive (for, to)"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'auer'; Nobiin 'uur'"
+            },
+            {
+              "token": "kdi-se-wi",
+              "pos": "NOUN",
+              "root": "kdi",
+              "meaning": "woman, female person",
+              "category": "person",
+              "certainty": 0.85,
+              "suffixes": [
+                {
+                  "form": "se",
+                  "function": "vocative / invocative (O ...!)"
+                },
+                {
+                  "form": "wi",
+                  "function": "dative / benefactive (for, to)"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'kide/gide'; Nobiin 'kede'"
+            },
+            {
+              "token": "lh-l",
+              "pos": "NOUN",
+              "root": "lh",
+              "meaning": "offspring, son, child",
+              "category": "kinship",
+              "certainty": 0.75,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'leh/lihi'"
+            },
+            {
+              "token": "ar",
+              "pos": "NUM",
+              "root": "ar",
+              "meaning": "one",
+              "category": "number",
+              "certainty": 0.35,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "nobe",
+              "pos": "NOUN",
+              "root": "nobe",
+              "meaning": "gold (tentative)",
+              "category": "material",
+              "certainty": 0.4,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Nobiin 'nob' (gold); cf. 'Nubia'"
+            },
+            {
+              "token": "qo",
+              "pos": "ADJ",
+              "root": "qo",
+              "meaning": "great, big, mighty",
+              "category": "adjective",
+              "certainty": 0.75,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'qor/gor'; Nobiin 'goor'"
+            },
+            {
+              "token": "qore-l",
+              "pos": "NOUN.TITLE",
+              "root": "qore",
+              "meaning": "ruler, king",
+              "category": "title",
+              "certainty": 0.95,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "pesto-b-ke",
+              "pos": "VERB",
+              "root": "pesto",
+              "meaning": "to give, to offer, to bestow",
+              "category": "verb",
+              "certainty": 0.85,
+              "suffixes": [
+                {
+                  "form": "b",
+                  "function": "3rd person singular verb / agentive / copula"
+                },
+                {
+                  "form": "ke",
+                  "function": "nominalizer / result marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'per/pir' (to give)"
+            },
+            {
+              "token": "mk-l",
+              "pos": "NOUN",
+              "root": "mk",
+              "meaning": "god, deity",
+              "category": "religion",
+              "certainty": 0.9,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'masik/massig'"
+            }
+          ],
+          "free_translation": "man woman offsprings one gold great; the rulers; may it be given; gods."
+        },
+        "template_match": {
+          "best": "royal_enthronement",
+          "score": 4.5
+        },
+        "confidence": {
+          "average": 0.739,
+          "per_token": [
+            {
+              "token": "abr-se-wi",
+              "certainty": 0.85,
+              "label": "certain"
+            },
+            {
+              "token": "kdi-se-wi",
+              "certainty": 0.85,
+              "label": "certain"
+            },
+            {
+              "token": "lh-l",
+              "certainty": 0.75,
+              "label": "probable"
+            },
+            {
+              "token": "ar",
+              "certainty": 0.35,
+              "label": "tentative"
+            },
+            {
+              "token": "nobe",
+              "certainty": 0.4,
+              "label": "tentative"
+            },
+            {
+              "token": "qo",
+              "certainty": 0.75,
+              "label": "probable"
+            },
+            {
+              "token": "qore-l",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "pesto-b-ke",
+              "certainty": 0.85,
+              "label": "certain"
+            },
+            {
+              "token": "mk-l",
+              "certainty": 0.9,
+              "label": "certain"
+            }
+          ],
+          "summary": {
+            "certain": 5,
+            "probable": 2,
+            "tentative": 2,
+            "unknown": 0,
+            "total": 9
+          }
+        }
+      },
+      "confidence": 0.739
+    },
+    {
+      "section_id": "C6",
+      "title": "Divine Sanction for the Campaigns",
+      "lines": "115–120",
+      "status": "RESTORED",
+      "source": "Divine warrior blessing pattern; Apedemak as war god",
+      "notes": "'Apedemak the god, great and good, protection for Tanyidamani the ruler — life!'",
+      "decipherment": {
+        "id": "REM_1044_C6",
+        "site": "Jebel Barkal",
+        "type": "royal",
+        "period": "2nd century BCE",
+        "medium": "",
+        "layers": {
+          "transliteration": "apedmk : mk-se : qo : mlo : selele-wi : Tanyidamani : qore-l : pwrite",
+          "segmentation": "apedmk  mk-se  qo  mlo  selele-wi  Tanyidamani  qore-l  pwrite",
+          "interlinear_gloss": "Apedemak  god-VOC  great  good  protection-DATI  Tanyidamani  ruler-PL  life",
+          "phrase_structure": "[INVOCATION apedmk mk-se qo mlo selele-wi]  [NAME_BLOCK Tanyidamani]  [TITLE qore-l pwrite]",
+          "token_details": [
+            {
+              "token": "apedmk",
+              "pos": "NOUN.PROPER",
+              "root": "apedmk",
+              "meaning": "Apedemak (lion-headed war god)",
+              "category": "deity_name",
+              "certainty": 0.95,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "mk-se",
+              "pos": "NOUN",
+              "root": "mk",
+              "meaning": "god, deity",
+              "category": "religion",
+              "certainty": 0.9,
+              "suffixes": [
+                {
+                  "form": "se",
+                  "function": "vocative / invocative (O ...!)"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'masik/massig'"
+            },
+            {
+              "token": "qo",
+              "pos": "ADJ",
+              "root": "qo",
+              "meaning": "great, big, mighty",
+              "category": "adjective",
+              "certainty": 0.75,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'qor/gor'; Nobiin 'goor'"
+            },
+            {
+              "token": "mlo",
+              "pos": "ADJ",
+              "root": "mlo",
+              "meaning": "good, beautiful, fine",
+              "category": "adjective",
+              "certainty": 0.8,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'mel/mell'; Nobiin 'meeli'"
+            },
+            {
+              "token": "selele-wi",
+              "pos": "NOUN",
+              "root": "selele",
+              "meaning": "protection, salvation, grace",
+              "category": "religion",
+              "certainty": 0.6,
+              "suffixes": [
+                {
+                  "form": "wi",
+                  "function": "dative / benefactive (for, to)"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'selle'"
+            },
+            {
+              "token": "Tanyidamani",
+              "pos": "NOUN.PROPER",
+              "root": "Tanyidamani",
+              "meaning": "[name: Tanyidamani]",
+              "category": "name",
+              "certainty": 0.22512103282209373,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "qore-l",
+              "pos": "NOUN.TITLE",
+              "root": "qore",
+              "meaning": "ruler, king",
+              "category": "title",
+              "certainty": 0.95,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "pwrite",
+              "pos": "NOUN",
+              "root": "pwrite",
+              "meaning": "life (in benedictions/invocations)",
+              "category": "religion",
+              "certainty": 0.8,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            }
+          ],
+          "free_translation": "O Apedemak, O great and good god!, the protection; Tanyidamani; the rulers the life."
+        },
+        "template_match": {
+          "best": "temple_dedication",
+          "score": 7.5
+        },
+        "confidence": {
+          "average": 0.747,
+          "per_token": [
+            {
+              "token": "apedmk",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "mk-se",
+              "certainty": 0.9,
+              "label": "certain"
+            },
+            {
+              "token": "qo",
+              "certainty": 0.75,
+              "label": "probable"
+            },
+            {
+              "token": "mlo",
+              "certainty": 0.8,
+              "label": "certain"
+            },
+            {
+              "token": "selele-wi",
+              "certainty": 0.6,
+              "label": "probable"
+            },
+            {
+              "token": "Tanyidamani",
+              "certainty": 0.22512103282209373,
+              "label": "unknown"
+            },
+            {
+              "token": "qore-l",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "pwrite",
+              "certainty": 0.8,
+              "label": "certain"
+            }
+          ],
+          "summary": {
+            "certain": 5,
+            "probable": 2,
+            "tentative": 0,
+            "unknown": 1,
+            "total": 8
+          }
+        }
+      },
+      "confidence": 0.747
+    },
+    {
+      "section_id": "D1",
+      "title": "Summary of Conquests",
+      "lines": "121–130",
+      "status": "CONJECTURAL",
+      "source": "Summary pattern combining multiple campaign records",
+      "notes": "'The ruler Tanyidamani, great — the lands conquered, the men slaughtered, the women seized — good'",
+      "decipherment": {
+        "id": "REM_1044_D1",
+        "site": "Jebel Barkal",
+        "type": "royal",
+        "period": "2nd century BCE",
+        "medium": "",
+        "layers": {
+          "transliteration": "qore-l : Tanyidamani : qo : to-l : tkke-l : abr-se-l : e-ked : kdi-se-l : erk : mlo",
+          "segmentation": "qore-l  Tanyidamani  qo  to-l  tkke-l  abr-se-l  e-ked  kdi-se-l  erk  mlo",
+          "interlinear_gloss": "ruler-PL  Tanyidamani  great  land-PL  to conquer-PL  man-VOC-PL  e-to slaughter  woman-VOC-PL  to seize  good",
+          "phrase_structure": "[TITLE qore-l Tanyidamani qo]  [LOCATION to-l]  [VERB_PHRASE tkke-l]  [NOUN_PHRASE abr-se-l e-ked kdi-se-l]  [VERB_PHRASE erk]  [FRAGMENT mlo]",
+          "token_details": [
+            {
+              "token": "qore-l",
+              "pos": "NOUN.TITLE",
+              "root": "qore",
+              "meaning": "ruler, king",
+              "category": "title",
+              "certainty": 0.95,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "Tanyidamani",
+              "pos": "NOUN.PROPER",
+              "root": "Tanyidamani",
+              "meaning": "[name: Tanyidamani]",
+              "category": "name",
+              "certainty": 0.22512103282209373,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "qo",
+              "pos": "ADJ",
+              "root": "qo",
+              "meaning": "great, big, mighty",
+              "category": "adjective",
+              "certainty": 0.75,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'qor/gor'; Nobiin 'goor'"
+            },
+            {
+              "token": "to-l",
+              "pos": "NOUN",
+              "root": "to",
+              "meaning": "land, territory, country",
+              "category": "geography",
+              "certainty": 0.85,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'tou/to'; Nobiin 'tó'"
+            },
+            {
+              "token": "tkke-l",
+              "pos": "VERB",
+              "root": "tkke",
+              "meaning": "to conquer, to defeat (tentative)",
+              "category": "verb",
+              "certainty": 0.3,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "abr-se-l",
+              "pos": "NOUN",
+              "root": "abr",
+              "meaning": "man, male person",
+              "category": "person",
+              "certainty": 0.85,
+              "suffixes": [
+                {
+                  "form": "se",
+                  "function": "vocative / invocative (O ...!)"
+                },
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'auer'; Nobiin 'uur'"
+            },
+            {
+              "token": "e-ked",
+              "pos": "UNKNOWN",
+              "root": "ked",
+              "meaning": "to slaughter, to kill (in battle)",
+              "category": "verb",
+              "certainty": 0.8,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "kdi-se-l",
+              "pos": "NOUN",
+              "root": "kdi",
+              "meaning": "woman, female person",
+              "category": "person",
+              "certainty": 0.85,
+              "suffixes": [
+                {
+                  "form": "se",
+                  "function": "vocative / invocative (O ...!)"
+                },
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'kide/gide'; Nobiin 'kede'"
+            },
+            {
+              "token": "erk",
+              "pos": "VERB",
+              "root": "erk",
+              "meaning": "to seize, to raid, to take captive",
+              "category": "verb",
+              "certainty": 0.75,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "mlo",
+              "pos": "ADJ",
+              "root": "mlo",
+              "meaning": "good, beautiful, fine",
+              "category": "adjective",
+              "certainty": 0.8,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'mel/mell'; Nobiin 'meeli'"
+            }
+          ],
+          "free_translation": "the rulers Tanyidamani the great; land; conquer; mans to slaughter womans; seize; good."
+        },
+        "template_match": {
+          "best": "royal_enthronement",
+          "score": 6.5
+        },
+        "confidence": {
+          "average": 0.713,
+          "per_token": [
+            {
+              "token": "qore-l",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "Tanyidamani",
+              "certainty": 0.22512103282209373,
+              "label": "unknown"
+            },
+            {
+              "token": "qo",
+              "certainty": 0.75,
+              "label": "probable"
+            },
+            {
+              "token": "to-l",
+              "certainty": 0.85,
+              "label": "certain"
+            },
+            {
+              "token": "tkke-l",
+              "certainty": 0.3,
+              "label": "tentative"
+            },
+            {
+              "token": "abr-se-l",
+              "certainty": 0.85,
+              "label": "certain"
+            },
+            {
+              "token": "e-ked",
+              "certainty": 0.8,
+              "label": "certain"
+            },
+            {
+              "token": "kdi-se-l",
+              "certainty": 0.85,
+              "label": "certain"
+            },
+            {
+              "token": "erk",
+              "certainty": 0.75,
+              "label": "probable"
+            },
+            {
+              "token": "mlo",
+              "certainty": 0.8,
+              "label": "certain"
+            }
+          ],
+          "summary": {
+            "certain": 6,
+            "probable": 2,
+            "tentative": 1,
+            "unknown": 1,
+            "total": 10
+          }
+        }
+      },
+      "confidence": 0.713
+    },
+    {
+      "section_id": "D2",
+      "title": "Thanksgiving to Apedemak",
+      "lines": "130–138",
+      "status": "RESTORED",
+      "source": "Closing invocation pattern; combines opening formula with selele",
+      "notes": "'O Apedemak, great and good god — Tanyidamani the ruler: life, protection, may it be given!'",
+      "decipherment": {
+        "id": "REM_1044_D2",
+        "site": "Jebel Barkal",
+        "type": "royal",
+        "period": "2nd century BCE",
+        "medium": "",
+        "layers": {
+          "transliteration": "apedmk-i : qo : mlo : mk-l : Tanyidamani : qore-l : pwrite : selele-wi : pesto-b-ke",
+          "segmentation": "apedmk-i  qo  mlo  mk-l  Tanyidamani  qore-l  pwrite  selele-wi  pesto-b-ke",
+          "interlinear_gloss": "Apedemak-VOC  great  good  god-PL  Tanyidamani  ruler-PL  life  protection-DATI  to give-COP-NMLZ",
+          "phrase_structure": "[INVOCATION apedmk-i qo mlo mk-l]  [NAME_BLOCK Tanyidamani]  [TITLE qore-l pwrite selele-wi]  [VERB_PHRASE pesto-b-ke]",
+          "token_details": [
+            {
+              "token": "apedmk-i",
+              "pos": "NOUN.PROPER",
+              "root": "apedmk",
+              "meaning": "Apedemak (lion-headed war god)",
+              "category": "deity_name",
+              "certainty": 0.95,
+              "suffixes": [
+                {
+                  "form": "i",
+                  "function": "1st person or vocative intensifier"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "qo",
+              "pos": "ADJ",
+              "root": "qo",
+              "meaning": "great, big, mighty",
+              "category": "adjective",
+              "certainty": 0.75,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'qor/gor'; Nobiin 'goor'"
+            },
+            {
+              "token": "mlo",
+              "pos": "ADJ",
+              "root": "mlo",
+              "meaning": "good, beautiful, fine",
+              "category": "adjective",
+              "certainty": 0.8,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'mel/mell'; Nobiin 'meeli'"
+            },
+            {
+              "token": "mk-l",
+              "pos": "NOUN",
+              "root": "mk",
+              "meaning": "god, deity",
+              "category": "religion",
+              "certainty": 0.9,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'masik/massig'"
+            },
+            {
+              "token": "Tanyidamani",
+              "pos": "NOUN.PROPER",
+              "root": "Tanyidamani",
+              "meaning": "[name: Tanyidamani]",
+              "category": "name",
+              "certainty": 0.22512103282209373,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "qore-l",
+              "pos": "NOUN.TITLE",
+              "root": "qore",
+              "meaning": "ruler, king",
+              "category": "title",
+              "certainty": 0.95,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "pwrite",
+              "pos": "NOUN",
+              "root": "pwrite",
+              "meaning": "life (in benedictions/invocations)",
+              "category": "religion",
+              "certainty": 0.8,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "selele-wi",
+              "pos": "NOUN",
+              "root": "selele",
+              "meaning": "protection, salvation, grace",
+              "category": "religion",
+              "certainty": 0.6,
+              "suffixes": [
+                {
+                  "form": "wi",
+                  "function": "dative / benefactive (for, to)"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'selle'"
+            },
+            {
+              "token": "pesto-b-ke",
+              "pos": "VERB",
+              "root": "pesto",
+              "meaning": "to give, to offer, to bestow",
+              "category": "verb",
+              "certainty": 0.85,
+              "suffixes": [
+                {
+                  "form": "b",
+                  "function": "3rd person singular verb / agentive / copula"
+                },
+                {
+                  "form": "ke",
+                  "function": "nominalizer / result marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'per/pir' (to give)"
+            }
+          ],
+          "free_translation": "O Apedemak, the great and good god; Tanyidamani; the rulers the life the protection; may it be given."
+        },
+        "template_match": {
+          "best": "temple_dedication",
+          "score": 7.5
+        },
+        "confidence": {
+          "average": 0.758,
+          "per_token": [
+            {
+              "token": "apedmk-i",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "qo",
+              "certainty": 0.75,
+              "label": "probable"
+            },
+            {
+              "token": "mlo",
+              "certainty": 0.8,
+              "label": "certain"
+            },
+            {
+              "token": "mk-l",
+              "certainty": 0.9,
+              "label": "certain"
+            },
+            {
+              "token": "Tanyidamani",
+              "certainty": 0.22512103282209373,
+              "label": "unknown"
+            },
+            {
+              "token": "qore-l",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "pwrite",
+              "certainty": 0.8,
+              "label": "certain"
+            },
+            {
+              "token": "selele-wi",
+              "certainty": 0.6,
+              "label": "probable"
+            },
+            {
+              "token": "pesto-b-ke",
+              "certainty": 0.85,
+              "label": "certain"
+            }
+          ],
+          "summary": {
+            "certain": 6,
+            "probable": 2,
+            "tentative": 0,
+            "unknown": 1,
+            "total": 9
+          }
+        }
+      },
+      "confidence": 0.758
+    },
+    {
+      "section_id": "D3",
+      "title": "Thanksgiving to the Divine Triad",
+      "lines": "138–148",
+      "status": "RESTORED",
+      "source": "Divine triad pattern; three-deity benediction formula",
+      "notes": "'Amun the god, Isis the goddess, Horus the god — good, great, protection for Tanyidamani of the kingship'",
+      "decipherment": {
+        "id": "REM_1044_D3",
+        "site": "Jebel Barkal",
+        "type": "royal",
+        "period": "2nd century BCE",
+        "medium": "",
+        "layers": {
+          "transliteration": "amni : mk-se : wos : mk-se : hore : mk-se : mlo : qo : selele : Tanyidamani : qore-l-o",
+          "segmentation": "amni  mk-se  wos  mk-se  hore  mk-se  mlo  qo  selele  Tanyidamani  qore-l-o",
+          "interlinear_gloss": "Amun  god-VOC  Isis  god-VOC  Horus  god-VOC  good  great  protection  Tanyidamani  ruler-PL-GEN",
+          "phrase_structure": "[INVOCATION amni mk-se]  [INVOCATION wos mk-se]  [INVOCATION hore mk-se mlo qo selele]  [NAME_BLOCK Tanyidamani]  [TITLE qore-l-o]",
+          "token_details": [
+            {
+              "token": "amni",
+              "pos": "NOUN.PROPER",
+              "root": "amni",
+              "meaning": "Amun (deity)",
+              "category": "deity_name",
+              "certainty": 0.95,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "mk-se",
+              "pos": "NOUN",
+              "root": "mk",
+              "meaning": "god, deity",
+              "category": "religion",
+              "certainty": 0.9,
+              "suffixes": [
+                {
+                  "form": "se",
+                  "function": "vocative / invocative (O ...!)"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'masik/massig'"
+            },
+            {
+              "token": "wos",
+              "pos": "NOUN.PROPER",
+              "root": "wos",
+              "meaning": "Isis (deity)",
+              "category": "deity_name",
+              "certainty": 0.95,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "mk-se",
+              "pos": "NOUN",
+              "root": "mk",
+              "meaning": "god, deity",
+              "category": "religion",
+              "certainty": 0.9,
+              "suffixes": [
+                {
+                  "form": "se",
+                  "function": "vocative / invocative (O ...!)"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'masik/massig'"
+            },
+            {
+              "token": "hore",
+              "pos": "NOUN.PROPER",
+              "root": "hore",
+              "meaning": "Horus (deity)",
+              "category": "deity_name",
+              "certainty": 0.9,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "mk-se",
+              "pos": "NOUN",
+              "root": "mk",
+              "meaning": "god, deity",
+              "category": "religion",
+              "certainty": 0.9,
+              "suffixes": [
+                {
+                  "form": "se",
+                  "function": "vocative / invocative (O ...!)"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'masik/massig'"
+            },
+            {
+              "token": "mlo",
+              "pos": "ADJ",
+              "root": "mlo",
+              "meaning": "good, beautiful, fine",
+              "category": "adjective",
+              "certainty": 0.8,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'mel/mell'; Nobiin 'meeli'"
+            },
+            {
+              "token": "qo",
+              "pos": "ADJ",
+              "root": "qo",
+              "meaning": "great, big, mighty",
+              "category": "adjective",
+              "certainty": 0.75,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'qor/gor'; Nobiin 'goor'"
+            },
+            {
+              "token": "selele",
+              "pos": "NOUN",
+              "root": "selele",
+              "meaning": "protection, salvation, grace",
+              "category": "religion",
+              "certainty": 0.6,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'selle'"
+            },
+            {
+              "token": "Tanyidamani",
+              "pos": "NOUN.PROPER",
+              "root": "Tanyidamani",
+              "meaning": "[name: Tanyidamani]",
+              "category": "name",
+              "certainty": 0.22512103282209373,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "qore-l-o",
+              "pos": "NOUN.TITLE",
+              "root": "qore",
+              "meaning": "ruler, king",
+              "category": "title",
+              "certainty": 0.95,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                },
+                {
+                  "form": "o",
+                  "function": "genitive / possessive marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            }
+          ],
+          "free_translation": "O Amun, O god!; O Isis, O god!; O Horus, O good and great god!, the protection; Tanyidamani; of ruler."
+        },
+        "template_match": {
+          "best": "royal_enthronement",
+          "score": 7.5
+        },
+        "confidence": {
+          "average": 0.802,
+          "per_token": [
+            {
+              "token": "amni",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "mk-se",
+              "certainty": 0.9,
+              "label": "certain"
+            },
+            {
+              "token": "wos",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "mk-se",
+              "certainty": 0.9,
+              "label": "certain"
+            },
+            {
+              "token": "hore",
+              "certainty": 0.9,
+              "label": "certain"
+            },
+            {
+              "token": "mk-se",
+              "certainty": 0.9,
+              "label": "certain"
+            },
+            {
+              "token": "mlo",
+              "certainty": 0.8,
+              "label": "certain"
+            },
+            {
+              "token": "qo",
+              "certainty": 0.75,
+              "label": "probable"
+            },
+            {
+              "token": "selele",
+              "certainty": 0.6,
+              "label": "probable"
+            },
+            {
+              "token": "Tanyidamani",
+              "certainty": 0.22512103282209373,
+              "label": "unknown"
+            },
+            {
+              "token": "qore-l-o",
+              "certainty": 0.95,
+              "label": "certain"
+            }
+          ],
+          "summary": {
+            "certain": 8,
+            "probable": 2,
+            "tentative": 0,
+            "unknown": 1,
+            "total": 11
+          }
+        }
+      },
+      "confidence": 0.802
+    },
+    {
+      "section_id": "D4",
+      "title": "Final Offering Formula",
+      "lines": "148–155",
+      "status": "RESTORED",
+      "source": "Standard offering formula with royal dedication",
+      "notes": "'Bread and water, may it be given to the ruler Tanyidamani, the gods at Amun's (temple), of goodness'",
+      "decipherment": {
+        "id": "REM_1044_D4",
+        "site": "Jebel Barkal",
+        "type": "royal",
+        "period": "2nd century BCE",
+        "medium": "",
+        "layers": {
+          "transliteration": "ate-li : yi-li : pesto-b-ke : qore-l : Tanyidamani : mk-l : amni-te : mlo-l-owi",
+          "segmentation": "ate-li  yi-li  pesto-b-ke  qore-l  Tanyidamani  mk-l  amni-te  mlo-l-owi",
+          "interlinear_gloss": "bread-PL  water-PL  to give-COP-NMLZ  ruler-PL  Tanyidamani  god-PL  Amun-to be  good-PL-owi",
+          "phrase_structure": "[OFFERING ate-li yi-li pesto-b-ke]  [TITLE qore-l Tanyidamani mk-l]  [INVOCATION amni-te mlo-l-owi]",
+          "token_details": [
+            {
+              "token": "ate-li",
+              "pos": "NOUN",
+              "root": "ate",
+              "meaning": "bread, food offering",
+              "category": "funerary",
+              "certainty": 0.9,
+              "suffixes": [
+                {
+                  "form": "li",
+                  "function": "plural marker (variant, possibly ergative plural)"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'atte'; Nobiin 'atti'"
+            },
+            {
+              "token": "yi-li",
+              "pos": "NOUN",
+              "root": "yi",
+              "meaning": "water, drink offering",
+              "category": "funerary",
+              "certainty": 0.9,
+              "suffixes": [
+                {
+                  "form": "li",
+                  "function": "plural marker (variant, possibly ergative plural)"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'yi/yii'; Nobiin 'yii'"
+            },
+            {
+              "token": "pesto-b-ke",
+              "pos": "VERB",
+              "root": "pesto",
+              "meaning": "to give, to offer, to bestow",
+              "category": "verb",
+              "certainty": 0.85,
+              "suffixes": [
+                {
+                  "form": "b",
+                  "function": "3rd person singular verb / agentive / copula"
+                },
+                {
+                  "form": "ke",
+                  "function": "nominalizer / result marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'per/pir' (to give)"
+            },
+            {
+              "token": "qore-l",
+              "pos": "NOUN.TITLE",
+              "root": "qore",
+              "meaning": "ruler, king",
+              "category": "title",
+              "certainty": 0.95,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "Tanyidamani",
+              "pos": "NOUN.PROPER",
+              "root": "Tanyidamani",
+              "meaning": "[name: Tanyidamani]",
+              "category": "name",
+              "certainty": 0.22512103282209373,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "mk-l",
+              "pos": "NOUN",
+              "root": "mk",
+              "meaning": "god, deity",
+              "category": "religion",
+              "certainty": 0.9,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'masik/massig'"
+            },
+            {
+              "token": "amni-te",
+              "pos": "NOUN.PROPER",
+              "root": "amni",
+              "meaning": "Amun (deity)",
+              "category": "deity_name",
+              "certainty": 0.95,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "mlo-l-owi",
+              "pos": "ADJ",
+              "root": "mlo",
+              "meaning": "good, beautiful, fine",
+              "category": "adjective",
+              "certainty": 0.8,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'mel/mell'; Nobiin 'meeli'"
+            }
+          ],
+          "free_translation": "bread(s) and water(s) — may it be given; the rulers Tanyidamani the gods; O Amun, good."
+        },
+        "template_match": {
+          "best": "funerary_offering",
+          "score": 9.5
+        },
+        "confidence": {
+          "average": 0.809,
+          "per_token": [
+            {
+              "token": "ate-li",
+              "certainty": 0.9,
+              "label": "certain"
+            },
+            {
+              "token": "yi-li",
+              "certainty": 0.9,
+              "label": "certain"
+            },
+            {
+              "token": "pesto-b-ke",
+              "certainty": 0.85,
+              "label": "certain"
+            },
+            {
+              "token": "qore-l",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "Tanyidamani",
+              "certainty": 0.22512103282209373,
+              "label": "unknown"
+            },
+            {
+              "token": "mk-l",
+              "certainty": 0.9,
+              "label": "certain"
+            },
+            {
+              "token": "amni-te",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "mlo-l-owi",
+              "certainty": 0.8,
+              "label": "certain"
+            }
+          ],
+          "summary": {
+            "certain": 7,
+            "probable": 0,
+            "tentative": 0,
+            "unknown": 1,
+            "total": 8
+          }
+        }
+      },
+      "confidence": 0.809
+    },
+    {
+      "section_id": "D5",
+      "title": "Closing Protocol",
+      "lines": "155–161",
+      "status": "RESTORED",
+      "source": "Matches REM_0401 closing formula exactly; ring composition returning to opening",
+      "notes": "'Of the kingship: Tanyidamani, at Amun's (temple), great and good — Apedemak god, Isis goddess, western land, protection'",
+      "decipherment": {
+        "id": "REM_1044_D5",
+        "site": "Jebel Barkal",
+        "type": "royal",
+        "period": "2nd century BCE",
+        "medium": "",
+        "layers": {
+          "transliteration": "qore-l-o : Tanyidamani : amni-te : qo : mlo-li : apedmk : mk : wos : mk : tenke : to : selele",
+          "segmentation": "qore-l-o  Tanyidamani  amni-te  qo  mlo-li  apedmk  mk  wos  mk  tenke  to  selele",
+          "interlinear_gloss": "ruler-PL-GEN  Tanyidamani  Amun-to be  great  good-PL  Apedemak  god  Isis  god  west  land  protection",
+          "phrase_structure": "[TITLE qore-l-o Tanyidamani]  [INVOCATION amni-te qo mlo-li]  [INVOCATION apedmk mk]  [INVOCATION wos mk]  [LOCATION tenke to selele]",
+          "token_details": [
+            {
+              "token": "qore-l-o",
+              "pos": "NOUN.TITLE",
+              "root": "qore",
+              "meaning": "ruler, king",
+              "category": "title",
+              "certainty": 0.95,
+              "suffixes": [
+                {
+                  "form": "l",
+                  "function": "plural / collective marker"
+                },
+                {
+                  "form": "o",
+                  "function": "genitive / possessive marker"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "Tanyidamani",
+              "pos": "NOUN.PROPER",
+              "root": "Tanyidamani",
+              "meaning": "[name: Tanyidamani]",
+              "category": "name",
+              "certainty": 0.22512103282209373,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "amni-te",
+              "pos": "NOUN.PROPER",
+              "root": "amni",
+              "meaning": "Amun (deity)",
+              "category": "deity_name",
+              "certainty": 0.95,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "qo",
+              "pos": "ADJ",
+              "root": "qo",
+              "meaning": "great, big, mighty",
+              "category": "adjective",
+              "certainty": 0.75,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'qor/gor'; Nobiin 'goor'"
+            },
+            {
+              "token": "mlo-li",
+              "pos": "ADJ",
+              "root": "mlo",
+              "meaning": "good, beautiful, fine",
+              "category": "adjective",
+              "certainty": 0.8,
+              "suffixes": [
+                {
+                  "form": "li",
+                  "function": "plural marker (variant, possibly ergative plural)"
+                }
+              ],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'mel/mell'; Nobiin 'meeli'"
+            },
+            {
+              "token": "apedmk",
+              "pos": "NOUN.PROPER",
+              "root": "apedmk",
+              "meaning": "Apedemak (lion-headed war god)",
+              "category": "deity_name",
+              "certainty": 0.95,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "mk",
+              "pos": "NOUN",
+              "root": "mk",
+              "meaning": "god, deity",
+              "category": "religion",
+              "certainty": 0.9,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'masik/massig'"
+            },
+            {
+              "token": "wos",
+              "pos": "NOUN.PROPER",
+              "root": "wos",
+              "meaning": "Isis (deity)",
+              "category": "deity_name",
+              "certainty": 0.95,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": ""
+            },
+            {
+              "token": "mk",
+              "pos": "NOUN",
+              "root": "mk",
+              "meaning": "god, deity",
+              "category": "religion",
+              "certainty": 0.9,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'masik/massig'"
+            },
+            {
+              "token": "tenke",
+              "pos": "NOUN",
+              "root": "tenke",
+              "meaning": "west, western",
+              "category": "geography",
+              "certainty": 0.8,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'tengi'; Nobiin 'teengi'"
+            },
+            {
+              "token": "to",
+              "pos": "NOUN",
+              "root": "to",
+              "meaning": "land, territory, country",
+              "category": "geography",
+              "certainty": 0.85,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'tou/to'; Nobiin 'tó'"
+            },
+            {
+              "token": "selele",
+              "pos": "NOUN",
+              "root": "selele",
+              "meaning": "protection, salvation, grace",
+              "category": "religion",
+              "certainty": 0.6,
+              "suffixes": [],
+              "prefixes": [],
+              "nubian_cognate": "Old Nubian 'selle'"
+            }
+          ],
+          "free_translation": "of ruler Tanyidamani; O Amun, great and good; O Apedemak, the god; O Isis, the god; west land protection."
+        },
+        "template_match": {
+          "best": "royal_enthronement",
+          "score": 9.5
+        },
+        "confidence": {
+          "average": 0.802,
+          "per_token": [
+            {
+              "token": "qore-l-o",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "Tanyidamani",
+              "certainty": 0.22512103282209373,
+              "label": "unknown"
+            },
+            {
+              "token": "amni-te",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "qo",
+              "certainty": 0.75,
+              "label": "probable"
+            },
+            {
+              "token": "mlo-li",
+              "certainty": 0.8,
+              "label": "certain"
+            },
+            {
+              "token": "apedmk",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "mk",
+              "certainty": 0.9,
+              "label": "certain"
+            },
+            {
+              "token": "wos",
+              "certainty": 0.95,
+              "label": "certain"
+            },
+            {
+              "token": "mk",
+              "certainty": 0.9,
+              "label": "certain"
+            },
+            {
+              "token": "tenke",
+              "certainty": 0.8,
+              "label": "certain"
+            },
+            {
+              "token": "to",
+              "certainty": 0.85,
+              "label": "certain"
+            },
+            {
+              "token": "selele",
+              "certainty": 0.6,
+              "label": "probable"
+            }
+          ],
+          "summary": {
+            "certain": 9,
+            "probable": 2,
+            "tentative": 0,
+            "unknown": 1,
+            "total": 12
+          }
+        }
+      },
+      "confidence": 0.802
+    }
+  ],
+  "statistics": {
+    "total_sections": 25,
+    "total_tokens": 197,
+    "average_confidence": 0.7564619289340101,
+    "attested_sections": 6,
+    "restored_sections": 14,
+    "conjectural_sections": 5,
+    "attested_percentage": 24.0
+  }
+}

@@ -1,0 +1,1 @@
+"""Meroitic script analysis toolkit."""
