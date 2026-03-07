@@ -1,0 +1,1078 @@
+{
+  "pipeline_version": "4.0",
+  "stages": {
+    "cognate_mining": {
+      "new_cognates": 0,
+      "extended_nubian": 36,
+      "extended_es": 14
+    },
+    "morphosyntax": {
+      "verbal_chains": 16,
+      "unique_verb_roots": 3,
+      "suffix_types": 10
+    },
+    "template_engine": {
+      "classifications": {
+        "funerary_offering": 34,
+        "temple_dedication": 27,
+        "graffito": 5
+      },
+      "genres": 3
+    },
+    "corpus_analysis": {
+      "corpus_size": 66,
+      "confidence_entries_updated": 30,
+      "avg_confidence_delta": 0.0563,
+      "lexical_coverage": 0.945
+    },
+    "nes_lexicon": {
+      "dictionary_entries": 125,
+      "sound_laws": 25,
+      "new_cognates": 10,
+      "verified": 12
+    },
+    "bilingual_analysis": {
+      "unique_anchors": 28,
+      "vocabulary_boosted": 26,
+      "new_candidates": 10,
+      "egyptian_loans": 9,
+      "native_nes": 9,
+      "meroitic_exports": 3
+    },
+    "cryptanalysis": {
+      "zipf_exponent": 1.499,
+      "unique_tokens": 82,
+      "high_pmi": 20,
+      "morphological": 44,
+      "distributional": 0,
+      "cross_lingual": 11
+    },
+    "brute_force": {
+      "total_unknowns": 44,
+      "solved": 0,
+      "partially_solved": 0,
+      "unsolved": 10
+    },
+    "translation": {
+      "lexicon_size": 111,
+      "established_cognates": 2,
+      "translations": 66,
+      "average_confidence": 0.837,
+      "grade_distribution": {
+        "A": 66
+      }
+    },
+    "tanyidamani_v4": {
+      "sections": 25,
+      "avg_certainty": 0.613
+    },
+    "evidence_fusion": {
+      "total_new_evidence": 31
+    }
+  },
+  "summary": {
+    "corpus_size": 66,
+    "lexicon_entries": 111,
+    "new_cognates_mined_v3": 0,
+    "nes_new_cognates_v4": 10,
+    "bilingual_anchors": 28,
+    "zipf_exponent": 1.499,
+    "brute_force_solved": 0,
+    "total_new_evidence": 31,
+    "verbal_chains_found": 16,
+    "avg_translation_confidence": 0.837,
+    "stele_avg_certainty": 0.613
+  },
+  "translations": [
+    {
+      "id": "REM_0001",
+      "type": "funerary",
+      "source": "wos : mk : qore-l-o : Amnitenmomide : s : lh-se : ate-li : yi-s-li : pesto-b-ke",
+      "translation": "An offering which the king gives (for) wos Amnitenmomide: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.889,
+        "average_certainty": 0.787,
+        "template_match_score": 9.5,
+        "known_tokens": 8,
+        "total_tokens": 9,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0003",
+      "type": "funerary",
+      "source": "wos : mk : kdke-l-o : Amanitore : s : ate-li : yi-s-li : pesto-b-ke",
+      "translation": "An offering which the king gives (for) wos Amanitore: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.875,
+        "average_certainty": 0.769,
+        "template_match_score": 9.5,
+        "known_tokens": 7,
+        "total_tokens": 8,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0010",
+      "type": "funerary",
+      "source": "wos : mk : Teritedqe : abr : lh-se : mlo : ate-li : yi-s-li : pesto-b-ke",
+      "translation": "An offering which the king gives (for) wos Teritedqe: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.889,
+        "average_certainty": 0.79,
+        "template_match_score": 10.0,
+        "known_tokens": 8,
+        "total_tokens": 9,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0025",
+      "type": "funerary",
+      "source": "wos : mk : Pksemni : kdi : sr-se : mlo : ate-li : yi-s-li : pesto-b-ke",
+      "translation": "An offering which the king gives (for) wos Pksemni: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.889,
+        "average_certainty": 0.785,
+        "template_match_score": 10.0,
+        "known_tokens": 8,
+        "total_tokens": 9,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0040",
+      "type": "funerary",
+      "source": "wos-i : mk-i-se : Wletomni : abr : pelmos : lh : ate-li : yi-s-li : pesto-b-ke : mlo",
+      "translation": "An offering which the king gives (for) wos Wletomni: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.9,
+        "average_certainty": 0.77,
+        "template_match_score": 10.0,
+        "known_tokens": 9,
+        "total_tokens": 10,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0068",
+      "type": "funerary",
+      "source": "wos : mk : Mtewidemni : lh-se : abr : mlo : ate-li : yi-s-li : pesto-b-ke",
+      "translation": "An offering which the king gives (for) wos Mtewidemni: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.889,
+        "average_certainty": 0.79,
+        "template_match_score": 10.0,
+        "known_tokens": 8,
+        "total_tokens": 9,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0070",
+      "type": "funerary",
+      "source": "wos : mk : Yeritelde : kdi : mlo : sr-se : ate-li : yi-s-li : pesto-b-ke",
+      "translation": "An offering which the king gives (for) wos Yeritelde: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.889,
+        "average_certainty": 0.785,
+        "template_match_score": 10.0,
+        "known_tokens": 8,
+        "total_tokens": 9,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0075",
+      "type": "funerary",
+      "source": "wos : mk : Mnitnekemni : abr : beleqe : lh : ate-li : yi-s-li : pesto-b-ke",
+      "translation": "An offering which the king gives (for) wos Mnitnekemni: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.889,
+        "average_certainty": 0.775,
+        "template_match_score": 10.0,
+        "known_tokens": 8,
+        "total_tokens": 9,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0090",
+      "type": "funerary",
+      "source": "wos : mk : Yesbokemni : kdi : mlo : sr-se : ate-li : yi-s-li : pesto-b-ke",
+      "translation": "An offering which the king gives (for) wos Yesbokemni: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.889,
+        "average_certainty": 0.785,
+        "template_match_score": 10.0,
+        "known_tokens": 8,
+        "total_tokens": 9,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0094",
+      "type": "funerary",
+      "source": "wos-i : mk-i-se : Aritene : abr : pelmos : lh : ate-li : yi-s-li : pesto-b-ke : mlo",
+      "translation": "An offering which the king gives (for) wos Aritene: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.9,
+        "average_certainty": 0.77,
+        "template_match_score": 10.0,
+        "known_tokens": 9,
+        "total_tokens": 10,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0100",
+      "type": "funerary",
+      "source": "wos : mk : Krmntene : kdi : sr-se : lh : ate : yi : pesto-b",
+      "translation": "An offering which the king gives (for) wos Krmntene: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.889,
+        "average_certainty": 0.775,
+        "template_match_score": 10.0,
+        "known_tokens": 8,
+        "total_tokens": 9,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0105",
+      "type": "funerary",
+      "source": "wos : mk : Teritnide : abr : mlo : lh-se : ate-li : yi-s-li : pesto-b-ke",
+      "translation": "An offering which the king gives (for) wos Teritnide: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.889,
+        "average_certainty": 0.79,
+        "template_match_score": 10.0,
+        "known_tokens": 8,
+        "total_tokens": 9,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0120",
+      "type": "funerary",
+      "source": "wos-i : mk-i : Abtselomni : abr : pqr : lh-se : ate-li : yi-s-li : pesto-b-ke : mlo",
+      "translation": "An offering which the king gives (for) wos Abtselomni: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.9,
+        "average_certainty": 0.775,
+        "template_match_score": 10.0,
+        "known_tokens": 9,
+        "total_tokens": 10,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0150",
+      "type": "funerary",
+      "source": "wos : mk : Mlewitenoye : kdi : kdke : lh : mlo : ate-li : yi-s-li : pesto-b-ke",
+      "translation": "An offering which the king gives (for) wos Mlewitenoye: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.9,
+        "average_certainty": 0.785,
+        "template_match_score": 10.0,
+        "known_tokens": 9,
+        "total_tokens": 10,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0160",
+      "type": "funerary",
+      "source": "wos : mk : Periteleye : abr : mlo : lh : sr-se : ate-li : yi-s-li : pesto-b-ke",
+      "translation": "An offering which the king gives (for) wos Periteleye: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.9,
+        "average_certainty": 0.783,
+        "template_match_score": 10.0,
+        "known_tokens": 9,
+        "total_tokens": 10,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0500",
+      "type": "funerary",
+      "source": "wos : mk : Mlewitenose : abr : pqr : lh-se : ate-li : yi-s-li : pesto-b-ke : mlo",
+      "translation": "An offering which the king gives (for) wos Mlewitenose: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.9,
+        "average_certainty": 0.775,
+        "template_match_score": 10.0,
+        "known_tokens": 9,
+        "total_tokens": 10,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0510",
+      "type": "funerary",
+      "source": "wos : mk : Akinimnoteri : abr : arike : lh : ate-li : yi-s-li : pesto-b-ke : mlo",
+      "translation": "An offering which the king gives (for) wos Akinimnoteri: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.9,
+        "average_certainty": 0.778,
+        "template_match_score": 10.0,
+        "known_tokens": 9,
+        "total_tokens": 10,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0520",
+      "type": "funerary",
+      "source": "wos : mk : Tsemnoye : kdi : mlo : lh-se : ate-li : yi-s-li : pesto-b-ke",
+      "translation": "An offering which the king gives (for) wos Tsemnoye: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.889,
+        "average_certainty": 0.79,
+        "template_match_score": 10.0,
+        "known_tokens": 8,
+        "total_tokens": 9,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0555",
+      "type": "funerary",
+      "source": "wos-i : mk-i : Tkhetemni : kdi : mlo : ate-li : yi-s-li : pesto-b-ke",
+      "translation": "An offering which the king gives (for) wos Tkhetemni: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.875,
+        "average_certainty": 0.769,
+        "template_match_score": 10.0,
+        "known_tokens": 7,
+        "total_tokens": 8,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0600",
+      "type": "funerary",
+      "source": "wos : mk : Akinimnoteri : abr : arike : lh : ate-li : yi-s-li : pesto-b-ke : mlo",
+      "translation": "An offering which the king gives (for) wos Akinimnoteri: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.9,
+        "average_certainty": 0.778,
+        "template_match_score": 10.0,
+        "known_tokens": 9,
+        "total_tokens": 10,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0610",
+      "type": "funerary",
+      "source": "wos : mk : Tdkemeyose : abr : mlo : lh : ate : yi-s : pesto-b",
+      "translation": "An offering which the king gives (for) wos Tdkemeyose: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.889,
+        "average_certainty": 0.792,
+        "template_match_score": 10.0,
+        "known_tokens": 8,
+        "total_tokens": 9,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0650",
+      "type": "funerary",
+      "source": "wos-i : mk-i : Pelmnote : abr : pelmos : mlo : lh-se : ate-li : yi-s-li : pesto-b-ke",
+      "translation": "An offering which the king gives (for) wos Pelmnote: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.9,
+        "average_certainty": 0.77,
+        "template_match_score": 10.0,
+        "known_tokens": 9,
+        "total_tokens": 10,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0800",
+      "type": "funerary",
+      "source": "wos : mk : Beletense : kdi : kdke : lh-se : ate-li : yi : pesto-b",
+      "translation": "An offering which the king gives (for) wos Beletense: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.889,
+        "average_certainty": 0.783,
+        "template_match_score": 10.0,
+        "known_tokens": 8,
+        "total_tokens": 9,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0850",
+      "type": "funerary",
+      "source": "wos-i : mk-i-se : Krmtone : abr : beleqe : ate-li : yi-s-li : pesto-b-ke",
+      "translation": "An offering which the king gives (for) wos Krmtone: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.875,
+        "average_certainty": 0.779,
+        "template_match_score": 10.0,
+        "known_tokens": 7,
+        "total_tokens": 8,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_1050",
+      "type": "funerary",
+      "source": "wos : mk : Atritenose : abr : mlo : lh : sr-se : ate-li : yi-s-li : pesto-b-ke",
+      "translation": "An offering which the king gives (for) wos Atritenose: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.9,
+        "average_certainty": 0.783,
+        "template_match_score": 10.0,
+        "known_tokens": 9,
+        "total_tokens": 10,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_1060",
+      "type": "funerary",
+      "source": "wos : mk : Menteyose : kdi : mlo : ate-li : yi-s-li : pesto-b-ke",
+      "translation": "An offering which the king gives (for) wos Menteyose: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.875,
+        "average_certainty": 0.799,
+        "template_match_score": 10.0,
+        "known_tokens": 7,
+        "total_tokens": 8,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_1070",
+      "type": "funerary",
+      "source": "wos : mk : Tbktewide : abr : wete : mlo : lh : ate-li : yi-s-li : pesto-b-ke",
+      "translation": "An offering which the king gives (for) wos Tbktewide: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.9,
+        "average_certainty": 0.759,
+        "template_match_score": 10.0,
+        "known_tokens": 9,
+        "total_tokens": 10,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_1080",
+      "type": "funerary",
+      "source": "wos-i : mk-i-se : Amnteklde : kdi : widke : mlo : lh-se : ate-li : yi-s-li : pesto-b-ke",
+      "translation": "An offering which the king gives (for) wos Amnteklde: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.9,
+        "average_certainty": 0.745,
+        "template_match_score": 10.0,
+        "known_tokens": 9,
+        "total_tokens": 10,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_1150",
+      "type": "funerary",
+      "source": "wos : mk : Npatemeye : kdi : mlo : ate-li : yi-s-li : pesto-b-ke",
+      "translation": "An offering which the king gives (for) wos Npatemeye: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.875,
+        "average_certainty": 0.799,
+        "template_match_score": 10.0,
+        "known_tokens": 7,
+        "total_tokens": 8,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_1160",
+      "type": "funerary",
+      "source": "wos : mk : Tmlenekemni : abr : peseto : lh : mlo : ate-li : yi-s-li : pesto-b-ke",
+      "translation": "An offering which the king gives (for) wos Tmlenekemni: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.9,
+        "average_certainty": 0.788,
+        "template_match_score": 10.0,
+        "known_tokens": 9,
+        "total_tokens": 10,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0141",
+      "type": "royal",
+      "source": "qore-l : Natakamani : qo : mlo : apedmk : mk-se : selele : tenke : to : pesto-b-ke",
+      "translation": "By the grace of apedmk, King Natakamani apedmk, great and good, ruler of the western land and Akine.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.9,
+        "average_certainty": 0.745,
+        "template_match_score": 7.5,
+        "known_tokens": 9,
+        "total_tokens": 10,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0200",
+      "type": "royal",
+      "source": "amni : mk-se : qore-l : Natakamani : kdke-l : Amanitore : qo : mlo : tenke : to : akine : to : selele : pesto-b-ke",
+      "translation": "By the grace of amni, King amni Natakamani Amanitore akine, great and good, ruler of the western land and Akine.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.857,
+        "average_certainty": 0.721,
+        "template_match_score": 9.5,
+        "known_tokens": 12,
+        "total_tokens": 14,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0310",
+      "type": "royal",
+      "source": "amni : mk : qore-l : Amanishakheto : kdke : qo : mlo : pesto-b : tenke : to : akine : to : selele",
+      "translation": "By the grace of amni, King amni Amanishakheto akine, great and good, ruler of the western land and Akine.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.923,
+        "average_certainty": 0.791,
+        "template_match_score": 9.5,
+        "known_tokens": 12,
+        "total_tokens": 13,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0320",
+      "type": "royal",
+      "source": "qore-l-o : Amanishakheto : amni-te : kdke : qo : mlo : apedmk : mk-se : beke : selele : to",
+      "translation": "By the grace of amni and apedmk, King Amanishakheto amni apedmk, great and good, ruler of the western land and Akine.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.909,
+        "average_certainty": 0.776,
+        "template_match_score": 9.5,
+        "known_tokens": 10,
+        "total_tokens": 11,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0401",
+      "type": "royal",
+      "source": "qore-l-o : Tanyidamani : amni-te : qo : mlo-li : apedmk : mk : wos : mk : selele-wi : tenke : to",
+      "translation": "By the grace of amni and apedmk and wos, King Tanyidamani amni apedmk wos, great and good, ruler of the western land and Akine.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.917,
+        "average_certainty": 0.802,
+        "template_match_score": 9.5,
+        "known_tokens": 11,
+        "total_tokens": 12,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0402",
+      "type": "royal",
+      "source": "amni : mk-se : qore-l : Tanyidamani : mlo : qo : beke-li : pesto-b-ke : to : selele",
+      "translation": "By the grace of amni, King amni Tanyidamani, great and good, ruler of the western land and Akine.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.9,
+        "average_certainty": 0.753,
+        "template_match_score": 9.5,
+        "known_tokens": 9,
+        "total_tokens": 10,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0410",
+      "type": "royal",
+      "source": "amni : mk : qore-l-o : Tanyidamani : qo : mlo : tenke : to : akine : selele : apedmk : mk-se : pesto-b-ke",
+      "translation": "By the grace of amni and apedmk, King amni Tanyidamani akine apedmk, great and good, ruler of the western land and Akine.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.923,
+        "average_certainty": 0.798,
+        "template_match_score": 9.5,
+        "known_tokens": 12,
+        "total_tokens": 13,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0700",
+      "type": "royal",
+      "source": "qore-l-o : Amanikhabale : amni-te : mlo : qo : apedmk : mk-se : beke-li : tenke : to : selele",
+      "translation": "By the grace of amni and apedmk, King Amanikhabale amni apedmk, great and good, ruler of the western land and Akine.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.909,
+        "average_certainty": 0.761,
+        "template_match_score": 9.5,
+        "known_tokens": 10,
+        "total_tokens": 11,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0710",
+      "type": "royal",
+      "source": "qore-l : Amanitekha : amni-te : qo : mlo : apedmk : mk : wos : mk-se : selele-wi : tenke : to",
+      "translation": "By the grace of amni and apedmk and wos, King Amanitekha amni apedmk wos, great and good, ruler of the western land and Akine.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.917,
+        "average_certainty": 0.799,
+        "template_match_score": 9.5,
+        "known_tokens": 11,
+        "total_tokens": 12,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_1001",
+      "type": "royal",
+      "source": "amni : mk : qore-l-o : Arnekhamani : qo : mlo : beke : apedmk : mk : selele-wi : to",
+      "translation": "By the grace of amni and apedmk, King amni Arnekhamani apedmk, great and good, ruler of the western land and Akine.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.909,
+        "average_certainty": 0.772,
+        "template_match_score": 9.5,
+        "known_tokens": 10,
+        "total_tokens": 11,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_1100",
+      "type": "royal",
+      "source": "qore-l : Adikhalamani : amni-te : apedmk : mk-se : qo : mlo : tenke : to : akine : selele : pesto-b-ke",
+      "translation": "By the grace of amni and apedmk, King Adikhalamani amni apedmk akine, great and good, ruler of the western land and Akine.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.917,
+        "average_certainty": 0.788,
+        "template_match_score": 9.5,
+        "known_tokens": 11,
+        "total_tokens": 12,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_1105",
+      "type": "royal",
+      "source": "amni : mk-se : qore-l-o : Adikhalamani : qo : mlo : beke-li : tenke : to : selele : pesto-b-ke",
+      "translation": "By the grace of amni, King amni Adikhalamani, great and good, ruler of the western land and Akine.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.909,
+        "average_certainty": 0.755,
+        "template_match_score": 9.5,
+        "known_tokens": 10,
+        "total_tokens": 11,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_1110",
+      "type": "royal",
+      "source": "qore-l : Shanakdakhete : kdke : qo : mlo : amni : mk-se : selele : tenke : to : pesto-b-ke",
+      "translation": "By the grace of amni, King Shanakdakhete amni, great and good, ruler of the western land and Akine.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.909,
+        "average_certainty": 0.779,
+        "template_match_score": 9.5,
+        "known_tokens": 10,
+        "total_tokens": 11,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0230",
+      "type": "religious",
+      "source": "apedmk : mk : qo-se : selele-wi : abr : mlo : beke",
+      "translation": "This temple is dedicated to apedmk by apedmk, for the protection and prosperity of the land.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 1.0,
+        "average_certainty": 0.786,
+        "template_match_score": 9.0,
+        "known_tokens": 7,
+        "total_tokens": 7,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0240",
+      "type": "religious",
+      "source": "apedmk : mk : qo : mlo : selele-wi : beke : mke : to",
+      "translation": "This temple is dedicated to apedmk by apedmk, for the protection and prosperity of the land.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 1.0,
+        "average_certainty": 0.738,
+        "template_match_score": 9.0,
+        "known_tokens": 8,
+        "total_tokens": 8,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0250",
+      "type": "religious",
+      "source": "apedmk : mk-se : qo : mlo : selele : abr : mlo : pesto-b",
+      "translation": "This temple is dedicated to apedmk by apedmk, for the protection and prosperity of the land.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 1.0,
+        "average_certainty": 0.812,
+        "template_match_score": 8.5,
+        "known_tokens": 8,
+        "total_tokens": 8,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0450",
+      "type": "religious",
+      "source": "wos : mk : mhe-se : selele-wi : kdi : mlo : plote-b",
+      "translation": "This temple is dedicated to wos and mhe by wos mhe, for the protection and prosperity of the land.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 1.0,
+        "average_certainty": 0.779,
+        "template_match_score": 8.5,
+        "known_tokens": 7,
+        "total_tokens": 7,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0460",
+      "type": "religious",
+      "source": "wos : mk-se : mnp : mk-se : selele : pesto-b-ke : mlo",
+      "translation": "This temple is dedicated to wos and mnp by wos mnp, for the protection and prosperity of the land.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 1.0,
+        "average_certainty": 0.836,
+        "template_match_score": 8.5,
+        "known_tokens": 7,
+        "total_tokens": 7,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0620",
+      "type": "religious",
+      "source": "apedmk : mk : qo : sebke : mk : amni : mk-se : selele-wi : qore-l : pesto-b-ke",
+      "translation": "By the grace of apedmk and sebke and amni, King apedmk sebke amni, great and good, ruler of the western land and Akine.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 1.0,
+        "average_certainty": 0.855,
+        "template_match_score": 7.5,
+        "known_tokens": 10,
+        "total_tokens": 10,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0630",
+      "type": "religious",
+      "source": "apedmk : mk-se : qo : mlo : beke : selele : wos : mk : pesto-b-ke",
+      "translation": "This temple is dedicated to apedmk and wos by apedmk wos, for the protection and prosperity of the land.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 1.0,
+        "average_certainty": 0.817,
+        "template_match_score": 9.0,
+        "known_tokens": 9,
+        "total_tokens": 9,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0750",
+      "type": "religious",
+      "source": "apedmk : mk-se : qo : mlo : abr : selele-wi : beke",
+      "translation": "This temple is dedicated to apedmk by apedmk, for the protection and prosperity of the land.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 1.0,
+        "average_certainty": 0.786,
+        "template_match_score": 9.0,
+        "known_tokens": 7,
+        "total_tokens": 7,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0760",
+      "type": "religious",
+      "source": "apedmk : mk : qo-se : sebke : mk-se : selele-wi : mlo : beke-li : pesto-b-ke",
+      "translation": "This temple is dedicated to apedmk and sebke by apedmk sebke, for the protection and prosperity of the land.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 1.0,
+        "average_certainty": 0.8,
+        "template_match_score": 9.0,
+        "known_tokens": 9,
+        "total_tokens": 9,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0770",
+      "type": "religious",
+      "source": "amni : mk : apedmk : mk : qo : mlo : selele-wi : pesto-b-ke : to",
+      "translation": "This temple is dedicated to amni and apedmk by amni apedmk, for the protection and prosperity of the land.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 1.0,
+        "average_certainty": 0.839,
+        "template_match_score": 8.5,
+        "known_tokens": 9,
+        "total_tokens": 9,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_1010",
+      "type": "religious",
+      "source": "amni : mk : qo-se : wos : mk-se : mhe : mk-se : selele : pesto-b-ke : to",
+      "translation": "This temple is dedicated to amni and wos and mhe by amni wos mhe, for the protection and prosperity of the land.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 1.0,
+        "average_certainty": 0.835,
+        "template_match_score": 8.5,
+        "known_tokens": 10,
+        "total_tokens": 10,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_1020",
+      "type": "religious",
+      "source": "amni : mk-se : apedmk : mk : selele-wi : mlo-li : pesto-b-ke : to : beke-li",
+      "translation": "This temple is dedicated to amni and apedmk by amni apedmk, for the protection and prosperity of the land.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 1.0,
+        "average_certainty": 0.828,
+        "template_match_score": 9.0,
+        "known_tokens": 9,
+        "total_tokens": 9,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_1200",
+      "type": "religious",
+      "source": "apedmk : mk : qo : mlo-li : qore-l-o : Natakamani : kdke-l-o : Amanitore : selele-wi : pesto-b-ke",
+      "translation": "This temple is dedicated to apedmk by apedmk Natakamani Amanitore, for the protection and prosperity of the land.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.8,
+        "average_certainty": 0.675,
+        "template_match_score": 7.5,
+        "known_tokens": 8,
+        "total_tokens": 10,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_1210",
+      "type": "religious",
+      "source": "apedmk : mk-se : qo : mlo : wos : mk : selele-wi : abr : pesto-b-ke",
+      "translation": "This temple is dedicated to apedmk and wos by apedmk wos, for the protection and prosperity of the land.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 1.0,
+        "average_certainty": 0.839,
+        "template_match_score": 8.5,
+        "known_tokens": 9,
+        "total_tokens": 9,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_1220",
+      "type": "religious",
+      "source": "amni : mk : sebke : mk-se : apedmk : mk : qo : mlo : selele : pesto-b-ke : to",
+      "translation": "This temple is dedicated to amni and sebke and apedmk by amni sebke apedmk, for the protection and prosperity of the land.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 1.0,
+        "average_certainty": 0.841,
+        "template_match_score": 8.5,
+        "known_tokens": 11,
+        "total_tokens": 11,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0170",
+      "type": "royal",
+      "source": "qore-l : Yesebokemni : qo : mlo : amni : mk-se : wos : mk : selele-wi : pesto-b-ke",
+      "translation": "By the grace of amni and wos, King Yesebokemni amni wos, great and good, ruler of the western land and Akine.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.9,
+        "average_certainty": 0.784,
+        "template_match_score": 7.5,
+        "known_tokens": 9,
+        "total_tokens": 10,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0180",
+      "type": "religious",
+      "source": "mnp : mk-se : aresnp : mk : selele-wi : mlo : pesto-b-ke",
+      "translation": "This temple is dedicated to mnp and aresnp by mnp aresnp, for the protection and prosperity of the land.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 1.0,
+        "average_certainty": 0.814,
+        "template_match_score": 8.5,
+        "known_tokens": 7,
+        "total_tokens": 7,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0190",
+      "type": "religious",
+      "source": "mnp : mk : qo-se : mlo : selele : pesto-b-ke : to",
+      "translation": "This temple is dedicated to mnp by mnp, for the protection and prosperity of the land.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 1.0,
+        "average_certainty": 0.8,
+        "template_match_score": 8.5,
+        "known_tokens": 7,
+        "total_tokens": 7,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0900",
+      "type": "funerary",
+      "source": "wos : mk : Peksemelde : abr : mlqe : lh : mlo : ate-li : yi-s-li : pesto-b-ke",
+      "translation": "An offering which the king gives (for) wos Peksemelde: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.9,
+        "average_certainty": 0.767,
+        "template_match_score": 10.0,
+        "known_tokens": 9,
+        "total_tokens": 10,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0910",
+      "type": "funerary",
+      "source": "wos-i : mk-i-se : Mntemnoye : kdi : mlo : lh-se : ate-li : yi-s-li : pesto-b-ke",
+      "translation": "An offering which the king gives (for) wos Mntemnoye: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.889,
+        "average_certainty": 0.767,
+        "template_match_score": 10.0,
+        "known_tokens": 8,
+        "total_tokens": 9,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_0920",
+      "type": "funerary",
+      "source": "wos : mk : Aritnekemni : abr : peseto : lh-se : mlo : ate-li : yi-s-li : pesto-b-ke",
+      "translation": "An offering which the king gives (for) wos Aritnekemni: bread, water, and all good things.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.9,
+        "average_certainty": 0.77,
+        "template_match_score": 10.0,
+        "known_tokens": 9,
+        "total_tokens": 10,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_1250",
+      "type": "royal",
+      "source": "amni : mk : qore-l : Harsiotef : qo : mlo : apedmk : mk-se : beke-li : selele : tenke : to : pesto-b-ke",
+      "translation": "By the grace of amni and apedmk, King amni Harsiotef apedmk, great and good, ruler of the western land and Akine.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.923,
+        "average_certainty": 0.782,
+        "template_match_score": 9.5,
+        "known_tokens": 12,
+        "total_tokens": 13,
+        "grade": "A"
+      }
+    },
+    {
+      "id": "REM_1260",
+      "type": "royal",
+      "source": "amni : mk-se : qore-l-o : Nastasen : qo : mlo : tenke : to : akine : to : selele : beke : pesto-b-ke",
+      "translation": "By the grace of amni, King amni Nastasen akine, great and good, ruler of the western land and Akine.",
+      "confidence": {
+        "overall": 1.0,
+        "lexical_coverage": 0.923,
+        "average_certainty": 0.769,
+        "template_match_score": 9.5,
+        "known_tokens": 12,
+        "total_tokens": 13,
+        "grade": "A"
+      }
+    }
+  ]
+}
