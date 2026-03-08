@@ -1,0 +1,2507 @@
+{
+  "engine": "v8.0_ternary",
+  "framework": "Korzybski-Brusentsov-Peirce",
+  "logic": "Łukasiewicz 3-valued",
+  "elapsed_seconds": 0.01,
+  "vocabulary": {
+    "total": 64,
+    "attested": 29,
+    "indeterminate": 35,
+    "excluded": 0,
+    "attested_pct": 45.3
+  },
+  "stele": {
+    "total_tokens": 197,
+    "attested": 172,
+    "indeterminate": 25,
+    "excluded": 0,
+    "genuine_coverage_pct": 87.3
+  },
+  "vocabulary_detail": {
+    "qore": {
+      "meaning": "ruler, king",
+      "ternary_value": "ATTESTED",
+      "confidence_score": 1.0,
+      "tier": "SECURE",
+      "channels": [
+        {
+          "name": "bilingual",
+          "value": "ATTESTED",
+          "weight": 1.0,
+          "description": "Confirmed in bilingual Meroitic-Egyptian text"
+        },
+        {
+          "name": "egyptian",
+          "value": "ATTESTED",
+          "weight": 0.9,
+          "description": "Egyptian parallel: Egyptian 'nsw' equivalent in bilingual"
+        }
+      ]
+    },
+    "kdke": {
+      "meaning": "queen, queen mother (Candace)",
+      "ternary_value": "ATTESTED",
+      "confidence_score": 1.0,
+      "tier": "SECURE",
+      "channels": [
+        {
+          "name": "bilingual",
+          "value": "ATTESTED",
+          "weight": 1.0,
+          "description": "Cross-linguistically confirmed (SECURE tier)"
+        },
+        {
+          "name": "egyptian",
+          "value": "ATTESTED",
+          "weight": 0.9,
+          "description": "Egyptian parallel: Greek Κανδάκη"
+        }
+      ]
+    },
+    "ktke": {
+      "meaning": "queen mother (variant spelling)",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "PROBABLE",
+      "channels": [
+        {
+          "name": "contextual",
+          "value": "INDETERMINATE",
+          "weight": 0.3,
+          "description": "No independent evidence — project inference only"
+        }
+      ]
+    },
+    "pqr": {
+      "meaning": "deputy, viceroy, second-in-command",
+      "ternary_value": "ATTESTED",
+      "confidence_score": 1.0,
+      "tier": "PROBABLE",
+      "channels": [
+        {
+          "name": "structural",
+          "value": "ATTESTED",
+          "weight": 0.5,
+          "description": "Published scholarly identification"
+        }
+      ]
+    },
+    "pelmos": {
+      "meaning": "strategos, military commander",
+      "ternary_value": "ATTESTED",
+      "confidence_score": 1.0,
+      "tier": "PROBABLE",
+      "channels": [
+        {
+          "name": "egyptian",
+          "value": "ATTESTED",
+          "weight": 0.9,
+          "description": "Egyptian parallel: Greek στρατηγός"
+        },
+        {
+          "name": "structural",
+          "value": "ATTESTED",
+          "weight": 0.5,
+          "description": "Published scholarly identification"
+        }
+      ]
+    },
+    "peseto": {
+      "meaning": "viceroy (of a province)",
+      "ternary_value": "ATTESTED",
+      "confidence_score": 1.0,
+      "tier": "PROBABLE",
+      "channels": [
+        {
+          "name": "structural",
+          "value": "ATTESTED",
+          "weight": 0.5,
+          "description": "Published scholarly identification"
+        }
+      ]
+    },
+    "beleqe": {
+      "meaning": "chief, headman",
+      "ternary_value": "ATTESTED",
+      "confidence_score": 1.0,
+      "tier": "PROBABLE",
+      "channels": [
+        {
+          "name": "structural",
+          "value": "ATTESTED",
+          "weight": 0.5,
+          "description": "Published scholarly identification"
+        }
+      ]
+    },
+    "arike": {
+      "meaning": "prince, royal offspring",
+      "ternary_value": "ATTESTED",
+      "confidence_score": 1.0,
+      "tier": "PROBABLE",
+      "channels": [
+        {
+          "name": "structural",
+          "value": "ATTESTED",
+          "weight": 0.5,
+          "description": "Published scholarly identification"
+        }
+      ]
+    },
+    "mlqe": {
+      "meaning": "high official",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "structural",
+          "value": "INDETERMINATE",
+          "weight": 0.5,
+          "description": "Mentioned in scholarship but not confirmed"
+        }
+      ]
+    },
+    "widke": {
+      "meaning": "priestess",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "contextual",
+          "value": "INDETERMINATE",
+          "weight": 0.3,
+          "description": "Contextual inference by this project"
+        }
+      ]
+    },
+    "wete": {
+      "meaning": "priest/officiant",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "contextual",
+          "value": "INDETERMINATE",
+          "weight": 0.3,
+          "description": "Contextual inference by this project"
+        }
+      ]
+    },
+    "mk": {
+      "meaning": "god, deity",
+      "ternary_value": "ATTESTED",
+      "confidence_score": 1.0,
+      "tier": "PROBABLE",
+      "channels": [
+        {
+          "name": "nes_cognate",
+          "value": "ATTESTED",
+          "weight": 0.75,
+          "description": "Nubian cognate: Old Nubian 'masik/massig'"
+        },
+        {
+          "name": "structural",
+          "value": "ATTESTED",
+          "weight": 0.5,
+          "description": "Published scholarly identification"
+        }
+      ]
+    },
+    "amni": {
+      "meaning": "Amun (deity)",
+      "ternary_value": "ATTESTED",
+      "confidence_score": 1.0,
+      "tier": "SECURE",
+      "channels": [
+        {
+          "name": "bilingual",
+          "value": "ATTESTED",
+          "weight": 1.0,
+          "description": "Cross-linguistically confirmed (SECURE tier)"
+        },
+        {
+          "name": "egyptian",
+          "value": "ATTESTED",
+          "weight": 0.9,
+          "description": "Egyptian parallel: Jmn (Amun)"
+        }
+      ]
+    },
+    "apedmk": {
+      "meaning": "Apedemak (lion-headed war god)",
+      "ternary_value": "ATTESTED",
+      "confidence_score": 1.0,
+      "tier": "SECURE",
+      "channels": [
+        {
+          "name": "bilingual",
+          "value": "ATTESTED",
+          "weight": 1.0,
+          "description": "Cross-linguistically confirmed (SECURE tier)"
+        },
+        {
+          "name": "iconographic",
+          "value": "ATTESTED",
+          "weight": 0.5,
+          "description": "Iconographic identification"
+        }
+      ]
+    },
+    "wos": {
+      "meaning": "Isis (deity)",
+      "ternary_value": "ATTESTED",
+      "confidence_score": 1.0,
+      "tier": "SECURE",
+      "channels": [
+        {
+          "name": "bilingual",
+          "value": "ATTESTED",
+          "weight": 1.0,
+          "description": "Cross-linguistically confirmed (SECURE tier)"
+        },
+        {
+          "name": "egyptian",
+          "value": "ATTESTED",
+          "weight": 0.9,
+          "description": "Egyptian parallel: Ꜣst (Isis)"
+        }
+      ]
+    },
+    "mhe": {
+      "meaning": "Mash, sun god (solar deity)",
+      "ternary_value": "ATTESTED",
+      "confidence_score": 1.0,
+      "tier": "PROBABLE",
+      "channels": [
+        {
+          "name": "structural",
+          "value": "ATTESTED",
+          "weight": 0.5,
+          "description": "Published scholarly identification"
+        },
+        {
+          "name": "iconographic",
+          "value": "ATTESTED",
+          "weight": 0.5,
+          "description": "Iconographic identification"
+        }
+      ]
+    },
+    "mnp": {
+      "meaning": "Mandulis (deity)",
+      "ternary_value": "ATTESTED",
+      "confidence_score": 1.0,
+      "tier": "PROBABLE",
+      "channels": [
+        {
+          "name": "egyptian",
+          "value": "ATTESTED",
+          "weight": 0.9,
+          "description": "Egyptian parallel: Greek Μανδούλις"
+        },
+        {
+          "name": "iconographic",
+          "value": "ATTESTED",
+          "weight": 0.5,
+          "description": "Iconographic identification"
+        }
+      ]
+    },
+    "sebke": {
+      "meaning": "Sebiumeker (creator deity)",
+      "ternary_value": "ATTESTED",
+      "confidence_score": 1.0,
+      "tier": "PROBABLE",
+      "channels": [
+        {
+          "name": "structural",
+          "value": "ATTESTED",
+          "weight": 0.5,
+          "description": "Published scholarly identification"
+        },
+        {
+          "name": "iconographic",
+          "value": "ATTESTED",
+          "weight": 0.5,
+          "description": "Iconographic identification"
+        }
+      ]
+    },
+    "aresnp": {
+      "meaning": "Arensnuphis (deity)",
+      "ternary_value": "ATTESTED",
+      "confidence_score": 1.0,
+      "tier": "PROBABLE",
+      "channels": [
+        {
+          "name": "greek",
+          "value": "ATTESTED",
+          "weight": 0.95,
+          "description": "Greek transcription/parallel"
+        }
+      ]
+    },
+    "hore": {
+      "meaning": "Horus (deity)",
+      "ternary_value": "ATTESTED",
+      "confidence_score": 1.0,
+      "tier": "PROBABLE",
+      "channels": [
+        {
+          "name": "egyptian",
+          "value": "ATTESTED",
+          "weight": 0.9,
+          "description": "Egyptian parallel: Ḥr (Horus)"
+        }
+      ]
+    },
+    "osor": {
+      "meaning": "Osiris (deity)",
+      "ternary_value": "ATTESTED",
+      "confidence_score": 1.0,
+      "tier": "PROBABLE",
+      "channels": [
+        {
+          "name": "egyptian",
+          "value": "ATTESTED",
+          "weight": 0.9,
+          "description": "Egyptian parallel: Wsir (Osiris)"
+        }
+      ]
+    },
+    "s̆e": {
+      "meaning": "sacred, holy",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "structural",
+          "value": "INDETERMINATE",
+          "weight": 0.5,
+          "description": "Mentioned in scholarship but not confirmed"
+        },
+        {
+          "name": "contextual",
+          "value": "INDETERMINATE",
+          "weight": 0.3,
+          "description": "Contextual inference by this project"
+        }
+      ]
+    },
+    "plote": {
+      "meaning": "to pour, libation",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "positional",
+          "value": "INDETERMINATE",
+          "weight": 0.6,
+          "description": "Appears in offering contexts (position uncertain)"
+        },
+        {
+          "name": "structural",
+          "value": "INDETERMINATE",
+          "weight": 0.5,
+          "description": "Mentioned in scholarship but not confirmed"
+        },
+        {
+          "name": "contextual",
+          "value": "INDETERMINATE",
+          "weight": 0.3,
+          "description": "Contextual inference by this project"
+        }
+      ]
+    },
+    "selele": {
+      "meaning": "protection, salvation, grace",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "nes_cognate",
+          "value": "INDETERMINATE",
+          "weight": 0.75,
+          "description": "Suggestive cognate (unconfirmed): Old Nubian 'selle'"
+        },
+        {
+          "name": "structural",
+          "value": "INDETERMINATE",
+          "weight": 0.5,
+          "description": "Mentioned in scholarship but not confirmed"
+        }
+      ]
+    },
+    "ate": {
+      "meaning": "bread, food offering",
+      "ternary_value": "ATTESTED",
+      "confidence_score": 1.0,
+      "tier": "SECURE",
+      "channels": [
+        {
+          "name": "bilingual",
+          "value": "ATTESTED",
+          "weight": 1.0,
+          "description": "Cross-linguistically confirmed (SECURE tier)"
+        },
+        {
+          "name": "nes_cognate",
+          "value": "ATTESTED",
+          "weight": 0.75,
+          "description": "Nubian cognate: Old Nubian 'atte'; Nobiin 'atti'"
+        },
+        {
+          "name": "positional",
+          "value": "ATTESTED",
+          "weight": 0.6,
+          "description": "Consistent position in offering formula"
+        }
+      ]
+    },
+    "yi": {
+      "meaning": "water, drink offering",
+      "ternary_value": "ATTESTED",
+      "confidence_score": 1.0,
+      "tier": "SECURE",
+      "channels": [
+        {
+          "name": "bilingual",
+          "value": "ATTESTED",
+          "weight": 1.0,
+          "description": "Cross-linguistically confirmed (SECURE tier)"
+        },
+        {
+          "name": "nes_cognate",
+          "value": "ATTESTED",
+          "weight": 0.75,
+          "description": "Nubian cognate: Old Nubian 'yi/yii'; Nobiin 'yii'"
+        },
+        {
+          "name": "positional",
+          "value": "ATTESTED",
+          "weight": 0.6,
+          "description": "Consistent position in offering formula"
+        }
+      ]
+    },
+    "pesto": {
+      "meaning": "to give, to offer, to bestow",
+      "ternary_value": "ATTESTED",
+      "confidence_score": 1.0,
+      "tier": "PROBABLE",
+      "channels": [
+        {
+          "name": "nes_cognate",
+          "value": "ATTESTED",
+          "weight": 0.75,
+          "description": "Nubian cognate: Old Nubian 'per/pir' (to give)"
+        },
+        {
+          "name": "positional",
+          "value": "ATTESTED",
+          "weight": 0.6,
+          "description": "Consistent position in offering formula"
+        }
+      ]
+    },
+    "tke": {
+      "meaning": "to drink (tentative)",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "positional",
+          "value": "INDETERMINATE",
+          "weight": 0.6,
+          "description": "Appears in offering contexts (position uncertain)"
+        },
+        {
+          "name": "contextual",
+          "value": "INDETERMINATE",
+          "weight": 0.3,
+          "description": "Contextual inference by this project"
+        }
+      ]
+    },
+    "mde": {
+      "meaning": "to rule, to govern (tentative)",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "contextual",
+          "value": "INDETERMINATE",
+          "weight": 0.3,
+          "description": "Contextual inference by this project"
+        }
+      ]
+    },
+    "beke": {
+      "meaning": "to beget, to give birth, to produce",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "nes_cognate",
+          "value": "INDETERMINATE",
+          "weight": 0.75,
+          "description": "Suggestive cognate (unconfirmed): Old Nubian 'bek/big'"
+        },
+        {
+          "name": "structural",
+          "value": "INDETERMINATE",
+          "weight": 0.5,
+          "description": "Mentioned in scholarship but not confirmed"
+        }
+      ]
+    },
+    "hr": {
+      "meaning": "to die, the deceased",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "contextual",
+          "value": "INDETERMINATE",
+          "weight": 0.3,
+          "description": "Contextual inference by this project"
+        }
+      ]
+    },
+    "dke": {
+      "meaning": "tomb, burial place",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "structural",
+          "value": "INDETERMINATE",
+          "weight": 0.5,
+          "description": "Mentioned in scholarship but not confirmed"
+        }
+      ]
+    },
+    "yer": {
+      "meaning": "offering, sacrifice (tentative)",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "positional",
+          "value": "INDETERMINATE",
+          "weight": 0.6,
+          "description": "Appears in offering contexts (position uncertain)"
+        },
+        {
+          "name": "contextual",
+          "value": "INDETERMINATE",
+          "weight": 0.3,
+          "description": "Contextual inference by this project"
+        }
+      ]
+    },
+    "abr": {
+      "meaning": "man, male person",
+      "ternary_value": "ATTESTED",
+      "confidence_score": 1.0,
+      "tier": "PROBABLE",
+      "channels": [
+        {
+          "name": "nes_cognate",
+          "value": "ATTESTED",
+          "weight": 0.75,
+          "description": "Nubian cognate: Old Nubian 'auer'; Nobiin 'uur'"
+        },
+        {
+          "name": "structural",
+          "value": "ATTESTED",
+          "weight": 0.5,
+          "description": "Published scholarly identification"
+        }
+      ]
+    },
+    "kdi": {
+      "meaning": "woman, female person",
+      "ternary_value": "ATTESTED",
+      "confidence_score": 1.0,
+      "tier": "PROBABLE",
+      "channels": [
+        {
+          "name": "nes_cognate",
+          "value": "ATTESTED",
+          "weight": 0.75,
+          "description": "Nubian cognate: Old Nubian 'kide/gide'; Nobiin 'kede'"
+        },
+        {
+          "name": "structural",
+          "value": "ATTESTED",
+          "weight": 0.5,
+          "description": "Published scholarly identification"
+        }
+      ]
+    },
+    "lh": {
+      "meaning": "offspring, son, child",
+      "ternary_value": "ATTESTED",
+      "confidence_score": 1.0,
+      "tier": "PROBABLE",
+      "channels": [
+        {
+          "name": "nes_cognate",
+          "value": "ATTESTED",
+          "weight": 0.75,
+          "description": "Nubian cognate: Old Nubian 'leh/lihi'"
+        }
+      ]
+    },
+    "sr": {
+      "meaning": "sister, female relative",
+      "ternary_value": "ATTESTED",
+      "confidence_score": 1.0,
+      "tier": "PROBABLE",
+      "channels": [
+        {
+          "name": "nes_cognate",
+          "value": "ATTESTED",
+          "weight": 0.75,
+          "description": "Nubian cognate: Old Nubian 'sur'; Nobiin 'suur'"
+        },
+        {
+          "name": "structural",
+          "value": "ATTESTED",
+          "weight": 0.5,
+          "description": "Published scholarly identification"
+        }
+      ]
+    },
+    "ẖr": {
+      "meaning": "mother (tentative)",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "contextual",
+          "value": "INDETERMINATE",
+          "weight": 0.3,
+          "description": "Contextual inference by this project"
+        }
+      ]
+    },
+    "wide": {
+      "meaning": "elder, ancestor",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "structural",
+          "value": "INDETERMINATE",
+          "weight": 0.5,
+          "description": "Mentioned in scholarship but not confirmed"
+        }
+      ]
+    },
+    "tore": {
+      "meaning": "father (tentative)",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "contextual",
+          "value": "INDETERMINATE",
+          "weight": 0.3,
+          "description": "Contextual inference by this project"
+        }
+      ]
+    },
+    "mlo": {
+      "meaning": "good, beautiful, fine",
+      "ternary_value": "ATTESTED",
+      "confidence_score": 1.0,
+      "tier": "PROBABLE",
+      "channels": [
+        {
+          "name": "nes_cognate",
+          "value": "ATTESTED",
+          "weight": 0.75,
+          "description": "Nubian cognate: Old Nubian 'mel/mell'; Nobiin 'meeli'"
+        },
+        {
+          "name": "structural",
+          "value": "ATTESTED",
+          "weight": 0.5,
+          "description": "Published scholarly identification"
+        }
+      ]
+    },
+    "qo": {
+      "meaning": "great, big, mighty",
+      "ternary_value": "ATTESTED",
+      "confidence_score": 1.0,
+      "tier": "PROBABLE",
+      "channels": [
+        {
+          "name": "nes_cognate",
+          "value": "ATTESTED",
+          "weight": 0.75,
+          "description": "Nubian cognate: Old Nubian 'qor/gor'; Nobiin 'goor'"
+        },
+        {
+          "name": "structural",
+          "value": "ATTESTED",
+          "weight": 0.5,
+          "description": "Published scholarly identification"
+        }
+      ]
+    },
+    "prite": {
+      "meaning": "new, young (tentative)",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "contextual",
+          "value": "INDETERMINATE",
+          "weight": 0.3,
+          "description": "Contextual inference by this project"
+        }
+      ]
+    },
+    "mete": {
+      "meaning": "true, real (tentative)",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "contextual",
+          "value": "INDETERMINATE",
+          "weight": 0.3,
+          "description": "Contextual inference by this project"
+        }
+      ]
+    },
+    "kel": {
+      "meaning": "strong, powerful (tentative)",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "contextual",
+          "value": "INDETERMINATE",
+          "weight": 0.3,
+          "description": "Contextual inference by this project"
+        }
+      ]
+    },
+    "to": {
+      "meaning": "land, territory, country",
+      "ternary_value": "ATTESTED",
+      "confidence_score": 1.0,
+      "tier": "PROBABLE",
+      "channels": [
+        {
+          "name": "nes_cognate",
+          "value": "ATTESTED",
+          "weight": 0.75,
+          "description": "Nubian cognate: Old Nubian 'tou/to'; Nobiin 'tó'"
+        },
+        {
+          "name": "structural",
+          "value": "ATTESTED",
+          "weight": 0.5,
+          "description": "Published scholarly identification"
+        }
+      ]
+    },
+    "tenke": {
+      "meaning": "west, western",
+      "ternary_value": "ATTESTED",
+      "confidence_score": 1.0,
+      "tier": "PROBABLE",
+      "channels": [
+        {
+          "name": "nes_cognate",
+          "value": "ATTESTED",
+          "weight": 0.75,
+          "description": "Nubian cognate: Old Nubian 'tengi'; Nobiin 'teengi'"
+        },
+        {
+          "name": "structural",
+          "value": "ATTESTED",
+          "weight": 0.5,
+          "description": "Published scholarly identification"
+        }
+      ]
+    },
+    "tedke": {
+      "meaning": "east, eastern",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "PROBABLE",
+      "channels": [
+        {
+          "name": "contextual",
+          "value": "INDETERMINATE",
+          "weight": 0.3,
+          "description": "No independent evidence — project inference only"
+        }
+      ]
+    },
+    "akine": {
+      "meaning": "Akine (Lower Nubian province)",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "PROBABLE",
+      "channels": [
+        {
+          "name": "contextual",
+          "value": "INDETERMINATE",
+          "weight": 0.3,
+          "description": "No independent evidence — project inference only"
+        }
+      ]
+    },
+    "berew": {
+      "meaning": "river, watercourse (tentative)",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "structural",
+          "value": "INDETERMINATE",
+          "weight": 0.5,
+          "description": "Mentioned in scholarship but not confirmed"
+        },
+        {
+          "name": "contextual",
+          "value": "INDETERMINATE",
+          "weight": 0.3,
+          "description": "Contextual inference by this project"
+        }
+      ]
+    },
+    "ato": {
+      "meaning": "island, region surrounded by water (tentative)",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "contextual",
+          "value": "INDETERMINATE",
+          "weight": 0.3,
+          "description": "Contextual inference by this project"
+        }
+      ]
+    },
+    "dmke": {
+      "meaning": "temple (tentative)",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "contextual",
+          "value": "INDETERMINATE",
+          "weight": 0.3,
+          "description": "Contextual inference by this project"
+        }
+      ]
+    },
+    "bedewi": {
+      "meaning": "throne, seat of power (tentative)",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "contextual",
+          "value": "INDETERMINATE",
+          "weight": 0.3,
+          "description": "No independent evidence — project inference only"
+        }
+      ]
+    },
+    "nobe": {
+      "meaning": "gold (tentative)",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "nes_cognate",
+          "value": "INDETERMINATE",
+          "weight": 0.75,
+          "description": "Suggestive cognate (unconfirmed): Nobiin 'nob' (gold); cf. 'Nubia'"
+        }
+      ]
+    },
+    "mke": {
+      "meaning": "to build, to construct (tentative)",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "contextual",
+          "value": "INDETERMINATE",
+          "weight": 0.3,
+          "description": "Contextual inference by this project"
+        }
+      ]
+    },
+    "tele": {
+      "meaning": "to go, to travel (tentative)",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "contextual",
+          "value": "INDETERMINATE",
+          "weight": 0.3,
+          "description": "Contextual inference by this project"
+        }
+      ]
+    },
+    "dme": {
+      "meaning": "to establish, to found (tentative)",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "contextual",
+          "value": "INDETERMINATE",
+          "weight": 0.3,
+          "description": "No independent evidence — project inference only"
+        }
+      ]
+    },
+    "tkke": {
+      "meaning": "to conquer, to defeat (tentative)",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "contextual",
+          "value": "INDETERMINATE",
+          "weight": 0.3,
+          "description": "No independent evidence — project inference only"
+        }
+      ]
+    },
+    "he": {
+      "meaning": "to come (tentative)",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "structural",
+          "value": "INDETERMINATE",
+          "weight": 0.5,
+          "description": "Mentioned in scholarship but not confirmed"
+        }
+      ]
+    },
+    "te": {
+      "meaning": "to be, copula (tentative)",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "contextual",
+          "value": "INDETERMINATE",
+          "weight": 0.3,
+          "description": "No independent evidence — project inference only"
+        }
+      ]
+    },
+    "ar": {
+      "meaning": "one",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "structural",
+          "value": "INDETERMINATE",
+          "weight": 0.5,
+          "description": "Mentioned in scholarship but not confirmed"
+        }
+      ]
+    },
+    "yro": {
+      "meaning": "two (tentative)",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "contextual",
+          "value": "INDETERMINATE",
+          "weight": 0.3,
+          "description": "Contextual inference by this project"
+        }
+      ]
+    },
+    "s": {
+      "meaning": "3rd person singular (he/she/it)",
+      "ternary_value": "ATTESTED",
+      "confidence_score": 1.0,
+      "tier": "PROBABLE",
+      "channels": [
+        {
+          "name": "structural",
+          "value": "ATTESTED",
+          "weight": 0.5,
+          "description": "Published scholarly identification"
+        }
+      ]
+    },
+    "ne": {
+      "meaning": "this, the (demonstrative/article)",
+      "ternary_value": "INDETERMINATE",
+      "confidence_score": 0.0,
+      "tier": "SPECULATIVE",
+      "channels": [
+        {
+          "name": "structural",
+          "value": "INDETERMINATE",
+          "weight": 0.5,
+          "description": "Mentioned in scholarship but not confirmed"
+        }
+      ]
+    }
+  },
+  "stele_sections": [
+    {
+      "section": "A1",
+      "title": "Opening Invocation to Apedemak",
+      "status": "ATTESTED/RESTORED",
+      "ternary_value": "INDETERMINATE",
+      "attested_fraction": 0.857,
+      "tokens": [
+        {
+          "word": "apedmk",
+          "meaning": "Apedemak (lion-headed war god)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "qo",
+          "meaning": "great, big, mighty",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mlo",
+          "meaning": "goodness, beauty, excellence",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mk",
+          "meaning": "god, deity",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "Tanyidamani",
+          "meaning": "Tanyidamani",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "pwrite",
+          "meaning": "life (in benedictions/invocations)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "el",
+          "meaning": "to give (imperative/verbal base)",
+          "ternary": "INDETERMINATE",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "section": "A2",
+      "title": "Invocation to Amun",
+      "status": "RESTORED",
+      "ternary_value": "INDETERMINATE",
+      "attested_fraction": 0.875,
+      "tokens": [
+        {
+          "word": "amni",
+          "meaning": "Amun (deity)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "qo",
+          "meaning": "great, big, mighty",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mlo",
+          "meaning": "goodness, beauty, excellence",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mk",
+          "meaning": "god, deity",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "Tanyidamani",
+          "meaning": "Tanyidamani",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "qore",
+          "meaning": "ruler, king",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "pwrite",
+          "meaning": "life (in benedictions/invocations)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "el",
+          "meaning": "to give (imperative/verbal base)",
+          "ternary": "INDETERMINATE",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "section": "A3",
+      "title": "Royal Titulary — Name and Title",
+      "status": "ATTESTED",
+      "ternary_value": "ATTESTED",
+      "attested_fraction": 1.0,
+      "tokens": [
+        {
+          "word": "gore",
+          "meaning": "ruler (before personal names, without determinant)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "Tanyidamani",
+          "meaning": "Tanyidamani",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "qore",
+          "meaning": "ruler, king",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "kdke",
+          "meaning": "queen, queen mother (Candace)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "amni",
+          "meaning": "Amun (deity)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mlo",
+          "meaning": "goodness, beauty, excellence",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "qo",
+          "meaning": "great, big, mighty",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "section": "A4",
+      "title": "Royal Lineage",
+      "status": "RESTORED",
+      "ternary_value": "INDETERMINATE",
+      "attested_fraction": 0.857,
+      "tokens": [
+        {
+          "word": "lh",
+          "meaning": "offspring, son, child",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "qore",
+          "meaning": "ruler, king",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "Tanyidamani",
+          "meaning": "Tanyidamani",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "s",
+          "meaning": "pronoun 3SG (abbrev.)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "beke",
+          "meaning": "to beget, to give birth",
+          "ternary": "INDETERMINATE",
+          "score": 0.0
+        },
+        {
+          "word": "kdke",
+          "meaning": "queen, queen mother (Candace)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mlo",
+          "meaning": "goodness, beauty, excellence",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "section": "A5",
+      "title": "Royal Authority Formula",
+      "status": "ATTESTED",
+      "ternary_value": "INDETERMINATE",
+      "attested_fraction": 0.6,
+      "tokens": [
+        {
+          "word": "Amnp",
+          "meaning": "Amanap (deity/royal epithet, variant of Amun)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "nete",
+          "meaning": "authority, power (part of royal epithet compound)",
+          "ternary": "INDETERMINATE",
+          "score": 0.0
+        },
+        {
+          "word": "se",
+          "meaning": "3SG pronoun / vocative particle",
+          "ternary": "INDETERMINATE",
+          "score": 0.0
+        },
+        {
+          "word": "qore",
+          "meaning": "ruler, king",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "Tanyidamani",
+          "meaning": "Tanyidamani",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "section": "A6",
+      "title": "Reference to Ancestral Rulers",
+      "status": "ATTESTED/RESTORED",
+      "ternary_value": "ATTESTED",
+      "attested_fraction": 1.0,
+      "tokens": [
+        {
+          "word": "Amnirense",
+          "meaning": "Amanirenas (queen, Candace)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "gor",
+          "meaning": "ruler (with determinant, from *gore-l)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "Amanikhabale",
+          "meaning": "Amanikhabale (ruler)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "gor",
+          "meaning": "ruler (with determinant, from *gore-l)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "qore",
+          "meaning": "ruler, king",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mlo",
+          "meaning": "goodness, beauty, excellence",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "section": "A7",
+      "title": "Divine Patronage",
+      "status": "RESTORED",
+      "ternary_value": "INDETERMINATE",
+      "attested_fraction": 0.875,
+      "tokens": [
+        {
+          "word": "apedmk",
+          "meaning": "Apedemak (lion-headed war god)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mk",
+          "meaning": "god, deity",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "amni",
+          "meaning": "Amun (deity)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mk",
+          "meaning": "god, deity",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "wos",
+          "meaning": "Isis (deity)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mk",
+          "meaning": "god, deity",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "selele",
+          "meaning": "protection, salvation, grace",
+          "ternary": "INDETERMINATE",
+          "score": 0.0
+        },
+        {
+          "word": "tenke",
+          "meaning": "west, western",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "section": "A8",
+      "title": "Enthronement Declaration",
+      "status": "RESTORED",
+      "ternary_value": "ATTESTED",
+      "attested_fraction": 1.0,
+      "tokens": [
+        {
+          "word": "qore",
+          "meaning": "ruler, king",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "Tanyidamani",
+          "meaning": "Tanyidamani",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "Mnpte",
+          "meaning": "Napata (place name, lit. 'of Amun')",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "qoreyi",
+          "meaning": "one who rules, ruling (participial)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mlo",
+          "meaning": "goodness, beauty, excellence",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "section": "B1",
+      "title": "Benediction to Apedemak",
+      "status": "RESTORED",
+      "ternary_value": "ATTESTED",
+      "attested_fraction": 1.0,
+      "tokens": [
+        {
+          "word": "apedmk",
+          "meaning": "Apedemak (lion-headed war god)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "qo",
+          "meaning": "great, big, mighty",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mk",
+          "meaning": "god, deity",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mlo",
+          "meaning": "goodness, beauty, excellence",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "pwrite",
+          "meaning": "life (in benedictions/invocations)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "Tanyidamani",
+          "meaning": "Tanyidamani",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "pesto",
+          "meaning": "to give, to offer, to bestow",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "to",
+          "meaning": "land, territory, country",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mlo",
+          "meaning": "goodness, beauty, excellence",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "section": "B2",
+      "title": "Benediction to Amun of Napata",
+      "status": "RESTORED",
+      "ternary_value": "INDETERMINATE",
+      "attested_fraction": 0.875,
+      "tokens": [
+        {
+          "word": "amni",
+          "meaning": "Amun (deity)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "Mnpte",
+          "meaning": "Napata (place name, lit. 'of Amun')",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mk",
+          "meaning": "god, deity",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "qo",
+          "meaning": "great, big, mighty",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mlo",
+          "meaning": "goodness, beauty, excellence",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "pwrite",
+          "meaning": "life (in benedictions/invocations)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "pesto",
+          "meaning": "to give, to offer, to bestow",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "selele",
+          "meaning": "protection, salvation, grace",
+          "ternary": "INDETERMINATE",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "section": "B3",
+      "title": "Benediction to Isis",
+      "status": "RESTORED",
+      "ternary_value": "ATTESTED",
+      "attested_fraction": 1.0,
+      "tokens": [
+        {
+          "word": "wos",
+          "meaning": "Isis (deity)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mlo",
+          "meaning": "goodness, beauty, excellence",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mk",
+          "meaning": "god, deity",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "pwrite",
+          "meaning": "life (in benedictions/invocations)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "Tanyidamani",
+          "meaning": "Tanyidamani",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "qore",
+          "meaning": "ruler, king",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "pesto",
+          "meaning": "to give, to offer, to bestow",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "ate",
+          "meaning": "bread, food offering",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "yi",
+          "meaning": "water, drink offering",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "section": "B4",
+      "title": "Temple Construction at Jebel Barkal",
+      "status": "CONJECTURAL",
+      "ternary_value": "INDETERMINATE",
+      "attested_fraction": 0.625,
+      "tokens": [
+        {
+          "word": "qore",
+          "meaning": "ruler, king",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "Tanyidamani",
+          "meaning": "Tanyidamani",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "dmke",
+          "meaning": "temple, sacred house",
+          "ternary": "INDETERMINATE",
+          "score": 0.0
+        },
+        {
+          "word": "amni",
+          "meaning": "Amun (deity)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mke",
+          "meaning": "to build, to construct",
+          "ternary": "INDETERMINATE",
+          "score": 0.0
+        },
+        {
+          "word": "mlo",
+          "meaning": "goodness, beauty, excellence",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "qo",
+          "meaning": "great, big, mighty",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "bedewi",
+          "meaning": "throne, seat of royal power",
+          "ternary": "INDETERMINATE",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "section": "B5",
+      "title": "Offerings at Jebel Barkal Temple",
+      "status": "RESTORED",
+      "ternary_value": "ATTESTED",
+      "attested_fraction": 1.0,
+      "tokens": [
+        {
+          "word": "ate",
+          "meaning": "bread, food offering",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "yi",
+          "meaning": "water, drink offering",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "pesto",
+          "meaning": "to give, to offer, to bestow",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "apedmk",
+          "meaning": "Apedemak (lion-headed war god)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mk",
+          "meaning": "god, deity",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "amni",
+          "meaning": "Amun (deity)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mk",
+          "meaning": "god, deity",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mlo",
+          "meaning": "goodness, beauty, excellence",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "section": "B6",
+      "title": "Ritual Formula",
+      "status": "CONJECTURAL",
+      "ternary_value": "INDETERMINATE",
+      "attested_fraction": 0.778,
+      "tokens": [
+        {
+          "word": "plote",
+          "meaning": "libation, liquid offering",
+          "ternary": "INDETERMINATE",
+          "score": 0.0
+        },
+        {
+          "word": "ate",
+          "meaning": "bread, food offering",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "yi",
+          "meaning": "water, drink offering",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "s",
+          "meaning": "pronoun 3SG (abbrev.)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mk",
+          "meaning": "god, deity",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "qo",
+          "meaning": "great, big, mighty",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "to",
+          "meaning": "land, territory, country",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "amni",
+          "meaning": "Amun (deity)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "selele",
+          "meaning": "protection, salvation, grace",
+          "ternary": "INDETERMINATE",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "section": "C1",
+      "title": "Campaign Declaration",
+      "status": "RESTORED",
+      "ternary_value": "INDETERMINATE",
+      "attested_fraction": 0.714,
+      "tokens": [
+        {
+          "word": "qore",
+          "meaning": "ruler, king",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "Tanyidamani",
+          "meaning": "Tanyidamani",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "qo",
+          "meaning": "great, big, mighty",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mlo",
+          "meaning": "goodness, beauty, excellence",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "to",
+          "meaning": "land, territory, country",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "akine",
+          "meaning": "Akine (Lower Nubian province)",
+          "ternary": "INDETERMINATE",
+          "score": 0.0
+        },
+        {
+          "word": "tele",
+          "meaning": "to go, to proceed, to march",
+          "ternary": "INDETERMINATE",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "section": "C2",
+      "title": "Slaughter of the Men — Campaign 1",
+      "status": "ATTESTED",
+      "ternary_value": "INDETERMINATE",
+      "attested_fraction": 0.833,
+      "tokens": [
+        {
+          "word": "e",
+          "meaning": "[unknown]",
+          "ternary": "INDETERMINATE",
+          "score": 0.0
+        },
+        {
+          "word": "abr",
+          "meaning": "man, male person",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "Tanyidamani",
+          "meaning": "Tanyidamani",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "qore",
+          "meaning": "ruler, king",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "qo",
+          "meaning": "great, big, mighty",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mlo",
+          "meaning": "goodness, beauty, excellence",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "section": "C3",
+      "title": "Seizure of the Women — Campaign 1",
+      "status": "ATTESTED",
+      "ternary_value": "ATTESTED",
+      "attested_fraction": 1.0,
+      "tokens": [
+        {
+          "word": "erk",
+          "meaning": "to seize, to raid, to take captive",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "kdi",
+          "meaning": "woman, female person",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "Tanyidamani",
+          "meaning": "Tanyidamani",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "qore",
+          "meaning": "ruler, king",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "section": "C4",
+      "title": "Second Campaign — Territory Conquered",
+      "status": "CONJECTURAL",
+      "ternary_value": "INDETERMINATE",
+      "attested_fraction": 0.778,
+      "tokens": [
+        {
+          "word": "to",
+          "meaning": "land, territory, country",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "tedke",
+          "meaning": "east, eastern (NOTE: main vocab says 'east'; 'to love' is unconfirmed)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "tkke",
+          "meaning": "to seize, to conquer, to take (synonym of erk-)",
+          "ternary": "INDETERMINATE",
+          "score": 0.0
+        },
+        {
+          "word": "e",
+          "meaning": "[unknown]",
+          "ternary": "INDETERMINATE",
+          "score": 0.0
+        },
+        {
+          "word": "abr",
+          "meaning": "man, male person",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "erk",
+          "meaning": "to seize, to raid, to take captive",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "kdi",
+          "meaning": "woman, female person",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "qore",
+          "meaning": "ruler, king",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "Tanyidamani",
+          "meaning": "Tanyidamani",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "section": "C5",
+      "title": "Prisoners and Spoils",
+      "status": "CONJECTURAL",
+      "ternary_value": "INDETERMINATE",
+      "attested_fraction": 0.778,
+      "tokens": [
+        {
+          "word": "abr",
+          "meaning": "man, male person",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "kdi",
+          "meaning": "woman, female person",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "lh",
+          "meaning": "offspring, son, child",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "ar",
+          "meaning": "riches, wealth, tribute",
+          "ternary": "INDETERMINATE",
+          "score": 0.0
+        },
+        {
+          "word": "nobe",
+          "meaning": "gold",
+          "ternary": "INDETERMINATE",
+          "score": 0.0
+        },
+        {
+          "word": "qo",
+          "meaning": "great, big, mighty",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "qore",
+          "meaning": "ruler, king",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "pesto",
+          "meaning": "to give, to offer, to bestow",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mk",
+          "meaning": "god, deity",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "section": "C6",
+      "title": "Divine Sanction for the Campaigns",
+      "status": "RESTORED",
+      "ternary_value": "INDETERMINATE",
+      "attested_fraction": 0.875,
+      "tokens": [
+        {
+          "word": "apedmk",
+          "meaning": "Apedemak (lion-headed war god)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mk",
+          "meaning": "god, deity",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "qo",
+          "meaning": "great, big, mighty",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mlo",
+          "meaning": "goodness, beauty, excellence",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "selele",
+          "meaning": "protection, salvation, grace",
+          "ternary": "INDETERMINATE",
+          "score": 0.0
+        },
+        {
+          "word": "Tanyidamani",
+          "meaning": "Tanyidamani",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "qore",
+          "meaning": "ruler, king",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "pwrite",
+          "meaning": "life (in benedictions/invocations)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "section": "D1",
+      "title": "Summary of Conquests",
+      "status": "CONJECTURAL",
+      "ternary_value": "INDETERMINATE",
+      "attested_fraction": 0.8,
+      "tokens": [
+        {
+          "word": "qore",
+          "meaning": "ruler, king",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "Tanyidamani",
+          "meaning": "Tanyidamani",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "qo",
+          "meaning": "great, big, mighty",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "to",
+          "meaning": "land, territory, country",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "tkke",
+          "meaning": "to seize, to conquer, to take (synonym of erk-)",
+          "ternary": "INDETERMINATE",
+          "score": 0.0
+        },
+        {
+          "word": "abr",
+          "meaning": "man, male person",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "e",
+          "meaning": "[unknown]",
+          "ternary": "INDETERMINATE",
+          "score": 0.0
+        },
+        {
+          "word": "kdi",
+          "meaning": "woman, female person",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "erk",
+          "meaning": "to seize, to raid, to take captive",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mlo",
+          "meaning": "goodness, beauty, excellence",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "section": "D2",
+      "title": "Thanksgiving to Apedemak",
+      "status": "RESTORED",
+      "ternary_value": "INDETERMINATE",
+      "attested_fraction": 0.889,
+      "tokens": [
+        {
+          "word": "apedmk",
+          "meaning": "Apedemak (lion-headed war god)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "qo",
+          "meaning": "great, big, mighty",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mlo",
+          "meaning": "goodness, beauty, excellence",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mk",
+          "meaning": "god, deity",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "Tanyidamani",
+          "meaning": "Tanyidamani",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "qore",
+          "meaning": "ruler, king",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "pwrite",
+          "meaning": "life (in benedictions/invocations)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "selele",
+          "meaning": "protection, salvation, grace",
+          "ternary": "INDETERMINATE",
+          "score": 0.0
+        },
+        {
+          "word": "pesto",
+          "meaning": "to give, to offer, to bestow",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "section": "D3",
+      "title": "Thanksgiving to the Divine Triad",
+      "status": "RESTORED",
+      "ternary_value": "INDETERMINATE",
+      "attested_fraction": 0.909,
+      "tokens": [
+        {
+          "word": "amni",
+          "meaning": "Amun (deity)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mk",
+          "meaning": "god, deity",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "wos",
+          "meaning": "Isis (deity)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mk",
+          "meaning": "god, deity",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "hore",
+          "meaning": "Horus (deity)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mk",
+          "meaning": "god, deity",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mlo",
+          "meaning": "goodness, beauty, excellence",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "qo",
+          "meaning": "great, big, mighty",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "selele",
+          "meaning": "protection, salvation, grace",
+          "ternary": "INDETERMINATE",
+          "score": 0.0
+        },
+        {
+          "word": "Tanyidamani",
+          "meaning": "Tanyidamani",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "qore",
+          "meaning": "ruler, king",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "section": "D4",
+      "title": "Final Offering Formula",
+      "status": "RESTORED",
+      "ternary_value": "ATTESTED",
+      "attested_fraction": 1.0,
+      "tokens": [
+        {
+          "word": "ate",
+          "meaning": "bread, food offering",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "yi",
+          "meaning": "water, drink offering",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "pesto",
+          "meaning": "to give, to offer, to bestow",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "qore",
+          "meaning": "ruler, king",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "Tanyidamani",
+          "meaning": "Tanyidamani",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mk",
+          "meaning": "god, deity",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "amni",
+          "meaning": "Amun (deity)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mlo",
+          "meaning": "goodness, beauty, excellence",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "section": "D5",
+      "title": "Closing Protocol",
+      "status": "RESTORED",
+      "ternary_value": "INDETERMINATE",
+      "attested_fraction": 0.917,
+      "tokens": [
+        {
+          "word": "qore",
+          "meaning": "ruler, king",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "Tanyidamani",
+          "meaning": "Tanyidamani",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "amni",
+          "meaning": "Amun (deity)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "qo",
+          "meaning": "great, big, mighty",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mlo",
+          "meaning": "goodness, beauty, excellence",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "apedmk",
+          "meaning": "Apedemak (lion-headed war god)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mk",
+          "meaning": "god, deity",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "wos",
+          "meaning": "Isis (deity)",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "mk",
+          "meaning": "god, deity",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "tenke",
+          "meaning": "west, western",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "to",
+          "meaning": "land, territory, country",
+          "ternary": "ATTESTED",
+          "score": 1.0
+        },
+        {
+          "word": "selele",
+          "meaning": "protection, salvation, grace",
+          "ternary": "INDETERMINATE",
+          "score": 0.0
+        }
+      ]
+    }
+  ]
+}

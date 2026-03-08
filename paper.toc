@@ -45,5 +45,11 @@
 \contentsline {subsection}{\numberline {14.7}Genuine Achievements and Honest Limitations}{27}{subsection.14.7}%
 \contentsline {subsection}{\numberline {14.8}Comparative Evidence}{28}{subsection.14.8}%
 \contentsline {subsection}{\numberline {14.9}The Military Narrative of REM\,1044}{28}{subsection.14.9}%
-\contentsline {section}{\numberline {15}Conclusion}{28}{section.15}%
-\contentsline {section}{References}{29}{Item.30}%
+\contentsline {section}{\numberline {15}Ternary Logic Framework}{28}{section.15}%
+\contentsline {subsection}{\numberline {15.1}Epistemological Motivation: Why Three Values?}{28}{subsection.15.1}%
+\contentsline {subsection}{\numberline {15.2}\L {}ukasiewicz Three-Valued Logic}{29}{subsection.15.2}%
+\contentsline {subsection}{\numberline {15.3}Evidence Channels and Ternary Classification}{29}{subsection.15.3}%
+\contentsline {subsection}{\numberline {15.4}Ternary Results}{30}{subsection.15.4}%
+\contentsline {subsection}{\numberline {15.5}Comparative Analysis: Binary vs.\ Ternary}{30}{subsection.15.5}%
+\contentsline {section}{\numberline {16}Conclusion}{31}{section.16}%
+\contentsline {section}{References}{32}{Item.33}%
