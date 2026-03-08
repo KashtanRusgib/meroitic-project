@@ -782,27 +782,21 @@ class PuzzleSolver:
             context_score = self.context.score_contextual_fit(
                 cand['meaning'], genre, position)
 
-            # Combined posterior — weight established vocabulary higher
+            # Combined posterior — honest Bayesian weighting
+            # NO POSTERIOR FLOOR: new evidence CAN lower confidence.
+            # Prior certainty is one signal among three; all contribute honestly.
             raw = cand['prior']
-            if cand['source'] in ('lexicon', 'verified', 'royal_names') and raw >= 0.55:
-                # High-certainty established vocabulary / names: trust heavily
-                # Posterior floored at prior — absence of pattern/context doesn't
-                # constitute *negative* evidence against a well-attested reading.
-                cand['pattern_score'] = round(pattern_score, 4)
-                cand['context_score'] = round(context_score, 4)
-                combined = raw * 0.60 + pattern_score * 0.15 + context_score * 0.25
-                cand['posterior'] = round(max(combined, raw), 4)
-            elif cand['source'] in ('onomastic_theophoric', 'onomastic') and raw >= 0.55:
-                # Names with deity elements or uppercase: very reliable
-                cand['pattern_score'] = round(pattern_score, 4)
-                cand['context_score'] = round(context_score, 4)
+            cand['pattern_score'] = round(pattern_score, 4)
+            cand['context_score'] = round(context_score, 4)
+            if cand['source'] in ('lexicon', 'verified', 'royal_names') and raw >= 0.70:
+                # Only genuinely high-certainty vocabulary gets heavier prior weight
                 combined = raw * 0.55 + pattern_score * 0.20 + context_score * 0.25
-                cand['posterior'] = round(max(combined, raw), 4)
+            elif cand['source'] in ('onomastic_theophoric', 'onomastic') and raw >= 0.70:
+                # Names with strong identification
+                combined = raw * 0.50 + pattern_score * 0.20 + context_score * 0.30
             else:
-                cand['pattern_score'] = round(pattern_score, 4)
-                cand['context_score'] = round(context_score, 4)
-                cand['posterior'] = round(
-                    raw * 0.40 + pattern_score * 0.25 + context_score * 0.35, 4)
+                combined = raw * 0.40 + pattern_score * 0.25 + context_score * 0.35
+            cand['posterior'] = round(combined, 4)
 
         candidates.sort(key=lambda x: -x['posterior'])
 
@@ -1140,8 +1134,10 @@ def main():
     DIV = "=" * 72
 
     print(DIV)
-    print("  MEROITIC ITERATIVE DECIPHERMENT ENGINE v7.0")
+    print("  MEROITIC ITERATIVE DECIPHERMENT ENGINE v8.0 (Honest Rebuild)")
     print("  Puzzle-solver approach: easiest pieces first")
+    print("  NOTE: Operating on synthetic corpus — results are pipeline tests,")
+    print("  not genuine decipherment claims.")
     print(DIV)
 
     # Initialize solver
@@ -1265,19 +1261,24 @@ def main():
             print(f"    {r:20s} freq={freq:3d} constraint={constraint:.3f}")
 
     # ── THE MOMENT OF TRUTH ──
+    # HONESTY NOTE: The corpus is synthetic and the stele is largely reconstructed.
+    # Achieving "100% decoded" on synthetic data is NOT genuine decipherment.
+    # This banner should only appear if/when REAL REM data is used.
     if stele_result['fully_deciphered']:
         print(f"\n{'#' * 72}")
         print(f"#{'':70s}#")
-        print(f"#{'MEROITIC SCRIPT IS NOW 100% FULLY DECIPHERED':^70s}#")
+        print(f"#{'ALL SYNTHETIC BENCHMARK TOKENS DECODED':^70s}#")
         print(f"#{'':70s}#")
-        print(f"#  Verification:{'':55s}#")
-        print(f"#    - All {stele_result['total_tokens']} Tanyidamani tokens decoded"
-              f"{'':30s}#")
+        print(f"#  NOTE: This result is on SYNTHETIC/RECONSTRUCTED data.       #")
+        print(f"#  It does NOT mean Meroitic is deciphered.                     #")
+        print(f"#  Real decipherment requires real REM transliterations.        #")
+        print(f"#{'':70s}#")
+        print(f"#  Metrics:{'':59s}#")
+        print(f"#    - All {stele_result['total_tokens']} benchmark tokens decoded"
+              f"{'':32s}#")
         print(f"#    - Lowest posterior: {stele_result['lowest_posterior']:.4f}"
               f" (threshold: {FULL_DECIPHER_THRESHOLD})"
               f"{'':14s}#")
-        print(f"#    - Cross-inscription verified across {len(CORPUS)} texts"
-              f"{'':13s}#")
         print(f"#{'':70s}#")
         print(f"{'#' * 72}")
     else:
@@ -1300,7 +1301,7 @@ def main():
     elapsed = time.time() - start
 
     output = {
-        'engine': 'v7.0_iterative',
+        'engine': 'v8.0_honest',
         'elapsed_seconds': round(elapsed, 1),
         'iterations': len(solver.knowledge.iteration_history),
         'verified_mappings': verified_total,

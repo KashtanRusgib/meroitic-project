@@ -50,13 +50,13 @@
   \textbf{Decipherment of Meroitic Script:\\
   A Computational Approach to the\\
   Stele of King Tanyidamani (REM\,1044)}\\[8pt]
-  \large{Version 7.0 --- Iterative Puzzle-Solver Framework:\\Bayesian Posterior Verification, Cross-Linguistic Patterns,\\and Full Tanyidamani Benchmark Achievement}
+  \large{Version 8.0 --- Honest Assessment:\\Evidence Tiers, Synthetic Corpus Acknowledgment,\\and Genuine State of the Art}
 }
 \author{%
   Meroitic Decipherment Project\\
   \texttt{github.com/KashtanRusgib/meroitic-project}
 }
-\date{2026}
+\date{2026 — Honest Rebuild}
 
 \begin{document}
 \maketitle
@@ -66,24 +66,28 @@
 \begin{abstract}
 \noindent
 The Meroitic script, used by the Kingdom of Kush (c.\,300\,BCE--350\,CE) in
-what is now Sudan, has long been considered one of the last partially
-undeciphered writing systems of the ancient world. While the phonetic values
-of its 23 signs have been known since Griffith's work in 1911, the underlying
-language has resisted full translation. This paper presents a computational
-approach to Meroitic decipherment that achieves, for the first time, \textbf{100\%
-decoded coverage} of the Stele of King Tanyidamani (REM\,1044)---the longest
-known Meroitic text (161 lines, c.\,2nd century\,BCE)---with every token
-meeting or exceeding a 0.70 Bayesian posterior threshold. Our v7.0 iterative
-puzzle-solver engine integrates morphological parsing, comparative
-Nilo-Saharan linguistics, cross-linguistic phonosemantic patterns, contextual
-genre-based elimination, and non-repeating brute-force exploration across a
-corpus of 103 inscriptions. The system produces multi-layer decipherment
-including original Meroitic script in Unicode, Latin transliteration,
-Leipzig-standard interlinear glossing, phrase-structure analysis, and
-compositional free translation. We achieve an average posterior of
-\textbf{84.8\%} across all 25 reconstructed sections comprising 197 tokens
-(lowest: 0.70), with 115 cross-inscription-verified root$\rightarrow$meaning
-mappings and 89/94 unique roots solved (94.7\% coverage).
+what is now Sudan, remains one of the last partially undeciphered writing
+systems of the ancient world. While the phonetic values of its 23 signs have
+been known since Griffith's work in 1911, the underlying language resists full
+translation. This paper presents a computational framework for Meroitic
+decipherment and provides an \textbf{honest assessment} of what is genuinely
+known versus what remains speculative. We classify the vocabulary into three
+evidence tiers: \textbf{7 SECURE} words confirmed by bilingual texts or
+Greek transcriptions (e.g., \textit{qore} ``ruler,'' \textit{kdke} ``queen
+mother''), \textbf{25 PROBABLE} words supported by published Nilo-Saharan
+comparative work (Rilly 2007, 2010), and \textbf{32 SPECULATIVE} entries
+that are contextual guesses by this project lacking independent confirmation.
+Our corpus of 103 inscriptions is \textbf{synthetic}---constructed from known
+vocabulary for pipeline testing---and does not represent real R\'epertoire
+d'\'Epigraphie M\'ero\"itique (REM) transliterations. Of the Stele of King
+Tanyidamani (REM\,1044), the longest known Meroitic text, only 3--4 phrases
+are genuinely attested in published scholarship; the remaining 21 of 25
+reconstructed sections are assembled by this project from structural
+parallels. The pipeline infrastructure---morphological parsing, NES
+comparative analysis, Bayesian scoring, and multi-layer output---is
+architecturally sound and ready to process real inscription data when
+available. We present this work as a \textit{framework for future
+decipherment}, not as a claim of decipherment itself.
 \end{abstract}
 
 \tableofcontents
@@ -119,8 +123,11 @@ This paper presents a systematic computational approach combining:
   \item Compositional translation assembling English renderings word-by-word.
 \end{enumerate}
 
-We apply this system to 103 inscriptions and present a detailed case study of
-the Stele of King Tanyidamani (REM\,1044), the longest surviving Meroitic text.
+We apply this system to a synthetic corpus of 103 inscriptions constructed
+for pipeline testing, and present a partial reconstruction of the Stele of
+King Tanyidamani (REM\,1044), the longest surviving Meroitic text. We
+provide an honest assessment of what is genuinely known, what is probable,
+and what remains speculative.
 
 
 % ═══════════════════════════════════════════════════════════════════════════════
@@ -192,43 +199,51 @@ A notable feature is the distinction between /q/ (uvular stop, used in
 \section{Known Meroitic Vocabulary}
 % ═══════════════════════════════════════════════════════════════════════════════
 
-Our system incorporates a lexicon of approximately 65 core entries and 200+
-extended entries with proposed etymologies. The securely known vocabulary has
-been established through: (1)~bilingual texts at Philae and Dakka;
-(2)~Greek transcriptions of personal names; (3)~contextual analysis of
-recurring formulas; (4)~comparative Nubian and East Sudanic cognates
-(Rilly 2007, 2010); and (5)~iconographic correlation with temple reliefs.
+We classify the vocabulary into three evidence tiers based on the quality of
+supporting evidence. Only \textbf{7 words} are SECURE (confirmed by bilingual
+texts or Greek transcriptions). Another \textbf{25 words} are PROBABLE
+(supported by published NES comparative work, primarily Rilly 2007, 2010).
+The remaining \textbf{32 entries} are SPECULATIVE---contextual guesses by
+this project that lack independent scholarly confirmation.
 
-\begin{longtable}{llllrl}
-  \caption{Core Meroitic Vocabulary (selected entries)} \label{tab:vocab} \\
+\begin{longtable}{lllllrl}
+  \caption{Core Meroitic Vocabulary with Evidence Tiers} \label{tab:vocab} \\
   \toprule
-  \textbf{Word} & \textbf{Meaning} & \textbf{Cat.} & \textbf{Cert.} & \textbf{Att.} & \textbf{Source} \\
+  \textbf{Word} & \textbf{Meaning} & \textbf{Cat.} & \textbf{Tier} & \textbf{Cert.} & \textbf{Att.} & \textbf{Source} \\
   \midrule
   \endfirsthead
   \toprule
-  \textbf{Word} & \textbf{Meaning} & \textbf{Cat.} & \textbf{Cert.} & \textbf{Att.} & \textbf{Source} \\
+  \textbf{Word} & \textbf{Meaning} & \textbf{Cat.} & \textbf{Tier} & \textbf{Cert.} & \textbf{Att.} & \textbf{Source} \\
   \midrule
   \endhead
-    \textit{qore} & ruler, king & title & 0.95 & 150+ & Griffith 1911; bilinguals \\
-    \textit{kdke} & queen mother (Candace) & title & 0.95 & 80+ & Greek \textit{Kandake} \\
-    \textit{mk} & god, deity & religion & 0.90 & 200+ & Griffith 1911 \\
-    \textit{amni} & Amun (deity) & deity & 0.95 & 100+ & Egyptian \textit{Jmn} \\
-    \textit{apedmk} & Apedemak (war god) & deity & 0.95 & 60+ & Temple dedications \\
-    \textit{wos} & Isis (deity) & deity & 0.95 & 150+ & Egyptian \textit{Ast} \\
-    \textit{ate} & bread, food offering & funerary & 0.90 & 200+ & Nubian \textit{atti} \\
-    \textit{yi} & water, drink offering & funerary & 0.90 & 200+ & Nubian \textit{yii} \\
-    \textit{pesto} & to give, to offer & verb & 0.85 & 180+ & Offering formula \\
-    \textit{abr} & man, male person & person & 0.85 & 100+ & Nubian \textit{uur} \\
-    \textit{kdi} & woman, female person & person & 0.85 & 100+ & Nubian \textit{kede} \\
-    \textit{mlo} & good, beautiful & adj. & 0.80 & 80+ & Nubian \textit{meeli} \\
-    \textit{qo} & great, mighty & adj. & 0.75 & 50+ & Nubian \textit{goor} \\
-    \textit{to} & land, territory & geog. & 0.85 & 60+ & Nubian \textit{to} \\
-    \textit{ked} & to slaughter (battle) & verb & 0.80 & 8+ & Rilly 2012; Nastasen stele \\
-    \textit{erk} & to seize, to raid & verb & 0.75 & 6+ & Rilly 2012 \\
-    \textit{pwrite} & life (benediction) & religion & 0.80 & 10+ & REM 0405A \\
-    \textit{selele} & protection, grace & religion & 0.70 & 30+ & Nubian \textit{selle} \\
-    \textit{lh} & offspring, child & kinship & 0.75 & 60+ & Nubian \textit{lihi} \\
-    \textit{tenke} & west, western & geog. & 0.80 & 30+ & Nubian \textit{teengi} \\
+  \multicolumn{7}{l}{\textbf{SECURE --- bilingual / Greek confirmed}} \\
+  \midrule
+    \textit{qore} & ruler, king & title & S & 0.95 & 150+ & Griffith 1911; bilinguals \\
+    \textit{kdke} & queen mother & title & S & 0.95 & 80+ & Greek \textit{Kandake} \\
+    \textit{amni} & Amun (deity) & deity & S & 0.95 & 100+ & Egyptian \textit{Jmn} \\
+    \textit{apedmk} & Apedemak & deity & S & 0.95 & 60+ & Temple dedications \\
+    \textit{wos} & Isis (deity) & deity & S & 0.95 & 150+ & Egyptian \textit{Ast} \\
+    \textit{ate} & bread/food & funerary & S & 0.90 & 200+ & Nubian \textit{atti} \\
+    \textit{yi} & water/drink & funerary & S & 0.90 & 200+ & Nubian \textit{yii} \\
+  \midrule
+  \multicolumn{7}{l}{\textbf{PROBABLE --- published NES comparative evidence}} \\
+  \midrule
+    \textit{mk} & god, deity & religion & P & 0.90 & 200+ & Griffith 1911 \\
+    \textit{pesto} & to give & verb & P & 0.85 & 180+ & Offering formula \\
+    \textit{abr} & man & person & P & 0.85 & 100+ & Nubian \textit{uur} \\
+    \textit{kdi} & woman & person & P & 0.85 & 100+ & Nubian \textit{kede} \\
+    \textit{mlo} & good & adj. & P & 0.80 & 80+ & Nubian \textit{meeli} \\
+    \textit{qo} & great, mighty & adj. & P & 0.75 & 50+ & Nubian \textit{goor} \\
+    \textit{to} & land & geog. & P & 0.85 & 60+ & Nubian \textit{to} \\
+    \textit{lh} & offspring & kinship & P & 0.75 & 60+ & Nubian \textit{lihi} \\
+    \textit{tenke} & west & geog. & P & 0.80 & 30+ & Nubian \textit{teengi} \\
+  \midrule
+  \multicolumn{7}{l}{\textbf{SPECULATIVE --- project inference, unconfirmed}} \\
+  \midrule
+    \textit{dmke} & temple & arch. & \textbf{?} & 0.45 & 10 & Context guess \\
+    \textit{bedewi} & throne & noun & \textbf{?} & 0.40 & 6 & Context guess \\
+    \textit{tele} & to go & verb & \textbf{?} & 0.35 & 6 & Context guess \\
+    \textit{mde} & to rule & verb & \textbf{?} & 0.30 & 4 & Positional guess \\
   \bottomrule
 \end{longtable}
 
@@ -375,11 +390,13 @@ cited from published transliteration), \textcolor{restored}{\textsc{restored}}
 (from structural parallels), or
 \textcolor{conjectural}{\textsc{conjectural}} (hypothetical reconstruction).
 
-\subsection{Full Decipherment}
+\subsection{Multi-Layer Analysis of Reconstructed Sections}
 
-The following presents the complete multi-layer decipherment of all
-25 reconstructed sections comprising
-197 tokens (average posterior: 84.8\%, lowest: 70.0\%).
+The following presents the multi-layer analysis of all
+25 reconstructed sections. \textbf{Note}: most sections are
+project-reconstructed, not directly attested. Confidence scores
+reflect evidence quality — SPECULATIVE entries will show lower posteriors
+than SECURE ones.
 
 
 \subsubsection*{Side A (Front): Royal Protocol \& Invocation --- Lines 1--40}
@@ -1094,12 +1111,14 @@ section translations, presented in the order of the four sides of the stone.
 
 
 % ═══════════════════════════════════════════════════════════════════════════════
-\section{Corpus Decipherment: Selected Examples}
+\section{Synthetic Corpus Analysis: Selected Examples}
 % ═══════════════════════════════════════════════════════════════════════════════
 
-To demonstrate generality, we present selected decipherments from the
-broader corpus of 103 Meroitic inscriptions. Each shows the Meroitic script,
-Latin transliteration, and free translation.
+To demonstrate the pipeline's capability, we present selected analyses from
+the synthetic corpus of 103 inscriptions. \textbf{These are NOT real REM
+transliterations}---they are constructed from the project's vocabulary for
+pipeline testing. Each shows the Meroitic script, Latin transliteration,
+and free translation.
 
 
 \vspace{4pt}
@@ -1501,14 +1520,15 @@ hypothesis landscape for the iterative engine to exploit.
 
 
 % ═══════════════════════════════════════════════════════════════════════════════
-\section{Iterative Puzzle-Solver Engine (v7.0)}
+\section{Iterative Puzzle-Solver Engine (v7.0/v8.0)}
 % ═══════════════════════════════════════════════════════════════════════════════
 
-Version~7.0 introduces the iterative puzzle-solver framework---the engine
-that achieves 100\% decoded coverage of the Tanyidamani stele with all tokens
-exceeding the 0.70 Bayesian posterior threshold. This version treats
+Version~7.0 introduced the iterative puzzle-solver framework, treating
 decipherment as an iterative constraint-satisfaction problem analogous to
-solving a crossword puzzle.
+solving a crossword puzzle. \textbf{v7.0's claim of 100\% decoded coverage
+was retracted} due to inflated scoring (see \S\ref{tab:v8honest}). Version~8.0
+retains the puzzle-solver architecture but restores honest Bayesian scoring
+and acknowledges the synthetic nature of the test corpus.
 
 \subsection{Non-Repeating Brute-Force Exploration}
 
@@ -1540,82 +1560,107 @@ invocations, royal titles, and offering formulas; low-probability concepts
 (agriculture, trade, astronomy) are penalized. This effectively narrows the
 search space before candidate scoring begins.
 
-\subsection{Bayesian Posterior with Floor Guarantee}
+\subsection{Bayesian Posterior Scoring (Honest Formulation)}
 
-The key probabilistic innovation of v7.0 is a Bayesian posterior formula with
-a \textbf{prior floor}: for tokens whose root appears in the established
-lexicon with certainty $\geq 0.55$, the posterior is guaranteed to be at
-least as high as the lexical prior:
+The v8.0 scoring uses a weighted combination of three signals with
+\textbf{no artificial floor}: new evidence \textit{can} lower a posterior
+below the prior, as is mathematically correct for Bayesian inference.
 
 \begin{equation}
-  P_{\text{post}} = \max\!\Big(
-    w_r \cdot P_{\text{prior}} + w_p \cdot S_{\text{pattern}} + w_c \cdot S_{\text{context}},\
-    P_{\text{prior}}
-  \Big)
+  P_{\text{post}} =
+    w_r \cdot P_{\text{prior}} + w_p \cdot S_{\text{pattern}} + w_c \cdot S_{\text{context}}
 \end{equation}
 
-\noindent where $w_r = 0.60$, $w_p = 0.15$, $w_c = 0.25$ for high-trust
-sources (lexicon, verified, royal names). The floor encodes the insight that
-absence of additional pattern or context evidence is not negative evidence
-against a well-attested reading.
+\noindent For genuinely high-certainty vocabulary ($P_{\text{prior}} \geq 0.70$
+from SECURE or PROBABLE tiers): $w_r = 0.55$, $w_p = 0.20$, $w_c = 0.25$.
+For all other candidates: $w_r = 0.40$, $w_p = 0.25$, $w_c = 0.35$.
 
-\subsection{Tanyidamani Benchmark Verification}
+\textbf{Previous versions (v7.0)} employed a posterior floor
+$P_{\text{post}} = \max(\text{weighted sum}, P_{\text{prior}})$ that
+guaranteed posteriors could never drop below the lexical prior. This was
+removed because it inflated confidence scores for speculative entries whose
+priors had been artificially raised to pass the 0.70 benchmark threshold---a
+form of circular reasoning that invalidated the verification.
 
-The engine's output is validated against the Tanyidamani stele (REM~1044)
-as a rigorous benchmark. The ``100\% fully deciphered'' designation requires:
+\subsection{Tanyidamani Benchmark}
+
+The engine's output is measured against the Tanyidamani stele (REM~1044).
+\textbf{Important caveats}: the stele sections used as a benchmark are
+largely \textit{reconstructed by this project} from structural parallels,
+not direct published transliterations. Only 3--4 phrases are genuinely
+attested from Rilly~\&~de~Voogt (2012). A genuine ``fully deciphered''
+designation would require:
 
 \begin{enumerate}[nosep]
-  \item All 197 stele tokens receive a meaning (no ``[unknown]'' tokens)
-  \item Every token's Bayesian posterior $\geq 0.70$
-  \item Cross-inscription verification across the full 103-text corpus
+  \item Real published transliterations as input (not project reconstructions)
+  \item External validation by Meroitist scholars
+  \item Every token's posterior $\geq 0.70$ using honest (non-floored) scoring
 \end{enumerate}
 
-\subsection{v7.0 Results}
+\subsection{v8.0 Honest Assessment}
+
+Previous v7.0 results claimed 100\% decoded coverage with a minimum posterior
+of 0.70 across all 197 stele tokens. \textbf{This result was invalidated}
+because:
+
+\begin{enumerate}[nosep]
+  \item The corpus is \textbf{entirely synthetic}---constructed from the
+    project's own vocabulary, making the ``constraint solving'' circular
+  \item STELE\_VOCABULARY certainties were \textbf{inflated} from their
+    original 0.30--0.45 values to 0.70+ specifically to pass the threshold
+  \item The Bayesian posterior floor \textbf{guaranteed} posteriors could
+    never drop below the (inflated) prior
+  \item Real Meroitic inscriptions contain many undeciphered words that
+    no current system can parse
+\end{enumerate}
+
+\noindent Table~\ref{tab:v8honest} shows the honest evidence classification.
 
 \begin{table}[htbp]
 \centering
-\caption{v7.0 Tanyidamani Stele Benchmark Results}
-\label{tab:v7results}
-\begin{tabular}{lr}
+\caption{v8.0 Honest Evidence Classification}
+\label{tab:v8honest}
+\begin{tabular}{lrl}
   \toprule
-  \textbf{Metric} & \textbf{Value} \\
+  \textbf{Evidence Tier} & \textbf{Count} & \textbf{Description} \\
   \midrule
-  Total stele tokens & 197 \\
-  Tokens decoded & 197 (100.0\%) \\
-  Average posterior & 0.848 \\
-  Lowest posterior & 0.700 \\
-  Verified root$\rightarrow$meaning mappings & 115 \\
-  Unique roots in corpus & 94 \\
-  Solved roots & 89 (94.7\%) \\
-  Unsolved roots & 5 \\
-  Cross-corpus texts & 103 \\
+  SECURE & 7 (11\%) & Bilingual/Greek confirmed \\
+  PROBABLE & 25 (39\%) & Published NES comparative evidence \\
+  SPECULATIVE & 32 (50\%) & Project contextual guesses \\
+  \midrule
+  \textit{Total vocabulary} & 64 & \\
   \bottomrule
 \end{tabular}
 \end{table}
 
-\noindent All 25 stele sections achieve average posteriors above 0.80,
-ranging from 0.806 (B4: Temple Construction) to 0.894 (D4: Final Offering
-Formula). The five remaining unsolved roots (\textit{elmn, sb, sbk, semn,
-ws}) each occur only once in the corpus, limiting cross-inscription
-verification, but do not appear in the Tanyidamani stele.
+\noindent The pipeline infrastructure is architecturally sound and produces
+correct multi-layer output for the vocabulary it knows. The honest
+contribution is the \textit{framework}, not a claim of full decipherment.
 % ═══════════════════════════════════════════════════════════════════════════════
 
-\subsection{Achievements and Limitations}
+\subsection{Genuine Achievements and Honest Limitations}
 
-Our computational approach produces coherent multi-layer decipherments for the
-entire known corpus. The v7.0 iterative puzzle-solver achieves the strongest
-result: \textbf{100\% decoded coverage of the Tanyidamani stele} with a
-minimum per-token posterior of 0.70 and an average of 0.848 across all 25
-sections. Strengths include consistent morphological parsing across
-all genres, Leipzig-standard glossing, compositional translation avoiding
-template artifacts, explicit Bayesian confidence scoring, persistent
-checkpoint-based progress saving, and Unicode Meroitic script rendering.
+\textbf{What this project genuinely contributes:}
+\begin{itemize}[nosep]
+  \item A machine-readable knowledge base classifying Meroitic vocabulary
+    by evidence tier (SECURE / PROBABLE / SPECULATIVE)
+  \item A multi-layer decipherment pipeline producing Unicode Meroitic,
+    Latin transliteration, Leipzig-standard glossing, and compositional
+    translation
+  \item Integration of Rilly's NES comparative framework into a
+    computational scoring system
+  \item An extensible framework ready to process real REM inscription data
+\end{itemize}
 
-Key limitations: complex verb morphology remains imperfectly understood;
-royal stelae contain unique vocabulary absent from the better-understood
-funerary texts; many sections of REM\,1044 are restored from structural
-parallels rather than directly attested; and 5 hapax roots in the broader
-corpus remain unsolved due to insufficient cross-inscription evidence.
+\textbf{What this project does NOT achieve:}
+\begin{itemize}[nosep]
+  \item Full decipherment of Meroitic---50\% of the vocabulary is speculative
+  \item Real corpus coverage---all 103 inscriptions are synthetic
+  \item Genuine Tanyidamani stele decipherment---only 3--4 phrases are from
+    published transliterations
+  \item Independent verification---the system has not been tested on data
+    it did not generate
+\end{itemize}
 
 \subsection{Comparative Evidence}
 
@@ -1652,38 +1697,50 @@ inscriptions\,(Griffith 1917:167; Rilly\,\&\,de~Voogt 2012:32--33).
 \section{Conclusion}
 % ═══════════════════════════════════════════════════════════════════════════════
 
-This paper has presented a comprehensive computational approach to Meroitic
-decipherment, culminating in the first \textbf{100\% decoded coverage} of the
-Stele of King Tanyidamani (REM\,1044)---the longest surviving Meroitic
-inscription---with every token meeting or exceeding a 0.70 Bayesian posterior
-threshold. Our system processes Meroitic texts through a multi-stage pipeline
-that has evolved across seven major versions:
+This paper has presented a computational framework for Meroitic decipherment
+together with an \textbf{honest assessment} of what that framework can and
+cannot achieve. We report the following:
+
+\textbf{The state of Meroitic decipherment} remains as Rilly \& de~Voogt
+described it in 2012: only a small core of words are securely known (we
+classify 7 as SECURE, 25 as PROBABLE, and 32 as SPECULATIVE), and the
+majority of Meroitic texts---especially royal stelae like REM~1044---remain
+largely unread.
+
+\textbf{This project's contribution} is a computational framework, not a
+decipherment claim. The pipeline has evolved across eight major versions:
 
 \begin{itemize}[nosep]
   \item v1.0--v2.0: Core five-stage pipeline with morphological parsing, lexicon building, phrase analysis, template matching, and compositional translation
   \item v3.0: Expanded NES cognate mining, morphosyntactic modeling, genre templates, corpus ingestion
   \item v4.0: Five-strategy framework (NES lexicon, bilingual anchoring, loanword analysis, cryptanalysis, brute-force)
   \item v5.0: Bayesian multi-source integration with distributional semantics and comparative reconstruction
-  \item v6.0: Heavy-compute exhaustive segmentation and MCMC sampling (9.84M samples, 784 hypotheses)
-  \item v7.0: Iterative puzzle-solver with cross-linguistic patterns, contextual elimination, Bayesian posterior floor, and Tanyidamani benchmark verification
+  \item v6.0: Heavy-compute exhaustive segmentation and MCMC sampling
+  \item v7.0: Iterative puzzle-solver (results invalidated due to inflated scoring)
+  \item v8.0: Honest rebuild with evidence tier classification and synthetic corpus acknowledgment
 \end{itemize}
 
-\noindent The v7.0 engine achieves 115 verified root$\rightarrow$meaning mappings,
-89/94 unique roots solved (94.7\% coverage), and an average posterior of 0.848
-across the 197 Tanyidamani stele tokens, verified against 103 cross-corpus
-inscriptions.
+\textbf{What went wrong in v7.0:} The v7.0 engine achieved ``100\% decoded
+coverage'' of the Tanyidamani stele by inflating vocabulary certainties and
+adding a Bayesian posterior floor that guaranteed scores could not drop below
+the (artificially raised) priors. This constituted circular reasoning and has
+been retracted. The present v8.0 restores honest scoring and classifies all
+data by evidence quality.
 
-The Meroitic language has long been considered one of the great undeciphered
-languages of the ancient world. While our system demonstrates that
-computational methods can achieve complete decoded coverage of the longest
-known text, further work remains on the 5 unsolved hapax roots and on
-improving the free-translation fluency of complex military narrative passages.
-As new texts are discovered and comparative evidence accumulates, this
-framework can be iteratively refined via its persistent checkpoint system.
+\textbf{The path forward} for genuine Meroitic decipherment requires:
+\begin{enumerate}[nosep]
+  \item Real REM transliterations---not synthetic data---as input corpus
+  \item External validation by Meroitists working with actual inscription photographs
+  \item Discovery of new bilingual or parallel texts
+  \item Continued NES comparative work building on Rilly's framework
+\end{enumerate}
 
-The rendering of Meroitic inscriptions in their original script alongside
-multi-layer linguistic analysis provides both scholars and the public with
-access to these remarkable texts of ancient African civilization.
+\noindent The rendering of Meroitic inscriptions in their original script
+alongside multi-layer linguistic analysis provides scholars with a useful
+computational tool. We offer this framework in the hope that it may
+contribute to the genuine decipherment of Meroitic---one of the last great
+challenges of ancient epigraphy---when real data becomes computationally
+accessible.
 
 
 % ═══════════════════════════════════════════════════════════════════════════════

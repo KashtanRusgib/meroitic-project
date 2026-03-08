@@ -1,20 +1,20 @@
 {
-  "engine": "v7.0_iterative",
-  "elapsed_seconds": 3.6,
+  "engine": "v8.0_honest",
+  "elapsed_seconds": 1.4,
   "iterations": 7,
-  "verified_mappings": 115,
+  "verified_mappings": 109,
   "unique_roots": 94,
   "solved_roots": 89,
   "unsolved_roots": 5,
   "root_coverage_pct": 94.7,
   "tanyidamani": {
     "total_tokens": 197,
-    "decoded": 197,
-    "decode_pct": 100.0,
-    "avg_posterior": 0.848,
-    "lowest_posterior": 0.7,
-    "weakest_token": "el-x-te",
-    "fully_deciphered": true,
+    "decoded": 196,
+    "decode_pct": 99.5,
+    "avg_posterior": 0.6796,
+    "lowest_posterior": 0.4969,
+    "weakest_token": "mke-l-o",
+    "fully_deciphered": false,
     "sections": [
       {
         "section": "A1",
@@ -22,7 +22,7 @@
         "lines": "1\u20135",
         "meroitic": "apedmk-i : qo : mlo : mk-l : Tanyidamani : pwrite : el-x-te",
         "translation": "Apedemak (lion-headed war god) great, big, mighty goodness, beauty, excellence god, deity Tanyidamani life (in benedictions/invocations) to give (imperative/verbal base)",
-        "avg_posterior": 0.8286
+        "avg_posterior": 0.6746
       },
       {
         "section": "A2",
@@ -30,7 +30,7 @@
         "lines": "5\u201310",
         "meroitic": "amni-i : qo : mlo : mk-l : Tanyidamani : qore-l : pwrite : el-x-te",
         "translation": "Amun (deity) great, big, mighty goodness, beauty, excellence god, deity Tanyidamani ruler, king life (in benedictions/invocations) to give (imperative/verbal base)",
-        "avg_posterior": 0.8438
+        "avg_posterior": 0.69
       },
       {
         "section": "A3",
@@ -38,7 +38,7 @@
         "lines": "10\u201315",
         "meroitic": "gore : Tanyidamani : qore-l-o : kdke-l : amni-te : mlo : qo",
         "translation": "ruler (before personal names, without determinant) Tanyidamani ruler, king queen, queen mother (Candace) Amun (deity) goodness, beauty, excellence great, big, mighty",
-        "avg_posterior": 0.8786
+        "avg_posterior": 0.7174
       },
       {
         "section": "A4",
@@ -46,7 +46,7 @@
         "lines": "15\u201320",
         "meroitic": "lh-l : qore-l : Tanyidamani : s : beke-li : kdke-l : mlo-l-o",
         "translation": "offspring, son, child ruler, king Tanyidamani pronoun 3SG (abbrev.) to beget, to give birth queen, queen mother (Candace) goodness, beauty, excellence",
-        "avg_posterior": 0.8286
+        "avg_posterior": 0.6341
       },
       {
         "section": "A5",
@@ -54,15 +54,15 @@
         "lines": "20\u201325",
         "meroitic": "Amnp : nete : se-mlo-lw : qore-l : Tanyidamani",
         "translation": "Amanap (deity/royal epithet, variant of Amun) authority, power (part of royal epithet compound) 3SG pronoun / vocative particle ruler, king Tanyidamani",
-        "avg_posterior": 0.81
+        "avg_posterior": 0.6385
       },
       {
         "section": "A6",
         "title": "Reference to Ancestral Rulers",
         "lines": "25\u201330",
         "meroitic": "Amnirense : gor : Amanikhabale : gor : qore-l-o : mlo",
-        "translation": "Amanirenas (queen, Candace) ruler (with determinant, from *gore-l) Amanikhabale ruler (with determinant, from *gore-l) ruler, king goodness, beauty, excellence",
-        "avg_posterior": 0.8833
+        "translation": "Amanirenas (queen, Candace) ruler (with determinant, from *gore-l) Amanikhabale (ruler) ruler (with determinant, from *gore-l) ruler, king goodness, beauty, excellence",
+        "avg_posterior": 0.7409
       },
       {
         "section": "A7",
@@ -70,7 +70,7 @@
         "lines": "30\u201335",
         "meroitic": "apedmk : mk-se : amni : mk-se : wos : mk-se : selele-wi : tenke",
         "translation": "Apedemak (lion-headed war god) god, deity Amun (deity) god, deity Isis (deity) god, deity protection, salvation, grace west, western",
-        "avg_posterior": 0.8812
+        "avg_posterior": 0.7237
       },
       {
         "section": "A8",
@@ -78,7 +78,7 @@
         "lines": "35\u201340",
         "meroitic": "qore : Tanyidamani : Mnpte-se-lw : qoreyi : mlo-l-o",
         "translation": "ruler, king Tanyidamani Napata (place name, lit. 'of Amun') one who rules, ruling (participial) goodness, beauty, excellence",
-        "avg_posterior": 0.85
+        "avg_posterior": 0.6585
       },
       {
         "section": "B1",
@@ -86,7 +86,7 @@
         "lines": "41\u201348",
         "meroitic": "apedmk-i : qo : mk : mlo : pwrite : Tanyidamani : pesto-b-ke : to : mlo-l-o",
         "translation": "Apedemak (lion-headed war god) great, big, mighty god, deity goodness, beauty, excellence life (in benedictions/invocations) Tanyidamani to give, to offer, to bestow land, territory, country goodness, beauty, excellence",
-        "avg_posterior": 0.8389
+        "avg_posterior": 0.6806
       },
       {
         "section": "B2",
@@ -94,7 +94,7 @@
         "lines": "48\u201355",
         "meroitic": "amni : Mnpte : mk-l : qo : mlo : pwrite : pesto-b-ke : selele",
         "translation": "Amun (deity) Napata (place name, lit. 'of Amun') god, deity great, big, mighty goodness, beauty, excellence life (in benedictions/invocations) to give, to offer, to bestow protection, salvation, grace",
-        "avg_posterior": 0.8187
+        "avg_posterior": 0.688
       },
       {
         "section": "B3",
@@ -102,15 +102,15 @@
         "lines": "55\u201360",
         "meroitic": "wos-i : mlo : mk : pwrite : Tanyidamani : qore-l : pesto-b-ke : ate-li : yi-li",
         "translation": "Isis (deity) goodness, beauty, excellence god, deity life (in benedictions/invocations) Tanyidamani ruler, king to give, to offer, to bestow bread, food offering water, drink offering",
-        "avg_posterior": 0.8833
+        "avg_posterior": 0.6857
       },
       {
         "section": "B4",
         "title": "Temple Construction at Jebel Barkal",
         "lines": "60\u201368",
         "meroitic": "qore-l : Tanyidamani : dmke : amni-te : mke-l-o : mlo : qo : bedewi-l",
-        "translation": "ruler, king Tanyidamani temple, sacred house Amun (deity) to build, to construct goodness, beauty, excellence great, big, mighty throne, seat of royal power",
-        "avg_posterior": 0.8062
+        "translation": "ruler, king Tanyidamani temple/sacred house Amun (deity) good/beautiful goodness, beauty, excellence great, big, mighty throne, seat of royal power",
+        "avg_posterior": 0.6347
       },
       {
         "section": "B5",
@@ -118,7 +118,7 @@
         "lines": "68\u201375",
         "meroitic": "ate-li : yi-li : pesto-b-ke : apedmk : mk-se : amni : mk-se : mlo-l-owi",
         "translation": "bread, food offering water, drink offering to give, to offer, to bestow Apedemak (lion-headed war god) god, deity Amun (deity) god, deity goodness, beauty, excellence",
-        "avg_posterior": 0.8875
+        "avg_posterior": 0.7164
       },
       {
         "section": "B6",
@@ -126,15 +126,15 @@
         "lines": "75\u201380",
         "meroitic": "plote-l : ate-li : yi-li : s : mk-l : qo : to : amni-te : selele",
         "translation": "libation, liquid offering bread, food offering water, drink offering pronoun 3SG (abbrev.) god, deity great, big, mighty land, territory, country Amun (deity) protection, salvation, grace",
-        "avg_posterior": 0.8222
+        "avg_posterior": 0.6659
       },
       {
         "section": "C1",
         "title": "Campaign Declaration",
         "lines": "81\u201388",
         "meroitic": "qore-l : Tanyidamani : qo : mlo : to : akine : tele-l",
-        "translation": "ruler, king Tanyidamani great, big, mighty goodness, beauty, excellence land, territory, country Akine (Lower Nubian province) to go, to proceed, to march",
-        "avg_posterior": 0.8286
+        "translation": "ruler, king Tanyidamani great, big, mighty goodness, beauty, excellence land, territory, country Akine (Lower Nubian province) protection/salvation",
+        "avg_posterior": 0.657
       },
       {
         "section": "C2",
@@ -142,7 +142,7 @@
         "lines": "88\u201395",
         "meroitic": "e-ked : abr-se-l : Tanyidamani : qore-l : qo : mlo",
         "translation": "to slaughter, to kill (in battle) man, male person Tanyidamani ruler, king great, big, mighty goodness, beauty, excellence",
-        "avg_posterior": 0.8417
+        "avg_posterior": 0.6679
       },
       {
         "section": "C3",
@@ -150,23 +150,23 @@
         "lines": "95\u2013100",
         "meroitic": "erk : kdi-se-l : Tanyidamani : qore-l",
         "translation": "to seize, to raid, to take captive woman, female person Tanyidamani ruler, king",
-        "avg_posterior": 0.875
+        "avg_posterior": 0.6623
       },
       {
         "section": "C4",
         "title": "Second Campaign \u2014 Territory Conquered",
         "lines": "100\u2013108",
         "meroitic": "to : tedke : tkke-l : e-ked : abr-se-l : erk : kdi-se-l : qore-l : Tanyidamani",
-        "translation": "land, territory, country to love, to cherish to seize, to conquer, to take (synonym of erk-) to slaughter, to kill (in battle) man, male person to seize, to raid, to take captive woman, female person ruler, king Tanyidamani",
-        "avg_posterior": 0.8333
+        "translation": "land, territory, country to conquer/subdue to seize, to conquer, to take (synonym of erk-) to slaughter, to kill (in battle) man, male person to seize, to raid, to take captive woman, female person ruler, king Tanyidamani",
+        "avg_posterior": 0.6429
       },
       {
         "section": "C5",
         "title": "Prisoners and Spoils",
         "lines": "108\u2013115",
         "meroitic": "abr-se-wi : kdi-se-wi : lh-l : ar : nobe : qo : qore-l : pesto-b-ke : mk-l",
-        "translation": "man, male person woman, female person offspring, son, child riches, wealth, tribute gold great, big, mighty ruler, king to give, to offer, to bestow god, deity",
-        "avg_posterior": 0.8111
+        "translation": "man, male person woman, female person offspring, son, child to seize/take gold great, big, mighty ruler, king to give, to offer, to bestow god, deity",
+        "avg_posterior": 0.6271
       },
       {
         "section": "C6",
@@ -174,7 +174,7 @@
         "lines": "115\u2013120",
         "meroitic": "apedmk : mk-se : qo : mlo : selele-wi : Tanyidamani : qore-l : pwrite",
         "translation": "Apedemak (lion-headed war god) god, deity great, big, mighty goodness, beauty, excellence protection, salvation, grace Tanyidamani ruler, king life (in benedictions/invocations)",
-        "avg_posterior": 0.8438
+        "avg_posterior": 0.6898
       },
       {
         "section": "D1",
@@ -182,7 +182,7 @@
         "lines": "121\u2013130",
         "meroitic": "qore-l : Tanyidamani : qo : to-l : tkke-l : abr-se-l : e-ked : kdi-se-l : erk : mlo",
         "translation": "ruler, king Tanyidamani great, big, mighty land, territory, country to seize, to conquer, to take (synonym of erk-) man, male person to slaughter, to kill (in battle) woman, female person to seize, to raid, to take captive goodness, beauty, excellence",
-        "avg_posterior": 0.825
+        "avg_posterior": 0.6615
       },
       {
         "section": "D2",
@@ -190,7 +190,7 @@
         "lines": "130\u2013138",
         "meroitic": "apedmk-i : qo : mlo : mk-l : Tanyidamani : qore-l : pwrite : selele-wi : pesto-b-ke",
         "translation": "Apedemak (lion-headed war god) great, big, mighty goodness, beauty, excellence god, deity Tanyidamani ruler, king life (in benedictions/invocations) protection, salvation, grace to give, to offer, to bestow",
-        "avg_posterior": 0.8444
+        "avg_posterior": 0.6896
       },
       {
         "section": "D3",
@@ -198,7 +198,7 @@
         "lines": "138\u2013148",
         "meroitic": "amni : mk-se : wos : mk-se : hore : mk-se : mlo : qo : selele : Tanyidamani : qore-l-o",
         "translation": "Amun (deity) god, deity Isis (deity) god, deity Horus (deity) god, deity goodness, beauty, excellence great, big, mighty protection, salvation, grace Tanyidamani ruler, king",
-        "avg_posterior": 0.8727
+        "avg_posterior": 0.7085
       },
       {
         "section": "D4",
@@ -206,7 +206,7 @@
         "lines": "148\u2013155",
         "meroitic": "ate-li : yi-li : pesto-b-ke : qore-l : Tanyidamani : mk-l : amni-te : mlo-l-owi",
         "translation": "bread, food offering water, drink offering to give, to offer, to bestow ruler, king Tanyidamani god, deity Amun (deity) goodness, beauty, excellence",
-        "avg_posterior": 0.8938
+        "avg_posterior": 0.6958
       },
       {
         "section": "D5",
@@ -214,7 +214,7 @@
         "lines": "155\u2013161",
         "meroitic": "qore-l-o : Tanyidamani : amni-te : qo : mlo-li : apedmk : mk : wos : mk : tenke : to : selele",
         "translation": "ruler, king Tanyidamani Amun (deity) great, big, mighty goodness, beauty, excellence Apedemak (lion-headed war god) god, deity Isis (deity) god, deity west, western land, territory, country protection, salvation, grace",
-        "avg_posterior": 0.8667
+        "avg_posterior": 0.7057
       }
     ]
   },
@@ -226,7 +226,7 @@
         "vocabulary entry: qore"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "kdke": {
       "meaning": "queen, queen mother (Candace)",
@@ -235,7 +235,7 @@
         "vocabulary entry: kdke"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "ktke": {
       "meaning": "queen mother (variant spelling)",
@@ -244,7 +244,7 @@
         "vocabulary entry: ktke"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "pqr": {
       "meaning": "deputy, viceroy, second-in-command",
@@ -253,7 +253,7 @@
         "vocabulary entry: pqr"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "pelmos": {
       "meaning": "strategos, military commander",
@@ -262,7 +262,7 @@
         "vocabulary entry: pelmos"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "peseto": {
       "meaning": "viceroy (of a province)",
@@ -271,7 +271,7 @@
         "vocabulary entry: peseto"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "beleqe": {
       "meaning": "chief, headman",
@@ -280,7 +280,7 @@
         "vocabulary entry: beleqe"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "arike": {
       "meaning": "prince, royal offspring",
@@ -289,7 +289,7 @@
         "vocabulary entry: arike"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "mlqe": {
       "meaning": "high official",
@@ -298,7 +298,7 @@
         "vocabulary entry: mlqe"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "widke": {
       "meaning": "priestess",
@@ -307,7 +307,7 @@
         "vocabulary entry: widke"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "wete": {
       "meaning": "priest/officiant",
@@ -316,7 +316,7 @@
         "vocabulary entry: wete"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "mk": {
       "meaning": "god, deity",
@@ -325,7 +325,7 @@
         "vocabulary entry: mk"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "amni": {
       "meaning": "Amun (deity)",
@@ -334,7 +334,7 @@
         "vocabulary entry: amni"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "apedmk": {
       "meaning": "Apedemak (lion-headed war god)",
@@ -343,7 +343,7 @@
         "vocabulary entry: apedmk"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "wos": {
       "meaning": "Isis (deity)",
@@ -352,7 +352,7 @@
         "vocabulary entry: wos"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "mhe": {
       "meaning": "Mash, sun god (solar deity)",
@@ -361,7 +361,7 @@
         "vocabulary entry: mhe"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "mnp": {
       "meaning": "Mandulis (deity)",
@@ -370,7 +370,7 @@
         "vocabulary entry: mnp"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "sebke": {
       "meaning": "Sebiumeker (creator deity)",
@@ -379,7 +379,7 @@
         "vocabulary entry: sebke"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "aresnp": {
       "meaning": "Arensnuphis (deity)",
@@ -388,7 +388,7 @@
         "vocabulary entry: aresnp"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "hore": {
       "meaning": "Horus (deity)",
@@ -397,7 +397,7 @@
         "vocabulary entry: hore"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "osor": {
       "meaning": "Osiris (deity)",
@@ -406,7 +406,7 @@
         "vocabulary entry: osor"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "s\u0306e": {
       "meaning": "sacred, holy",
@@ -415,7 +415,7 @@
         "vocabulary entry: s\u0306e"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "plote": {
       "meaning": "libation, liquid offering",
@@ -424,16 +424,16 @@
         "vocabulary entry: plote"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "selele": {
       "meaning": "protection, salvation, grace",
-      "certainty": 0.7,
+      "certainty": 0.6,
       "evidence": [
         "vocabulary entry: selele"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "ate": {
       "meaning": "bread, food offering",
@@ -442,7 +442,7 @@
         "vocabulary entry: ate"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "yi": {
       "meaning": "water, drink offering",
@@ -451,7 +451,7 @@
         "vocabulary entry: yi"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "pesto": {
       "meaning": "to give, to offer, to bestow",
@@ -460,7 +460,7 @@
         "vocabulary entry: pesto"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "beke": {
       "meaning": "to beget, to give birth",
@@ -469,7 +469,7 @@
         "vocabulary entry: beke"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "hr": {
       "meaning": "to die, the deceased",
@@ -478,7 +478,7 @@
         "vocabulary entry: hr"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "abr": {
       "meaning": "man, male person",
@@ -487,7 +487,7 @@
         "vocabulary entry: abr"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "kdi": {
       "meaning": "woman, female person",
@@ -496,7 +496,7 @@
         "vocabulary entry: kdi"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "lh": {
       "meaning": "offspring, son, child",
@@ -505,7 +505,7 @@
         "vocabulary entry: lh"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "sr": {
       "meaning": "sister, female relative",
@@ -514,7 +514,7 @@
         "vocabulary entry: sr"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "mlo": {
       "meaning": "goodness, beauty, excellence",
@@ -523,7 +523,7 @@
         "vocabulary entry: mlo"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "qo": {
       "meaning": "great, big, mighty",
@@ -532,7 +532,7 @@
         "vocabulary entry: qo"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "to": {
       "meaning": "land, territory, country",
@@ -541,7 +541,7 @@
         "vocabulary entry: to"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "tenke": {
       "meaning": "west, western",
@@ -550,16 +550,16 @@
         "vocabulary entry: tenke"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "tedke": {
-      "meaning": "to love, to cherish",
-      "certainty": 0.75,
+      "meaning": "east, eastern (NOTE: main vocab says 'east'; 'to love' is unconfirmed)",
+      "certainty": 0.5,
       "evidence": [
         "vocabulary entry: tedke"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "akine": {
       "meaning": "Akine (Lower Nubian province)",
@@ -568,52 +568,7 @@
         "vocabulary entry: akine"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
-    },
-    "dmke": {
-      "meaning": "temple, sacred house",
-      "certainty": 0.7,
-      "evidence": [
-        "vocabulary entry: dmke"
-      ],
-      "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
-    },
-    "bedewi": {
-      "meaning": "throne, seat of royal power",
-      "certainty": 0.7,
-      "evidence": [
-        "vocabulary entry: bedewi"
-      ],
-      "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
-    },
-    "nobe": {
-      "meaning": "gold",
-      "certainty": 0.7,
-      "evidence": [
-        "vocabulary entry: nobe"
-      ],
-      "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
-    },
-    "mke": {
-      "meaning": "to build, to construct",
-      "certainty": 0.7,
-      "evidence": [
-        "vocabulary entry: mke"
-      ],
-      "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
-    },
-    "tele": {
-      "meaning": "to go, to proceed, to march",
-      "certainty": 0.7,
-      "evidence": [
-        "vocabulary entry: tele"
-      ],
-      "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "tkke": {
       "meaning": "to seize, to conquer, to take (synonym of erk-)",
@@ -622,16 +577,7 @@
         "vocabulary entry: tkke"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
-    },
-    "ar": {
-      "meaning": "riches, wealth, tribute",
-      "certainty": 0.7,
-      "evidence": [
-        "vocabulary entry: ar"
-      ],
-      "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "s": {
       "meaning": "pronoun 3SG (abbrev.)",
@@ -640,7 +586,7 @@
         "vocabulary entry: s"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "ked": {
       "meaning": "to slaughter, to kill (in battle)",
@@ -649,7 +595,7 @@
         "vocabulary entry: ked"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "erk": {
       "meaning": "to seize, to raid, to take captive",
@@ -658,7 +604,7 @@
         "vocabulary entry: erk"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "e-ked": {
       "meaning": "I slaughtered (1st person singular of ked-)",
@@ -667,7 +613,7 @@
         "vocabulary entry: e-ked"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "pwrite": {
       "meaning": "life (in benedictions/invocations)",
@@ -676,7 +622,7 @@
         "vocabulary entry: pwrite"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "el": {
       "meaning": "to give (imperative/verbal base)",
@@ -685,7 +631,7 @@
         "vocabulary entry: el"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "qoreyi": {
       "meaning": "one who rules, ruling (participial)",
@@ -694,7 +640,7 @@
         "vocabulary entry: qoreyi"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "Mnpte": {
       "meaning": "Napata (place name, lit. 'of Amun')",
@@ -703,7 +649,7 @@
         "vocabulary entry: Mnpte"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "nobo": {
       "meaning": "Noba (people/ethnic group)",
@@ -712,7 +658,7 @@
         "vocabulary entry: nobo"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "gor": {
       "meaning": "ruler (with determinant, from *gore-l)",
@@ -721,7 +667,7 @@
         "vocabulary entry: gor"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "gore": {
       "meaning": "ruler (before personal names, without determinant)",
@@ -730,7 +676,7 @@
         "vocabulary entry: gore"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "Amnirense": {
       "meaning": "Amanirenas (queen, Candace)",
@@ -739,7 +685,7 @@
         "vocabulary entry: Amnirense"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "Amanikhabale": {
       "meaning": "Amanikhabale (ruler)",
@@ -748,7 +694,7 @@
         "vocabulary entry: Amanikhabale"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "Amnp": {
       "meaning": "Amanap (deity/royal epithet, variant of Amun)",
@@ -757,7 +703,7 @@
         "vocabulary entry: Amnp"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "nete": {
       "meaning": "authority, power (part of royal epithet compound)",
@@ -766,7 +712,7 @@
         "vocabulary entry: nete"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "se": {
       "meaning": "3SG pronoun / vocative particle",
@@ -775,7 +721,7 @@
         "vocabulary entry: se"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "lw": {
       "meaning": "benefactive postposition (for, by means of)",
@@ -784,7 +730,7 @@
         "vocabulary entry: lw"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "x": {
       "meaning": "indirect object marker (to him/her)",
@@ -793,7 +739,7 @@
         "vocabulary entry: x"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "nastasen": {
       "meaning": "Nastasen (king, 4th century BCE)",
@@ -802,7 +748,7 @@
         "vocabulary entry: nastasen"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "arnekhamani": {
       "meaning": "Arnekhamani (king, 3rd century BCE)",
@@ -811,7 +757,7 @@
         "vocabulary entry: arnekhamani"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "adikhalamani": {
       "meaning": "Adikhalamani (king, 3rd century BCE)",
@@ -820,7 +766,7 @@
         "vocabulary entry: adikhalamani"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "harsiotef": {
       "meaning": "Harsiotef (king, 4th century BCE)",
@@ -829,7 +775,7 @@
         "vocabulary entry: harsiotef"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "tanyidamani": {
       "meaning": "Tanyidamani (king, 2nd century BCE)",
@@ -838,7 +784,7 @@
         "vocabulary entry: tanyidamani"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "amanikhabale": {
       "meaning": "Amanikhabale (king, 1st century BCE)",
@@ -847,7 +793,7 @@
         "vocabulary entry: amanikhabale"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "natakamani": {
       "meaning": "Natakamani (king, 1st century CE)",
@@ -856,7 +802,7 @@
         "vocabulary entry: natakamani"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "amanitekha": {
       "meaning": "Amanitekha (king, 1st century BCE-1st century CE)",
@@ -865,7 +811,7 @@
         "vocabulary entry: amanitekha"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "yesebokemni": {
       "meaning": "Yesebokemni (king, 3rd century CE)",
@@ -874,7 +820,7 @@
         "vocabulary entry: yesebokemni"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "amanishakheto": {
       "meaning": "Amanishakheto (queen, 1st century BCE)",
@@ -883,7 +829,7 @@
         "vocabulary entry: amanishakheto"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "amanitore": {
       "meaning": "Amanitore (queen, 1st century CE)",
@@ -892,7 +838,7 @@
         "vocabulary entry: amanitore"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "shanakdakhete": {
       "meaning": "Shanakdakhete (ruling_queen, 2nd century BCE)",
@@ -901,7 +847,7 @@
         "vocabulary entry: shanakdakhete"
       ],
       "source": "lexicon",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "akinimnoter": {
       "meaning": "woman/female",
@@ -912,7 +858,7 @@
         "constraint: 0.59"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "wi": {
       "meaning": "water",
@@ -923,7 +869,7 @@
         "constraint: 0.54"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:01"
+      "verified_at": "2026-03-08 05:16:09"
     },
     "nikme": {
       "meaning": "bread/food",
@@ -932,7 +878,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:02"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "belt": {
       "meaning": "person/human",
@@ -941,7 +887,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:02"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "nt": {
       "meaning": "temple/sacred house",
@@ -950,7 +896,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:02"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "krmn": {
       "meaning": "rain",
@@ -959,7 +905,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:02"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "entey": {
       "meaning": "west",
@@ -968,7 +914,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:02"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "wiltn": {
       "meaning": "sister",
@@ -977,7 +923,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:02"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "beleten": {
       "meaning": "to give",
@@ -986,7 +932,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:02"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "neltesemn": {
       "meaning": "child/offspring",
@@ -995,7 +941,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:02"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "abtselomn": {
       "meaning": "west",
@@ -1004,7 +950,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:02"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "arekelen": {
       "meaning": "to give",
@@ -1013,7 +959,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:02"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "tewidemn": {
       "meaning": "west",
@@ -1022,7 +968,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:02"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "khetemn": {
       "meaning": "person/human",
@@ -1031,7 +977,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:02"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "amanirena": {
       "meaning": "offering/sacrifice",
@@ -1040,7 +986,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:02"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "lewiten": {
       "meaning": "child/offspring",
@@ -1049,7 +995,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:02"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "witde": {
       "meaning": "death",
@@ -1058,7 +1004,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:02"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "ritnide": {
       "meaning": "temple/sacred house",
@@ -1067,7 +1013,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:02"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "amnteklde": {
       "meaning": "west",
@@ -1076,7 +1022,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:02"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "de": {
       "meaning": "to give",
@@ -1085,7 +1031,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:02"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "ntemn": {
       "meaning": "ear",
@@ -1094,7 +1040,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:02"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "krmt": {
       "meaning": "tomb/grave",
@@ -1103,7 +1049,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:02"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "aritnekemn": {
       "meaning": "tomb/grave",
@@ -1112,7 +1058,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:02"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "mlenekemn": {
       "meaning": "tooth",
@@ -1121,7 +1067,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:03"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "eritele": {
       "meaning": "man/male",
@@ -1130,7 +1076,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:03"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "eksemelde": {
       "meaning": "hot/warm",
@@ -1139,7 +1085,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:03"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "ritelde": {
       "meaning": "to break",
@@ -1148,7 +1094,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:03"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "bktewide": {
       "meaning": "god/spirit",
@@ -1157,7 +1103,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:03"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "ritedqe": {
       "meaning": "to give",
@@ -1166,7 +1112,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:03"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "amnitenmomide": {
       "meaning": "Amun (deity) (root-related)",
@@ -1175,7 +1121,7 @@
         "high-confidence single: lexicon_partial"
       ],
       "source": "lexicon_partial",
-      "verified_at": "2026-03-08 04:02:03"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "ksemn": {
       "meaning": "sister",
@@ -1184,7 +1130,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:03"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "tleme": {
       "meaning": "to give",
@@ -1193,7 +1139,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:03"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "dkemey": {
       "meaning": "tomb/grave",
@@ -1202,7 +1148,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:03"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "sbokemn": {
       "meaning": "long/tall",
@@ -1211,7 +1157,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:03"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "nitnekemn": {
       "meaning": "to give",
@@ -1220,7 +1166,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:03"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "atriten": {
       "meaning": "person/human",
@@ -1229,7 +1175,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:03"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "wletomn": {
       "meaning": "dog",
@@ -1238,7 +1184,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:03"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "npateme": {
       "meaning": "god/spirit",
@@ -1247,7 +1193,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:03"
+      "verified_at": "2026-03-08 05:16:10"
     },
     "senkemisken": {
       "meaning": "to send",
@@ -1256,7 +1202,7 @@
         "high-confidence single: comparative"
       ],
       "source": "comparative",
-      "verified_at": "2026-03-08 04:02:03"
+      "verified_at": "2026-03-08 05:16:10"
     }
   },
   "unsolved": [

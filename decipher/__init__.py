@@ -1,12 +1,21 @@
 """
-Comprehensive Meroitic Knowledge Base
-=======================================
-The most complete machine-readable dataset of Meroitic linguistic knowledge,
-drawn from all major published sources:
+Meroitic Knowledge Base — Honest Assessment
+=============================================
+Machine-readable dataset of Meroitic linguistic knowledge, drawn from
+published sources WITH EXPLICIT EVIDENCE CLASSIFICATIONS.
 
+HONESTY NOTE:
+  Only ~7 Meroitic words are SECURELY known from bilingual texts.
+  Another ~25 are PROBABLE based on published NES comparative work.
+  The remaining ~32 entries are SPECULATIVE — contextual guesses by this
+  project, not confirmed by independent scholarship.
+  The CORPUS section contains SYNTHETIC inscriptions constructed by this
+  project for pipeline testing. They are NOT real REM transliterations.
+
+Published sources consulted:
   - Griffith 1911 "Karanòg: The Meroitic Inscriptions of Shablûl and Karanòg"
   - Hintze 1979 "Beiträge zur meroitischen Grammatik"
-  - Hofmann 1981 "Material für eine meroitische Grammatik"  
+  - Hofmann 1981 "Material für eine meroitische Grammatik"
   - Leclant & Rilly 2000 "Répertoire d'Épigraphie Méroïtique"
   - Rilly 2007 "La langue du royaume de Méroé"
   - Rilly 2010 "Le méroïtique et sa famille linguistique"
@@ -15,10 +24,10 @@ drawn from all major published sources:
 
 This file provides:
   1. Complete phonological inventory
-  2. Full known + proposed vocabulary (~200 entries)
+  2. Vocabulary with evidence tier classifications (SECURE / PROBABLE / SPECULATIVE)
   3. Grammatical morpheme system
   4. Syntactic templates
-  5. Expanded corpus of 80+ inscriptions
+  5. SYNTHETIC corpus for pipeline testing (NOT real REM data)
   6. Nubian/Nilo-Saharan comparative data
   7. Contextual/archaeological metadata
 """
@@ -573,6 +582,99 @@ VOCABULARY = {
 }
 
 # ═══════════════════════════════════════════════════════════════════════════════
+# EVIDENCE TIER CLASSIFICATION
+# ═══════════════════════════════════════════════════════════════════════════════
+# SECURE:      Confirmed by bilingual texts, Greek transcriptions, or
+#              universal scholarly agreement. These are facts.
+# PROBABLE:    Strong comparative evidence from published scholarship
+#              (Rilly, Griffith, Hintze). Widely accepted but not bilingual.
+# SPECULATIVE: Contextual inference by this project or weakly-supported
+#              proposals. Lack independent confirmation. MAY BE WRONG.
+# ═══════════════════════════════════════════════════════════════════════════════
+
+EVIDENCE_TIERS = {
+    "SECURE": [
+        "qore",     # ruler — bilingual Meroitic-Egyptian texts (Griffith 1911)
+        "kdke",     # queen mother — Greek Κανδάκη (Strabo, Pliny)
+        "amni",     # Amun — Egyptian parallel Jmn; theophoric names
+        "wos",      # Isis — Egyptian parallel Ꜣst; funerary formula position
+        "apedmk",   # Apedemak — temple dedications + iconography
+        "ate",      # bread/food — offering tables + Nubian cognate 'atte'
+        "yi",       # water — offering tables + Nubian cognate 'yii'
+    ],
+    "PROBABLE": [
+        "mk",       # god — Old Nubian cognate 'masik'; Griffith 1911
+        "ktke",     # queen (variant) — variant of kdke
+        "hore",     # Horus — Egyptian parallel Ḥr
+        "osor",     # Osiris — Egyptian parallel Wsir
+        "pesto",    # to give — offering formula position; Rilly
+        "pqr",      # deputy — Rilly 2007
+        "to",       # land — strong Nubian cognate 'to/tou'; Rilly 2007
+        "akine",    # Akine province — administrative texts
+        "mnp",      # Mandulis — Greek Μανδούλις parallel
+        "abr",      # man — Nubian cognate 'auer'; Griffith 1911
+        "kdi",      # woman — Nubian cognate 'kide'; Griffith 1911
+        "mlo",      # good — Nubian cognate 'mel/mell'; Rilly 2007
+        "tenke",    # west — Nubian cognate 'tengi'; Rilly 2007
+        "pelmos",   # strategos — Greek parallel exists; Rilly 2007
+        "peseto",   # viceroy — Rilly 2007
+        "sebke",    # Sebiumeker — Musawwarat temple; Rilly 2007
+        "aresnp",   # Arensnuphis — Greek/Philae identification
+        "qo",       # great — Nubian cognate 'gor'; Rilly 2007
+        "lh",       # offspring — Old Nubian cognate 'leh'; genealogies
+        "beleqe",   # chief — Rilly 2007
+        "arike",    # prince — Rilly 2007; genealogical texts
+        "tedke",    # east — structural parallel to tenke; Rilly 2007
+        "mhe",      # solar deity — Rilly 2007
+        "sr",       # sister — Nubian cognate 'sur'; Rilly 2007
+        "s",        # 3SG pronoun — Hintze 1979
+    ],
+    "SPECULATIVE": [
+        # These entries LACK independent confirmation. Many are contextual
+        # guesses by this project. Use with extreme caution.
+        "beke",     # to beget — Nubian cognate plausible but unconfirmed
+        "plote",    # libation — context-based assignment
+        "selele",   # protection — Old Nubian 'selle' suggestive, not confirmed
+        "mlqe",     # high official — vague Rilly citation
+        "widke",    # priestess — no specific citation, context-guessed
+        "wete",     # priest — no specific citation, context-guessed
+        "hr",       # to die — context-guessed from funerary stelae
+        "s̆e",      # sacred — weakly supported
+        "dmke",     # temple — pure context guess
+        "ẖr",       # mother — context guess
+        "dke",      # tomb — weakly cited Rilly reference
+        "yer",      # offering — context guess
+        "tke",      # to drink — context guess
+        "tore",     # father — context guess
+        "bedewi",   # throne — context guess
+        "mke",      # to build — context guess
+        "tele",     # to go — context guess
+        "dme",      # to establish — context guess
+        "mde",      # to rule — pure positional guess
+        "tkke",     # to conquer — context guess
+        "he",       # to come — weakly supported
+        "te",       # copula — structural guess
+        "ar",       # one — weakly supported
+        "yro",      # two — pure guess
+        "ne",       # demonstrative — weakly supported
+        "prite",    # new — context guess
+        "mete",     # true — context guess
+        "kel",      # strong — context guess
+        "nobe",     # gold — cognate only, no bilingual confirmation
+        "wide",     # elder — weakly supported
+        "ato",      # island — context guess
+        "berew",    # river — weakly supported
+    ],
+}
+
+def get_evidence_tier(word: str) -> str:
+    """Return the evidence tier for a vocabulary word."""
+    for tier, words in EVIDENCE_TIERS.items():
+        if word in words:
+            return tier
+    return "UNCLASSIFIED"
+
+# ═══════════════════════════════════════════════════════════════════════════════
 # 3. GRAMMATICAL MORPHEME SYSTEM
 # ═══════════════════════════════════════════════════════════════════════════════
 
@@ -759,8 +861,27 @@ SYNTACTIC_RULES = {
 }
 
 # ═══════════════════════════════════════════════════════════════════════════════
-# 5. EXPANDED CORPUS OF INSCRIPTIONS
+# 5. SYNTHETIC CORPUS — FOR PIPELINE TESTING ONLY
 # ═══════════════════════════════════════════════════════════════════════════════
+# ┌─────────────────────────────────────────────────────────────────────────┐
+# │  WARNING: SYNTHETIC DATA                                               │
+# │                                                                         │
+# │  The inscriptions below are RECONSTRUCTED texts assembled by this       │
+# │  project from known vocabulary using syntactic templates. They are      │
+# │  NOT direct transliterations from the Répertoire d'Épigraphie           │
+# │  Méroïtique (REM).                                                      │
+# │                                                                         │
+# │  Problems:                                                              │
+# │  • All texts are perfectly parseable — real inscriptions are not        │
+# │  • REM IDs do not correspond to actual REM catalogue entries            │
+# │  • Personal names are fabricated                                        │
+# │  • No undeciphered tokens appear — in reality, most words are unknown  │
+# │                                                                         │
+# │  These are useful for testing the pipeline infrastructure but must      │
+# │  NOT be cited as evidence of genuine decipherment.                      │
+# └─────────────────────────────────────────────────────────────────────────┘
+
+CORPUS_IS_SYNTHETIC = True  # Flag for downstream code to check
 
 CORPUS = [
     # ─── FUNERARY: OFFERING TABLES ───

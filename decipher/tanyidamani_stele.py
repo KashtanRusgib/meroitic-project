@@ -15,13 +15,15 @@ Cross-references:
   - Griffith 1917 (first comparative discussion)
   - Dunham 1970, The Barkal Temples
 
-Scholarly status of the text:
-  The stele is "the least well understood" class of Meroitic texts
-  (Rilly & de Voogt 2012:31). It contains:
-    - A royal protocol (names and titles)
-    - Religious invocations / benedictions
-    - Military campaign narratives
-    - Lists of conquests (men slaughtered, women seized)
+HONESTY NOTE:
+  Only ~3-4 phrases from this stele are genuine PUBLISHED transliterations:
+    - "Amnp : nete : se-mlo-lw" (Rilly & de Voogt 2012:155)
+    - "e-ked : abr-se-l" and "erk : kdi-se-l" (Rilly & de Voogt 2012:32)
+    - "gore Tneyidmni" (attested from REM 0628, not REM 1044 directly)
+  The remaining ~21 sections are RECONSTRUCTED by this project using
+  attested vocabulary and syntactic templates. The stele's 161 lines
+  are largely unread by real scholarship — it is described as "the
+  least well understood" class of Meroitic text (Rilly & de Voogt 2012:31).
 
 This module reconstructs the KNOWN portions of REM 1044 from:
   1. Published transliterations and scholarly analyses
@@ -435,22 +437,22 @@ STELE_VOCABULARY = {
     "dmke": {
         "translation": "temple, sacred house",
         "category": "architecture",
-        "certainty": 0.70,
-        "source": "Rilly & de Voogt 2012; temple building texts",
-        "attestations": 12,
+        "certainty": 0.45,  # SPECULATIVE — context guess, no bilingual confirmation
+        "source": "temple inscription contexts (project inference)",
+        "attestations": 10,
     },
     "mke": {
         "translation": "to build, to construct",
         "category": "verb",
-        "certainty": 0.70,
-        "source": "Rilly 2007; building/construction texts at Jebel Barkal",
+        "certainty": 0.40,  # SPECULATIVE — context guess from building inscriptions
+        "source": "building inscription contexts (project inference)",
         "attestations": 8,
     },
     "bedewi": {
         "translation": "throne, seat of royal power",
         "category": "noun",
-        "certainty": 0.70,
-        "source": "Royal stelae context; cf. Egyptian b3-dw3.t",
+        "certainty": 0.40,  # SPECULATIVE — context guess from enthronement texts
+        "source": "enthronement texts (project inference)",
         "attestations": 5,
     },
     "plote": {
@@ -463,22 +465,22 @@ STELE_VOCABULARY = {
     "nobe": {
         "translation": "gold",
         "category": "material",
-        "certainty": 0.70,
-        "source": "Rilly & de Voogt 2012; cf. Old Nubian nob/nub 'gold'",
-        "attestations": 10,
+        "certainty": 0.40,  # SPECULATIVE — Nubian cognate only, no bilingual confirmation
+        "source": "Nubian cognate; Nobiin 'nob' (gold); cf. 'Nubia'",
+        "attestations": 5,
     },
     "ar": {
         "translation": "riches, wealth, tribute",
         "category": "noun",
-        "certainty": 0.70,
-        "source": "Royal stelae spoils context; cf. ar- 'to take/possess'",
+        "certainty": 0.35,  # SPECULATIVE — context guess; cf. 'one' in main vocab
+        "source": "Royal stelae spoils context (project inference)",
         "attestations": 5,
     },
     "tele": {
         "translation": "to go, to proceed, to march",
         "category": "verb",
-        "certainty": 0.70,
-        "source": "Rilly 2007; campaign narrative verbs",
+        "certainty": 0.35,  # SPECULATIVE — context guess from narrative contexts
+        "source": "narrative contexts (project inference)",
         "attestations": 6,
     },
     "nete": {
@@ -531,17 +533,17 @@ STELE_VOCABULARY = {
         "attestations": 12,
     },
     "tedke": {
-        "translation": "to love, to cherish",
-        "category": "verb",
-        "certainty": 0.75,
-        "source": "Rilly 2007; funerary praise formulas",
+        "translation": "east, eastern (NOTE: main vocab says 'east'; 'to love' is unconfirmed)",
+        "category": "geography",
+        "certainty": 0.50,  # UNCERTAIN — two competing meanings in this codebase
+        "source": "directional; structural parallel to tenke (Rilly 2007)",
         "attestations": 7,
     },
     "selele": {
         "translation": "protection, salvation, grace",
         "category": "religion",
-        "certainty": 0.70,
-        "source": "Rilly 2007; Old Nubian cognate 'selle'; 30 attestations",
+        "certainty": 0.60,  # Old Nubian cognate 'selle' suggestive but not bilingual
+        "source": "Rilly 2007; Old Nubian cognate 'selle'",
         "attestations": 30,
     },
 }
