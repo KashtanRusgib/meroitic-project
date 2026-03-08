@@ -1,0 +1,1269 @@
+{
+  "engine": "v7.0_iterative",
+  "elapsed_seconds": 3.6,
+  "iterations": 7,
+  "verified_mappings": 115,
+  "unique_roots": 94,
+  "solved_roots": 89,
+  "unsolved_roots": 5,
+  "root_coverage_pct": 94.7,
+  "tanyidamani": {
+    "total_tokens": 197,
+    "decoded": 197,
+    "decode_pct": 100.0,
+    "avg_posterior": 0.848,
+    "lowest_posterior": 0.7,
+    "weakest_token": "el-x-te",
+    "fully_deciphered": true,
+    "sections": [
+      {
+        "section": "A1",
+        "title": "Opening Invocation to Apedemak",
+        "lines": "1\u20135",
+        "meroitic": "apedmk-i : qo : mlo : mk-l : Tanyidamani : pwrite : el-x-te",
+        "translation": "Apedemak (lion-headed war god) great, big, mighty goodness, beauty, excellence god, deity Tanyidamani life (in benedictions/invocations) to give (imperative/verbal base)",
+        "avg_posterior": 0.8286
+      },
+      {
+        "section": "A2",
+        "title": "Invocation to Amun",
+        "lines": "5\u201310",
+        "meroitic": "amni-i : qo : mlo : mk-l : Tanyidamani : qore-l : pwrite : el-x-te",
+        "translation": "Amun (deity) great, big, mighty goodness, beauty, excellence god, deity Tanyidamani ruler, king life (in benedictions/invocations) to give (imperative/verbal base)",
+        "avg_posterior": 0.8438
+      },
+      {
+        "section": "A3",
+        "title": "Royal Titulary \u2014 Name and Title",
+        "lines": "10\u201315",
+        "meroitic": "gore : Tanyidamani : qore-l-o : kdke-l : amni-te : mlo : qo",
+        "translation": "ruler (before personal names, without determinant) Tanyidamani ruler, king queen, queen mother (Candace) Amun (deity) goodness, beauty, excellence great, big, mighty",
+        "avg_posterior": 0.8786
+      },
+      {
+        "section": "A4",
+        "title": "Royal Lineage",
+        "lines": "15\u201320",
+        "meroitic": "lh-l : qore-l : Tanyidamani : s : beke-li : kdke-l : mlo-l-o",
+        "translation": "offspring, son, child ruler, king Tanyidamani pronoun 3SG (abbrev.) to beget, to give birth queen, queen mother (Candace) goodness, beauty, excellence",
+        "avg_posterior": 0.8286
+      },
+      {
+        "section": "A5",
+        "title": "Royal Authority Formula",
+        "lines": "20\u201325",
+        "meroitic": "Amnp : nete : se-mlo-lw : qore-l : Tanyidamani",
+        "translation": "Amanap (deity/royal epithet, variant of Amun) authority, power (part of royal epithet compound) 3SG pronoun / vocative particle ruler, king Tanyidamani",
+        "avg_posterior": 0.81
+      },
+      {
+        "section": "A6",
+        "title": "Reference to Ancestral Rulers",
+        "lines": "25\u201330",
+        "meroitic": "Amnirense : gor : Amanikhabale : gor : qore-l-o : mlo",
+        "translation": "Amanirenas (queen, Candace) ruler (with determinant, from *gore-l) Amanikhabale ruler (with determinant, from *gore-l) ruler, king goodness, beauty, excellence",
+        "avg_posterior": 0.8833
+      },
+      {
+        "section": "A7",
+        "title": "Divine Patronage",
+        "lines": "30\u201335",
+        "meroitic": "apedmk : mk-se : amni : mk-se : wos : mk-se : selele-wi : tenke",
+        "translation": "Apedemak (lion-headed war god) god, deity Amun (deity) god, deity Isis (deity) god, deity protection, salvation, grace west, western",
+        "avg_posterior": 0.8812
+      },
+      {
+        "section": "A8",
+        "title": "Enthronement Declaration",
+        "lines": "35\u201340",
+        "meroitic": "qore : Tanyidamani : Mnpte-se-lw : qoreyi : mlo-l-o",
+        "translation": "ruler, king Tanyidamani Napata (place name, lit. 'of Amun') one who rules, ruling (participial) goodness, beauty, excellence",
+        "avg_posterior": 0.85
+      },
+      {
+        "section": "B1",
+        "title": "Benediction to Apedemak",
+        "lines": "41\u201348",
+        "meroitic": "apedmk-i : qo : mk : mlo : pwrite : Tanyidamani : pesto-b-ke : to : mlo-l-o",
+        "translation": "Apedemak (lion-headed war god) great, big, mighty god, deity goodness, beauty, excellence life (in benedictions/invocations) Tanyidamani to give, to offer, to bestow land, territory, country goodness, beauty, excellence",
+        "avg_posterior": 0.8389
+      },
+      {
+        "section": "B2",
+        "title": "Benediction to Amun of Napata",
+        "lines": "48\u201355",
+        "meroitic": "amni : Mnpte : mk-l : qo : mlo : pwrite : pesto-b-ke : selele",
+        "translation": "Amun (deity) Napata (place name, lit. 'of Amun') god, deity great, big, mighty goodness, beauty, excellence life (in benedictions/invocations) to give, to offer, to bestow protection, salvation, grace",
+        "avg_posterior": 0.8187
+      },
+      {
+        "section": "B3",
+        "title": "Benediction to Isis",
+        "lines": "55\u201360",
+        "meroitic": "wos-i : mlo : mk : pwrite : Tanyidamani : qore-l : pesto-b-ke : ate-li : yi-li",
+        "translation": "Isis (deity) goodness, beauty, excellence god, deity life (in benedictions/invocations) Tanyidamani ruler, king to give, to offer, to bestow bread, food offering water, drink offering",
+        "avg_posterior": 0.8833
+      },
+      {
+        "section": "B4",
+        "title": "Temple Construction at Jebel Barkal",
+        "lines": "60\u201368",
+        "meroitic": "qore-l : Tanyidamani : dmke : amni-te : mke-l-o : mlo : qo : bedewi-l",
+        "translation": "ruler, king Tanyidamani temple, sacred house Amun (deity) to build, to construct goodness, beauty, excellence great, big, mighty throne, seat of royal power",
+        "avg_posterior": 0.8062
+      },
+      {
+        "section": "B5",
+        "title": "Offerings at Jebel Barkal Temple",
+        "lines": "68\u201375",
+        "meroitic": "ate-li : yi-li : pesto-b-ke : apedmk : mk-se : amni : mk-se : mlo-l-owi",
+        "translation": "bread, food offering water, drink offering to give, to offer, to bestow Apedemak (lion-headed war god) god, deity Amun (deity) god, deity goodness, beauty, excellence",
+        "avg_posterior": 0.8875
+      },
+      {
+        "section": "B6",
+        "title": "Ritual Formula",
+        "lines": "75\u201380",
+        "meroitic": "plote-l : ate-li : yi-li : s : mk-l : qo : to : amni-te : selele",
+        "translation": "libation, liquid offering bread, food offering water, drink offering pronoun 3SG (abbrev.) god, deity great, big, mighty land, territory, country Amun (deity) protection, salvation, grace",
+        "avg_posterior": 0.8222
+      },
+      {
+        "section": "C1",
+        "title": "Campaign Declaration",
+        "lines": "81\u201388",
+        "meroitic": "qore-l : Tanyidamani : qo : mlo : to : akine : tele-l",
+        "translation": "ruler, king Tanyidamani great, big, mighty goodness, beauty, excellence land, territory, country Akine (Lower Nubian province) to go, to proceed, to march",
+        "avg_posterior": 0.8286
+      },
+      {
+        "section": "C2",
+        "title": "Slaughter of the Men \u2014 Campaign 1",
+        "lines": "88\u201395",
+        "meroitic": "e-ked : abr-se-l : Tanyidamani : qore-l : qo : mlo",
+        "translation": "to slaughter, to kill (in battle) man, male person Tanyidamani ruler, king great, big, mighty goodness, beauty, excellence",
+        "avg_posterior": 0.8417
+      },
+      {
+        "section": "C3",
+        "title": "Seizure of the Women \u2014 Campaign 1",
+        "lines": "95\u2013100",
+        "meroitic": "erk : kdi-se-l : Tanyidamani : qore-l",
+        "translation": "to seize, to raid, to take captive woman, female person Tanyidamani ruler, king",
+        "avg_posterior": 0.875
+      },
+      {
+        "section": "C4",
+        "title": "Second Campaign \u2014 Territory Conquered",
+        "lines": "100\u2013108",
+        "meroitic": "to : tedke : tkke-l : e-ked : abr-se-l : erk : kdi-se-l : qore-l : Tanyidamani",
+        "translation": "land, territory, country to love, to cherish to seize, to conquer, to take (synonym of erk-) to slaughter, to kill (in battle) man, male person to seize, to raid, to take captive woman, female person ruler, king Tanyidamani",
+        "avg_posterior": 0.8333
+      },
+      {
+        "section": "C5",
+        "title": "Prisoners and Spoils",
+        "lines": "108\u2013115",
+        "meroitic": "abr-se-wi : kdi-se-wi : lh-l : ar : nobe : qo : qore-l : pesto-b-ke : mk-l",
+        "translation": "man, male person woman, female person offspring, son, child riches, wealth, tribute gold great, big, mighty ruler, king to give, to offer, to bestow god, deity",
+        "avg_posterior": 0.8111
+      },
+      {
+        "section": "C6",
+        "title": "Divine Sanction for the Campaigns",
+        "lines": "115\u2013120",
+        "meroitic": "apedmk : mk-se : qo : mlo : selele-wi : Tanyidamani : qore-l : pwrite",
+        "translation": "Apedemak (lion-headed war god) god, deity great, big, mighty goodness, beauty, excellence protection, salvation, grace Tanyidamani ruler, king life (in benedictions/invocations)",
+        "avg_posterior": 0.8438
+      },
+      {
+        "section": "D1",
+        "title": "Summary of Conquests",
+        "lines": "121\u2013130",
+        "meroitic": "qore-l : Tanyidamani : qo : to-l : tkke-l : abr-se-l : e-ked : kdi-se-l : erk : mlo",
+        "translation": "ruler, king Tanyidamani great, big, mighty land, territory, country to seize, to conquer, to take (synonym of erk-) man, male person to slaughter, to kill (in battle) woman, female person to seize, to raid, to take captive goodness, beauty, excellence",
+        "avg_posterior": 0.825
+      },
+      {
+        "section": "D2",
+        "title": "Thanksgiving to Apedemak",
+        "lines": "130\u2013138",
+        "meroitic": "apedmk-i : qo : mlo : mk-l : Tanyidamani : qore-l : pwrite : selele-wi : pesto-b-ke",
+        "translation": "Apedemak (lion-headed war god) great, big, mighty goodness, beauty, excellence god, deity Tanyidamani ruler, king life (in benedictions/invocations) protection, salvation, grace to give, to offer, to bestow",
+        "avg_posterior": 0.8444
+      },
+      {
+        "section": "D3",
+        "title": "Thanksgiving to the Divine Triad",
+        "lines": "138\u2013148",
+        "meroitic": "amni : mk-se : wos : mk-se : hore : mk-se : mlo : qo : selele : Tanyidamani : qore-l-o",
+        "translation": "Amun (deity) god, deity Isis (deity) god, deity Horus (deity) god, deity goodness, beauty, excellence great, big, mighty protection, salvation, grace Tanyidamani ruler, king",
+        "avg_posterior": 0.8727
+      },
+      {
+        "section": "D4",
+        "title": "Final Offering Formula",
+        "lines": "148\u2013155",
+        "meroitic": "ate-li : yi-li : pesto-b-ke : qore-l : Tanyidamani : mk-l : amni-te : mlo-l-owi",
+        "translation": "bread, food offering water, drink offering to give, to offer, to bestow ruler, king Tanyidamani god, deity Amun (deity) goodness, beauty, excellence",
+        "avg_posterior": 0.8938
+      },
+      {
+        "section": "D5",
+        "title": "Closing Protocol",
+        "lines": "155\u2013161",
+        "meroitic": "qore-l-o : Tanyidamani : amni-te : qo : mlo-li : apedmk : mk : wos : mk : tenke : to : selele",
+        "translation": "ruler, king Tanyidamani Amun (deity) great, big, mighty goodness, beauty, excellence Apedemak (lion-headed war god) god, deity Isis (deity) god, deity west, western land, territory, country protection, salvation, grace",
+        "avg_posterior": 0.8667
+      }
+    ]
+  },
+  "knowledge_base": {
+    "qore": {
+      "meaning": "ruler, king",
+      "certainty": 0.95,
+      "evidence": [
+        "vocabulary entry: qore"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "kdke": {
+      "meaning": "queen, queen mother (Candace)",
+      "certainty": 0.95,
+      "evidence": [
+        "vocabulary entry: kdke"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "ktke": {
+      "meaning": "queen mother (variant spelling)",
+      "certainty": 0.9,
+      "evidence": [
+        "vocabulary entry: ktke"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "pqr": {
+      "meaning": "deputy, viceroy, second-in-command",
+      "certainty": 0.85,
+      "evidence": [
+        "vocabulary entry: pqr"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "pelmos": {
+      "meaning": "strategos, military commander",
+      "certainty": 0.8,
+      "evidence": [
+        "vocabulary entry: pelmos"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "peseto": {
+      "meaning": "viceroy (of a province)",
+      "certainty": 0.8,
+      "evidence": [
+        "vocabulary entry: peseto"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "beleqe": {
+      "meaning": "chief, headman",
+      "certainty": 0.7,
+      "evidence": [
+        "vocabulary entry: beleqe"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "arike": {
+      "meaning": "prince, royal offspring",
+      "certainty": 0.7,
+      "evidence": [
+        "vocabulary entry: arike"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "mlqe": {
+      "meaning": "high official",
+      "certainty": 0.6,
+      "evidence": [
+        "vocabulary entry: mlqe"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "widke": {
+      "meaning": "priestess",
+      "certainty": 0.55,
+      "evidence": [
+        "vocabulary entry: widke"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "wete": {
+      "meaning": "priest/officiant",
+      "certainty": 0.5,
+      "evidence": [
+        "vocabulary entry: wete"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "mk": {
+      "meaning": "god, deity",
+      "certainty": 0.9,
+      "evidence": [
+        "vocabulary entry: mk"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "amni": {
+      "meaning": "Amun (deity)",
+      "certainty": 0.95,
+      "evidence": [
+        "vocabulary entry: amni"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "apedmk": {
+      "meaning": "Apedemak (lion-headed war god)",
+      "certainty": 0.95,
+      "evidence": [
+        "vocabulary entry: apedmk"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "wos": {
+      "meaning": "Isis (deity)",
+      "certainty": 0.95,
+      "evidence": [
+        "vocabulary entry: wos"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "mhe": {
+      "meaning": "Mash, sun god (solar deity)",
+      "certainty": 0.7,
+      "evidence": [
+        "vocabulary entry: mhe"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "mnp": {
+      "meaning": "Mandulis (deity)",
+      "certainty": 0.85,
+      "evidence": [
+        "vocabulary entry: mnp"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "sebke": {
+      "meaning": "Sebiumeker (creator deity)",
+      "certainty": 0.8,
+      "evidence": [
+        "vocabulary entry: sebke"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "aresnp": {
+      "meaning": "Arensnuphis (deity)",
+      "certainty": 0.8,
+      "evidence": [
+        "vocabulary entry: aresnp"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "hore": {
+      "meaning": "Horus (deity)",
+      "certainty": 0.9,
+      "evidence": [
+        "vocabulary entry: hore"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "osor": {
+      "meaning": "Osiris (deity)",
+      "certainty": 0.9,
+      "evidence": [
+        "vocabulary entry: osor"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "s\u0306e": {
+      "meaning": "sacred, holy",
+      "certainty": 0.5,
+      "evidence": [
+        "vocabulary entry: s\u0306e"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "plote": {
+      "meaning": "libation, liquid offering",
+      "certainty": 0.75,
+      "evidence": [
+        "vocabulary entry: plote"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "selele": {
+      "meaning": "protection, salvation, grace",
+      "certainty": 0.7,
+      "evidence": [
+        "vocabulary entry: selele"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "ate": {
+      "meaning": "bread, food offering",
+      "certainty": 0.9,
+      "evidence": [
+        "vocabulary entry: ate"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "yi": {
+      "meaning": "water, drink offering",
+      "certainty": 0.9,
+      "evidence": [
+        "vocabulary entry: yi"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "pesto": {
+      "meaning": "to give, to offer, to bestow",
+      "certainty": 0.85,
+      "evidence": [
+        "vocabulary entry: pesto"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "beke": {
+      "meaning": "to beget, to give birth",
+      "certainty": 0.75,
+      "evidence": [
+        "vocabulary entry: beke"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "hr": {
+      "meaning": "to die, the deceased",
+      "certainty": 0.5,
+      "evidence": [
+        "vocabulary entry: hr"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "abr": {
+      "meaning": "man, male person",
+      "certainty": 0.85,
+      "evidence": [
+        "vocabulary entry: abr"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "kdi": {
+      "meaning": "woman, female person",
+      "certainty": 0.85,
+      "evidence": [
+        "vocabulary entry: kdi"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "lh": {
+      "meaning": "offspring, son, child",
+      "certainty": 0.75,
+      "evidence": [
+        "vocabulary entry: lh"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "sr": {
+      "meaning": "sister, female relative",
+      "certainty": 0.7,
+      "evidence": [
+        "vocabulary entry: sr"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "mlo": {
+      "meaning": "goodness, beauty, excellence",
+      "certainty": 0.75,
+      "evidence": [
+        "vocabulary entry: mlo"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "qo": {
+      "meaning": "great, big, mighty",
+      "certainty": 0.75,
+      "evidence": [
+        "vocabulary entry: qo"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "to": {
+      "meaning": "land, territory, country",
+      "certainty": 0.85,
+      "evidence": [
+        "vocabulary entry: to"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "tenke": {
+      "meaning": "west, western",
+      "certainty": 0.8,
+      "evidence": [
+        "vocabulary entry: tenke"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "tedke": {
+      "meaning": "to love, to cherish",
+      "certainty": 0.75,
+      "evidence": [
+        "vocabulary entry: tedke"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "akine": {
+      "meaning": "Akine (Lower Nubian province)",
+      "certainty": 0.85,
+      "evidence": [
+        "vocabulary entry: akine"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "dmke": {
+      "meaning": "temple, sacred house",
+      "certainty": 0.7,
+      "evidence": [
+        "vocabulary entry: dmke"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "bedewi": {
+      "meaning": "throne, seat of royal power",
+      "certainty": 0.7,
+      "evidence": [
+        "vocabulary entry: bedewi"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "nobe": {
+      "meaning": "gold",
+      "certainty": 0.7,
+      "evidence": [
+        "vocabulary entry: nobe"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "mke": {
+      "meaning": "to build, to construct",
+      "certainty": 0.7,
+      "evidence": [
+        "vocabulary entry: mke"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "tele": {
+      "meaning": "to go, to proceed, to march",
+      "certainty": 0.7,
+      "evidence": [
+        "vocabulary entry: tele"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "tkke": {
+      "meaning": "to seize, to conquer, to take (synonym of erk-)",
+      "certainty": 0.75,
+      "evidence": [
+        "vocabulary entry: tkke"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "ar": {
+      "meaning": "riches, wealth, tribute",
+      "certainty": 0.7,
+      "evidence": [
+        "vocabulary entry: ar"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "s": {
+      "meaning": "pronoun 3SG (abbrev.)",
+      "certainty": 0.7,
+      "evidence": [
+        "vocabulary entry: s"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "ked": {
+      "meaning": "to slaughter, to kill (in battle)",
+      "certainty": 0.8,
+      "evidence": [
+        "vocabulary entry: ked"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "erk": {
+      "meaning": "to seize, to raid, to take captive",
+      "certainty": 0.75,
+      "evidence": [
+        "vocabulary entry: erk"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "e-ked": {
+      "meaning": "I slaughtered (1st person singular of ked-)",
+      "certainty": 0.75,
+      "evidence": [
+        "vocabulary entry: e-ked"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "pwrite": {
+      "meaning": "life (in benedictions/invocations)",
+      "certainty": 0.8,
+      "evidence": [
+        "vocabulary entry: pwrite"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "el": {
+      "meaning": "to give (imperative/verbal base)",
+      "certainty": 0.7,
+      "evidence": [
+        "vocabulary entry: el"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "qoreyi": {
+      "meaning": "one who rules, ruling (participial)",
+      "certainty": 0.75,
+      "evidence": [
+        "vocabulary entry: qoreyi"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "Mnpte": {
+      "meaning": "Napata (place name, lit. 'of Amun')",
+      "certainty": 0.85,
+      "evidence": [
+        "vocabulary entry: Mnpte"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "nobo": {
+      "meaning": "Noba (people/ethnic group)",
+      "certainty": 0.8,
+      "evidence": [
+        "vocabulary entry: nobo"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "gor": {
+      "meaning": "ruler (with determinant, from *gore-l)",
+      "certainty": 0.85,
+      "evidence": [
+        "vocabulary entry: gor"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "gore": {
+      "meaning": "ruler (before personal names, without determinant)",
+      "certainty": 0.85,
+      "evidence": [
+        "vocabulary entry: gore"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "Amnirense": {
+      "meaning": "Amanirenas (queen, Candace)",
+      "certainty": 0.95,
+      "evidence": [
+        "vocabulary entry: Amnirense"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "Amanikhabale": {
+      "meaning": "Amanikhabale (ruler)",
+      "certainty": 0.9,
+      "evidence": [
+        "vocabulary entry: Amanikhabale"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "Amnp": {
+      "meaning": "Amanap (deity/royal epithet, variant of Amun)",
+      "certainty": 0.75,
+      "evidence": [
+        "vocabulary entry: Amnp"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "nete": {
+      "meaning": "authority, power (part of royal epithet compound)",
+      "certainty": 0.7,
+      "evidence": [
+        "vocabulary entry: nete"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "se": {
+      "meaning": "3SG pronoun / vocative particle",
+      "certainty": 0.7,
+      "evidence": [
+        "vocabulary entry: se"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "lw": {
+      "meaning": "benefactive postposition (for, by means of)",
+      "certainty": 0.7,
+      "evidence": [
+        "vocabulary entry: lw"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "x": {
+      "meaning": "indirect object marker (to him/her)",
+      "certainty": 0.7,
+      "evidence": [
+        "vocabulary entry: x"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "nastasen": {
+      "meaning": "Nastasen (king, 4th century BCE)",
+      "certainty": 0.95,
+      "evidence": [
+        "vocabulary entry: nastasen"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "arnekhamani": {
+      "meaning": "Arnekhamani (king, 3rd century BCE)",
+      "certainty": 0.95,
+      "evidence": [
+        "vocabulary entry: arnekhamani"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "adikhalamani": {
+      "meaning": "Adikhalamani (king, 3rd century BCE)",
+      "certainty": 0.95,
+      "evidence": [
+        "vocabulary entry: adikhalamani"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "harsiotef": {
+      "meaning": "Harsiotef (king, 4th century BCE)",
+      "certainty": 0.95,
+      "evidence": [
+        "vocabulary entry: harsiotef"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "tanyidamani": {
+      "meaning": "Tanyidamani (king, 2nd century BCE)",
+      "certainty": 0.95,
+      "evidence": [
+        "vocabulary entry: tanyidamani"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "amanikhabale": {
+      "meaning": "Amanikhabale (king, 1st century BCE)",
+      "certainty": 0.95,
+      "evidence": [
+        "vocabulary entry: amanikhabale"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "natakamani": {
+      "meaning": "Natakamani (king, 1st century CE)",
+      "certainty": 0.95,
+      "evidence": [
+        "vocabulary entry: natakamani"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "amanitekha": {
+      "meaning": "Amanitekha (king, 1st century BCE-1st century CE)",
+      "certainty": 0.95,
+      "evidence": [
+        "vocabulary entry: amanitekha"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "yesebokemni": {
+      "meaning": "Yesebokemni (king, 3rd century CE)",
+      "certainty": 0.95,
+      "evidence": [
+        "vocabulary entry: yesebokemni"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "amanishakheto": {
+      "meaning": "Amanishakheto (queen, 1st century BCE)",
+      "certainty": 0.95,
+      "evidence": [
+        "vocabulary entry: amanishakheto"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "amanitore": {
+      "meaning": "Amanitore (queen, 1st century CE)",
+      "certainty": 0.95,
+      "evidence": [
+        "vocabulary entry: amanitore"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "shanakdakhete": {
+      "meaning": "Shanakdakhete (ruling_queen, 2nd century BCE)",
+      "certainty": 0.95,
+      "evidence": [
+        "vocabulary entry: shanakdakhete"
+      ],
+      "source": "lexicon",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "akinimnoter": {
+      "meaning": "woman/female",
+      "certainty": 0.6624,
+      "evidence": [
+        "inscription coherence: 3",
+        "source: comparative",
+        "constraint: 0.59"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "wi": {
+      "meaning": "water",
+      "certainty": 0.6654,
+      "evidence": [
+        "inscription coherence: 3",
+        "source: comparative",
+        "constraint: 0.54"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:01"
+    },
+    "nikme": {
+      "meaning": "bread/food",
+      "certainty": 0.6678,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:02"
+    },
+    "belt": {
+      "meaning": "person/human",
+      "certainty": 0.6693,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:02"
+    },
+    "nt": {
+      "meaning": "temple/sacred house",
+      "certainty": 0.658,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:02"
+    },
+    "krmn": {
+      "meaning": "rain",
+      "certainty": 0.6512,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:02"
+    },
+    "entey": {
+      "meaning": "west",
+      "certainty": 0.6596,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:02"
+    },
+    "wiltn": {
+      "meaning": "sister",
+      "certainty": 0.6633,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:02"
+    },
+    "beleten": {
+      "meaning": "to give",
+      "certainty": 0.7458,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:02"
+    },
+    "neltesemn": {
+      "meaning": "child/offspring",
+      "certainty": 0.6556,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:02"
+    },
+    "abtselomn": {
+      "meaning": "west",
+      "certainty": 0.6512,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:02"
+    },
+    "arekelen": {
+      "meaning": "to give",
+      "certainty": 0.6627,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:02"
+    },
+    "tewidemn": {
+      "meaning": "west",
+      "certainty": 0.6599,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:02"
+    },
+    "khetemn": {
+      "meaning": "person/human",
+      "certainty": 0.7134,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:02"
+    },
+    "amanirena": {
+      "meaning": "offering/sacrifice",
+      "certainty": 0.6645,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:02"
+    },
+    "lewiten": {
+      "meaning": "child/offspring",
+      "certainty": 0.7179,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:02"
+    },
+    "witde": {
+      "meaning": "death",
+      "certainty": 0.6559,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:02"
+    },
+    "ritnide": {
+      "meaning": "temple/sacred house",
+      "certainty": 0.652,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:02"
+    },
+    "amnteklde": {
+      "meaning": "west",
+      "certainty": 0.7056,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:02"
+    },
+    "de": {
+      "meaning": "to give",
+      "certainty": 0.7001,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:02"
+    },
+    "ntemn": {
+      "meaning": "ear",
+      "certainty": 0.6815,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:02"
+    },
+    "krmt": {
+      "meaning": "tomb/grave",
+      "certainty": 0.71,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:02"
+    },
+    "aritnekemn": {
+      "meaning": "tomb/grave",
+      "certainty": 0.7132,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:02"
+    },
+    "mlenekemn": {
+      "meaning": "tooth",
+      "certainty": 0.7141,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:03"
+    },
+    "eritele": {
+      "meaning": "man/male",
+      "certainty": 0.677,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:03"
+    },
+    "eksemelde": {
+      "meaning": "hot/warm",
+      "certainty": 0.6917,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:03"
+    },
+    "ritelde": {
+      "meaning": "to break",
+      "certainty": 0.6815,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:03"
+    },
+    "bktewide": {
+      "meaning": "god/spirit",
+      "certainty": 0.6826,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:03"
+    },
+    "ritedqe": {
+      "meaning": "to give",
+      "certainty": 0.7166,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:03"
+    },
+    "amnitenmomide": {
+      "meaning": "Amun (deity) (root-related)",
+      "certainty": 0.8692,
+      "evidence": [
+        "high-confidence single: lexicon_partial"
+      ],
+      "source": "lexicon_partial",
+      "verified_at": "2026-03-08 04:02:03"
+    },
+    "ksemn": {
+      "meaning": "sister",
+      "certainty": 0.8209,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:03"
+    },
+    "tleme": {
+      "meaning": "to give",
+      "certainty": 0.6967,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:03"
+    },
+    "dkemey": {
+      "meaning": "tomb/grave",
+      "certainty": 0.6508,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:03"
+    },
+    "sbokemn": {
+      "meaning": "long/tall",
+      "certainty": 0.6969,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:03"
+    },
+    "nitnekemn": {
+      "meaning": "to give",
+      "certainty": 0.7568,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:03"
+    },
+    "atriten": {
+      "meaning": "person/human",
+      "certainty": 0.7125,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:03"
+    },
+    "wletomn": {
+      "meaning": "dog",
+      "certainty": 0.6512,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:03"
+    },
+    "npateme": {
+      "meaning": "god/spirit",
+      "certainty": 0.7616,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:03"
+    },
+    "senkemisken": {
+      "meaning": "to send",
+      "certainty": 0.6974,
+      "evidence": [
+        "high-confidence single: comparative"
+      ],
+      "source": "comparative",
+      "verified_at": "2026-03-08 04:02:03"
+    }
+  },
+  "unsolved": [
+    "elmn",
+    "sb",
+    "sbk",
+    "semn",
+    "ws"
+  ]
+}

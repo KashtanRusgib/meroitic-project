@@ -1,7 +1,7 @@
 {
   "engine_version": "6.0",
   "computation": {
-    "elapsed_seconds": 15.7,
+    "elapsed_seconds": 16.6,
     "total_hypotheses": 784,
     "total_mcmc_samples": 9840000,
     "belief_propagation_iterations": 2,

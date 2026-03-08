@@ -1,0 +1,1323 @@
+{
+  "corpus_size": 103,
+  "distributional_summary": {
+    "corpus_tokens": 984,
+    "unique_roots": 112,
+    "semantic_clusters": 9
+  },
+  "reconstruction_summary": {
+    "nes_entries": 25,
+    "matches": 0
+  },
+  "bayesian_summary": {
+    "total_inscriptions": 103,
+    "total_tokens": 984,
+    "average_posterior": 1.0,
+    "source_distribution": {
+      "lexicon": 895,
+      "onomastic": 83,
+      "comparative": 5,
+      "none": 1
+    },
+    "by_type": {
+      "funerary": {
+        "count": 56,
+        "avg_confidence": 1.0
+      },
+      "royal": {
+        "count": 19,
+        "avg_confidence": 1.0
+      },
+      "religious": {
+        "count": 28,
+        "avg_confidence": 1.0
+      }
+    }
+  },
+  "new_readings_count": 2,
+  "token_census": {
+    "unique_tokens": 115,
+    "multi_site_tokens": 37,
+    "top_20": [
+      {
+        "token": "mlo",
+        "count": 92,
+        "sites": [
+          "Amara West",
+          "Dakka",
+          "Faras",
+          "Gebel Barkal",
+          "Hamadab",
+          "Jebel Barkal",
+          "Kalabsha",
+          "Karanog",
+          "Karan\u00f2g",
+          "Meroe",
+          "Musawwarat",
+          "Musawwarat es-Sufra",
+          "Naga",
+          "Philae",
+          "Qasr Ibrim",
+          "Sedeinga",
+          "Wadi es-Sebua"
+        ]
+      },
+      {
+        "token": "mk",
+        "count": 83,
+        "sites": [
+          "Amara West",
+          "Dakka",
+          "Faras",
+          "Gebel Barkal",
+          "Hamadab",
+          "Jebel Barkal",
+          "Kalabsha",
+          "Karanog",
+          "Karan\u00f2g",
+          "Meroe",
+          "Musawwarat es-Sufra",
+          "Naga",
+          "Philae",
+          "Qasr Ibrim",
+          "Sedeinga",
+          "Wadi es-Sebua"
+        ]
+      },
+      {
+        "token": "pesto-b-ke",
+        "count": 81,
+        "sites": [
+          "Amara West",
+          "Dakka",
+          "Faras",
+          "Gebel Barkal",
+          "Hamadab",
+          "Jebel Barkal",
+          "Kalabsha",
+          "Karanog",
+          "Karan\u00f2g",
+          "Meroe",
+          "Musawwarat",
+          "Musawwarat es-Sufra",
+          "Naga",
+          "Philae",
+          "Qasr Ibrim",
+          "Sedeinga"
+        ]
+      },
+      {
+        "token": "wos",
+        "count": 56,
+        "sites": [
+          "Amara West",
+          "Faras",
+          "Gebel Barkal",
+          "Jebel Barkal",
+          "Karanog",
+          "Karan\u00f2g",
+          "Meroe",
+          "Naga",
+          "Philae",
+          "Qasr Ibrim",
+          "Sedeinga"
+        ]
+      },
+      {
+        "token": "ate-li",
+        "count": 54,
+        "sites": [
+          "Amara West",
+          "Faras",
+          "Gebel Barkal",
+          "Karanog",
+          "Karan\u00f2g",
+          "Meroe",
+          "Qasr Ibrim",
+          "Sedeinga"
+        ]
+      },
+      {
+        "token": "yi-s-li",
+        "count": 46,
+        "sites": [
+          "Faras",
+          "Gebel Barkal",
+          "Karanog",
+          "Karan\u00f2g",
+          "Meroe",
+          "Musawwarat",
+          "Qasr Ibrim",
+          "Sedeinga"
+        ]
+      },
+      {
+        "token": "mk-se",
+        "count": 37,
+        "sites": [
+          "Dakka",
+          "Faras",
+          "Gebel Barkal",
+          "Hamadab",
+          "Jebel Barkal",
+          "Meroe",
+          "Musawwarat",
+          "Musawwarat es-Sufra",
+          "Naga",
+          "Philae",
+          "Qasr Ibrim",
+          "Wadi es-Sebua"
+        ]
+      },
+      {
+        "token": "to",
+        "count": 37,
+        "sites": [
+          "Dakka",
+          "Faras",
+          "Gebel Barkal",
+          "Hamadab",
+          "Jebel Barkal",
+          "Kalabsha",
+          "Meroe",
+          "Musawwarat",
+          "Musawwarat es-Sufra",
+          "Naga",
+          "Philae",
+          "Wadi es-Sebua"
+        ]
+      },
+      {
+        "token": "lh-se",
+        "count": 35,
+        "sites": [
+          "Amara West",
+          "Faras",
+          "Gebel Barkal",
+          "Karanog",
+          "Karan\u00f2g",
+          "Meroe",
+          "Qasr Ibrim",
+          "Sedeinga"
+        ]
+      },
+      {
+        "token": "selele",
+        "count": 35,
+        "sites": [
+          "Gebel Barkal",
+          "Hamadab",
+          "Jebel Barkal",
+          "Kalabsha",
+          "Karan\u00f2g",
+          "Meroe",
+          "Musawwarat",
+          "Musawwarat es-Sufra",
+          "Naga",
+          "Philae",
+          "Qasr Ibrim",
+          "Sedeinga"
+        ]
+      },
+      {
+        "token": "abr",
+        "count": 33,
+        "sites": [
+          "Faras",
+          "Gebel Barkal",
+          "Karanog",
+          "Karan\u00f2g",
+          "Meroe",
+          "Musawwarat es-Sufra",
+          "Naga",
+          "Qasr Ibrim",
+          "Sedeinga"
+        ]
+      },
+      {
+        "token": "qo",
+        "count": 30,
+        "sites": [
+          "Gebel Barkal",
+          "Hamadab",
+          "Jebel Barkal",
+          "Meroe",
+          "Musawwarat es-Sufra",
+          "Naga",
+          "Philae"
+        ]
+      },
+      {
+        "token": "apedmk",
+        "count": 30,
+        "sites": [
+          "Faras",
+          "Gebel Barkal",
+          "Hamadab",
+          "Jebel Barkal",
+          "Meroe",
+          "Musawwarat",
+          "Musawwarat es-Sufra",
+          "Naga",
+          "Wadi es-Sebua"
+        ]
+      },
+      {
+        "token": "amni",
+        "count": 29,
+        "sites": [
+          "Dakka",
+          "Faras",
+          "Gebel Barkal",
+          "Hamadab",
+          "Jebel Barkal",
+          "Meroe",
+          "Musawwarat",
+          "Naga",
+          "Philae",
+          "Wadi es-Sebua"
+        ]
+      },
+      {
+        "token": "tenke",
+        "count": 23,
+        "sites": [
+          "Dakka",
+          "Faras",
+          "Hamadab",
+          "Jebel Barkal",
+          "Karan\u00f2g",
+          "Meroe",
+          "Musawwarat",
+          "Naga",
+          "Sedeinga"
+        ]
+      },
+      {
+        "token": "selele-wi",
+        "count": 15,
+        "sites": [
+          "Dakka",
+          "Jebel Barkal",
+          "Meroe",
+          "Musawwarat es-Sufra",
+          "Naga",
+          "Philae",
+          "Qasr Ibrim"
+        ]
+      },
+      {
+        "token": "qore-l-o",
+        "count": 14,
+        "sites": [
+          "Gebel Barkal",
+          "Hamadab",
+          "Jebel Barkal",
+          "Meroe",
+          "Naga"
+        ]
+      },
+      {
+        "token": "beke-li",
+        "count": 14,
+        "sites": [
+          "Gebel Barkal",
+          "Hamadab",
+          "Jebel Barkal",
+          "Karan\u00f2g",
+          "Meroe",
+          "Musawwarat",
+          "Musawwarat es-Sufra",
+          "Naga"
+        ]
+      },
+      {
+        "token": "kdi",
+        "count": 13,
+        "sites": [
+          "Faras",
+          "Karanog",
+          "Meroe",
+          "Qasr Ibrim",
+          "Sedeinga"
+        ]
+      },
+      {
+        "token": "lh",
+        "count": 13,
+        "sites": [
+          "Faras",
+          "Karanog",
+          "Meroe",
+          "Qasr Ibrim",
+          "Sedeinga"
+        ]
+      }
+    ]
+  },
+  "multi_site_evidence": {
+    "wos": {
+      "count": 56,
+      "sites": [
+        "Amara West",
+        "Faras",
+        "Gebel Barkal",
+        "Jebel Barkal",
+        "Karanog",
+        "Karan\u00f2g",
+        "Meroe",
+        "Naga",
+        "Philae",
+        "Qasr Ibrim",
+        "Sedeinga"
+      ],
+      "types": [
+        "funerary",
+        "religious",
+        "royal"
+      ]
+    },
+    "mk": {
+      "count": 83,
+      "sites": [
+        "Amara West",
+        "Dakka",
+        "Faras",
+        "Gebel Barkal",
+        "Hamadab",
+        "Jebel Barkal",
+        "Kalabsha",
+        "Karanog",
+        "Karan\u00f2g",
+        "Meroe",
+        "Musawwarat es-Sufra",
+        "Naga",
+        "Philae",
+        "Qasr Ibrim",
+        "Sedeinga",
+        "Wadi es-Sebua"
+      ],
+      "types": [
+        "funerary",
+        "religious",
+        "royal"
+      ]
+    },
+    "qore-l-o": {
+      "count": 14,
+      "sites": [
+        "Gebel Barkal",
+        "Hamadab",
+        "Jebel Barkal",
+        "Meroe",
+        "Naga"
+      ],
+      "types": [
+        "funerary",
+        "religious",
+        "royal"
+      ]
+    },
+    "lh-se": {
+      "count": 35,
+      "sites": [
+        "Amara West",
+        "Faras",
+        "Gebel Barkal",
+        "Karanog",
+        "Karan\u00f2g",
+        "Meroe",
+        "Qasr Ibrim",
+        "Sedeinga"
+      ],
+      "types": [
+        "funerary"
+      ]
+    },
+    "ate-li": {
+      "count": 54,
+      "sites": [
+        "Amara West",
+        "Faras",
+        "Gebel Barkal",
+        "Karanog",
+        "Karan\u00f2g",
+        "Meroe",
+        "Qasr Ibrim",
+        "Sedeinga"
+      ],
+      "types": [
+        "funerary"
+      ]
+    },
+    "yi-s-li": {
+      "count": 46,
+      "sites": [
+        "Faras",
+        "Gebel Barkal",
+        "Karanog",
+        "Karan\u00f2g",
+        "Meroe",
+        "Musawwarat",
+        "Qasr Ibrim",
+        "Sedeinga"
+      ],
+      "types": [
+        "funerary",
+        "religious"
+      ]
+    },
+    "pesto-b-ke": {
+      "count": 81,
+      "sites": [
+        "Amara West",
+        "Dakka",
+        "Faras",
+        "Gebel Barkal",
+        "Hamadab",
+        "Jebel Barkal",
+        "Kalabsha",
+        "Karanog",
+        "Karan\u00f2g",
+        "Meroe",
+        "Musawwarat",
+        "Musawwarat es-Sufra",
+        "Naga",
+        "Philae",
+        "Qasr Ibrim",
+        "Sedeinga"
+      ],
+      "types": [
+        "funerary",
+        "religious",
+        "royal"
+      ]
+    },
+    "abr": {
+      "count": 33,
+      "sites": [
+        "Faras",
+        "Gebel Barkal",
+        "Karanog",
+        "Karan\u00f2g",
+        "Meroe",
+        "Musawwarat es-Sufra",
+        "Naga",
+        "Qasr Ibrim",
+        "Sedeinga"
+      ],
+      "types": [
+        "funerary",
+        "religious"
+      ]
+    },
+    "mlo": {
+      "count": 92,
+      "sites": [
+        "Amara West",
+        "Dakka",
+        "Faras",
+        "Gebel Barkal",
+        "Hamadab",
+        "Jebel Barkal",
+        "Kalabsha",
+        "Karanog",
+        "Karan\u00f2g",
+        "Meroe",
+        "Musawwarat",
+        "Musawwarat es-Sufra",
+        "Naga",
+        "Philae",
+        "Qasr Ibrim",
+        "Sedeinga",
+        "Wadi es-Sebua"
+      ],
+      "types": [
+        "funerary",
+        "religious",
+        "royal"
+      ]
+    },
+    "kdi": {
+      "count": 13,
+      "sites": [
+        "Faras",
+        "Karanog",
+        "Meroe",
+        "Qasr Ibrim",
+        "Sedeinga"
+      ],
+      "types": [
+        "funerary",
+        "religious"
+      ]
+    },
+    "sr-se": {
+      "count": 6,
+      "sites": [
+        "Faras",
+        "Karanog",
+        "Meroe",
+        "Sedeinga"
+      ],
+      "types": [
+        "funerary"
+      ]
+    },
+    "wos-i": {
+      "count": 8,
+      "sites": [
+        "Faras",
+        "Karanog",
+        "Meroe",
+        "Qasr Ibrim",
+        "Sedeinga"
+      ],
+      "types": [
+        "funerary"
+      ]
+    },
+    "mk-i-se": {
+      "count": 5,
+      "sites": [
+        "Faras",
+        "Karanog",
+        "Meroe"
+      ],
+      "types": [
+        "funerary"
+      ]
+    },
+    "pelmos": {
+      "count": 3,
+      "sites": [
+        "Karanog",
+        "Meroe",
+        "Qasr Ibrim"
+      ],
+      "types": [
+        "funerary"
+      ]
+    },
+    "lh": {
+      "count": 13,
+      "sites": [
+        "Faras",
+        "Karanog",
+        "Meroe",
+        "Qasr Ibrim",
+        "Sedeinga"
+      ],
+      "types": [
+        "funerary"
+      ]
+    },
+    "aritene": {
+      "count": 3,
+      "sites": [
+        "Faras",
+        "Karanog",
+        "Karan\u00f2g"
+      ],
+      "types": [
+        "funerary",
+        "religious"
+      ]
+    },
+    "pesto-b": {
+      "count": 5,
+      "sites": [
+        "Faras",
+        "Meroe",
+        "Musawwarat es-Sufra"
+      ],
+      "types": [
+        "funerary",
+        "religious",
+        "royal"
+      ]
+    },
+    "mk-i": {
+      "count": 3,
+      "sites": [
+        "Faras",
+        "Qasr Ibrim",
+        "Sedeinga"
+      ],
+      "types": [
+        "funerary"
+      ]
+    },
+    "qore-l": {
+      "count": 10,
+      "sites": [
+        "Jebel Barkal",
+        "Meroe",
+        "Naga",
+        "Philae"
+      ],
+      "types": [
+        "religious",
+        "royal"
+      ]
+    },
+    "qo": {
+      "count": 30,
+      "sites": [
+        "Gebel Barkal",
+        "Hamadab",
+        "Jebel Barkal",
+        "Meroe",
+        "Musawwarat es-Sufra",
+        "Naga",
+        "Philae"
+      ],
+      "types": [
+        "religious",
+        "royal"
+      ]
+    },
+    "apedmk": {
+      "count": 30,
+      "sites": [
+        "Faras",
+        "Gebel Barkal",
+        "Hamadab",
+        "Jebel Barkal",
+        "Meroe",
+        "Musawwarat",
+        "Musawwarat es-Sufra",
+        "Naga",
+        "Wadi es-Sebua"
+      ],
+      "types": [
+        "religious",
+        "royal"
+      ]
+    },
+    "mk-se": {
+      "count": 37,
+      "sites": [
+        "Dakka",
+        "Faras",
+        "Gebel Barkal",
+        "Hamadab",
+        "Jebel Barkal",
+        "Meroe",
+        "Musawwarat",
+        "Musawwarat es-Sufra",
+        "Naga",
+        "Philae",
+        "Qasr Ibrim",
+        "Wadi es-Sebua"
+      ],
+      "types": [
+        "religious",
+        "royal"
+      ]
+    },
+    "selele": {
+      "count": 35,
+      "sites": [
+        "Gebel Barkal",
+        "Hamadab",
+        "Jebel Barkal",
+        "Kalabsha",
+        "Karan\u00f2g",
+        "Meroe",
+        "Musawwarat",
+        "Musawwarat es-Sufra",
+        "Naga",
+        "Philae",
+        "Qasr Ibrim",
+        "Sedeinga"
+      ],
+      "types": [
+        "funerary",
+        "religious",
+        "royal"
+      ]
+    },
+    "tenke": {
+      "count": 23,
+      "sites": [
+        "Dakka",
+        "Faras",
+        "Hamadab",
+        "Jebel Barkal",
+        "Karan\u00f2g",
+        "Meroe",
+        "Musawwarat",
+        "Naga",
+        "Sedeinga"
+      ],
+      "types": [
+        "funerary",
+        "religious",
+        "royal"
+      ]
+    },
+    "to": {
+      "count": 37,
+      "sites": [
+        "Dakka",
+        "Faras",
+        "Gebel Barkal",
+        "Hamadab",
+        "Jebel Barkal",
+        "Kalabsha",
+        "Meroe",
+        "Musawwarat",
+        "Musawwarat es-Sufra",
+        "Naga",
+        "Philae",
+        "Wadi es-Sebua"
+      ],
+      "types": [
+        "religious",
+        "royal"
+      ]
+    },
+    "amni": {
+      "count": 29,
+      "sites": [
+        "Dakka",
+        "Faras",
+        "Gebel Barkal",
+        "Hamadab",
+        "Jebel Barkal",
+        "Meroe",
+        "Musawwarat",
+        "Naga",
+        "Philae",
+        "Wadi es-Sebua"
+      ],
+      "types": [
+        "religious",
+        "royal"
+      ]
+    },
+    "beke": {
+      "count": 7,
+      "sites": [
+        "Meroe",
+        "Musawwarat es-Sufra",
+        "Naga"
+      ],
+      "types": [
+        "religious",
+        "royal"
+      ]
+    },
+    "mlo-li": {
+      "count": 3,
+      "sites": [
+        "Jebel Barkal",
+        "Meroe",
+        "Naga"
+      ],
+      "types": [
+        "religious",
+        "royal"
+      ]
+    },
+    "selele-wi": {
+      "count": 15,
+      "sites": [
+        "Dakka",
+        "Jebel Barkal",
+        "Meroe",
+        "Musawwarat es-Sufra",
+        "Naga",
+        "Philae",
+        "Qasr Ibrim"
+      ],
+      "types": [
+        "religious",
+        "royal"
+      ]
+    },
+    "beke-li": {
+      "count": 14,
+      "sites": [
+        "Gebel Barkal",
+        "Hamadab",
+        "Jebel Barkal",
+        "Karan\u00f2g",
+        "Meroe",
+        "Musawwarat",
+        "Musawwarat es-Sufra",
+        "Naga"
+      ],
+      "types": [
+        "funerary",
+        "religious",
+        "royal"
+      ]
+    },
+    "qo-se": {
+      "count": 4,
+      "sites": [
+        "Jebel Barkal",
+        "Kalabsha",
+        "Musawwarat es-Sufra"
+      ],
+      "types": [
+        "religious"
+      ]
+    },
+    "mnp": {
+      "count": 3,
+      "sites": [
+        "Dakka",
+        "Kalabsha",
+        "Qasr Ibrim"
+      ],
+      "types": [
+        "religious"
+      ]
+    },
+    "sebke": {
+      "count": 3,
+      "sites": [
+        "Meroe",
+        "Musawwarat es-Sufra",
+        "Naga"
+      ],
+      "types": [
+        "religious"
+      ]
+    },
+    "mhe": {
+      "count": 5,
+      "sites": [
+        "Gebel Barkal",
+        "Jebel Barkal",
+        "Meroe",
+        "Musawwarat",
+        "Philae"
+      ],
+      "types": [
+        "religious"
+      ]
+    },
+    "abr-l-o": {
+      "count": 9,
+      "sites": [
+        "Amara West",
+        "Faras",
+        "Karan\u00f2g",
+        "Meroe",
+        "Qasr Ibrim",
+        "Sedeinga"
+      ],
+      "types": [
+        "funerary"
+      ]
+    },
+    "wi": {
+      "count": 3,
+      "sites": [
+        "Dakka",
+        "Faras",
+        "Wadi es-Sebua"
+      ],
+      "types": [
+        "religious"
+      ]
+    },
+    "qo-li": {
+      "count": 8,
+      "sites": [
+        "Dakka",
+        "Faras",
+        "Gebel Barkal",
+        "Hamadab",
+        "Meroe",
+        "Musawwarat",
+        "Philae",
+        "Wadi es-Sebua"
+      ],
+      "types": [
+        "religious"
+      ]
+    }
+  },
+  "decodings_sample": [
+    {
+      "id": "REM_0001",
+      "site": "Meroe",
+      "type": "funerary",
+      "period": "1st century CE",
+      "text": "wos : mk : qore-l-o : Amnitenmomide : s : lh-se : ate-li : yi-s-li : pesto-b-ke",
+      "token_count": 9,
+      "decodings": [
+        {
+          "token": "wos",
+          "best_meaning": "Isis (deity)",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "mk",
+          "best_meaning": "god, deity",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "qore-l-o",
+          "best_meaning": "ruler, king",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "Amnitenmomide",
+          "best_meaning": "[name: Amnitenmomide]",
+          "best_posterior": 1.0,
+          "source": "onomastic",
+          "alternatives": []
+        },
+        {
+          "token": "s",
+          "best_meaning": "3rd person singular (he/she/it)",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "lh-se",
+          "best_meaning": "offspring, son, child",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "ate-li",
+          "best_meaning": "bread, food offering",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "yi-s-li",
+          "best_meaning": "water, drink offering",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "pesto-b-ke",
+          "best_meaning": "to give, to offer, to bestow",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        }
+      ],
+      "average_posterior": 1.0,
+      "free_translation": "Isis (deity) god, deity ruler, king Amnitenmomide 3rd person singular (he/she/it) offspring, son, child bread, food offering water, drink offering to give, to offer, to bestow"
+    },
+    {
+      "id": "REM_0003",
+      "site": "Meroe",
+      "type": "funerary",
+      "period": "1st century CE",
+      "text": "wos : mk : kdke-l-o : Amanitore : s : ate-li : yi-s-li : pesto-b-ke",
+      "token_count": 8,
+      "decodings": [
+        {
+          "token": "wos",
+          "best_meaning": "Isis (deity)",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "mk",
+          "best_meaning": "god, deity",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "kdke-l-o",
+          "best_meaning": "queen, queen mother (Candace)",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "Amanitore",
+          "best_meaning": "[name: Amanitore]",
+          "best_posterior": 1.0,
+          "source": "onomastic",
+          "alternatives": []
+        },
+        {
+          "token": "s",
+          "best_meaning": "3rd person singular (he/she/it)",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "ate-li",
+          "best_meaning": "bread, food offering",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "yi-s-li",
+          "best_meaning": "water, drink offering",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "pesto-b-ke",
+          "best_meaning": "to give, to offer, to bestow",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        }
+      ],
+      "average_posterior": 1.0,
+      "free_translation": "Isis (deity) god, deity queen, queen mother (Candace) Amanitore 3rd person singular (he/she/it) bread, food offering water, drink offering to give, to offer, to bestow"
+    },
+    {
+      "id": "REM_0010",
+      "site": "Meroe",
+      "type": "funerary",
+      "period": "1st century CE",
+      "text": "wos : mk : Teritedqe : abr : lh-se : mlo : ate-li : yi-s-li : pesto-b-ke",
+      "token_count": 9,
+      "decodings": [
+        {
+          "token": "wos",
+          "best_meaning": "Isis (deity)",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "mk",
+          "best_meaning": "god, deity",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "Teritedqe",
+          "best_meaning": "[name: Teritedqe]",
+          "best_posterior": 1.0,
+          "source": "onomastic",
+          "alternatives": []
+        },
+        {
+          "token": "abr",
+          "best_meaning": "man, male person",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "lh-se",
+          "best_meaning": "offspring, son, child",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "mlo",
+          "best_meaning": "good, beautiful, fine",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "ate-li",
+          "best_meaning": "bread, food offering",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "yi-s-li",
+          "best_meaning": "water, drink offering",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "pesto-b-ke",
+          "best_meaning": "to give, to offer, to bestow",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        }
+      ],
+      "average_posterior": 1.0,
+      "free_translation": "Isis (deity) god, deity Teritedqe man, male person offspring, son, child good, beautiful, fine bread, food offering water, drink offering to give, to offer, to bestow"
+    },
+    {
+      "id": "REM_0025",
+      "site": "Meroe",
+      "type": "funerary",
+      "period": "1st century CE",
+      "text": "wos : mk : Pksemni : kdi : sr-se : mlo : ate-li : yi-s-li : pesto-b-ke",
+      "token_count": 9,
+      "decodings": [
+        {
+          "token": "wos",
+          "best_meaning": "Isis (deity)",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "mk",
+          "best_meaning": "god, deity",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "Pksemni",
+          "best_meaning": "[name: Pksemni]",
+          "best_posterior": 1.0,
+          "source": "onomastic",
+          "alternatives": []
+        },
+        {
+          "token": "kdi",
+          "best_meaning": "woman, female person",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "sr-se",
+          "best_meaning": "sister, female relative",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "mlo",
+          "best_meaning": "good, beautiful, fine",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "ate-li",
+          "best_meaning": "bread, food offering",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "yi-s-li",
+          "best_meaning": "water, drink offering",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "pesto-b-ke",
+          "best_meaning": "to give, to offer, to bestow",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        }
+      ],
+      "average_posterior": 1.0,
+      "free_translation": "Isis (deity) god, deity Pksemni woman, female person sister, female relative good, beautiful, fine bread, food offering water, drink offering to give, to offer, to bestow"
+    },
+    {
+      "id": "REM_0040",
+      "site": "Meroe",
+      "type": "funerary",
+      "period": "2nd century CE",
+      "text": "wos-i : mk-i-se : Wletomni : abr : pelmos : lh : ate-li : yi-s-li : pesto-b-ke : mlo",
+      "token_count": 10,
+      "decodings": [
+        {
+          "token": "wos-i",
+          "best_meaning": "Isis (deity)",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "mk-i-se",
+          "best_meaning": "god, deity",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "Wletomni",
+          "best_meaning": "[name: Wletomni]",
+          "best_posterior": 1.0,
+          "source": "onomastic",
+          "alternatives": []
+        },
+        {
+          "token": "abr",
+          "best_meaning": "man, male person",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "pelmos",
+          "best_meaning": "strategos, military commander",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "lh",
+          "best_meaning": "offspring, son, child",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "ate-li",
+          "best_meaning": "bread, food offering",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "yi-s-li",
+          "best_meaning": "water, drink offering",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "pesto-b-ke",
+          "best_meaning": "to give, to offer, to bestow",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        },
+        {
+          "token": "mlo",
+          "best_meaning": "good, beautiful, fine",
+          "best_posterior": 1.0,
+          "source": "lexicon",
+          "alternatives": []
+        }
+      ],
+      "average_posterior": 1.0,
+      "free_translation": "Isis (deity) god, deity Wletomni man, male person strategos, military commander offspring, son, child bread, food offering water, drink offering to give, to offer, to bestow good, beautiful, fine"
+    }
+  ]
+}

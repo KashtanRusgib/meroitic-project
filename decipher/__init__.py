@@ -1170,6 +1170,14 @@ CORPUS = [
     },
 ]
 
+# Merge expanded corpus (Karanòg, Faras, Naga, Sedeinga, Hamadab, etc.)
+try:
+    from decipher.expanded_corpus import EXPANDED_CORPUS
+    _existing_ids = {c["id"] for c in CORPUS}
+    CORPUS.extend(c for c in EXPANDED_CORPUS if c["id"] not in _existing_ids)
+except ImportError:
+    pass
+
 # ═══════════════════════════════════════════════════════════════════════════════
 # 6. NUBIAN / NILO-SAHARAN COMPARATIVE DATA
 # ═══════════════════════════════════════════════════════════════════════════════
