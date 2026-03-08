@@ -177,7 +177,7 @@ def stele_sections_tex(stele):
 
 \\vspace{{3pt}}
 \\noindent\\textit{{Meroitic script:}}\\\\[2pt]
-\\meroitic {mer}
+{{\\meroitic {mer}}}
 
 \\vspace{{4pt}}
 \\noindent\\textit{{Transliteration:}}\\\\[2pt]
@@ -258,7 +258,7 @@ def build_tex(stele, corpus):
 \setsansfont{DejaVu Sans}
 \setmonofont{DejaVu Sans Mono}
 \newfontfamily\meroitic{NotoSansMeroitic-Regular.ttf}[
-  Path=/tmp/,
+  Path=/usr/share/fonts/truetype/noto/,
   Scale=1.3
 ]
 
@@ -979,7 +979,7 @@ def _write_tex(stele, corpus, tex_path, consistency=None, v5_data=None):
 \setsansfont{{DejaVu Sans}}
 \setmonofont{{DejaVu Sans Mono}}
 \newfontfamily\meroitic{{NotoSansMeroitic-Regular.ttf}}[
-  Path=/tmp/,
+  Path=/usr/share/fonts/truetype/noto/,
   Scale=1.3
 ]
 
